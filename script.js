@@ -141,3 +141,21 @@ document.getElementById('tekrar-btn').addEventListener('click', () => {
     ekranSonuc.classList.remove('aktif');
     ekranBaslangic.classList.add('aktif');
 });
+
+// ===============================
+// AÇILIŞ EKRANI - BAŞLA BUTONU
+// ===============================
+document.getElementById('basla-btn').addEventListener('click', () => {
+    sesTiklama.play().catch(() => {});
+    
+    const acilisEkrani = document.getElementById('ekran-acilis');
+    acilisEkrani.style.opacity = '0';
+    
+    setTimeout(() => {
+        acilisEkrani.classList.remove('aktif');
+        ekranBaslangic.classList.add('aktif');
+        
+        muzikArkaplan.volume = 0.2;
+        muzikArkaplan.play().catch(() => {});
+    }, 600);
+});
