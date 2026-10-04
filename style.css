@@ -23,7 +23,7 @@ body {
    2. EKRAN YÖNETİMİ
    ========================================== */
 .ekran {
-    display: none; /* Varsayılan olarak ekranları gizle */
+    display: none;
     width: 100%;
     max-width: 480px;
     min-height: 100vh;
@@ -37,7 +37,7 @@ body {
 }
 
 .ekran.aktif {
-    display: flex; /* Sadece 'aktif' olan ekran görünür */
+    display: flex;
 }
 
 /* ==========================================
@@ -49,28 +49,56 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     justify-content: flex-end;
-    padding-bottom: 12vh; /* Butonu görselin alt çember alanına hizalar */
+    padding-bottom: 12vh;
 }
 
+/* BAŞLA BUTONU (Eskitme Mühür / Damga Stili) */
 .basla-btn {
-    width: 130px;
-    height: 130px;
+    position: relative;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    background: radial-gradient(circle, #d2b47d 0%, #7a5c28 100%);
-    border: 4px solid #2b1d0c;
-    color: #1a0f05;
-    font-size: 22px;
-    font-weight: 800;
+    background: radial-gradient(circle at center, #d8be91 0%, #b89b6a 60%, #7e5f35 100%);
+    border: 4px solid #23170d;
+    color: #221408;
+    font-family: 'Times New Roman', Georgia, serif;
+    font-size: 26px;
+    font-weight: 900;
     letter-spacing: 2px;
+    text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.85), inset 0 2px 4px rgba(255, 255, 255, 0.4);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.85),
+        inset 0 0 15px rgba(40, 20, 5, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     outline: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Çift Halka / İç Çerçeve Etkisi */
+.basla-btn::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 2px solid #3d2916;
+    pointer-events: none;
+}
+
+.basla-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 12px 30px rgba(0, 0, 0, 0.95),
+        inset 0 0 10px rgba(40, 20, 5, 0.4);
 }
 
 .basla-btn:active {
-    transform: scale(0.92);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    transform: scale(0.95);
 }
 
 /* ==========================================
