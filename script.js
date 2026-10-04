@@ -1,11 +1,109 @@
-// Sayfa tamamen yüklendiğinde çalıştır
+// ==========================================
+// TEST SORULARI (JSON yerine doğrudan kodda)
+// ==========================================
+const TEST_SORULARI = [
+    {
+        "soru": "II. Dünya Savaşı hangi yıl başlamıştır?",
+        "secenekler": ["1937", "1938", "1939", "1940"],
+        "dogruCevap": 2,
+        "aciklama": "Almanya'nın 1 Eylül 1939'da Polonya'yı işgal etmesiyle savaş başlamıştır."
+    },
+    {
+        "soru": "II. Dünya Savaşı'nda Almanya'nın lideri kimdir?",
+        "secenekler": ["Mussolini", "Hitler", "Stalin", "Churchill"],
+        "dogruCevap": 1,
+        "aciklama": "Adolf Hitler, 1933-1945 yılları arasında Almanya'yı yönetmiştir."
+    },
+    {
+        "soru": "Pearl Harbor saldırısını hangi ülke gerçekleştirmiştir?",
+        "secenekler": ["Almanya", "İtalya", "Japonya", "SSCB"],
+        "dogruCevap": 2,
+        "aciklama": "Japonya, 7 Aralık 1941'de ABD'nin Pearl Harbor üssüne saldırmıştır."
+    },
+    {
+        "soru": "Normandiya Çıkarması hangi yıl yapılmıştır?",
+        "secenekler": ["1942", "1943", "1944", "1945"],
+        "dogruCevap": 2,
+        "aciklama": "6 Haziran 1944'te Müttefikler Normandiya kıyılarına çıkmıştır."
+    },
+    {
+        "soru": "Hiroşima'ya atom bombası hangi yıl atılmıştır?",
+        "secenekler": ["1943", "1944", "1945", "1946"],
+        "dogruCevap": 2,
+        "aciklama": "6 Ağustos 1945'te Hiroşima'ya atom bombası atılmıştır."
+    },
+    {
+        "soru": "II. Dünya Savaşı'nda Türkiye'nin Cumhurbaşkanı kimdir?",
+        "secenekler": ["Atatürk", "İsmet İnönü", "Celal Bayar", "Adnan Menderes"],
+        "dogruCevap": 1,
+        "aciklama": "İsmet İnönü, 1938-1950 yılları arasında cumhurbaşkanlığı yapmıştır."
+    },
+    {
+        "soru": "SSCB'nin II. Dünya Savaşı'ndaki lideri kimdir?",
+        "secenekler": ["Lenin", "Stalin", "Kruşçev", "Gorbaçov"],
+        "dogruCevap": 1,
+        "aciklama": "Josef Stalin, savaş boyunca SSCB'yi yönetmiştir."
+    },
+    {
+        "soru": "Almanya'nın Polonya'yı işgal tarihi nedir?",
+        "secenekler": ["1 Eylül 1939", "1 Ağustos 1939", "1 Ekim 1939", "1 Temmuz 1939"],
+        "dogruCevap": 0,
+        "aciklama": "1 Eylül 1939'da Almanya Polonya'yı işgal etmiştir."
+    },
+    {
+        "soru": "Müttefik Devletler hangileridir?",
+        "secenekler": ["Almanya, İtalya, Japonya", "ABD, İngiltere, SSCB", "Türkiye, İspanya, İsveç", "Çin, Hindistan, Mısır"],
+        "dogruCevap": 1,
+        "aciklama": "ABD, İngiltere ve SSCB ana Müttefik devletlerdir."
+    },
+    {
+        "soru": "II. Dünya Savaşı hangi yıl sona ermiştir?",
+        "secenekler": ["1943", "1944", "1945", "1946"],
+        "dogruCevap": 2,
+        "aciklama": "Japonya'nın 2 Eylül 1945'te teslim olmasıyla savaş sona ermiştir."
+    },
+    {
+        "soru": "Soğuk Savaş hangi iki ülke arasında yaşanmıştır?",
+        "secenekler": ["ABD - İngiltere", "ABD - SSCB", "Almanya - Fransa", "Çin - Japonya"],
+        "dogruCevap": 1,
+        "aciklama": "Soğuk Savaş, ABD ve SSCB arasındaki ideolojik ve stratejik çekişmedir."
+    },
+    {
+        "soru": "NATO hangi yıl kurulmuştur?",
+        "secenekler": ["1945", "1947", "1949", "1952"],
+        "dogruCevap": 2,
+        "aciklama": "NATO, 1949 yılında Washington'da kurulmuştur."
+    },
+    {
+        "soru": "Varşova Paktı hangi yıl kurulmuştur?",
+        "secenekler": ["1949", "1952", "1955", "1958"],
+        "dogruCevap": 2,
+        "aciklama": "Varşova Paktı, 1955 yılında kurulmuştur."
+    },
+    {
+        "soru": "Berlin Duvarı hangi yıl yıkılmıştır?",
+        "secenekler": ["1987", "1988", "1989", "1990"],
+        "dogruCevap": 2,
+        "aciklama": "9 Kasım 1989'da Berlin Duvarı yıkılmıştır."
+    },
+    {
+        "soru": "SSCB hangi yıl dağılmıştır?",
+        "secenekler": ["1989", "1990", "1991", "1992"],
+        "dogruCevap": 2,
+        "aciklama": "SSCB, 25 Aralık 1991'de resmen dağılmıştır."
+    }
+];
+
+// ==========================================
+// UYGULAMA MANTIĞI
+// ==========================================
+
 window.addEventListener('DOMContentLoaded', () => {
 
 let sorular = [];
 let mevcutSoruIndex = 0;
 let skor = 0;
 let toplamSoru = 10;
-let seciliKategori = 1;
 
 // Sesler
 const sesDogru = document.getElementById('ses-dogru');
@@ -15,41 +113,46 @@ const sesCark = document.getElementById('ses-cark');
 const muzikArkaplan = document.getElementById('muzik-arkaplan');
 
 // Ekranlar
+const ekranAcilis = document.getElementById('ekran-acilis');
 const ekranBaslangic = document.getElementById('ekran-baslangic');
 const ekranSoru = document.getElementById('ekran-soru');
 const ekranSonuc = document.getElementById('ekran-sonuc');
+
+// AÇILIŞ EKRANI - BAŞLA butonu
+document.getElementById('basla-btn').addEventListener('click', () => {
+    sesTiklama.play().catch(() => {});
+    
+    ekranAcilis.style.opacity = '0';
+    
+    setTimeout(() => {
+        ekranAcilis.classList.remove('aktif');
+        ekranBaslangic.classList.add('aktif');
+        
+        muzikArkaplan.volume = 0.2;
+        muzikArkaplan.play().catch(() => {});
+    }, 600);
+});
 
 // Kategori butonları
 document.querySelectorAll('.kategori-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         sesTiklama.play().catch(() => {});
-        seciliKategori = btn.dataset.kategori;
         yarismayiBaslat();
     });
 });
 
 // Yarışmayı başlat
-async function yarismayiBaslat() {
-    try {
-        const response = await fetch(`sorular/sorular_${seciliKategori}.json`);
-        const tumSorular = await response.json();
-        
-        // Karıştır ve 10 soru seç
-        sorular = tumSorular.sort(() => Math.random() - 0.5).slice(0, toplamSoru);
-        
-        mevcutSoruIndex = 0;
-        skor = 0;
-        
-        ekranBaslangic.classList.remove('aktif');
-        ekranSoru.classList.add('aktif');
-        
-        muzikArkaplan.volume = 0.2;
-        muzikArkaplan.play().catch(() => {});
-        
-        soruGoster();
-    } catch (hata) {
-        alert('Sorular yüklenemedi: ' + hata.message);
-    }
+function yarismayiBaslat() {
+    // Test sorularını karıştır
+    sorular = [...TEST_SORULARI].sort(() => Math.random() - 0.5).slice(0, toplamSoru);
+    
+    mevcutSoruIndex = 0;
+    skor = 0;
+    
+    ekranBaslangic.classList.remove('aktif');
+    ekranSoru.classList.add('aktif');
+    
+    soruGoster();
 }
 
 // Soru göster
@@ -66,10 +169,8 @@ function soruGoster() {
     document.getElementById('skor-goster').textContent = `Skor: ${skor}`;
     document.getElementById('soru-metni').textContent = soru.soru;
     
-    // Açıklama kutusunu gizle
     document.getElementById('aciklama-kutu').classList.add('gizli');
     
-    // Seçenekleri oluştur
     const seceneklerDiv = document.getElementById('secenekler');
     seceneklerDiv.innerHTML = '';
     
@@ -88,7 +189,6 @@ function cevapKontrol(secilenIndex, secilenBtn) {
     const dogruIndex = soru.dogruCevap;
     const tumButonlar = document.querySelectorAll('.secenek-btn');
     
-    // Tüm butonları devre dışı bırak
     tumButonlar.forEach(btn => btn.disabled = true);
     
     if (secilenIndex === dogruIndex) {
@@ -103,13 +203,11 @@ function cevapKontrol(secilenIndex, secilenBtn) {
     
     document.getElementById('skor-goster').textContent = `Skor: ${skor}`;
     
-    // Açıklamayı göster
     if (soru.aciklama) {
         document.getElementById('aciklama-metni').textContent = '💡 ' + soru.aciklama;
         document.getElementById('aciklama-kutu').classList.remove('gizli');
     }
     
-    // 2.5 saniye sonra sonraki soru
     setTimeout(() => {
         mevcutSoruIndex++;
         soruGoster();
@@ -143,24 +241,6 @@ document.getElementById('tekrar-btn').addEventListener('click', () => {
     sesTiklama.play().catch(() => {});
     ekranSonuc.classList.remove('aktif');
     ekranBaslangic.classList.add('aktif');
-});
-
-// ===============================
-// AÇILIŞ EKRANI - BAŞLA BUTONU
-// ===============================
-document.getElementById('basla-btn').addEventListener('click', () => {
-    sesTiklama.play().catch(() => {});
-    
-    const acilisEkrani = document.getElementById('ekran-acilis');
-    acilisEkrani.style.opacity = '0';
-    
-    setTimeout(() => {
-        acilisEkrani.classList.remove('aktif');
-        ekranBaslangic.classList.add('aktif');
-        
-        muzikArkaplan.volume = 0.2;
-        muzikArkaplan.play().catch(() => {});
-    }, 600);
 });
 
 });
