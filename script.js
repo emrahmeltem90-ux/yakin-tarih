@@ -1,3 +1,6 @@
+// Sayfa tamamen yüklendiğinde çalıştır
+window.addEventListener('DOMContentLoaded', () => {
+
 let sorular = [];
 let mevcutSoruIndex = 0;
 let skor = 0;
@@ -158,4 +161,6 @@ document.getElementById('basla-btn').addEventListener('click', () => {
         muzikArkaplan.volume = 0.2;
         muzikArkaplan.play().catch(() => {});
     }, 600);
+});
+
 });
