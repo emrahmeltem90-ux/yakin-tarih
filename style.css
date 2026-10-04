@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2c1810, #4a2c1a);
+    color: #f4e4c1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ekran {
+    display: none;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.ekran.aktif {
+    display: block;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #d4a574;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.alt-yazi {
+    color: #b8935f;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.kategori-listesi {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.kategori-btn {
+    background: #6b3f1f;
+    color: #f4e4c1;
+    border: 2px solid #d4a574;
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kategori-btn:active {
+    background: #d4a574;
+    color: #2c1810;
+    transform: scale(0.97);
+}
+
+.ust-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    color: #d4a574;
+}
+
+.soru-kutu {
+    background: rgba(107, 63, 31, 0.6);
+    border: 2px solid #d4a574;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soru-kutu p {
+    font-size: 1.15em;
+    line-height: 1.5;
+}
+
+.secenekler {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secenek-btn {
+    background: #3d2414;
+    color: #f4e4c1;
+    border: 2px solid #8b5a2b;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.secenek-btn:active {
+    transform: scale(0.98);
+}
+
+.secenek-btn.dogru {
+    background: #2d5016;
+    border-color: #7cb342;
+}
+
+.secenek-btn.yanlis {
+    background: #5c1a1a;
+    border-color: #c62828;
+}
+
+.secenek-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.aciklama-kutu {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(212, 165, 116, 0.15);
+    border-left: 4px solid #d4a574;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.gizli {
+    display: none;
+}
+
+.ana-btn {
+    background: #d4a574;
+    color: #2c1810;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#sonuc-skor {
+    font-size: 1.8em;
+    color: #d4a574;
+    margin: 20px 0;
+}
+
+#sonuc-mesaj {
+    font-style: italic;
+    color: #b8935f;
+}
