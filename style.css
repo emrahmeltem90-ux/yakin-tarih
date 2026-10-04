@@ -77,7 +77,6 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Çift Halka / İç Çerçeve Etkisi */
 .basla-btn::before {
     content: '';
     position: absolute;
@@ -102,18 +101,18 @@ body {
 }
 
 /* ==========================================
-   4. KATEGORİ SEÇİM EKRANI
+   4. KATEGORİ VE SEVİYE SEÇİM EKRANLARI
    ========================================== */
-#ekran-baslangic h1 {
-    font-size: 2.2rem;
+h1 {
+    font-size: 2rem;
     color: #d2b47d;
     margin-bottom: 6px;
 }
 
 .alt-yazi {
     color: #aaa;
-    font-size: 1rem;
-    margin-bottom: 35px;
+    font-size: 0.95rem;
+    margin-bottom: 25px;
 }
 
 .kategori-listesi {
@@ -139,6 +138,42 @@ body {
     background-color: #d2b47d;
     color: #000;
     transform: scale(0.98);
+}
+
+/* SEVİYE 2'Lİ GRID IZGARA YAPISI */
+.seviye-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.seviye-btn {
+    background: #181818;
+    color: #d2b47d;
+    border: 1.5px solid #d2b47d;
+    padding: 14px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.seviye-btn:active {
+    background: #d2b47d;
+    color: #121212;
+    transform: scale(0.95);
+}
+
+.geri-btn {
+    background: #111;
+    border-color: #555;
+    color: #ccc;
+    font-size: 0.95rem;
+    padding: 12px;
+    width: 100%;
 }
 
 .alt-bilgi {
