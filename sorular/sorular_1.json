@@ -1,0 +1,608 @@
+[
+  {
+    "soru": "I. Dünya Savaşı'nın ardından imzalanan ve Almanya'ya ağır yaptırımlar yükleyerek II. Dünya Savaşı'nın ana nedenlerinden biri haline gelen antlaşma aşağıdakilerden hangisidir?",
+    "secenekler": ["Versay Antlaşması", "Sèvres Antlaşması", "St. Germain Antlaşması", "Trianon Antlaşması"],
+    "dogruCevap": 0,
+    "aciklama": "1919 Versay Antlaşması, Almanya'yı ağır tazminatlara ve toprak kayıplarına mahkûm ederek Alman toplumunda revizyonist ve aşırı milliyetçi akımların yükselmesine zemin hazırlamıştır."
+  },
+  {
+    "soru": "1929 yılında ABD'de başlayıp tüm dünyayı etkileyen ve Almanya'da Nazilerin iktidara gelmesini hızlandıran ekonomik kriz aşağıdakilerden hangisidir?",
+    "secenekler": ["Kara Salı (Büyük Buhran)", "Petrol Krizi", "Hiperenflasyon Şoku", "Manhattan Borsa Çöküşü"],
+    "dogruCevap": 0,
+    "aciklama": "Büyük Buhran, Almanya'da işsizliği %30'ların üzerine çıkarmış ve kitlelerin Weimar Cumhuriyeti'ne olan güvenini sarsarak Hitler'in oy oranını artırmıştır."
+  },
+  {
+    "soru": "Adolf Hitler, Almanya'da yasal yollardan Şansölye (Başbakan) unvanını hangi yıl elde etmiştir?",
+    "secenekler": ["1923", "1933", "1938", "1939"],
+    "dogruCevap": 1,
+    "aciklama": "Hitler, Ocak 1933'te Cumhurbaşkanı Paul von Hindenburg tarafından Şansölye olarak atanmış ve kısa sürede diktatörlüğünü ilan etmiştir."
+  },
+  {
+    "soru": "1922 yılındaki 'Roma Yürüyüşü' ile İtalya'da iktidarı ele geçiren ve Faşist rejimi kuran lider kimdir?",
+    "secenekler": ["Pietro Badoglio", "Galeazzo Ciano", "Benito Mussolini", "Victor Emmanuel III"],
+    "dogruCevap": 2,
+    "aciklama": "Benito Mussolini, Kara Gömlekliler adlı milis gücüyle gerçekleştirdiği Roma Yürüyüşü sonrasında Kral tarafından hükümeti kurmakla görevlendirilmiştir."
+  },
+  {
+    "soru": "Japonya'nın Asya'daki yayılmacı politikasının ilk büyük adımı sayılan ve 1931 yılında işgal ettiği Çin bölgesi neresidir?",
+    "secenekler": ["Şanghay", "Tayvan", "Tibet", "Mançurya"],
+    "dogruCevap": 3,
+    "aciklama": "Japonya, 1931'de zengin hammadde kaynaklarına sahip Mançurya'yı işgal ederek burada Mançukuo adında kukla bir devlet kurmuştur."
+  },
+  {
+    "soru": "İngiltere Başbakanı Neville Chamberlain ile özdeşleşen ve Almanya'nın taleplerine taviz vererek savaşı önlemeyi amaçlayan politika hangisidir?",
+    "secenekler": ["Yatıştırma Politikası (Appeasement)", "Çevreleme Politikası (Containment)", "Açık Kapı Politikası", "Yalnızcılık Politikası (Isolationism)"],
+    "dogruCevap": 0,
+    "aciklama": "Yatıştırma politikası, Hitler'in Versay şartlarını ihlal etmesine göz yumarak barışı korumayı hedeflemiş ancak Hitler'i daha da cesaretlendirmiştir."
+  },
+  {
+    "soru": "1938 Münih Antlaşması ile Çekoslovakya'nın hangi stratejik bölgesi Almanya'ya devredilmiştir?",
+    "secenekler": ["Bohemya", "Südetler (Sudetenland)", "Moravya", "Silezya"],
+    "dogruCevap": 1,
+    "aciklama": "Münih Konferansı'nda İngiltere ve Fransa, Çekoslovakya'ya danışmadan yoğun Alman nüfusun yaşadığı Südetler bölgesini Hitler'e teslim etmiştir."
+  },
+  {
+    "soru": "23 Ağustos 1939'da Almanya ile SSCB arasında imzalanan ve Doğu Avrupa'yı nüfuz alanlarına bölen gizli protokolü içeren pakt hangisidir?",
+    "secenekler": ["Anti-Komintern Paktı", "Çelik Pakt", "Molotov-Ribbentrop Paktı", "Varşova Paktı"],
+    "dogruCevap": 2,
+    "aciklama": "Alman-Sovyet Saldırmazlık Paktı olarak da bilinen antlaşma, Hitler'e Polonya'yı işgal ederken iki cepheli savaş riskinden kaçınma imkânı sağlamıştır."
+  },
+  {
+    "soru": "Almanya'nın 1936 yılında Versay Antlaşması'nı açıkça ihlal ederek asker çıkardığı silahsızlandırılmış bölge neresidir?",
+    "secenekler": ["Alsas-Loren", "Saar Bölgesi", "Danzig Koridoru", "Rheinland (Ren Bölgesi)"],
+    "dogruCevap": 3,
+    "aciklama": "Hitler, 1936'da Rheinland'ı yeniden askerileştirerek Müttefiklerin kararlılığını test etmiş ve hiçbir askeri tepkiyle karşılaşmamıştır."
+  },
+  {
+    "soru": "Almanya'nın 1938 yılında Avusturya'yı savaşsız bir şekilde kendi topraklarına katması olayı tarih literatüründe nasıl adlandırılır?",
+    "secenekler": ["Anschluss", "Lebensraum", "Blitzkrieg", "Gleichschaltung"],
+    "dogruCevap": 0,
+    "aciklama": "Anschluss (Birleşme), Hitler'in tüm Almanca konuşan halkları tek bir Reich çatısı altında toplama hedefinin ilk büyük başarısıdır."
+  },
+  {
+    "soru": "1936 yılında Almanya ve Japonya arasında Komünist Enternasyonal'e (Komintern) karşı kurulan ittifak hangisidir?",
+    "secenekler": ["Üçlü Pakt", "Anti-Komintern Paktı", "Locarno Paktı", "Balkan Antantı"],
+    "dogruCevap": 1,
+    "aciklama": "Anti-Komintern Paktı, Sovyetler Birliği'nin yayılmasını engellemek amacıyla kurulmuş ve daha sonra İtalya'nın katılımıyla genişlemiştir."
+  },
+  {
+    "soru": "1937 yılında başlayan İkinci Çin-Japon Savaşı sırasında binlerce sivilin katledildiği feci olay hangi şehirde yaşanmıştır?",
+    "secenekler": ["Pekin", "Kanton", "Nanking", "Seul"],
+    "dogruCevap": 2,
+    "aciklama": "Nanking Katliamı, Japon ordusunun şehri ele geçirmesinin ardından altı hafta boyunca yüzbinlerce sivil ve silahsız askeri katletmesiyle sonuçlanmıştır."
+  },
+  {
+    "soru": "İtalya'nın 1935 yılında işgal ettiği ve Milletler Cemiyeti'nin yaptırımlarda yetersiz kalarak itibarını kaybettiği Afrika ülkesi hangisidir?",
+    "secenekler": ["Mısır", "Libya", "Cezayir", "Habeşistan (Etiyopya)"],
+    "dogruCevap": 3,
+    "aciklama": "Mussolini'nin Habeşistan'ı işgali, Milletler Cemiyeti'nin uluslararası barışı koruma konusundaki acziyetini gözler önüne sermiştir."
+  },
+  {
+    "soru": "İspanya İç Savaşı (1936-1939) sırasında Alman Hava Kuvvetleri (Luftwaffe) tarafından bombalanan ve Picasso'nun ünlü tablosuna konu olan şehir hangisidir?",
+    "secenekler": ["Guernica", "Madrid", "Barselona", "Sevilla"],
+    "dogruCevap": 0,
+    "aciklama": "Guernica'nın bombalanması, sivil halkın hedeflendiği ilk modern hava saldırılarından biridir ve II. Dünya Savaşı hava taktiklerinin denemesi olmuştur."
+  },
+  {
+    "soru": "Türkiye'nin II. Dünya Savaşı öncesinde Boğazlar üzerindeki egemenliğini tam olarak sağladığı ve stratejik konumunu güçlendirdiği 1936 tarihli antlaşma hangisidir?",
+    "secenekler": ["Lozan Antlaşması", "Möntrö Boğazlar Sözleşmesi", "Ankara Antlaşması", "Sadabat Paktı"],
+    "dogruCevap": 1,
+    "aciklama": "Montrö Sözleşmesi ile Boğazlar Komisyonu kaldırılmış ve Boğazlar'ın askerileştirilmesi ile savaş zamanı geçiş kontrolü Türkiye'ye bırakılmıştır."
+  },
+  {
+    "soru": "II. Dünya Savaşı, Almanya'nın hangi ülkeyi 1 Eylül 1939'da işgal etmesiyle resmen başlamıştır?",
+    "secenekler": ["Fransa", "Çekoslovakya", "Polonya", "Belçika"],
+    "dogruCevap": 2,
+    "aciklama": "Almanya'nın Polonya'ya saldırması üzerine İngiltere ve Fransa, 3 Eylül 1939'da Almanya'ya savaş ilan etmiş ve savaş küresel hale gelmiştir."
+  },
+  {
+    "soru": "Alman ordusunun zırhlı birlikler, piyade ve hava gücünü koordineli kullanarak düşmanı hızla felç etmeyi amaçlayan savaş doktrini hangisidir?",
+    "secenekler": ["Siper Savaşı", "Topyekün Savaş", "Yıpratma Savaşı", "Yıldırım Savaşı (Blitzkrieg)"],
+    "dogruCevap": 3,
+    "aciklama": "Blitzkrieg (Yıldırım Savaşı), hız ve sürpriz unsuruna dayanarak düşman hatlarını yarmayı ve derinlemesine kuşatmayı esas alan askeri stratejidir."
+  },
+  {
+    "soru": "Polonya'nın düşüşünden Nisan 1940'a kadar Batı Cephesi'nde neredeyse hiç sıcak çatışmanın yaşanmadığı döneme ne ad verilir?",
+    "secenekler": ["Garip Savaş (Phoney War)", "Soğuk Savaş", "Kış Savaşı", "Sessiz Şafak"],
+    "dogruCevap": 0,
+    "aciklama": "Fransa ve İngiltere'nin Almanya'ya savaş ilan etmesine rağmen aylarca karada büyük bir taarruza geçmemesi 'Garip Savaş' olarak adlandırılmıştır."
+  },
+  {
+    "soru": "Fransa'nın Almanya sınırına inşa ettiği ancak Alman ordusunun Belçika ve Ardenler Ormanı üzerinden etrafından dolandığı devasa savunma hattı hangisidir?",
+    "secenekler": ["Siegfried Hattı", "Maginot Hattı", "Mannerheim Hattı", "Alp Hattı"],
+    "dogruCevap": 1,
+    "aciklama": "Fransızların geçilemez gördüğü Maginot Hattı, Alman tanklarının Ardenler Ormanı'ndan dolanarak arkasına sarkmasıyla işlevsiz kalmıştır."
+  },
+  {
+    "soru": "Fransa'nın Haziran 1940'ta teslim olmasının ardından Mareşal Philippe Pétain liderliğinde kurulan Nazi işbirlikçisi rejim hangisidir?",
+    "secenekler": ["Özgür Fransa", "Paris Komünü", "Vichy Hükümeti", "Fransız Konseyi"],
+    "dogruCevap": 2,
+    "aciklama": "Vichy Fransa'sı, ülkenin güneyini yöneten ancak Nazilerin tam kontrolü altında hareket eden kukla bir hükümet olmuştur."
+  },
+  {
+    "soru": "Müttefik ordularının Kuzey Fransa sahilinde sıkışıp kaldığı ve binlerce sivil ve askeri gemiyle İngiltere'ye tahliye edildiği operasyon hangisidir?",
+    "secenekler": ["Overlord Operasyonu", "Torch Operasyonu", "Barbarossa Operasyonu", "Dunkirk Tahliyesi (Dynamo)"],
+    "dogruCevap": 3,
+    "aciklama": "Dunkirk Tahliyesi sayesinde 330 binden fazla İngiliz ve Fransız askeri kurtarılarak savaşın ilerleyen safhaları için insan gücü korunmuştur."
+  },
+  {
+    "soru": "Britanya Savaşı (1940) sırasında İngiliz Kraliyet Hava Kuvvetleri'nin (RAF) Alman saldırılarını önceden tespit etmesini sağlayan kritik teknoloji hangisidir?",
+    "secenekler": ["Radar Ağları (Chain Home)", "Sonar Sistemleri", "Uydu İletişimi", "Şifreli Telsiz"],
+    "dogruCevap": 0,
+    "aciklama": "İngiltere'nin kıyı boyunca kurduğu radar istasyonları, gelen Alman bombardıman uçaklarının yönünü ve yüksekliğini tam tespit ederek RAF'a büyük avantaj sağlamıştır."
+  },
+  {
+    "soru": "Alman Hava Kuvvetleri'nin (Luftwaffe) Londra ve diğer İngiliz şehirlerine aylarca sürdürdüğü yoğun gece bombardımanlarına ne ad verilir?",
+    "secenekler": ["Karakış Taarruzu", "The Blitz", "Alev Fırtınası", "Büyük Kuşatma"],
+    "dogruCevap": 1,
+    "aciklama": "The Blitz adı verilen gece bombardımanları sivil halkın moralini bozmayı hedeflemiş ancak İngiltere'nin direniş azmini kıramamıştır."
+  },
+  {
+    "soru": "Kuzey Afrika Cephesi'nde Müttefik birliklerinin aylarca savunduğu ve Alman Mareşal Rommel'in ilerleyişini kesen stratejik Libya limanı hangisidir?",
+    "secenekler": ["İskenderiye", "Bingazi", "Tobruk", "Trablus"],
+    "dogruCevap": 2,
+    "aciklama": "Tobruk Kuşatması, Avustralya ve İngiliz birliklerinin efsanevi direnişiyle Çöl Tilkisi lakaplı Rommel'in Mısır'a hızlıca ulaşmasını engellemiştir."
+  },
+  {
+    "soru": "Almanya'nın Nisan 1941'de Balkanlar'a müdahale ederek işgal ettiği iki ülke aşağıdakilerden hangisidir?",
+    "secenekler": ["Romanya ve Bulgaristan", "Macaristan ve Avusturya", "Arnavutluk ve Türkiye", "Yugoslavya ve Yunanistan"],
+    "dogruCevap": 3,
+    "aciklama": "İtalya'nın Yunanistan'da başarısız olması üzerine Hitler Balkanlar'ı güvenceye almak için Yugoslavya ve Yunanistan'ı işgal etmiş, bu da Barbarossa Harekâtı'nı geciktirmiştir."
+  },
+  {
+    "soru": "Almanya'nın 22 Haziran 1941'de Sovyetler Birliği'ne karşı başlattığı tarihin en büyük kara harekâtının kod adı nedir?",
+    "secenekler": ["Barbarossa Harekâtı", "Citadel Harekâtı", "Typhoon Harekâtı", "Fall Gelb"],
+    "dogruCevap": 0,
+    "aciklama": "Barbarossa Harekâtı ile yaklaşık 3 milyon Alman askeri SSCB topraklarına girmiş ve Doğu Cephesi'ndeki çetin savaş başlamıştır."
+  },
+  {
+    "soru": "Japonya'nın ABD Pasifik Filosuna baskın düzenleyerek ABD'nin savaşa girmesine neden olan Pearl Harbor Saldırısı hangi tarihte gerçekleşmiştir?",
+    "secenekler": ["1 Eylül 1939", "7 Aralık 1941", "6 Haziran 1944", "9 Ağustos 1945"],
+    "dogruCevap": 1,
+    "aciklama": "7 Aralık 1941 sabahı Hawaii'deki Pearl Harbor üssüne yapılan ani hava saldırısı üzerine ABD, ertelemeksizin savaşa dahil olmuştur."
+  },
+  {
+    "soru": "Pearl Harbor saldırısının ertesi günü ABD Başkanı Franklin D. Roosevelt bu olayı Kongre'de hangi ünlü ifadeyle tanımlamıştır?",
+    "secenekler": ["Büyük Kriz Günü", "Ulusun İmtihanı", "Utanç İçinde Yaşanacak Bir Gün", "Karanlık Şafak"],
+    "dogruCevap": 2,
+    "aciklama": "Roosevelt, Kongre konuşmasında 'A date which will live in infamy' (Utanç içinde yaşanacak bir gün) diyerek Müttefikler safında savaşa girildiğini duyurmuştur."
+  },
+  {
+    "soru": "Türkiye ile Almanya arasında Barbarossa Harekâtı'ndan sadece 4 gün önce (18 Haziran 1941) Ankara'da imzalanan antlaşma hangisidir?",
+    "secenekler": ["Balkan Paktı", "Sadabat Paktı", "Ticaret Sözleşmesi", "Türk-Alman Saldırmazlık Paktı"],
+    "dogruCevap": 3,
+    "aciklama": "Dışişleri Bakanı Şükrü Saracoğlu ve Alman Elçi von Papen tarafından imzalanan pakt, Türkiye'ye yaklaşan savaş tehlikesine karşı zaman kazandırmıştır."
+  },
+  {
+    "soru": "1941 yılında İngiltere'ye sipariş edilen denizaltı ve uçakları teslim almak üzere yola çıkan ancak Akdeniz'de batırılan Türk gemisi hangisidir?",
+    "secenekler": ["Refah Şilebi", "Atılay Denizaltısı", "Gülcemal Gemisi", "Sultanhisar"],
+    "dogruCevap": 0,
+    "aciklama": "Refah Şilebi, 23 Haziran 1941'de kimliği belirsiz bir denizaltı tarafından torpillenmiş ve 168 Türk subay ve personeli şehit olmuştur."
+  },
+  {
+    "soru": "II. Dünya Savaşı'nın başında Türkiye, 19 Ekim 1939'da hangi iki devlet ile Ankara'da 'Üçlü İttifak Antlaşması' imzalamıştır?",
+    "secenekler": ["Almanya - İtalya", "İngiltere - Fransa", "SSCB - ABD", "Yunanistan - Yugoslavya"],
+    "dogruCevap": 1,
+    "aciklama": "Türkiye, Müttefik bloğuna yakın durarak İngiltere ve Fransa ile yardım antlaşması imzalamış ancak savaşa fiilen girmeme şartlarını korumuştur."
+  },
+  {
+    "soru": "Kızıl Ordu ve sivil halkın yaklaşık 872 gün boyunca Alman kuşatmasına direndiği ve büyük açlık faciasının yaşandığı Sovyet şehri hangisidir?",
+    "secenekler": ["Moskova", "Stalingrad", "Leningrad", "Sivastopol"],
+    "dogruCevap": 2,
+    "aciklama": "Leningrad Kuşatması, tarihin en uzun ve en kanlı şehir kuşatmalarından biridir; 1 milyondan fazla sivil açlık ve soğuktan hayatını kaybetmiştir."
+  },
+  {
+    "soru": "Alman ordularının Aralık 1941'de Moskova önlerinde durdurulmasında etkili olan askeri ve iklimsel faktör hangisidir?",
+    "secenekler": ["İngilizlerin Doğu Cephesi'ne asker çıkarması", "Japonya'nın arkadan saldırması", "Müttefiklerin Berlin'i bombalaması", "Aşırı dondurucu soğuklar ve çamur (General Kış)"],
+    "dogruCevap": 3,
+    "aciklama": "Dondurucu Rus kışı ('General Kış') ve Kızıl Ordu'nun Sibirya'dan getirdiği taze birliklerin karşı taarruzu, Almanların Moskova'yı ele geçirmesini engellemiştir."
+  },
+  {
+    "soru": "ABD'nin henüz savaşa girmeden önce Müttefik devletlere devasa malzeme, gıda ve silah desteği sağladığı 1941 tarihli yasa hangisidir?",
+    "secenekler": ["Ödünç Verme ve Kiralama Yasası (Lend-Lease)", "Marshall Yardımı Kanunu", "Monroe Doktrini Yönergesi", "Tarafsızlık Yasası"],
+    "dogruCevap": 0,
+    "aciklama": "Lend-Lease Yasası sayesinde ABD; İngiltere, SSCB ve Çin'e milyarlarca dolarlık askeri teçhizat ve hammadde sağlayarak savaşın kaderini etkilemiştir."
+  },
+  {
+    "soru": "Ağustos 1941'de Churchill ve Roosevelt'in bir savaş gemisinde buluşup yayınladıkları, savaş sonrası dünya düzeninin ve BM'nin temellerini atan bildiri hangisidir?",
+    "secenekler": ["Versay Bildirisi", "Atlas Demeci (Atlantic Charter)", "Potsdam Deklarasyonu", "Casablanca Manifestosu"],
+    "dogruCevap": 1,
+    "aciklama": "Atlantic Charter, ulusların kendi kaderini tayin hakkı (self-determinasyon) ve küresel silahsızlanma gibi ilkeleri vurgulamıştır."
+  },
+  {
+    "soru": "Eylül 1940'ta Almanya, İtalya ve Japonya arasında imzalanarak 'Mihver Devletler' bloğunu resmileştiren antlaşma hangisidir?",
+    "secenekler": ["Roma Paktı", "Anti-Komintern Paktı", "Üçlü Pakt (Tripartite Pact)", "Çelik Pakt"],
+    "dogruCevap": 2,
+    "aciklama": "Üçlü Pakt ile taraflar, birine yapılacak saldırıda diğerlerinin yardımına koşacağını taahhüt ederek Mihver İttifakı'nı pekiştirmiştir."
+  },
+  {
+    "soru": "Doğu Cephesi'nde 6. Alman Ordusu'nun tamamen yok edilmesiyle sonuçlanan ve savaşın en büyük dönüm noktası kabul edilen muharebe hangisidir?",
+    "secenekler": ["Kursk Muharebesi", "Moskova Muharebesi", "Karkov Savaşı", "Stalingrad Muharebesi"],
+    "dogruCevap": 3,
+    "aciklama": "Şubat 1943'te Stalingrad'da Mareşal Paulus'un teslim olmasıyla Almanya ilk kez devasa bir orduyu kaybetmiş ve stratejik üstünlük Kızıl Ordu'ya geçmiştir."
+  },
+  {
+    "soru": "Tarihin en büyük tank muharebesi olarak bilinen ve Almanların Doğu Cephesi'ndeki son büyük taarruzunun kırıldığı 1943 tarihli savaş hangisidir?",
+    "secenekler": ["Kursk Muharebesi", "Stalingrad Muharebesi", "Smolensk Savaşı", "Dnyeper Muharebesi"],
+    "dogruCevap": 0,
+    "aciklama": "Kursk Savaşı'nda binlerce tank ve uçak çarpışmış; Kızıl Ordu'nun zaferi sonrası Almanlar bir daha Doğu Cephesi'nde stratejik taarruz yapamamıştır."
+  },
+  {
+    "soru": "General Bernard Montgomery komutasındaki İngiliz ordusunun Kuzey Afrika'da Alman-İtalyan birliklerini mağlup ettiği dönüm noktası savaşı hangisidir?",
+    "secenekler": ["Tobruk Savaşı", "İkinci El-Alameyn Savaşı", "Kasserine Geçidi Savaşı", "Tunus Taarruzu"],
+    "dogruCevap": 1,
+    "aciklama": "Kasım 1942'deki II. El-Alameyn Zaferi, Müttefiklerin Kuzey Afrika'daki dönüm noktası olmuş ve Süveyş Kanalı ile Mısır güvenceye alınmıştır."
+  },
+  {
+    "soru": "Pasifik Cephesi'nde ABD'nin Japon uçak gemilerini batırarak deniz üstünlüğünü ele geçirdiği Haziran 1942 tarihli savaş hangisidir?",
+    "secenekler": ["Mercan Denizi Savaşları", "Leyte Körfezi Savaşı", "Midway Muharebesi", "Iwo Jima Savaşı"],
+    "dogruCevap": 2,
+    "aciklama": "Midway Deniz Muharebesi'nde Japonya 4 uçak gemisini kaybetmiş ve Pasifik'teki saldırı gücünü kırarak savunmaya çekilmek zorunda kalmıştır."
+  },
+  {
+    "soru": "Müttefiklerin Kasım 1942'de Kuzey Afrika'ya (Fas ve Cezayir) gerçekleştirdiği ilk büyük müşterek çıkarma harekâtının kod adı nedir?",
+    "secenekler": ["Overlord Operasyonu", "Husky Operasyonu", "Market Garden Operasyonu", "Torch (Meşale) Operasyonu"],
+    "dogruCevap": 3,
+    "aciklama": "Torch Operasyonu ile Müttefikler Vichy kontrolündeki Kuzey Afrika topraklarına çıkmış ve Rommel'in birliklerini iki ateş arasında bırakmıştır."
+  },
+  {
+    "soru": "Müttefiklerin Temmuz 1943'te İtalya anakarasına sıçramak ve İtalya'yı savaştan çekilmeye zorlamak amacıyla düzenlediği ada çıkarması hangisidir?",
+    "secenekler": ["Sicilya Çıkarması (Husky)", "Girit Çıkarması", "Korsika Operasyonu", "Rodos Çıkarması"],
+    "dogruCevap": 0,
+    "aciklama": "Sicilya'nın işgali, İtalya'da Mussolini rejiminin devrilmesine ve İtalyan hükümetinin Müttefiklerle mütareke imzalamasına zemin hazırlamıştır."
+  },
+  {
+    "soru": "Eylül 1943'te İtalya Müttefiklere teslim olunca, Alman ordusu İtalya'yı işgal edip Mussolini'yi hapisten kaçırarak kuzeyde hangi devleti kurdurmuştur?",
+    "secenekler": ["Roma Krallığı", "Salo Cumhuriyeti (İtalyan Sosyal Cumhuriyeti)", "Milano Dükalığı", "Venedik Konfederasyonu"],
+    "dogruCevap": 1,
+    "aciklama": "Naziler tarafından kurtarılan Mussolini, Kuzey İtalya'da Alman kuklası olan Salo Cumhuriyeti'ni kurarak savaşı sürdürmeye çalışmıştır."
+  },
+  {
+    "soru": "6 Haziran 1944'te Batı Avrupa'da ikinci cepheyi açan devasa deniz çıkarmasının (D-Day) gerçekleştiği kıyı bölgesi neresidir?",
+    "secenekler": ["Brittany", "Pas-de-Calais", "Normandiya", "Flandre"],
+    "dogruCevap": 2,
+    "aciklama": "General Eisenhower komutasındaki Overlord Operasyonu ile Müttefikler Normandiya kıyılarına çıkarak Fransa'nın özgürleştirilmesini başlatmıştır."
+  },
+  {
+    "soru": "Kızıl Ordu'nun 1944 yazında Normandiya Çıkarması ile eş zamanlı başlattığı ve Alman Merkez Ordu Grubu'nu imha ettiği dev taarruzun adı nedir?",
+    "secenekler": ["Ursa Operasyonu", "Mars Operasyonu", "Satürn Operasyonu", "Bagration Harekâtı"],
+    "dogruCevap": 3,
+    "aciklama": "Bagration Harekâtı, Alman ordusuna Stalingrad'dan daha büyük kayıplar verdirmiş ve Kızıl Ordu'nun Polonya sınırına dayanmasını sağlamıştır."
+  },
+  {
+    "soru": "1943 Casablanca Konferansı'nda Roosevelt ve Churchill'in Mihver Devletleri için getirdiği temel savaş şartı ne olmuştur?",
+    "secenekler": ["Kayıtsız Şartsız Teslimiyet", "Sadece Toprak İadesi", "Tazminat Ödenmesi", "Savaş Suçlularının İadesi"],
+    "dogruCevap": 0,
+    "aciklama": "Müttefikler, Mihver devletler ile hiçbir ayrı barış yapılmayacağını ve tek kabul edilebilir sonucun 'Kayıtsız Şartsız Teslimiyet' olacağını ilan etmiştir."
+  },
+  {
+    "soru": "Roosevelt, Churchill ve Stalin'in ('Üç Büyükler') ilk kez yüz yüze bir araya geldikleri 1943 konferansı hangisidir?",
+    "secenekler": ["Yalta Konferansı", "Tahran Konferansı", "Potsdam Konferansı", "Münih Konferansı"],
+    "dogruCevap": 1,
+    "aciklama": "Tahran Konferansı'nda Müttefik liderler Batı Avrupa'da ikinci cephenin (Normandiya) açılması ve savaş sonrası düzen hakkında ilk mutabakatları sağlamıştır."
+  },
+  {
+    "soru": "Ocak 1943'te İngiltere Başbakanı Churchill ile Cumhurbaşkanı İsmet İnönü'nün Türkiye'yi savaşa sokma konusunu gizlice görüştüğü buluşma neresidir?",
+    "secenekler": ["Ankara Zirvesi", "İstanbul Buluşması", "Adana Görüşmesi (Yenice)", "İzmir Konferansı"],
+    "dogruCevap": 2,
+    "aciklama": "Yenice istasyonundaki bir tren vagonunda gerçekleşen Adana Görüşmesi'nde İnönü, ordunun teçhizat eksikliğini gerekçe göstererek savaşa girme talebini erteletmiştir."
+  },
+  {
+    "soru": "Aralık 1943'te İnönü, Roosevelt ve Churchill'in katıldığı ve Türkiye'ye savaşa girmesi için en ağır askeri baskıların yapıldığı zirve hangisidir?",
+    "secenekler": ["Birinci Casablanca Konferansı", "Tahran Zirvesi", "Moskova Konferansı", "İkinci Kahire Konferansı"],
+    "dogruCevap": 3,
+    "aciklama": "İkinci Kahire Konferansı'nda Müttefikler Türkiye'den hava üslerini açmasını istemiş; İnönü ise teçhizat garantisi verilmeden savaşa girmeyi reddetmiştir."
+  },
+  {
+    "soru": "Türkiye'de 1942 yılında savaş şartlarının yarattığı karaborsa ve yüksek enflasyonla mücadele etmek ve savaş zenginlerini vergilendirmek amacıyla çıkarılan kanun hangisidir?",
+    "secenekler": ["Varlık Vergisi Kanunu", "Milli Korunma Kanunu", "Aşar Vergisi Kanunu", "Ağnam Vergisi Kanunu"],
+    "dogruCevap": 0,
+    "aciklama": "Varlık Vergisi Kanunu, özellikle gayrimüslim tüccarlara ağır vergiler yüklemesi ve ödeyemeyenlerin Aşkale'ye çalışma kampına gönderilmesi nedeniyle tartışmalara yol açmıştır."
+  },
+  {
+    "soru": "II. Dünya Savaşı sırasında Türkiye'de karaborsayı engellemek, gıda dağıtımını denetlemek ve un stoklarını korumak için uygulanan yöntem hangisidir?",
+    "secenekler": ["Açık Pazar Sistemi", "Ekmek Karnesi Uygulaması", "Serbest Fiyat Politikası", "Tarım Sübvansiyonu"],
+    "dogruCevap": 1,
+    "aciklama": "Savaş yıllarında kıtlık nedeniyle şehirlerde ekmek tüketimi kısıtlanmış ve halk nüfusa göre verilen 'Ekmek Karnesi' ile gıda temin edebilmiştir."
+  },
+  {
+    "soru": "Müttefik Devletlerin Türkiye'ye satışı durdurması için yoğun diplomatik baskı yaptığı ve Alman savaş sanayisi için kritik önem taşıyan maden hangisidir?",
+    "secenekler": ["Bakır", "Bor", "Krom", "Demir"],
+    "dogruCevap": 2,
+    "aciklama": "Krom, zırh ve çelik üretimi için elzemdi. Türkiye denge politikası gereği Almanya'ya krom satmış, ancak 1944'te Müttefiklerin baskısıyla satışı durdurmuştur."
+  },
+  {
+    "soru": "1943 yılında Nazilerin Yahudileri toplama kamplarına göndermesine karşı Varşova'da gerçekleşen silahlı sivil direniş ne olarak anılır?",
+    "secenekler": ["Polonya Ayaklanması", "Ghetto İsyanı (Varşova Getto Ayaklanması)", "Partizan Direnişi", "Şehir Saldırısı"],
+    "dogruCevap": 3,
+    "aciklama": "Varşova Gettosu'ndaki Yahudiler olumsuz şartlara rağmen haftalarca Alman ordusuna karşı koymuş, ancak ayaklanma kanlı şekilde bastırılmıştır."
+  },
+  {
+    "soru": "Pasifik Savaşında ABD'nin ilk kara taarruzu olan ve Solomon Adaları'nda aylarca süren kanlı kara-deniz muharebesi hangisidir?",
+    "secenekler": ["Guadalcanal Muharebesi", "Saipan Savaşı", "Tarawa Çıkarması", "Guam Savaşı"],
+    "dogruCevap": 0,
+    "aciklama": "Guadalcanal'ın ele geçirilmesi, Pasifik'te Müttefiklerin savunmadan taarruza geçtiği 'Ada Atlama' (Leapfrogging) stratejisinin başlangıcı olmuştur."
+  },
+  {
+    "soru": "Ağustos 1944'te Alman işgalinden kurtarılan ve General Charles de Gaulle'ün zafer yürüyüşü yaptığı Avrupa başkenti hangisidir?",
+    "secenekler": ["Brüksel", "Paris", "Amsterdam", "Viyana"],
+    "dogruCevap": 1,
+    "aciklama": "Fransız Direnişi ve Müttefik birliklerinin girişiyle Paris kurtarılmış, de Gaulle Özgür Fransa hükümetini burada yeniden tesis etmiştir."
+  },
+  {
+    "soru": "Almanya'nın Aralık 1944'te Batı Cephesi'nde Müttefik hatlarını yarmak amacıyla yaptığı son umutsuz karşı taarruz hangisidir?",
+    "secenekler": ["Berlin Saldırısı", "Kış Fırtınası Harekâtı", "Ardenler Taarruzu (Bulge Muharebesi)", "Rheinland Savunması"],
+    "dogruCevap": 2,
+    "aciklama": "Ardenler Taarruzu geçici bir girinti oluştursa da Müttefiklerin direnci ve yakıt yetersizliği nedeniyle Alman ordusunun son yedeklerini de tüketmiştir."
+  },
+  {
+    "soru": "Türkiye, Müttefiklerin baskısı ve değişen savaş dengeleri sonucunda Ağustos 1944'te Almanya ile ilgili hangi kararı almıştır?",
+    "secenekler": ["Savaşa fiilen katılma", "Saldırmazlık paktını yenileme", "Almanya'ya borç verme", "Diplomatik ve ticari ilişkileri tamamen kesme"],
+    "dogruCevap": 3,
+    "aciklama": "Türkiye, Müttefikler ile ilişkilerini tam düzeltmek amacıyla 2 Ağustos 1944'te Almanya ile tüm diplomatik ve ticari bağlarını koparmıştır."
+  },
+  {
+    "soru": "Pasifik'te Japon deniz havacılığının belinin büküldüğü ve Müttefik pilotlarca 'Büyük Meryem Adaları Hindi Avı' olarak anılan muharebe hangisidir?",
+    "secenekler": ["Filipin Denizi Muharebesi", "Coral Sea Savaşı", "Savo Adası Savaşı", "Leyte Körfezi Savaşı"],
+    "dogruCevap": 0,
+    "aciklama": "Filipin Denizi Muharebesi'nde Japonya yüzlerce yetişmiş pilotunu ve uçağını kaybetmiş, hava gücü telafi edilemez bir darbe almıştır."
+  },
+  {
+    "soru": "1940 yılında binlerce Polonyalı subay ve aydının Sovyet İçişleri (NKVD) tarafından infaz edildiği ve 1943'te Almanlarca toplu mezarları açığa çıkarılan katliam hangisidir?",
+    "secenekler": ["Babi Yar Katliamı", "Katyn Katliamı", "Lidice Katliamı", "Treblinka Kıyımı"],
+    "dogruCevap": 1,
+    "aciklama": "Katyn Ormanı Katliamı, Polonya sürgün hükümeti ile SSCB arasındaki diplomatik ilişkilerin kopmasına neden olan tarihi bir trajedidir."
+  },
+  {
+    "soru": "Kasım 1943'te Roosevelt, Churchill ve Çan Kay Şek'in katılımıyla Uzak Doğu'nun savaş sonrası durumunun görüşüldüğü zirve hangisidir?",
+    "secenekler": ["Yalta Konferansı", "Potsdam Konferansı", "Birinci Kahire Konferansı", "San Francisco Konferansı"],
+    "dogruCevap": 2,
+    "aciklama": "Birinci Kahire Konferansı'nda Japonya'nın işgal ettiği Çin topraklarından çekilmesi ve Kore'nin bağımsızlığı konuları karara bağlanmıştır."
+  },
+  {
+    "soru": "Müttefiklerin 1944'te Hollanda'daki köprüleri ele geçirip Ren Nehrini geçerek savaşı Noel'den önce bitirmeyi hedeflediği ancak başarısız olan hava indirme harekâtı hangisidir?",
+    "secenekler": ["Overlord Harekâtı", "Torch Harekâtı", "Varsity Harekâtı", "Market Garden Harekâtı"],
+    "dogruCevap": 3,
+    "aciklama": "Market Garden Harekâtı, Almanların beklenmedik direnci nedeniyle Arnhem Köprüsü'nde tıkanmış ve Müttefiklerin en büyük başarısızlıklarından biri olmuştur."
+  },
+  {
+    "soru": "Nisan-Mayıs 1945'te Kızıl Ordu'nun Alman parlamento binasına (Reichstag) bayrak çekmesiyle simgeleşen Avrupa'daki son büyük muharebe hangisidir?",
+    "secenekler": ["Berlin Muharebesi", "Viyana Taarruzu", "Prag Savaşı", "Münih Kuşatması"],
+    "dogruCevap": 0,
+    "aciklama": "Berlin Muharebesi, Hitler rejimi ve Üçüncü Reich'ın sonunu getirmiş, amansız sokak çatışmalarının ardından şehir Sovyetlerin eline geçmiştir."
+  },
+  {
+    "soru": "Adolf Hitler'in 30 Nisan 1945'te intihar etmesinin ardından Almanya'nın son Devlet Başkanı (Cumhurbaşkanı) olan Amiral kimdir?",
+    "secenekler": ["Erich Raeder", "Karl Dönitz", "Hermann Göring", "Heinrich Himmler"],
+    "dogruCevap": 1,
+    "aciklama": "Hitler vasiyetinde Karl Dönitz'i Cumhurbaşkanı tayin etmiş; Dönitz kurduğu Flensburg Hükümeti ile Almanya'nın teslimiyet sürecini yönetmiştir."
+  },
+  {
+    "soru": "Müttefiklerin Avrupa'da zafer ilan ettiği ve Almanya'nın teslimiyetinin kutlandığı 8 Mayıs gününe ne ad verilir?",
+    "secenekler": ["V-J Day", "D-Day", "V-E Day (Avrupa Zafer Günü)", "Armistice Day"],
+    "dogruCevap": 2,
+    "aciklama": "Victory in Europe Day (V-E Day), Avrupa cephesinde çatışmaların resmen sona erdiğini simgeleyen tarihi bir kutlama günüdür."
+  },
+  {
+    "soru": "ABD askerlerinin Suribachi Tepesi'ne bayrak diktiği ikonik fotoğrafla hafızalara kazınan kanlı Pasifik adası savaşı hangisidir?",
+    "secenekler": ["Midway", "Okinawa", "Guadalcanal", "Iwo Jima Muharebesi"],
+    "dogruCevap": 3,
+    "aciklama": "Iwo Jima, Japonya anakarasına yakınlığı nedeniyle ABD için stratejik hava üssü işlevi görmüş, adanın kontrolü ağır kayıplarla alınmıştır."
+  },
+  {
+    "soru": "Pasifik Savaşı'nın en büyük ve en kanlı kara muharebelerinden biri olan, Japonya anakarasına saldırı öncesi son basamak sayılan ada savaşı hangisidir?",
+    "secenekler": ["Okinawa Muharebesi", "Iwo Jima Muharebesi", "Saipan Muharebesi", "Wake Adası Savaşı"],
+    "dogruCevap": 0,
+    "aciklama": "Okinawa Savaşı'nda Kamikaze saldırıları ve yoğun göğüs göğüse çarpışmalar yaşanmış, devasa kayıplar ABD'nin atom bombası kullanma kararını etkilemiştir."
+  },
+  {
+    "soru": "6 Ağustos 1945 sabahı insanlık tarihinde ilk kez bir kente atılan 'Little Boy' kod adlı atom bombasının hedefi olan Japon şehri hangisidir?",
+    "secenekler": ["Tokyo", "Hiroşima", "Nagazaki", "Osaka"],
+    "dogruCevap": 1,
+    "aciklama": "Enola Gay adlı B-29 bombardıman uçağından atılan atom bombası Hiroşima'yı anında yok etmiş ve yaklaşık 140 bin kişinin ölümüne yol açmıştır."
+  },
+  {
+    "soru": "9 Ağustos 1945'te 'Fat Man' kod adlı ikinci atom bombasının atıldığı Japon şehri aşağıdakilerden hangisidir?",
+    "secenekler": ["Kyoto", "Yokohama", "Nagazaki", "Kobe"],
+    "dogruCevap": 2,
+    "aciklama": "Hiroşima'dan 3 gün sonra Nagazaki'ye atılan ikinci atom bombası ve SSCB'nin Mançurya'yı işgali Japonya'yı teslim olmaya zorlamıştır."
+  },
+  {
+    "soru": "Japonya'nın resmi teslim olma belgesinin 2 Eylül 1945'te imzalandığı Amerikan savaş gemisi hangisidir?",
+    "secenekler": ["USS Enterprise", "USS Arizona", "USS Hornet", "USS Missouri"],
+    "dogruCevap": 3,
+    "aciklama": "Tokyo Körfezi'nde demirleyen USS Missouri zırhlısında imzalanan belge ile II. Dünya Savaşı tüm dünyada resmen sona ermiştir."
+  },
+  {
+    "soru": "Şubat 1945'te Kırım'da toplanarak savaş sonrası Avrupa sınırlarını, işgal bölgelerini ve BM Güvenlik Konseyi veto hakkını kararlaştıran konferans hangisidir?",
+    "secenekler": ["Yalta Konferansı", "Potsdam Konferansı", "San Francisco Konferansı", "Paris Barış Konferansı"],
+    "dogruCevap": 0,
+    "aciklama": "Yalta Konferansı'nda 'Üç Büyükler' Soğuk Savaş'ın altyapısını oluşturan nüfuz alanları konusunda anlaşmaya varmıştır."
+  },
+  {
+    "soru": "Temmuz-Ağustos 1945'te Almanya'nın silahsızlandırılması, nazizimden arındırılması ve 4 işgal bölgesine ayrılmasını kesinleştiren son liderler zirvesi hangisidir?",
+    "secenekler": ["Casablanca Konferansı", "Potsdam Konferansı", "Tahran Konferansı", "Münih Konferansı"],
+    "dogruCevap": 1,
+    "aciklama": "Potsdam'a ABD adına yeni Başkan Truman, İngiltere adına Attlee (süreç içinde değişti) ve SSCB adına Stalin katılmıştır."
+  },
+  {
+    "soru": "Nisan-Haziran 1945'te San Francisco'da imzalanan antlaşmayla kurulan ve küresel barışı korumayı hedefleyen uluslararası örgüt hangisidir?",
+    "secenekler": ["Milletler Cemiyeti", "NATO", "Birleşmiş Milletler (BM)", "Avrupa Konseyi"],
+    "dogruCevap": 2,
+    "aciklama": "BM, işlevini yitiren Milletler Cemiyeti'nin yerine küresel güvenliği sağlamak üzere kurulmuş, Türkiye de kurucu üyeler arasında yer almıştır."
+  },
+  {
+    "soru": "Türkiye, San Francisco Konferansı'na katılabilmek ve BM'nin Kurucu Üyesi olabilmek için 23 Şubat 1945'te hangi devletlere savaş ilan etmiştir?",
+    "secenekler": ["İtalya ve Avusturya", "SSCB ve Çin", "İngiltere ve Fransa", "Almanya ve Japonya"],
+    "dogruCevap": 3,
+    "aciklama": "Yalta kararları uyarınca 1 Mart 1945'e kadar Mihver'e savaş ilan edenlerin BM kurucusu olabileceği belirtilince Türkiye sembolik olarak Almanya ve Japonya'ya savaş ilan etmiştir."
+  },
+  {
+    "soru": "Mart 1945'te SSCB'nin 1925 tarihli Türk-Sovyet Dostluk Antlaşması'nı feshederek Türkiye'den talep ettiği şartlar hangileridir?",
+    "secenekler": ["Kars, Ardahan ve Boğazlar'da üs hakkı", "Hatay ve Edirne'nin devri", "Tazminat ödenmesi", "Savaşa Sovyet safında girilmesi"],
+    "dogruCevap": 0,
+    "aciklama": "Stalin'in toprak ve üs talepleri Türkiye'yi güvenlik tehdidi altında bırakmış ve Batı bloğuna (ABD/NATO) yakınlaşmasını hızlandırmıştır."
+  },
+  {
+    "soru": "Sovyet tehdidine karşı Türkiye ve Yunanistan'a askeri/ekonomik yardım yapılmasını öngören ve 1947'de açıklanan ABD dış politika doktrini hangisidir?",
+    "secenekler": ["Monroe Doktrini", "Truman Doktrini", "Eisenhower Doktrini", "Nixon Doktrini"],
+    "dogruCevap": 1,
+    "aciklama": "Truman Doktrini, ABD'nin Soğuk Savaş döneminde komünizm tehdidi altındaki ülkeleri destekleme stratejisinin başlangıcıdır."
+  },
+  {
+    "soru": "Nazi yöneticilerinin 'insanlığa karşı suçlar' ve 'savaş suçları' başlıkları altında uluslararası mahkemede yargılandığı tarihi dava hangisidir?",
+    "secenekler": ["Lahey Adalet Divanı", "Cenevre Yargılamaları", "Nürnberg Mahkemeleri", "Tokyo Askeri Mahkemesi"],
+    "dogruCevap": 2,
+    "aciklama": "Nürnberg Mahkemeleri, modern uluslararası ceza hukukunun temelini atmış ve soykırım ile savaş suçları kavramlarını hukuki zemine oturtmuştur."
+  },
+  {
+    "soru": "Asya-Pasifik bölgesinde görev yapan Japon askeri ve siyasi liderlerinin yargılandığı uluslararası ceza mahkemesi nerede kurulmuştur?",
+    "secenekler": ["Pekin", "Manila", "Seul", "Tokyo"],
+    "dogruCevap": 3,
+    "aciklama": "Uzak Doğu Uluslararası Askeri Ceza Mahkemesi (Tokyo Mahkemeleri), Başbakan Tojo dahil birçok üst düzey Japon yetkiliyi yargılamıştır."
+  },
+  {
+    "soru": "Nazilerin yaklaşık 6 milyon Yahudi ile milyonlarca çingene, engelli ve siyasi muhalifi sistemli şekilde yok ettiği soykırım için kullandığı resmi kod adı nedir?",
+    "secenekler": ["Nihai Çözüm (Endlösung)", "Ayrıştırma Planı", "Doğu Operasyonu", "Toplu İnfaz Protokolü"],
+    "dogruCevap": 0,
+    "aciklama": "1942 Wannsee Konferansı'nda alınan 'Nihai Çözüm' kararı ile Holokost sistematik ve endüstriyel bir soykırıma dönüştürülmüştür."
+  },
+  {
+    "soru": "Polonya'da bulunan ve 27 Ocak 1945'te Kızıl Ordu tarafından özgürleştirilen en büyük Nazi imha ve toplama kampı hangisidir?",
+    "secenekler": ["Dachau", "Auschwitz-Birkenau", "Treblinka", "Sobibor"],
+    "dogruCevap": 1,
+    "aciklama": "Auschwitz-Birkenau kampı 1 milyondan fazla insanın katledildiği Holokost'un en büyük simgesi olup, özgürleştirildiği 27 Ocak Uluslararası Holokost'u Anma Günü'dür."
+  },
+  {
+    "soru": "II. Dünya Savaşı boyunca hem askeri hem sivil olarak toplamda en fazla insan kaybı veren ülke aşağıdakilerden hangisidir?",
+    "secenekler": ["Almanya", "Çin", "Sovyetler Birliği (SSCB)", "Japonya"],
+    "dogruCevap": 2,
+    "aciklama": "SSCB, savaş boyunca yaklaşık 27 milyon yurttaşını (yaklaşık 8.7 milyon asker, gerisi sivil) kaybederek en ağır insan faturasını ödemiştir."
+  },
+  {
+    "soru": "1947 yılında ABD Dışişleri Bakanı tarafından açıklanan ve yıkıma uğrayan Batı Avrupa ekonomilerini ayağa kaldırmayı amaçlayan dev yardım programı hangisidir?",
+    "secenekler": ["Dawes Planı", "Young Planı", "Morgenthau Planı", "Marshall Planı"],
+    "dogruCevap": 3,
+    "aciklama": "Marshall Planı ile 13 milyar dolardan fazla kaynak Batı Avrupa'ya aktarılmış, ekonomik toparlanma sağlanarak komünizmin yayılması engellenmiştir."
+  },
+  {
+    "soru": "Savaş sonrası Potsdam Kararları uyarınca Almanya ve Berlin şehri toplam kaç Müttefik işgal bölgesine ayrılmıştır?",
+    "secenekler": ["4 Bölge (ABD, İngiltere, Fransa, SSCB)", "2 Bölge (Doğu ve Batı)", "3 Bölge (ABD, İngiltere, SSCB)", "5 Bölge (Çin dâhil)"],
+    "dogruCevap": 0,
+    "aciklama": "Almanya ve Berlin, Dört Büyük Müttefik devlet arasında işgal bölgelerine bölünmüş, bu durum ileride Doğu ve Batı Almanya'nın doğuşuna yol açmıştır."
+  },
+  {
+    "soru": "Winston Churchill'in 1946'da ABD'de yaptığı konuşmada Doğu ve Batı blokları arasındaki ideolojik bölünmeyi tanımlamak için kullandığı ünlü kavram hangisidir?",
+    "secenekler": ["Yeşil Hat", "Demir Perde (Iron Curtain)", "Utanç Duvarı", "Sıcak Sınır"],
+    "dogruCevap": 1,
+    "aciklama": "Churchill'in 'Stettin'den Trieste'ye kıta üzerine bir demir perde inmiştir' sözü Soğuk Savaş'ın başladığının sembolik ilanı olmuştur."
+  },
+  {
+    "soru": "II. Dünya Savaşı sonrasında evlerini terk etmek zorunda kalan, zorla çalıştırılan ve mülteci durumuna düşen milyonlarca insan için kullanılan uluslararası terim hangisidir?",
+    "secenekler": ["Gurbetçi Vatandaşlar", "Sığınmacı Askerler", "Yerinden Edilmiş Kişiler (Displaced Persons)", "Kayıp Nüfus"],
+    "dogruCevap": 2,
+    "aciklama": "Savaş sonrası Avrupa'da sayıları 10 milyonu aşan 'Displaced Persons' (DP) için uluslararası yardım kuruluşları ve özel kamplar kurulmuştur."
+  },
+  {
+    "soru": "Savaş sonrası teslim olan Japonya'da Müttefik Kuvvetler Başkomutanı sıfatıyla ülkenin demokratikleşme reformlarını ve anayasasını yürüten ABD'li general kimdir?",
+    "secenekler": ["George Marshall", "Omar Bradley", "Chester Nimitz", "Douglas MacArthur"],
+    "dogruCevap": 3,
+    "aciklama": "General MacArthur, 1945-1951 yılları arasında Japonya'nın işgal idaresini yürütmüş, imparatorluk yetkilerini kısıtlayan yeni anayasayı hayata geçirmiştir."
+  },
+  {
+    "soru": "II. Dünya Savaşı'nın ardından Batı dünyasıyla bütünleşme adımları atan Türkiye'de iç siyasette yaşanan en radikal değişim aşağıdakilerden hangisidir?",
+    "secenekler": ["Çok Partili Siyasi Hayata Geçiş", "Saltanatın Kaldırılması", "Anayasanın Tamamen Feshedilmesi", "Başkentin Değiştirilmesi"],
+    "dogruCevap": 0,
+    "aciklama": "Savaş sonrası demokratik bloğa dahil olma isteği ve iç talepler doğrultusunda Türkiye'de 1945'te Milli Kalkınma Partisi ve 1946'da Demokrat Parti kurularak çok partili düzene geçilmiştir."
+  },
+  {
+    "soru": "Adolf Hitler'in hapisteyken yazdığı ve Nazi ideolojisinin, 'Irk Hiyerarşisi' ile 'Yaşam Alanı' (Lebensraum) hedeflerinin yer aldığı kitabın adı nedir?",
+    "secenekler": ["Ulusal Devrim", "Kavgam (Mein Kampf)", "Üçüncü Reich", "Alman Doktrini"],
+    "dogruCevap": 1,
+    "aciklama": "1925'te yayımlanan Mein Kampf, Nazizmin dış politika ve ırkçı iç politika hedeflerinin ana kaynağını oluşturmaktadır."
+  },
+  {
+    "soru": "1940 yılında İngiltere Başbakanı olan ve halkına 'Size kan, ter, gözyaşı ve emekten başka vaat edecek bir şeyim yok' diyen efsanevi lider kimdir?",
+    "secenekler": ["Clement Attlee", "Neville Chamberlain", "Winston Churchill", "Anthony Eden"],
+    "dogruCevap": 2,
+    "aciklama": "Winston Churchill, kararlı tutumu ve etkili hitabetiyle İngiliz halkının ve Müttefiklerin direniş ruhunu canlı tutmuştur."
+  },
+  {
+    "soru": "ABD tarihinde üst üste dört kez başkan seçilme başarısı gösteren ve II. Dünya Savaşı'nın büyük bölümünde ülkesini yöneten lider kimdir?",
+    "secenekler": ["Woodrow Wilson", "Harry S. Truman", "Dwight D. Eisenhower", "Franklin D. Roosevelt"],
+    "dogruCevap": 3,
+    "aciklama": "Roosevelt, Büyük Buhran ve II. Dünya Savaşı süreçlerinde ABD'yi yönetmiş, Nisan 1945'te savaşın sonunu göremeden vefat etmiştir."
+  },
+  {
+    "soru": "Roosevelt'in vefatı üzerine ABD Başkanı olan ve Hiroşima ile Nagazaki'ye atom bombası atılması emrini veren lider kimdir?",
+    "secenekler": ["Harry S. Truman", "Lyndon B. Johnson", "George C. Marshall", "Douglas MacArthur"],
+    "dogruCevap": 0,
+    "aciklama": "Truman, ABD kayıplarını azaltmak ve savaşı hızla bitirmek gerekçesiyle nükleer silah kullanımını onaylayan başkan olmuştur."
+  },
+  {
+    "soru": "II. Dünya Savaşı boyunca SSCB'yi yöneten, 'Genel sekreter' ve 'Kızıl Ordu Başkomutanı' unvanlarıyla savaşı sevk eden Sovyet lider kimdir?",
+    "secenekler": ["Nikita Kruşçev", "Josef Stalin", "Leon Troçki", "Vyacheslav Molotov"],
+    "dogruCevap": 1,
+    "aciklama": "Stalin, 'Büyük Vatan Savunması' olarak adlandırdıkları savaşta devasa sanayi tahliyesi ve sert askeri tedbirlerle zafere ulaşmıştır."
+  },
+  {
+    "soru": "Faşist İtalya'nın kurucusu olan, kendisini 'Il Duce' (Lider) olarak adlandıran ve Nisan 1945'te İtalyan partizanlarca kurşuna dizilen diktatör kimdir?",
+    "secenekler": ["Pietro Badoglio", "Rodolfo Graziani", "Benito Mussolini", "Italo Balbo"],
+    "dogruCevap": 2,
+    "aciklama": "Mussolini, savaştaki başarısızlıkların ardından devrilmiş, en son İsviçre'ye kaçmaya çalışırken yakalanıp infaz edilmiştir."
+  },
+  {
+    "soru": "II. Dünya Savaşı boyunca izlediği 'Aktif Tarafsızlık' ve esnek denge diplomasisi ile Türkiye'yi yıkıcı bir savaştan uzak tutan Cumhurbaşkanı kimdir?",
+    "secenekler": ["Mustafa Kemal Atatürk", "Celal Bayar", "Fevzi Çakmak", "İsmet İnönü"],
+    "dogruCevap": 3,
+    "aciklama": "Cumhurbaşkanı İsmet İnönü ('Milli Şef'), büyük güçler arasındaki çelişkileri usta bir diplomasiyle kullanarak Türkiye'nin savaşa girmesini engellemiştir."
+  },
+  {
+    "soru": "Türkiye'nin savaş yıllarında Dışişleri Bakanlığı görevini yürüten ve Müttefik baskılarına karşı denge politikasının mimarlarından olan diplomat kimdir?",
+    "secenekler": ["Numan Menemencioğlu", "Şükrü Saracoğlu", "Tevfik Rüştü Aras", "Hasan Saka"],
+    "dogruCevap": 0,
+    "aciklama": "Menemencioğlu, Alman gemilerinin Boğazlar'dan geçişi üzerine Müttefiklerle yaşanan kriz sonrasında 1944'te görevinden istifa etmiştir."
+  },
+  {
+    "soru": "18 Haziran 1940'ta BBC radyosundan yaptığı '18 Haziran Çağrısı' ile Özgür Fransa Hareketi'ni başlatan ünlü Fransız general kimdir?",
+    "secenekler": ["Philippe Pétain", "Charles de Gaulle", "Maurice Gamelin", "Jean de Lattre de Tassigny"],
+    "dogruCevap": 1,
+    "aciklama": "General de Gaulle, Vichy hükümetini reddederek Londra'dan Fransız direnişini organize etmiş ve savaş sonrası Fransa'nın lideri olmuştur."
+  },
+  {
+    "soru": "Normandiya Çıkarması'nda Müttefik Kuvvetleri Başkomutanlığı yapan ve daha sonra ABD'nin 34. Başkanı seçilen general kimdir?",
+    "secenekler": ["George S. Patton", "Douglas MacArthur", "Dwight D. Eisenhower", "Omar Bradley"],
+    "dogruCevap": 2,
+    "aciklama": "Eisenhower, tarihin en büyük amfibi harekâtı olan Overlord Operasyonu'nu başarıyla sevk ve idare etmiştir."
+  },
+  {
+    "soru": "Kuzey Afrika Cephesi'ndeki kıvrak taktikleri ve tank muharebelerindeki başarısı nedeniyle 'Çöl Tilkisi' lakabıyla anılan Alman Mareşal kimdir?",
+    "secenekler": ["Heinz Guderian", "Erich von Manstein", "Gerd von Rundstedt", "Erwin Rommel"],
+    "dogruCevap": 3,
+    "aciklama": "Rommel, Afrika Kolordusu (Afrika Korps) komutanı olarak kısıtlı imkânlarla büyük başarılar elde etmiş ancak Hitler'e suikast iddiasıyla intihara zorlanmıştır."
+  },
+  {
+    "soru": "Stalingrad savunması, Kursk Tank Savaşı ve Berlin'in düşüşü dahil Kızıl Ordu'nun ana zaferlerinin mimarı olan efsanevi Sovyet Mareşali kimdir?",
+    "secenekler": ["Georgi Jukov", "Aleksandr Vasilevski", "Konstantin Rokossovski", "Semyon Timoşenko"],
+    "dogruCevap": 0,
+    "aciklama": "Mareşal Jukov, Sovyetler Birliği'nin en yetenekli komutanı kabul edilir ve Almanya'nın teslim antlaşmasını imzalayan Sovyet temsilcisidir."
+  },
+  {
+    "soru": "II. Dünya Savaşı boyunca Japonya'nın başında bulunan ve savaşın sonunda radyodan ilk kez halkına hitap ederek teslimiyeti açıklayan Şowa dönemi İmparatoru kimdir?",
+    "secenekler": ["Meiji", "Hirohito", "Taisho", "Akihito"],
+    "dogruCevap": 1,
+    "aciklama": "İmparator Hirohito, 15 Ağustos 1945'te 'Mücevher Sesi Yayınında' ülkesinin teslim olduğunu ve savaşı durdurduğunu ilan etmiştir."
+  },
+  {
+    "soru": "Pearl Harbor baskınının emrini veren, savaş boyunca Japonya'nın askeri diktatörlüğünü ve Başbakanlığını üstlenen komutan kimdir?",
+    "secenekler": ["Isoroku Yamamoto", "Tomoyuki Yamashita", "Hideki Tojo", "Chuichi Nagumo"],
+    "dogruCevap": 2,
+    "aciklama": "General Hideki Tojo, Japonya'daki aşırı milliyetçi askeri cuntanın lideriydi; savaş sonrası Tokyo Mahkemesi'nde yargılanarak idam edilmiştir."
+  },
+  {
+    "soru": "Kuzey Afrika'da kazandığı El-Alameyn zaferiyle tanınan ve askerleri tarafından 'Monty' olarak çağrılan ünlü İngiliz Mareşal kimdir?",
+    "secenekler": ["Harold Alexander", "Archibald Wavell", "Alan Brooke", "Bernard Montgomery"],
+    "dogruCevap": 3,
+    "aciklama": "Bernard Montgomery, İngiliz 8. Ordusu'nun başında Rommel'i mağlup etmiş, ardından Sicilya ve Normandiya harekâtlarında öncü rol oynamıştır."
+  }
+]
