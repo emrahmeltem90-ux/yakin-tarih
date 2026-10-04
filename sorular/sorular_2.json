@@ -1,0 +1,617 @@
+[
+  {
+    "soru": "Winston Churchill'in 1946 yılında ABD'de yaptığı konuşmada Doğu Avrupa'daki Sovyet denetimini ve ideolojik bölünmeyi tanımlamak için kullandığı ünlü terim hangisidir?",
+    "secenekler": ["Demir Perde", "Kızıl Sınır", "Berlin Duvarı", "Doğu Bloku"],
+    "dogruCevap": 0,
+    "aciklama": "Churchill'in Fulton'da yaptığı konuşmada kullandığı 'Demir Perde' terimi, Doğu ve Batı blokları arasındaki ideolojik ve siyasi bölünmeyi tanımlayan simge kavram olmuştur."
+  },
+  {
+    "soru": "ABD'nin 1947 yılında komünizm tehdidi altındaki Türkiye ve Yunanistan'a askeri ve ekonomik yardım yapmasını öngören doktrin hangisidir?",
+    "secenekler": ["Monroe Doktrini", "Truman Doktrini", "Eisenhower Doktrini", "Marshall Planı"],
+    "dogruCevap": 1,
+    "aciklama": "Truman Doktrini, ABD'nin Sovyet yayılmacılığına karşı çevreleme (containment) politikasını resmi olarak başlatan ilk büyük adımdır."
+  },
+  {
+    "soru": "II. Dünya Savaşı sonrasında yıkılan Avrupa ekonomilerini yeniden ayağa kaldırmak ve komünizmin yayılmasını önlemek amacıyla ABD tarafından uygulanan ekonomik yardım programı hangisidir?",
+    "secenekler": ["Dawes Planı", "Morgenthau Planı", "Marshall Planı", "Schuman Planı"],
+    "dogruCevap": 2,
+    "aciklama": "1948'de yürürlüğe giren Marshall Planı ile Batı Avrupa ülkelerine milyarlarca dolarlık ekonomik destek sağlanmış ve Batı bloğunun entegrasyonu güçlendirilmiştir."
+  },
+  {
+    "soru": "1948-1949 yıllarında SSCB'nin Batı Berlin'in karayolu ve demiryolu bağlantılarını kesmesi üzerine Müttefiklerin şehre aylarca havadan ikmal sağladığı olay hangisidir?",
+    "secenekler": ["Süveyş Krizi", "Küba Füze Krizi", "Prag Baharı", "Berlin Ablukası"],
+    "dogruCevap": 3,
+    "aciklama": "Berlin Hava Köprüsü (Ablukası) sırasında Müttefik uçakları Batı Berlin halkının gıda ve yakıt ihtiyacını havadan taşıyarak Sovyet ablukasını boşa çıkarmıştır."
+  },
+  {
+    "soru": "1949 yılında Washington'da kurulan ve üye ülkelerin ortak savunmasını esas alan Batı askeri ittifakı hangisidir?",
+    "secenekler": ["NATO", "CENTO", "SEATO", "Varşova Paktı"],
+    "dogruCevap": 0,
+    "aciklama": "Kuzey Atlas Antlaşması Örgütü (NATO), üye ülkelerden birine yapılacak saldırıyı hepsine yapılmış sayan 5. maddesiyle Batı bloğunun ana savunma gücü olmuştur."
+  },
+  {
+    "soru": "Batı Almanya'nın NATO'ya üye yapılmasına karşılık Doğu Bloku ülkelerinin 1955 yılında kurduğu askeri ittifak hangisidir?",
+    "secenekler": ["COMECON", "Varşova Paktı", "Kominform", "Balkan Paktı"],
+    "dogruCevap": 1,
+    "aciklama": "SSCB liderliğinde Polonya'nın başkentinde imzalanan Varşova Paktı, Doğu Bloku'nun NATO karşısındaki askeri ittifakıdır."
+  },
+  {
+    "soru": "1949 yılında Sovyetler Birliği liderliğinde Doğu Bloku ülkeleri arasında ekonomik iş birliği ve entegrasyonu sağlamak amacıyla kurulan örgüt hangisidir?",
+    "secenekler": ["Komintern", "Kominform", "COMECON", "Varşova Paktı"],
+    "dogruCevap": 2,
+    "aciklama": "COMECON (Karşılıklı Ekonomik Yardımlaşma Konseyi), Marshall Planı'na yanıt olarak Doğu Bloku ülkelerinin ekonomik entegrasyonunu amaçlamıştır."
+  },
+  {
+    "soru": "1949 yılında Almanya'nın ikiye bölünmesiyle kurulan Batı ve Doğu Alman devletlerinin resmi adları hangi seçenekte doğru verilmiştir?",
+    "secenekler": [
+      "Almanya Demokratik Cumhuriyeti (Batı) - Almanya Federal Cumhuriyeti (Doğu)",
+      "Almanya Krallığı (Batı) - Almanya Halk Cumhuriyeti (Doğu)",
+      "Prusya Federasyonu (Batı) - Bavyera Cumhuriyeti (Doğu)",
+      "Almanya Federal Cumhuriyeti (Batı) - Almanya Demokratik Cumhuriyeti (Doğu)"
+    ],
+    "dogruCevap": 3,
+    "aciklama": "1949'da Batı'da kapitalist Almanya Federal Cumhuriyeti (AFC), Doğu'da ise sosyalist Almanya Demokratik Cumhuriyeti (ADC) kurulmuştur."
+  },
+  {
+    "soru": "1947 yılında komünist partiler arasındaki bilgi akışını koordine etmek ve Sovyet etkisini pekiştirmek amacıyla kurulan örgüt hangisidir?",
+    "secenekler": ["Kominform", "Komintern", "Grup TASS", "Comecon"],
+    "dogruCevap": 0,
+    "aciklama": "Kominform (Komünist Enternasyonal Danışma Bürosu), Sovyet ideolojisinin Doğu Avrupa'daki komünist partiler üzerindeki denetimini sıkılaştırmak için kurulmuştur."
+  },
+  {
+    "soru": "ABD'li diplomat George Kennan'ın düşüncelerine dayanan ve ABD'nin Sovyet yayılmacılığını engellemeyi hedefleyen temel dış politika stratejisi hangisidir?",
+    "secenekler": ["Yatıştırma Politikası", "Çevreleme (Containment) Politikası", "Yalnızcılık (İzolasyonizm) Doktrini", "Toplu İntikam Stratejisi"],
+    "dogruCevap": 1,
+    "aciklama": "Çevreleme politikası, SSCB'nin komünizmi dünya genelinde yayma çabalarını siyasi, askeri ve ekonomik araçlarla sınırlandırmayı hedeflemiştir."
+  },
+  {
+    "soru": "Sovyetler Birliği'nin 1949 yılında ilk atom bombası denemesini gerçekleştirdiği ünlü test sahası neresidir?",
+    "secenekler": ["Baykonur Uzay Üssü", "Çernobil Bölgesi", "Semipalatinsk (Kazakistan)", "Kamçatka Yarımadası"],
+    "dogruCevap": 2,
+    "aciklama": "Kazakistan'daki Semipalatinsk sahasında yapılan RDS-1 testi ile ABD'nin nükleer tekel dönemi sona ermiş ve nükleer silahlanma yarışı tırmanmıştır."
+  },
+  {
+    "soru": "1952 yılında füzyon ilkesine dayanan ilk hidrojen bombası (Ivy Mike) denemesini gerçekleştirerek nükleer yarışta yeni bir safha başlatan ülke hangisidir?",
+    "secenekler": ["İngiltere", "Fransa", "SSCB", "ABD"],
+    "dogruCevap": 3,
+    "aciklama": "ABD, 1952'deki 'Ivy Mike' denemesiyle ilk hidrojen bombasını patlatmış; SSCB ise bir yıl sonra kendi hidrojen bombasını geliştirmiştir."
+  },
+  {
+    "soru": "İki süper gücün de birbirini yok edecek nükleer kapasiteye sahip olmasının tarafları savaştan caydırdığını ifade eden doktrin hangisidir?",
+    "secenekler": ["Karşılıklı Garantili Yıkım (MAD)", "Esnek Tepki Doktrini", "Çevreleme Stratejisi", "Topyakun Savunma İlkesi"],
+    "dogruCevap": 0,
+    "aciklama": "MAD (Mutually Assured Destruction) doktrini, ilk nükleer vuruşu yapan tarafın da yok olacağını bildiği için tarafların düğmeye basmasını engellemiştir."
+  },
+  {
+    "soru": "4 Ekim 1957'de SSCB tarafından yörüngeye fırlatılan ve insanlık tarihinin ilk yapay uydusu olan araç hangisidir?",
+    "secenekler": ["Vostok 1", "Sputnik 1", "Salyut 1", "Explorer 1"],
+    "dogruCevap": 1,
+    "aciklama": "Sputnik 1'in yörüngeye oturması Batı'da büyük bir teknolojik şok yaratmış ve ABD ile SSCB arasında Uzay Yarışı'nı resmen başlatmıştır."
+  },
+  {
+    "soru": "12 Nisan 1961 tarihinde Vostok 1 aracıyla uzaya çıkarak dünya yörüngesini turlayan ilk insan kimdir?",
+    "secenekler": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Gherman Titov"],
+    "dogruCevap": 2,
+    "aciklama": "Sovyet kozmonot Yuri Gagarin, uzaya çıkan ilk insan olarak tarihe geçmiş ve SSCB'nin uzay yarışındaki liderliğini pekiştirmiştir."
+  },
+  {
+    "soru": "20 Temmuz 1969'da Apollo 11 görevi kapsamında Ay'a ilk ayak basan astronot kimdir?",
+    "secenekler": ["Michael Collins", "Buzz Aldrin", "John Glenn", "Neil Armstrong"],
+    "dogruCevap": 3,
+    "aciklama": "Neil Armstrong, 'İnsan için küçük, insanlık için büyük bir adım' diyerek Ay'a ayak basmış ve ABD'nin uzay yarışındaki en büyük başarısına imza atmıştır."
+  },
+  {
+    "soru": "1960 yılında SSCB toprakları üzerinde düşürülen ABD casus uçağı ve pilotu Francis Gary Powers etrafında gelişen kriz hangisidir?",
+    "secenekler": ["U-2 Krizi", "Domuzlar Körfezi Krizi", "Küba Füze Krizi", "İncirlik Skandalı"],
+    "dogruCevap": 0,
+    "aciklama": "U-2 casus uçağının düşürülmesi, Paris Zirvesi'nin çökmesine ve ABD-SSCB ilişkilerinin yeniden gerilmesine yol açmıştır."
+  },
+  {
+    "soru": "1972 yılında Richard Nixon ve Leonid Brejnev tarafından imzalanan ve stratejik füze rampalarının sayısını sınırlandıran antlaşma hangisidir?",
+    "secenekler": ["INF Antlaşması", "SALT I", "START I", "NPT Antlaşması"],
+    "dogruCevap": 1,
+    "aciklama": "SALT I (Strategic Arms Limitation Talks) antlaşması, nükleer füze rampalarının sayısını dondurarak Yumuşama (Detant) dönemini başlatmıştır."
+  },
+  {
+    "soru": "ABD Başkanı Ronald Reagan'ın 1983'te açıkladığı, uzay tabanlı lazer sistemleriyle füze savunması yapmayı hedefleyen projenin kamuoyundaki popüler adı nedir?",
+    "secenekler": ["Manhattan Projesi", "Apollo Projesi", "Yıldız Savaşları (Star Wars)", "Siber Kalkan"],
+    "dogruCevap": 2,
+    "aciklama": "Resmi adı Stratejik Savunma Girişimi (SDI) olan 'Yıldız Savaşları' projesi, SSCB'yi ekonomik olarak zorlayan bir teknolojik hamle olmuştur."
+  },
+  {
+    "soru": "Soğuk Savaş döneminde istihbarat ve örtülü operasyonlar yürüten ABD ve SSCB gizli servisleri hangi seçenekte doğru verilmiştir?",
+    "secenekler": ["MI6 - Stasi", "FBI - Mossad", "NSA - BND", "CIA - KGB"],
+    "dogruCevap": 3,
+    "aciklama": "ABD'nin CIA (Merkezi İstihbarat Teşkilatı) ve SSCB'nin KGB (Devlet Güvenlik Komitesi) kurumları Soğuk Savaş'ın ana istihbarat aktörleridir."
+  },
+  {
+    "soru": "1950-1953 yılları arasında yaşanan ve Soğuk Savaş'ın ilk büyük sıcak çatışması sayılan savaş hangisidir?",
+    "secenekler": ["Kore Savaşı", "Vietnam Savaşı", "Çin İç Savaşı", "Afganistan Savaşı"],
+    "dogruCevap": 0,
+    "aciklama": "Kore Savaşı, ABD öncülüğündeki BM kuvvetleri ile Kuzey Kore ve Çin kuvvetlerini karşı karşıya getirmiş, sınır 38. paralelde kalmıştır."
+  },
+  {
+    "soru": "ABD'nin Güneydoğu Asya'da bir ülkenin komünist olması durumunda komşularının da sırayla düşeceğini savunan dış politika teorisi hangisidir?",
+    "secenekler": ["Çevreleme Teorisi", "Domino Teorisi", "Sarmal Teorisi", "Denge Teorisi"],
+    "dogruCevap": 1,
+    "aciklama": "Domino Teorisi, ABD Başkanı Eisenhower ve stratejistler tarafından Güneydoğu Asya müdahalelerini gerekçelendirmek için kullanılmıştır."
+  },
+  {
+    "soru": "1962 yılında SSCB'nin Küba'ya nükleer füzeler yerleştirmesiyle dünyayı nükleer savaşın eşiğine getiren tarihi kriz hangisidir?",
+    "secenekler": ["Domuzlar Körfezi Çıkarması", "Berlin Ablukası", "Küba Füze Krizi", "Süveyş Krizi"],
+    "dogruCevap": 2,
+    "aciklama": "Kennedy ve Kruşçev arasındaki gerilim; ABD'nin Türkiye'deki Jüpiter füzelerini, SSCB'nin de Küba'daki füzelerini sökmesiyle çözülmüştür."
+  },
+  {
+    "soru": "Doğu Almanya'dan Batı Berlin'e kitlesel kaçışları engellemek amacıyla Ağustos 1961'de inşa edilen sembolik yapı hangisidir?",
+    "secenekler": ["Bavyera Sınırı", "Demir Hat", "Doğu Barikatı", "Berlin Duvarı"],
+    "dogruCevap": 3,
+    "aciklama": "Batı'da 'Utanç Duvarı' olarak anılan Berlin Duvarı, Soğuk Savaş'ın kenti ve dünyayı ikiye bölen en somut sembolü olmuştur."
+  },
+  {
+    "soru": "1956 yılında Sovyet denetimine karşı ayaklanan, Varşova Paktı'ndan çekileceğini açıklayan ancak Kızıl Ordu müdahalesiyle bastırılan ülke hangisidir?",
+    "secenekler": ["Macaristan", "Polonya", "Çekoslovakya", "Romanya"],
+    "dogruCevap": 0,
+    "aciklama": "1956 Macar Devrimi, Kızıl Ordu'nun sert müdahalesiyle kanlı şekilde bastırılmış ve Imre Nagy hükümeti devrilmiştir."
+  },
+  {
+    "soru": "1968 yılında Alexander Dubček'in 'İnsani Yüzlü Sosyalizm' vaadiyle başlattığı reform hareketinin Varşova Paktı ordularınca bastırıldığı olay hangisidir?",
+    "secenekler": ["Varşova Baharı", "Prag Baharı", "Budapeşte İsyanı", "Kadife Devrim"],
+    "dogruCevap": 1,
+    "aciklama": "Prag Baharı reformları, Doğu Bloku'nun gevşemesinden korkan SSCB ve Varşova Paktı tanklarının Çekoslovakya'yı işgaliyle son bulmuştur."
+  },
+  {
+    "soru": "1979-1989 yılları arasında gerçekleşen, Mücahitler ile Sovyet ordusunun çatıştığı ve 'SSCB'nin Vietnam'ı' olarak anılan işgal hangisidir?",
+    "secenekler": ["İran İşgali", "Kore Müdahalesi", "Afganistan'ın İşgali", "Pakistan Sınır Savaşı"],
+    "dogruCevap": 2,
+    "aciklama": "SSCB'nin Afganistan'ı işgali, ABD desteğindeki Mücahitlerin direnişiyle karşılaşmış ve Sovyet ekonomisini derinden sarsmıştır."
+  },
+  {
+    "soru": "1956'da Mısır Lideri Nasır'ın Süveyş Kanalı'nı millileştirmesi üzerine İngiltere, Fransa ve İsrail'in Mısır'a saldırdığı kriz hangisidir?",
+    "secenekler": ["Kızıldeniz Bunalımı", "Avanos Krizi", "Sinay Savaşı", "Süveyş Krizi"],
+    "dogruCevap": 3,
+    "aciklama": "Süveyş Krizi'nde ABD ve SSCB ortak tutum alarak İngiltere ve Fransa'yı geri çekilmeye zorlamış, bu da sömürgeci güçlerin nüfuzunu bitirmiştir."
+  },
+  {
+    "soru": "1961 yılında CIA desteğindeki Kübalı sürgünlerin Fidel Castro rejimini devirmek amacıyla düzenlediği başarısız çıkarma harekâtı hangisidir?",
+    "secenekler": ["Domuzlar Körfezi Çıkarması", "Havana Harekâtı", "Guantanamo Baskını", "Santa Clara Operasyonu"],
+    "dogruCevap": 0,
+    "aciklama": "Domuzlar Körfezi çıkarmasının fiyaskoyla sonuçlanması Kennedy yönetimini zora sokmuş ve Castro'yu SSCB eksenine itmiştir."
+  },
+  {
+    "soru": "1964 yılında ABD'nin Vietnam Savaşı'na kara birlikleriyle doğrudan katılmasına ve bombalamaları başlatmasına gerekçe yapılan deniz olayı hangisidir?",
+    "secenekler": ["Mekong Baskını", "Tonkin Körfezi Olayı", "Saigon İsyanı", "Tet Taarruzu"],
+    "dogruCevap": 1,
+    "aciklama": "ABD devriye gemisine Kuzey Vietnam botlarınca ateş açıldığı iddiası (Tonkin Körfezi Olayı), ABD Kongresi'nin savaşa müdahale yetkisi vermesini sağlamıştır."
+  },
+  {
+    "soru": "Türkiye, Soğuk Savaş'ın başında Batılı devletlerin güvenini kazanmak ve NATO'ya kabul edilmek amacıyla hangi savaşa askeri birlik göndermiştir?",
+    "secenekler": ["Vietnam Savaşı", "Süveyş Krizi", "Kore Savaşı", "Körfez Savaşı"],
+    "dogruCevap": 2,
+    "aciklama": "TBMM kararıyla Kore'ye gönderilen Türk Tugayı, gösterdiği yararlılıklarla Türkiye'nin NATO üyeliğinde belirleyici rol oynamıştır."
+  },
+  {
+    "soru": "Türkiye ve Yunanistan hangi yıl NATO'ya resmi olarak eş zamanlı kabul edilmişlerdir?",
+    "secenekler": ["1949", "1950", "1955", "1952"],
+    "dogruCevap": 3,
+    "aciklama": "Türkiye ve Yunanistan, NATO'nun güney kanadını tahkim etmek amacıyla 18 Şubat 1952'de örgüte birlikte üye olmuşlardır."
+  },
+  {
+    "soru": "1960'ların başında İzmir Çiğli'ye yerleştirilen ve Küba Füze Krizi sırasında pazarlık konusu yapılarak sökülmesi kararlaştırılan füzeler hangisidir?",
+    "secenekler": ["Jüpiter Füzeleri", "Patriot Füzeleri", "Hawk Füzeleri", "Nike Hercules Füzeleri"],
+    "dogruCevap": 0,
+    "aciklama": "Gizli anlaşma uyarınca ABD, Küba'daki Sovyet füzelerine karşılık Türkiye'deki nükleer başlıklı Jüpiter füzelerini sökmeyi kabul etmiştir."
+  },
+  {
+    "soru": "1964 Kıbrıs krizinde Türkiye'nin adaya olası bir askeri müdahalesini engellemek amacıyla ABD Başkanı tarafından Başbakan İsmet İnönü'ye gönderilen sert mektup hangisidir?",
+    "secenekler": ["Truman Mektubu", "Johnson Mektubu", "Kennedy Deklarasyonu", "Eisenhower Ültimatomu"],
+    "dogruCevap": 1,
+    "aciklama": "Başkan Johnson'ın mektubu, ABD silahlarının Kıbrıs'ta kullanılamayacağını ima ederek Türk-ABD ilişkilerini derin bir krize sokmuştur."
+  },
+  {
+    "soru": "1955 yılında İngiltere, Türkiye, Irak, İran ve Pakistan arasında Sovyet yayılmacılığına karşı kurulan ve Irak'ın ayrılmasıyla CENTO adını alan pakt hangisidir?",
+    "secenekler": ["Balkan Paktı", "Sadabat Paktı", "Bağdat Paktı", "SEATO"],
+    "dogruCevap": 2,
+    "aciklama": "Bağdat Paktı, 1958'deki darbe sonrası Irak'ın çekilmesiyle merkezini Ankara'ya taşımış ve CENTO adını almıştır."
+  },
+  {
+    "soru": "1974 Kıbrıs Barış Harekâtı sonrasında ABD Kongresi'nin Türkiye'ye uyguladığı ve 1978 yılına kadar süren yaptırım hangisidir?",
+    "secenekler": ["Marshall Kesintisi", "Haşhaş Yasağı", "Ticaret Boykotu", "Silah Ambargosu"],
+    "dogruCevap": 3,
+    "aciklama": "ABD ambargosu üzerine Türkiye, cevaben ülkedeki ABD askeri üs ve tesislerinin faaliyetlerini durdurmuş veya kontrolüne almıştır."
+  },
+  {
+    "soru": "Kore Savaşı sırasında Kunuri Muharebeleri'nde gösterdiği savunmayla BM ve ABD kuvvetlerinin imha edilmesini önleyen Türk Tugayı Komutanı kimdir?",
+    "secenekler": ["Tümgeneral Tahsin Yazıcı", "Org. Fevzi Çakmak", "Org. Ragıp Gümüşpala", "Org. Semih Sancar"],
+    "dogruCevap": 0,
+    "aciklama": "Tahsin Yazıcı komutasındaki Türk Tugayı, Kunuri'de gösterdiği direnişle Müttefik kuvvetlerinin kuşatmayı yararak çekilmesini sağlamıştır."
+  },
+  {
+    "soru": "Türkiye'nin Avrupa Ekonomik Topluluğu (AET) ile ortaklık ilişkisini başlatan ve 1963 yılında imzalanan antlaşma hangisidir?",
+    "secenekler": ["Roma Antlaşması", "Ankara Antlaşması", "İstanbul Antlaşması", "Atina Sözleşmesi"],
+    "dogruCevap": 1,
+    "aciklama": "12 Eylül 1963'te imzalanan Ankara Antlaşması, Türkiye'nin AB ile günümüzde de süren entegrasyon sürecinin hukuki temelidir."
+  },
+  {
+    "soru": "II. Dünya Savaşı'nın hemen ardından SSCB lideri Stalin'in Türkiye'den Doğu Anadolu'da toprak ve Boğazlar'da üs talep etmesi Türkiye'yi dış politikada nasıl bir adıma yöneltmiştir?",
+    "secenekler": [
+      "Yalnızcılık politikasına dönmeye",
+      "Bağlantısızlar Hareketi'ne katılmasına",
+      "Batı Bloku ve NATO güvenlik sistemine entegre olmaya",
+      "Doğu Bloku ile saldırmazlık paktı yapmaya"
+    ],
+    "dogruCevap": 2,
+    "aciklama": "Sovyet tehdidi, Türkiye'nin tarafsızlık/denge politikasını terk edip kesin olarak ABD ve Batı güvenlik mimarisine katılmasına neden olmuştur."
+  },
+  {
+    "soru": "1980 yılında ABD ambargosunun kalkmasının ardından Türkiye ile ABD arasında askeri üslerin statüsünü ve ekonomik iş birliğini düzenleyen antlaşma hangisidir?",
+    "secenekler": ["Status of Forces Agreement (SOFA)", "İncirlik Mutabakatı", "Balkan Güvenlik Paktı", "Savunma ve Ekonomik İşbirliği Anlaşması (SEİA / DECA)"],
+    "dogruCevap": 3,
+    "aciklama": "SEİA (DECA), Türkiye'deki ABD tesislerinin Türk egemenliğindeki askeri üsler olduğunu ve kullanım şartlarını netleştirmiştir."
+  },
+  {
+    "soru": "1985 yılında SSCB Komünist Partisi Genel Sekreteri olan ve başlattığı reformlarla Soğuk Savaş'ın bitiş sürecini yönlendiren Sovyet lider kimdir?",
+    "secenekler": ["Mihail Gorbaçov", "Yuri Andropov", "Konstantin Çernenko", "Boris Yeltsin"],
+    "dogruCevap": 0,
+    "aciklama": "Mihail Gorbaçov, tıkanan Sovyet sistemini kurtarmak için başlattığı reformlarla Doğu Bloku'nun çözülüş sürecini tetiklemiştir."
+  },
+  {
+    "soru": "Gorbaçov'un Sovyet sisteminde ifade özgürlüğü, sansürün kaldırılması ve şeffaflığı sağlamak amacıyla uyguladığı politika hangisidir?",
+    "secenekler": ["Perestroika", "Glasnost (Açıklık)", "Uskoreniye", "Kolkhoz"],
+    "dogruCevap": 1,
+    "aciklama": "Glasnost (Açıklık), sansürün yumuşatılmasını ve geçmiş Sovyet hatalarının halkça tartışılmasını sağlayan politikadır."
+  },
+  {
+    "soru": "Gorbaçov'un hantal Sovyet ekonomisini ve kamu yönetimini 'yeniden yapılandırma' hedefini taşıyan reform programına ne ad verilir?",
+    "secenekler": ["Glasnost", "Gosplan", "Perestroika (Yeniden Yapılanma)", "Demokratizatsiya"],
+    "dogruCevap": 2,
+    "aciklama": "Perestroika (Yeniden Yapılanma), merkezi planlı ekonomiye kısmi piyasa mekanizmaları ve özerklik kazandırmayı amaçlamıştır."
+  },
+  {
+    "soru": "Doğu Almanya halkının sınırlara akın etmesiyle Berlin Duvarı hangi tarihi günde yıkılmaya başlanmıştır?",
+    "secenekler": ["11 Eylül 1988", "3 Ekim 1990", "25 Aralık 1991", "9 Kasım 1989"],
+    "dogruCevap": 3,
+    "aciklama": "Doğu Almanya hükümetinin seyahat serbestisi açıklamasının ardından 9 Kasım 1989 gecesi Berlin Duvarı yıkılmıştır."
+  },
+  {
+    "soru": "1955 Bandung Konferansı ile temelleri atılan, Soğuk Savaş'ın iki süper güç blokuna da katılmayı reddeden Asya, Afrika ve Latin Amerika ülkelerinin oluşturduğu yapı hangisidir?",
+    "secenekler": ["Bağlantısızlar Hareketi", "Üçüncü Dünya Konseyi", "G-77 Grubu", "Güney Koalisyonu"],
+    "dogruCevap": 0,
+    "aciklama": "Tito, Nehru ve Nasır liderliğinde gelişen Bağlantısızlar Hareketi, süper güçlerin rekabetine karşı tarafsız bir blok oluşturmayı hedeflemiştir."
+  },
+  {
+    "soru": "1991 yılında Sovyetler Birliği'nin dağılmasıyla bağımsızlığına kavuşan Türk Cumhuriyetleri hangi seçenekte tam ve doğru olarak verilmiştir?",
+    "secenekler": [
+      "Tataristan, Dağıstan, Başkurdistan, Çeçenistan, Tuva",
+      "Azerbaycan, Kazakistan, Kırgızistan, Özbekistan, Türkmenistan",
+      "Moğolistan, Kırım, Hakasya, Yakutistan, Altay",
+      "Tacikistan, Gürcistan, Ermenistan, Moldova, Ukrayna"
+    ],
+    "dogruCevap": 1,
+    "aciklama": "1991'de SSCB'nin çöküşüyle 5 bağımsız Türk cumhuriyeti uluslararası alanda yerini almış ve Türkiye bu ülkeleri ilk tanıyan devlet olmuştur."
+  },
+  {
+    "soru": "Polonya'da Lech Wałęsa liderliğinde kurulan ve komünist rejimin çöküşünde kilit rol oynayan bağımsız işçi hareketi hangisidir?",
+    "secenekler": ["KOR", "PZPR", "Solidarność (Dayanışma Sendikası)", "Prag Birliği"],
+    "dogruCevap": 2,
+    "aciklama": "Dayanışma Sendikası, Doğu Bloku'nda komünist partiye meydan okuyan ilk bağımsız kitle hareketi olmuş ve Polonya'da komünizmin sonunu getirmiştir."
+  },
+  {
+    "soru": "Çekoslovakya'da 1989 yılında kansız ve şiddetsiz bir şekilde gerçekleşerek komünist yönetimin sona ermesini sağlayan devrim hangisidir?",
+    "secenekler": ["Karanfil Devrimi", "Gül Devrimi", "Turuncu Devrim", "Kadife Devrim"],
+    "dogruCevap": 3,
+    "aciklama": "Kadife Devrim (Velvet Revolution), şiddet kullanılmadan komünist yönetimin devrildiği ve Václav Havel'in cumhurbaşkanı seçildiği süreçtir."
+  },
+  {
+    "soru": "25 Aralık 1991 akşamı Mihail Gorbaçov'un istifa etmesiyle Kremlin'deki Sovyet bayrağı indirilip yerine hangi devletin bayrağı çekilmiştir?",
+    "secenekler": ["Rusya Federasyonu", "Bağımsız Devletler Topluluğu", "Birleşmiş Milletler", "Çarlık Rusyası Flaması"],
+    "dogruCevap": 0,
+    "aciklama": "Sovyet Kızıl Bayrağı'nın indirilip Rusya üçrenklisinin çekilmesiyle Sovyetler Birliği hukuken sona ermiş ve Soğuk Savaş kapanmıştır."
+  },
+  {
+    "soru": "1975 yılında imzalanan, Doğu ve Batı blokları arasında sınırların sarsılmazlığı ile insan haklarına saygıyı taahhüt eden uluslararası metin hangisidir?",
+    "secenekler": ["Paris Şartı", "Helsinki Nihai Senedi", "Roma Statüsü", "Viyana Protokolü"],
+    "dogruCevap": 1,
+    "aciklama": "Helsinki Nihai Senedi (AGİK), Doğu Bloku'nda insan hakları savunucularının dayandığı en temel uluslararası belge olmuştur."
+  },
+  {
+    "soru": "Doğu Bloku'nda komünist partilerin Sovyet çizgisine sadakatini denetlemek amacıyla 1947'de kurulan Kominform'dan ihraç edilen ilk sosyalist ülke hangisidir?",
+    "secenekler": ["Yugoslavya", "Arnavutluk", "Çin", "Romanya"],
+    "dogruCevap": 0,
+    "aciklama": "Tito liderliğindeki Yugoslavya, Moskova'nın tam vesayetini reddettiği için 1948 yılında Kominform'dan ihraç edilmiştir."
+  },
+  {
+    "soru": "Batı Almanya'nın, Doğu Almanya'yı tanıyan ülkelerle diplomatik ilişkilerini keseceğini ilan eden 1955 tarihli dış politika doktrini hangisidir?",
+    "secenekler": ["Adenauer Doktrini", "Hallstein Doktrini", "Brandt Doktrini", "Erhard Doktrini"],
+    "dogruCevap": 1,
+    "aciklama": "Hallstein Doktrini, Batı Almanya'nın kendisini tüm Alman milletinin tek meşru temsilcisi sayarak Doğu Almanya'yı tecrit etme politikasıdır."
+  },
+  {
+    "soru": "II. Dünya Savaşı sonrasında İngiliz ve Amerikan işgal bölgelerinin 1947 başında birleştirilmesiyle oluşturulan idari ve ekonomik yapıya ne ad verilmiştir?",
+    "secenekler": ["Trizonya", "Federal Bölge", "Bizonya", "Karakol Bölgesi"],
+    "dogruCevap": 2,
+    "aciklama": "ABD ve İngiltere işgal bölgelerinin birleşmesiyle 'Bizonya' kurulmuş, Fransa'nın katılımıyla daha sonra 'Trizonya' adını almıştır."
+  },
+  {
+    "soru": "Soğuk Savaş dönemi Berlin'inde Batı ve Doğu Berlin arasındaki en ünlü askeri geçiş noktası ve sembolik sınır kapısı hangisidir?",
+    "secenekler": ["Brandenburg Kapısı", "Glienicke Köprüsü", "Potsdamer Platz", "Checkpoint Charlie"],
+    "dogruCevap": 3,
+    "aciklama": "Checkpoint Charlie, yabancı diplomatların ve askerlerin geçiş yaptığı, Doğu ve Batı Berlin arasındaki simge kontrol noktasıydı."
+  },
+  {
+    "soru": "Soğuk Savaş döneminde kıtalararası menzile sahip ve nükleer başlık taşıyabilen stratejik füzeler için kullanılan genel kısaltma hangisidir?",
+    "secenekler": ["ICBM", "SLBM", "ABM", "MIRV"],
+    "dogruCevap": 0,
+    "aciklama": "ICBM (Intercontinental Ballistic Missile), kıtalararası balistik füzeleri ifade eder ve nükleer caydırıcılığın ana unsuruydu."
+  },
+  {
+    "soru": "1962 Küba Füze Krizi'nin ardından iki süper güç lideri arasında doğrudan ve hızlı iletişimi sağlamak amacıyla kurulan hat hangisidir?",
+    "secenekler": ["Sarı Hat", "Kırmızı Telefon (Doğrudan İletişim Hattı)", "Mavi Hat", "Kremlin Telsizi"],
+    "dogruCevap": 1,
+    "aciklama": "Washington ile Moskova arasında kurulan 'Kırmızı Telefon' hattı, olası bir iletişim kopukluğunun nükleer savaşa yol açmasını önlemeyi hedeflemiştir."
+  },
+  {
+    "soru": "1987 yılında Reagan ve Gorbaçov tarafından imzalanan ve karadan fırlatılan orta menzilli nükleer füzelerin tamamen imhasını öngören antlaşma hangisidir?",
+    "secenekler": ["SALT II", "START I", "INF Antlaşması", "ABM Antlaşması"],
+    "dogruCevap": 2,
+    "aciklama": "INF (Orta Menzilli Nükleer Kuvvetler) Antlaşması, dünyadaki bütün bir nükleer silah sınıfını imha etmeyi kabul eden ilk silahsızlanma anlaşmasıdır."
+  },
+  {
+    "soru": "1979 yılında imzalanan ancak Sovyetler Birliği'nin Afganistan'ı işgal etmesi üzerine ABD Kongresi tarafından onaylanmayan nükleer antlaşma hangisidir?",
+    "secenekler": ["SALT I", "INF", "NPT", "SALT II"],
+    "dogruCevap": 3,
+    "aciklama": "SALT II antlaşması, Sovyetlerin Aralık 1979'da Afganistan'a girmesi üzerine ABD Başkanı Carter tarafından Senato onayından çekilmiştir."
+  },
+  {
+    "soru": "1957 yılında Sputnik 2 uydusu ile uzaya gönderilen ve dünya yörüngesine çıkan ilk canlı olan köpek hangisidir?",
+    "secenekler": ["Laika", "Belka", "Strelka", "Zvezdochka"],
+    "dogruCevap": 0,
+    "aciklama": "Laika adındaki sokak köpeği, canlıların uzay koşullarına dayanıklılığını test etmek amacıyla uzaya gönderilen ilk canlı olmuştur."
+  },
+  {
+    "soru": "Sovyetler Birliği'nin 1961 yılında patlattığı, yaklaşık 50 megaton gücündeki insanlık tarihinin üretilmiş en güçlü nükleer bombası hangisidir?",
+    "secenekler": ["Castle Bravo", "Çar Bombası (Tsar Bomba)", "Ivy Mike", "RDS-37"],
+    "dogruCevap": 1,
+    "aciklama": "Novaya Zemlya üzerinde test edilen Çar Bombası, Soğuk Savaş döneminde üretilmiş en büyük yıkım gücüne sahip patlayıcıdır."
+  },
+  {
+    "soru": "1968 yılında imzaya açılan ve nükleer silaha sahip olmayan ülkelerin bu silahları edinmesini engellemeyi amaçlayan uluslararası antlaşma hangisidir?",
+    "secenekler": ["SALT I", "CTBT", "NPT (Nükleer Silahların Yayılmasını Önleme Antlaşması)", "START I"],
+    "dogruCevap": 2,
+    "aciklama": "NPT (Non-Proliferation Treaty), nükleer enerjinin barışçıl kullanımını teşvik ederken nükleer silahların yayılmasını önlemeyi hedefler."
+  },
+  {
+    "soru": "1968 yılında ilan edilen ve bir sosyalist ülkede komünist rejimin tehlikeye girmesi halinde Varşova Paktı'nın askeri müdahale hakkını savunan doktrin hangisidir?",
+    "secenekler": ["Stalin Doktrini", "Kruşçev Yönergesi", "Zhdanov Doktrini", "Brejnev Doktrini"],
+    "dogruCevap": 3,
+    "aciklama": "Brejnev Doktrini, Prag Baharı sonrasında Çekoslovakya müdahalesini meşrulaştırmak için ortaya atılmıştır."
+  },
+  {
+    "soru": "1973 Arap-İsrail (Yom Kippur) Savaşı sonrasında OPEC üyesi Arap ülkelerinin Batı ülkelerine uyguladığı ve küresel stagflasyon krizine yol açan hamle hangisidir?",
+    "secenekler": ["1973 Petrol Ambargosu", "Süveyş Kanalı Kapatması", "Dolar Blokajı", "Süveyş Boykotu"],
+    "dogruCevap": 0,
+    "aciklama": "OPEC'in İsrail'i destekleyen Batılı ülkelere petrol vanalarını kapatması, petrol fiyatlarını katlamış ve küresel ekonomik krize neden olmuştur."
+  },
+  {
+    "soru": "1967 yılında İsrail ile Arap komşuları (Mısır, Suriye, Ürdün) arasında gerçekleşen ve İsrail'in Sinay, Golan ve Batı Şeria'yı ele geçirdiği hızlı savaş hangisidir?",
+    "secenekler": ["Yom Kippur Savaşı", "Altı Gün Savaşı", "Süveyş Savaşı", "1948 Filistin Savaşı"],
+    "dogruCevap": 1,
+    "aciklama": "Altı Gün Savaşı, Ortadoğu'daki haritayı ve güç dengelerini kökten değiştirmiştir."
+  },
+  {
+    "soru": "1980'lerde Nikaragua'da solcu Sandinista hükümetini devirmek amacıyla ABD (CIA) tarafından gizlice desteklenen kontrgerilla örgütüne ne ad verilir?",
+    "secenekler": ["FSLN", "Tupamaros", "Contralar", "Somoza Birlikleri"],
+    "dogruCevap": 2,
+    "aciklama": "Contralar, Reagan yönetiminin fonlarıyla desteklenmiş ve ünlü İran-Kontra Skandalı'na yol açmıştır."
+  },
+  {
+    "soru": "1953 yılında Kore Savaşı'nda çatışmaları durduran ve Askerden Arındırılmış Bölge'yi (DMZ) oluşturan ateşkes antlaşması nerede imzalanmıştır?",
+    "secenekler": ["Seul", "Pyongyang", "Incheon", "Panmunjom"],
+    "dogruCevap": 3,
+    "aciklama": "Panmunjom'da imzalanan ateşkes ile fiili savaş sona ermiş ancak iki Kore arasında resmi bir barış antlaşması imzalanmamıştır."
+  },
+  {
+    "soru": "1968'de Kuzey Vietnam ve Vietkong birliklerinin ABD ve Güney Vietnam güçlerine karşı başlattığı geniş çaplı sürpriz taarruz hangisidir?",
+    "secenekler": ["Tet Taarruzu", "Saigon Baskını", "Hanoi Harekâtı", "Mekong Taarruzu"],
+    "dogruCevap": 0,
+    "aciklama": "Tet Taarruzu askeri olarak püskürtülse de Amerikan kamuoyunda savaşın kazanılamayacağı düşüncesini pekiştiren psikolojik kırılma olmuştur."
+  },
+  {
+    "soru": "Soğuk Savaş döneminde Afrika'da süper güçlerin ve Küba askerlerinin müdahil olduğu en uzun vekalet savaşlarından biri hangi ülkede yaşanmıştır?",
+    "secenekler": ["Nijerya", "Angola İç Savaşı", "Kongo Krizi", "Somali Savaşı"],
+    "dogruCevap": 1,
+    "aciklama": "Angola İç Savaşı'nda Sovyet ve Küba destekli MPLA ile ABD ve Güney Afrika destekli UNITA çatışmıştır."
+  },
+  {
+    "soru": "Adana'da 1951'de kurulan ve Soğuk Savaş boyunca ABD ile NATO'nun Doğu Akdeniz'deki en önemli askeri hava üssü olan tesis hangisidir?",
+    "secenekler": ["Pirinçlik Üssü", "Kürecik Radar Üssü", "İncirlik Hava Üssü", "Mürted Hava Üssü"],
+    "dogruCevap": 2,
+    "aciklama": "İncirlik Üssü, U-2 casus uçuşları ve Soğuk Savaş operasyonları için kritik bir stratejik merkez işlevi görmüştür."
+  },
+  {
+    "soru": "1970'lerin başında ABD ile Türkiye arasında gerginliğe yol açan ve ABD'nin uyuşturucu kaçakçılığını engelleme gerekçesiyle Türkiye'de yasaklanmasını talep ettiği ürün hangisidir?",
+    "secenekler": ["Tütün", "Pamuk", "Şeker Pancarı", "Haşhaş (Afyon)"],
+    "dogruCevap": 3,
+    "aciklama": "1971'de haşhaş ekimi yasaklanmış, ancak 1974'te Ecevit hükümeti tarafından devlet denetiminde kotalı olarak yeniden serbest bırakılmıştır."
+  },
+  {
+    "soru": "27 Mayıs 1960 darbesi sonrasında radyodan bildiri okuyan ve Türk dış politikasının 'NATO ve CENTO'ya bağlı kalacağını' vurgulayan subay kimdir?",
+    "secenekler": ["Alparslan Türkeş", "Cemal Gürsel", "Cemal Madanoğlu", "Kenan Evren"],
+    "dogruCevap": 0,
+    "aciklama": "Kurmay Albay Alparslan Türkeş'in okuduğu ihtilal bildirisinde Batı dünyasına güven vermek amacıyla NATO ve CENTO vurgusu yapılmıştır."
+  },
+  {
+    "soru": "1970'lerde Batı'dan finansman bulunamaması üzerine Türkiye'nin SSCB teknik ve mali desteğiyle inşa ettiği dev ağır sanayi tesisi hangisidir?",
+    "secenekler": ["Ereğli Demir Çelik", "İskenderun Demir Çelik (İSDEMİR)", "Kardemir", "PETKİM"],
+    "dogruCevap": 1,
+    "aciklama": "İSDEMİR ve Seydişehir Alüminyum Tesisleri, Soğuk Savaş şartlarına rağmen Sovyet kredi ve teknolojisiyle kurulmuştur."
+  },
+  {
+    "soru": "1 Mayıs 1960'ta SSCB toprakları üzerinde düşürülen Francis Gary Powers yönetimindeki U-2 casus uçağı kalkışını Türkiye'deki hangi üsten gerçekleştirmişti?",
+    "secenekler": ["Mürted Üssü", "Diyarbakır Üssü", "İncirlik Hava Üssü", "Eskişehir Üssü"],
+    "dogruCevap": 2,
+    "aciklama": "U-2 uçağı İncirlik'ten kalkarak Pakistan üzerinden Sovyet hava sahasına girmiş ve düşürülmüştür."
+  },
+  {
+    "soru": "1953 yılında Türkiye, Yunanistan ve Yugoslavya arasında Sovyet tehdidine karşı kurulan bölgesel ittifakın adı nedir?",
+    "secenekler": ["Balkan Antantı", "Sadabat Paktı", "Akdeniz Paktı", "Balkan Paktı"],
+    "dogruCevap": 3,
+    "aciklama": "1953 Balkan Paktı, NATO üyesi Türkiye ve Yunanistan ile komünist ancak Sovyet çizgisinden bağımsız Yugoslavya'yı bir araya getirmiştir."
+  },
+  {
+    "soru": "1980'lerde Polonya'da Gdańsk tersanelerinde doğan ve Lech Wałęsa liderliğinde komünist rejime karşı işçi direnişini örgütleyen sendika hangisidir?",
+    "secenekler": ["Solidarność (Dayanışma Sendikası)", "KOR", "PZPR", "Polonya İşçi Birliği"],
+    "dogruCevap": 0,
+    "aciklama": "Dayanışma Sendikası, Doğu Bloku'nda komünist partiye meydan okuyan ilk bağımsız kitle hareketi olmuştur."
+  },
+  {
+    "soru": "Doğu Avrupa'da 1989 devrimleri sırasında diktatör Nicolae Ceaușescu'nun kanlı bir halk isyanıyla devrildiği ülke hangisidir?",
+    "secenekler": ["Bulgaristan", "Romanya", "Arnavutluk", "Macaristan"],
+    "dogruCevap": 1,
+    "aciklama": "Romanya, Doğu Avrupa'da komünist rejimin kanlı çatışmalarla devrildiği tek ülke olmuştur."
+  },
+  {
+    "soru": "Doğu ve Batı Almanya'nın resmi olarak birleştiği ve günümüzde de 'Alman Birlik Günü' olarak kutlanan tarih hangisidir?",
+    "secenekler": ["9 Kasım 1989", "25 Aralık 1991", "3 Ekim 1990", "1 Ocak 1993"],
+    "dogruCevap": 2,
+    "aciklama": "3 Ekim 1990'da Doğu Almanya eyaletlerinin Almanya Federal Cumhuriyeti'ne katılmasıyla birleşme tamamlanmıştır."
+  },
+  {
+    "soru": "Ağustos 1991'de Gorbaçov'a karşı yapılan sertlik yanlısı darbe girişimine karşı durarak tankın üzerine çıkan ve direnişi örgütleyen Rusya lideri kimdir?",
+    "secenekler": ["Eduard Şevardnadze", "Gennady Yanayev", "Alexander Rutskoy", "Boris Yeltsin"],
+    "dogruCevap": 3,
+    "aciklama": "Boris Yeltsin, darbecilere karşı direnişin simgesi haline gelmiş ve Sovyetler'in tasfiyesinde ana aktör olmuştur."
+  },
+  {
+    "soru": "8 Aralık 1991'de Rusya, Ukrayna ve Belarus liderlerinin SSCB'yi hukuken feshettiklerini ilan ettikleri anlaşma hangisidir?",
+    "secenekler": ["Belaveja (Belovej) Anlaşması", "Minsk Protokolü", "Alma-Ata Beyannamesi", "Budapeşte Memorandumu"],
+    "dogruCevap": 0,
+    "aciklama": "Belaveja Anlaşması ile SSCB kurucu üyeleri birliği feshetmiş ve yerine Bağımsız Devletler Topluluğu'nu (BDT) kurmuştur."
+  },
+  {
+    "soru": "Soğuk Savaş'ın bitimiyle ABD'nin liberal demokrasisinin insanlığın ideolojik gelişiminin son noktası olduğunu öne süren Francis Fukuyama'nın tezi hangisidir?",
+    "secenekler": ["Medeniyetler Çatışması", "Tarihin Sonu (The End of History)", "Büyük Satranç Tahtası", "Yeni Dünya Düzeni"],
+    "dogruCevap": 1,
+    "aciklama": "Fukuyama'nın 'Tarihin Sonu' tezi, Batı liberal demokrasisinin komünizme karşı nihai zaferini ilan ettiğini öne sürmüştür."
+  },
+  {
+    "soru": "Aralık 1989'da George H. W. Bush ile Mihail Gorbaçov'un buluşarak Soğuk Savaş'ın bittiğini gayriresmi olarak ilan ettikleri zirve hangisidir?",
+    "secenekler": ["Cenevre Zirvesi", "Reykjavik Zirvesi", "Malta Zirvesi", "Helsinki Zirvesi"],
+    "dogruCevap": 2,
+    "aciklama": "Malta Zirvesi'nde süper güç liderleri artık birbirlerini düşman olarak görmediklerini ilan etmişlerdir."
+  },
+  {
+    "soru": "1 Temmuz 1991'de Prag'da toplanan üye ülkelerin imzasıyla feshedilen Doğu Bloku askeri örgütü hangisidir?",
+    "secenekler": ["Comecon", "Kominform", "Komintern", "Varşova Paktı"],
+    "dogruCevap": 3,
+    "aciklama": "Doğu Avrupa'da komünizmin çökmesiyle Varşova Paktı 1991 yazında resmen dağıtılmıştır."
+  },
+  {
+    "soru": "ABD Başkanı Ronald Reagan'ın 1983 yılında Sovyetler Birliği'ni ahlaki ve ideolojik olarak tanımlamak için kullandığı ünlü ifade hangisidir?",
+    "secenekler": ["Kötülük İmparatorluğu (Evil Empire)", "Kızıl Tehdit", "Demir Blok", "Totaliter Dev"],
+    "dogruCevap": 0,
+    "aciklama": "Reagan'ın 'Kötülük İmparatorluğu' ifadesi, Soğuk Savaş'ın son dönemindeki sert anti-komünist söylemin simgesi olmuştur."
+  },
+  {
+    "soru": "Gorbaçov'un Brejnev Doktrini'ni terk ederek Doğu Avrupa ülkelerinin kendi yolunu çizmesine izin veren tutumuna takılan esprili isim nedir?",
+    "secenekler": ["Lenin Doktrini", "Sinatra Doktrini ('My Way')", "Troçki Stratejisi", "Kruşçev Açılımı"],
+    "dogruCevap": 1,
+    "aciklama": "Frank Sinatra'nın 'My Way' şarkısına atıfla 'Sinatra Doktrini' adı verilen bu tutum, Doğu Avrupa'da rejimlerin devrilmesine zemin hazırlamıştır."
+  },
+  {
+    "soru": "1991'e kadar Enver Hoca'nın izolasyonist rejimiyle yönetilen ve Avrupa'da komünist yönetimin en son yıkıldığı ülke hangisidir?",
+    "secenekler": ["Bulgaristan", "Yugoslavya", "Arnavutluk", "Moldova"],
+    "dogruCevap": 2,
+    "aciklama": "Arnavutluk, dış dünyayla bağlarını koparmış katı Stalinist rejimiyle Soğuk Savaş'ın sonuna kadar kapalı kalmıştır."
+  },
+  {
+    "soru": "Soğuk Savaş dönemi propaganda sinemasında Amerikalı boksör Rocky Balboa ile Sovyet boksör Ivan Drago'nun karşılaşmasını işleyen film hangisidir?",
+    "secenekler": ["Rambo III", "Top Gun", "Red Dawn", "Rocky IV"],
+    "dogruCevap": 3,
+    "aciklama": "1985 yapımı Rocky IV, ABD ve SSCB arasındaki ideolojik rekabeti boks ringine taşıyan popüler kültür simgesidir."
+  },
+  {
+    "soru": "Soğuk Savaş döneminde ajan savaşlarını James Bond karakteri üzerinden edebiyata taşıyan İngiliz yazar kimdir?",
+    "secenekler": ["Ian Fleming", "John le Carré", "Graham Greene", "Tom Clancy"],
+    "dogruCevap": 0,
+    "aciklama": "Eski istihbaratçı Ian Fleming'in yarattığı James Bond, Soğuk Savaş popüler kültürünün en büyük ajan figürüdür."
+  },
+  {
+    "soru": "1990 yılında Paris'te imzalanan ve Avrupa'da konvansiyonel silahların (tank, zırhlı araç vb.) miktarını sınırlayan tarihi antlaşma hangisidir?",
+    "secenekler": ["SALT I", "AKDT (Avrupa Konvansiyonel Silahlı Kuvvetler Antlaşması)", "INF", "START II"],
+    "dogruCevap": 1,
+    "aciklama": "AKDT (AKKA), Soğuk Savaş sonunda Avrupa'da sürpriz taarruz riskini azaltmak amacıyla devasa konvansiyonel silah indirimleri sağlamıştır."
+  },
+  {
+    "soru": "1990 yılı Kasım ayında AGİK üyesi ülkelerce imzalanan ve Avrupa'daki bölünmüşlüğe resmen son verildiğini bildiren belge hangisidir?",
+    "secenekler": ["Londra Deklarasyonu", "Helsinki Şartı", "Yeni Bir Avrupa İçin Paris Şartı", "Viyana Protokolü"],
+    "dogruCevap": 2,
+    "aciklama": "Paris Şartı, Soğuk Savaş sonrası dönemde demokrasi ve ortak güvenlik ilkelerini vurgulayarak eski dönemi kapatmıştır."
+  },
+  {
+    "soru": "Soğuk Savaş sonrası ABD Başkanı George H. W. Bush'un 1990-1991 Körfez Krizi sırasında ilan ettiği uluslararası düzen vizyonu hangisidir?",
+    "secenekler": ["Çok Kutuplu Dünya", "Pax Americana", "Küresel Köy", "Yeni Dünya Düzeni"],
+    "dogruCevap": 3,
+    "aciklama": "Yeni Dünya Düzeni (New World Order) söylemi, Soğuk Savaş sonrası ABD liderliğinde uluslararası hukuka dayalı güvenlik anlayışını simgelemiştir."
+  },
+  {
+    "soru": "1970'lerin başında ABD ile Çin Halk Cumhuriyeti arasındaki ilişkilerin yumuşamasını sağlayan spor diplomasisi hamlesine ne ad verilir?",
+    "secenekler": ["Ping-Pong Diplomasisi", "Mekik Diplomasisi", "Açık Kapı Diplomasisi", "Basketbol Diplomasisi"],
+    "dogruCevap": 0,
+    "aciklama": "1971'de ABD masa tenisi takımının Pekin'e davet edilmesi, Nixon'ın tarihi Çin ziyaretine ve Detant adımlarına zemin hazırlamıştır."
+  },
+  {
+    "soru": "1975 yılında uzayda Amerikan Apollo ve Sovyet Soyuz araçlarının kenetlenmesiyle gerçekleşen ortak uzay görevi hangisidir?",
+    "secenekler": ["Skylab-Salyut", "Apollo-Soyuz Test Projesi", "Gemini-Vostok", "Apollo-Salyut"],
+    "dogruCevap": 1,
+    "aciklama": "Yörüngede astronot ve kozmonotların el sıkıştığı Apollo-Soyuz görevi, uzay alanındaki Detant (yumuşama) simgesi olmuştur."
+  },
+  {
+    "soru": "Soğuk Savaş boyunca ABD tarafından fonlanan ve Doğu Avrupa ile SSCB halklarına yönelik yayın yapan radyo istasyonu hangisidir?",
+    "secenekler": ["BBC World", "Voice of Moscow", "Hür Avrupa Radyosu (Radio Free Europe)", "Radio Liberty East"],
+    "dogruCevap": 2,
+    "aciklama": "Radio Free Europe / Radio Liberty, Demir Perde arkasına haber yayınlayarak Batı propagandasının en önemli aracı olmuştur."
+  },
+  {
+    "soru": "1986 yılında Ukrayna'da gerçekleşen ve Sovyet bürokrasisinin gizleme çabaları nedeniyle Glasnost (Açıklık) politikasını zorunlu kılan felaket hangisidir?",
+    "secenekler": ["Mayak Kazası", "Kiştim Felaketi", "Semipalatinsk Sızıntısı", "Çernobil Nükleer Santral Kazası"],
+    "dogruCevap": 3,
+    "aciklama": "Çernobil nükleer kazası, Sovyet sisteminin zaaflarını ifşa etmiş ve toplumsal güveni derinden sarsmıştır."
+  },
+  {
+    "soru": "1954 ve 1958 yıllarında Komünist Çin ile Tayvan arasında yaşanan ve ABD'nin müdahil olduğu krizler hangi adla bilinir?",
+    "secenekler": ["Tayvan Boğazı Krizleri", "Şanghay Krizi", "Hong Kong Krizi", "Pekin Ablukası"],
+    "dogruCevap": 0,
+    "aciklama": "Quemoy ve Matsu adalarının bombalanmasıyla patlak veren Tayvan Boğazı krizleri, ABD'yi Tayvan'a güvenlik garantisi vermeye sevk etmiştir."
+  },
+  {
+    "soru": "1977-1978 yıllarında Etiyopya ile Somali arasında yaşanan ve SSCB'nin taraf değiştirerek Etiyopya'yı desteklediği Afrika savaşı hangisidir?",
+    "secenekler": ["Eritre Savaşı", "Ogaden Savaşı", "Mogadişu Krizi", "Harar Çatışması"],
+    "dogruCevap": 1,
+    "aciklama": "Ogaden Savaşı'nda SSCB, Somali ile ilişkilerini kesip Marksist rejime geçen Etiyopya'ya devasa askeri yardım göndermiştir."
+  },
+  {
+    "soru": "Doğu Bloku ülkelerinde uygulanan, sanayi ve tarımda devletin merkezi planlamasını esas alan ekonomik sistem modeli hangisidir?",
+    "secenekler": ["Serbest Piyasa Modeli", "Karma Ekonomi", "Komuta (Planlı) Ekonomisi", "Sosyal Kapitalizm"],
+    "dogruCevap": 2,
+    "aciklama": "Komuta ekonomisinde tüm üretim araçları devlete ait olup fiyatlar ve üretim miktarları Gosplan gibi merkezi kurumlarca belirlenirdi."
+  },
+  {
+    "soru": "12 Eylül 1980 askeri darbesi sonrasında ABD Dışişleri görevlisi Paul Henze'nin Washington'a aktardığı iddia edilen ünlü ifade hangisidir?",
+    "secenekler": ["Bizim çocuklar başardı (Our boys did it)", "Operasyon tamamlandı", "Ankara'da durum sakin", "Müttefik güvende"],
+    "dogruCevap": 0,
+    "aciklama": "Diplomatik kulislerde ve Türk kamuoyunda sıkça anılan 'Bizim çocuklar başardı' ifadesi, ABD'nin darbeyi soğukkanlılıkla karşıladığını simgeler."
+  },
+  {
+    "soru": "1989 yılında Bulgaristan'da 35 yıllık komünist iktidarı sona eren ve Türk nüfusa yönelik zorunlu asimilasyon/göç politikalarıyla bilinen lider kimdir?",
+    "secenekler": ["Enver Hoca", "Todor Jivkov", "Gheorghe Gheorghiu-Dej", "Władysław Gomułka"],
+    "dogruCevap": 1,
+    "aciklama": "Todor Jivkov, 1989'da parti içi baskı ve toplumsal muhalefetle istifa ettirilmiş, Bulgaristan'da demokrasiye geçilmiştir."
+  },
+  {
+    "soru": "Soğuk Savaş boyunca süper güçlerin doğrudan birbirleriyle savaşmak yerine üçüncü ülkelerde kendi destekledikleri taraflar üzerinden savaşması durumuna ne ad verilir?",
+    "secenekler": ["Topyakûn Savaş", "Psikolojik Harp", "Vekalet Savaşı (Proxy War)", "Siber Savaş"],
+    "dogruCevap": 2,
+    "aciklama": "Vekalet Savaşları (Proxy Wars), nükleer felaket riskini göze alamayan süper güçlerin Kore, Vietnam, Angola gibi bölgelerde yerel güçler üzerinden hesaplaşmasıdır."
+  }
+]
