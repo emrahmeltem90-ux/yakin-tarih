@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakın Tarih</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BAŞLANGIÇ EKRANI -->
+    <div id="ekran-baslangic" class="ekran aktif">
+        <h1>📜 Yakın Tarih</h1>
+        <p class="alt-yazi">Bilgi Yarışması</p>
+        <div class="kategori-listesi">
+            <button class="kategori-btn" data-kategori="1">Kurtuluş Savaşı</button>
+            <button class="kategori-btn" data-kategori="2">Cumhuriyet Dönemi</button>
+            <button class="kategori-btn" data-kategori="3">II. Dünya Savaşı</button>
+            <button class="kategori-btn" data-kategori="4">Soğuk Savaş</button>
+            <button class="kategori-btn" data-kategori="5">Yakın Dönem Türkiye</button>
+        </div>
+    </div>
+
+    <!-- SORU EKRANI -->
+    <div id="ekran-soru" class="ekran">
+        <div class="ust-bar">
+            <span id="soru-sayaci">Soru 1/10</span>
+            <span id="skor-goster">Skor: 0</span>
+        </div>
+        <div class="soru-kutu">
+            <p id="soru-metni">Soru yükleniyor...</p>
+        </div>
+        <div id="secenekler" class="secenekler"></div>
+        <div id="aciklama-kutu" class="aciklama-kutu gizli">
+            <p id="aciklama-metni"></p>
+        </div>
+    </div>
+
+    <!-- SONUÇ EKRANI -->
+    <div id="ekran-sonuc" class="ekran">
+        <h1>🏁 Yarışma Bitti!</h1>
+        <p id="sonuc-skor">Skorun: 0</p>
+        <p id="sonuc-mesaj"></p>
+        <button id="tekrar-btn" class="ana-btn">Tekrar Oyna</button>
+    </div>
+
+    <!-- SES DOSYALARI -->
+    <audio id="ses-dogru" src="sesler/ses_dogru.mp3"></audio>
+    <audio id="ses-yanlis" src="sesler/ses_yanlis.mp3"></audio>
+    <audio id="ses-tiklama" src="sesler/ses_tiklama.mp3"></audio>
+    <audio id="ses-cark" src="sesler/ses_cark.mp3"></audio>
+    <audio id="muzik-arkaplan" src="sesler/muzik_arkaplan.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
