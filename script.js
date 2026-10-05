@@ -1,5 +1,5 @@
 // ==========================================
-// YAKIN TARİH - TEST KİTABI FORMATLI MANTIK
+// YAKIN TARİH - GÖRSELLE UYUMLU UYGULAMA MANTIĞI
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -172,7 +172,7 @@ window.addEventListener('DOMContentLoaded', () => {
         jokerDogruBtn.disabled = false;
     }
 
-    // TEST KİTABI SORU VE ŞIK GÖSTERİMİ
+    // SORU GÖSTER
     function soruGoster() {
         if (mevcutSoruIndex >= sorular.length) {
             yarismayiBitir();
@@ -195,10 +195,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const btn = document.createElement('button');
             btn.className = 'secenek-btn';
             btn.dataset.index = index;
-            btn.innerHTML = `
-                <span class="secenek-harf">${String.fromCharCode(65 + index)}</span>
-                <span class="secenek-metin">${secenek}</span>
-            `;
+            btn.textContent = `${String.fromCharCode(65 + index)}) ${secenek}`;
             btn.addEventListener('click', () => cevapKontrol(index, btn));
             seceneklerDiv.appendChild(btn);
         });
