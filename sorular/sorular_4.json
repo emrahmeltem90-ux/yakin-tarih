@@ -1,0 +1,627 @@
+[
+  {
+    "soru": "12 Eylül 1980 askeri müdahalesi sonrasında ülke yönetimini üstlenen Milli Güvenlik Konseyi'nin (MGK) Başkanlığını yürüten devlet adamı kimdir?",
+    "secenekler": ["Kenan Evren", "Nurettin Ersin", "Tahsin Şahinkaya", "Nejat Tümer"],
+    "dogruCevap": 0,
+    "aciklama": "12 Eylül 1980 darbesinin ardından Genelkurmay Başkanı Orgeneral Kenan Evren, MGK Başkanı sıfatıyla devlet başkanlığı görevini üstlenmiştir."
+  },
+  {
+    "soru": "12 Eylül 1980 askeri müdahalesinin ardından MGK tarafından Başbakanlık görevine getirilen emekli Oramiral kimdir?",
+    "secenekler": ["Turgut Özal", "Bülend Ulusu", "Sadi Irmak", "Nihat Erim"],
+    "dogruCevap": 1,
+    "aciklama": "Darbeden sonra askeri yönetimin sivil-teknokrat ağırlıklı kabinesini kurmak üzere eski Deniz Kuvvetleri Komutanı Bülend Ulusu Başbakan olarak atanmıştır."
+  },
+  {
+    "soru": "7 Kasım 1982 tarihinde yapılan halk oylamasında 1982 Anayasası yüzde kaç oranında 'EVET' oyu alarak kabul edilmiştir?",
+    "secenekler": ["%61.7", "%75.2", "%91.3", "%82.5"],
+    "dogruCevap": 2,
+    "aciklama": "1982 Anayasası, Kenan Evren'in cumhurbaşkanlığının da oylandığı referandumda %91.37 oranında yüksek bir evet oyuyla kabul edilmiştir."
+  },
+  {
+    "soru": "Milli Güvenlik Konseyi'nin 16 Ekim 1981 tarihinde çıkardığı 2533 sayılı kanunla Türk siyasal hayatında hangi radikal karar alınmıştır?",
+    "secenekler": [
+      "Tüm muhtarlıkların lağvedilmesi",
+      "Sıkıyönetimin tamamen kaldırılması",
+      "Üniversitelerin özerk hale getirilmesi",
+      "Mevcut tüm siyasi partilerin kapatılması ve mallarının hazineye devri"
+    ],
+    "dogruCevap": 3,
+    "aciklama": "MGK, 2533 sayılı kanunla CHP, AP, MSP ve MHP dahil olmak üzere darbe öncesi kurulan tüm siyasi partileri tamamen kapatmıştır."
+  },
+  {
+    "soru": "12 Eylül askeri yönetimi döneminde, 1981 yılında yükseköğretim kurumlarını tek bir çatı altında toplamak ve merkezileştirmek amacıyla kurulan idari organ hangisidir?",
+    "secenekler": ["Yükseköğretim Kurulu (YÖK)", "Üniversitelerarası Kurul (ÜAK)", "ÖSYM", "Milli Eğitim Konseyi"],
+    "dogruCevap": 0,
+    "aciklama": "2547 sayılı Yükseköğretim Kanunu ile 1981 yılında YÖK kurularak üniversitelerin idari ve akademik yapısı merkezileştirilmiştir."
+  },
+  {
+    "soru": "1983 genel seçimleri öncesinde askeri yönetimin açıkça desteklediği ancak seçimlerde beklediği başarıyı yakalayamayan Milliyetçi Demokrasi Partisi'nin (MDP) lideri kimdir?",
+    "secenekler": ["Necdet Calp", "Turgut Sunalp", "Sadi Pehlivanoğlu", "Yıldırım Akbulut"],
+    "dogruCevap": 1,
+    "aciklama": "Emekli Orgeneral Turgut Sunalp liderliğindeki MDP, darbe yönetiminin desteğine rağmen 1983 seçimlerinde %23 oyla üçüncü parti olabilmiştir."
+  },
+  {
+    "soru": "1983 seçimleri öncesinde TRT ekranlarında Turgut Özal ile yaptığı liderler tartışmasında 'Köprüyü sattırmam!' çıkışıyla hafızalara kazınan Halkçı Parti (HP) lideri kimdir?",
+    "secenekler": ["Erdal İnönü", "Aydın Güven Gürkan", "Necdet Calp", "Hikmet Çetin"],
+    "dogruCevap": 2,
+    "aciklama": "Necdet Calp, Boğaz Köprüsü ve gelir ortaklığı senetlerinin özelleştirilmesine karşı çıkarak 'Satamazsınız bayım!' polemiğiyle seçim sürecine damga vurmuştur."
+  },
+  {
+    "soru": "1983 yılında Turgut Özal tarafından kurulan Anavatan Partisi'nin (ANAP) siyasi yelpazedeki konumunu tanımlamak için kullandığı 'Dört Eğilim' ifadesinde aşağıdakilerden hangisi YER ALMAZ?",
+    "secenekler": ["Sosyal Demokrasi", "Milliyetçilik", "Muhafazakarlık", "Aşırı Sol / Komünizm"],
+    "dogruCevap": 3,
+    "aciklama": "ANAP; merkez sağ, muhafazakar, milliyetçi ve sosyal demokrat (merkez sol) kanatları birleştirme iddiasındaydı; radikal sol/komünizm bu yapıda yer almaz."
+  },
+  {
+    "soru": "1982 Anayasası'nda yer alan ve Milli Güvenlik Konseyi üyelerinin 12 Eylül dönemindeki kararları nedeniyle yargılanmasını engelleyen, 2010 referandumu ile kaldırılan madde hangisidir?",
+    "secenekler": ["Geçici 15. Madde", "Geçici 1. Madde", "10. Madde", "175. Madde"],
+    "dogruCevap": 0,
+    "aciklama": "1982 Anayasası'nın Geçici 15. Maddesi darbe yönetiminin hukuki muafiyetini sağlıyordu; 12 Eylül 2010 referandumuyla kaldırılması sonucu Kenan Evren ve Tahsin Şahinkaya yargılanmıştır."
+  },
+  {
+    "soru": "12 Eylül darbesi sonrasında yeni anayasayı hazırlamak üzere kurulan Kurucu Meclis'in sivillerden oluşan kanadına ne ad verilmiştir?",
+    "secenekler": ["Millet Meclisi", "Danışma Meclisi", "Temsilciler Meclisi", "Senato"],
+    "dogruCevap": 1,
+    "aciklama": "Kurucu Meclis iki kanattan oluşuyordu: Askeri kanat MGK, atanan sivil uzmanlardan oluşan kanat ise Danışma Meclisi idi."
+  },
+  {
+    "soru": "6 Kasım 1983 tarihinde yapılan genel seçimlerin sonucunda Anavatan Partisi (ANAP) yüzde kaç oy alarak tek başına iktidara gelmiştir?",
+    "secenekler": ["%33.2", "%53.6", "%45.1", "%38.8"],
+    "dogruCevap": 2,
+    "aciklama": "ANAP, %45.1 oy oranı ile 400 milletvekilliğinin 211'ini kazanmış ve Turgut Özal başkanlığında tek başına hükümeti kurmuştur."
+  },
+  {
+    "soru": "12 Eylül 1980 askeri darbesinin ardından eski siyasi liderlerden Süleyman Demirel ve Bülent Ecevit'in geçici olarak gözetim altında tutuldukları Hamzakoy tesisi hangi ilimizdedir?",
+    "secenekler": ["İzmir", "Balıkesir", "Muğla", "Çanakkale"],
+    "dogruCevap": 3,
+    "aciklama": "Demirel ve Ecevit, darbenin ilk günlerinde Çanakkale Gelibolu'da bulunan Hamzakoy askeri tesislerinde zorunlu ikamete tabi tutulmuşlardır."
+  },
+  {
+    "soru": "12 Eylül 1980 Askeri Darbesi ile kaldırılan ve 1961 Anayasası ile getirilen iki meclisli yapının üst kanadı hangisidir?",
+    "secenekler": ["Cumhuriyet Senatosu", "Danışma Meclisi", "Ayan Meclisi", "Milli Birlik Meclisi"],
+    "dogruCevap": 0,
+    "aciklama": "12 Eylül darbesi Cumhuriyet Senatosu'nu lağvetmiş, 1982 Anayasası ile yeniden tek meclisli (TBMM) sisteme dönülmüştür."
+  },
+  {
+    "soru": "1983 yılında kabul edilen kanunla Türk Tarih Kurumu ve Türk Dil Kurumu'nu tek bir idari çatı altında toplayan kurum hangisidir?",
+    "secenekler": ["TÜBİTAK", "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu", "Kültür Bakanlığı Telif Hakları Kurulu", "Milli Kütüphane Başkanlığı"],
+    "dogruCevap": 1,
+    "aciklama": "1983'te çıkarılan 2876 sayılı kanunla TTK ve TDK, özerk dernek statülerinden çıkarılarak Atatürk Kültür, Dil ve Tarih Yüksek Kurumu'na bağlanmıştır."
+  },
+  {
+    "soru": "12 Eylül darbe yönetiminin 'bir sağdan bir soldan' ilkesiyle hareket ettiğini vurguladığı infazlarda, idam edilen ilk sağ görüşlü mahkûm kimdir?",
+    "secenekler": ["Erdal Eren", "Necdet Adalı", "Mustafa Pehlivanoğlu", "Cevdet Karakaş"],
+    "dogruCevap": 2,
+    "aciklama": "12 Eylül sonrası ilk idam kararları 7 Ekim 1980'de infaz edilmiş; sol görüşlü Necdet Adalı ve sağ görüşlü Mustafa Pehlivanoğlu idam edilmiştir."
+  },
+  {
+    "soru": "1985 yılında Turgut Özal hükümeti tarafından yürürlüğe konulan ve tüketim harcamalarından vergi alınmasını sağlayan, vergi iadesi için fiş toplama alışkanlığı başlatan uygulama hangisidir?",
+    "secenekler": ["Özel Tüketim Vergisi (ÖTV)", "Motorlu Taşıtlar Vergisi (MTV)", "Emlak Vergisi", "Katma Değer Vergisi (KDV)"],
+    "dogruCevap": 3,
+    "aciklama": "3065 sayılı Katma Değer Vergisi Kanunu 1985'te uygulanmaya başlanmış, dolaylı vergilerin bütçedeki payı hızla artmıştır."
+  },
+  {
+    "soru": "1984 yılında Özal hükümeti tarafından dar gelirli vatandaşların konut edinebilmesi ve gecekondulaşmanın önlenmesi amacıyla kurulan kurum hangisidir?",
+    "secenekler": ["Toplu Konut İdaresi Başkanlığı (TOKİ)", "Emlak Bankası", "Yapı Kredi", "Kentsel Dönüşüm Genel Müdürlüğü"],
+    "dogruCevap": 0,
+    "aciklama": "1984'te kurulan Toplu Konut ve Kamu Ortaklığı İdaresi (daha sonra TOKİ), Türkiye genelinde toplu konut hamlelerini başlatmıştır."
+  },
+  {
+    "soru": "6 Eylül 1987 tarihinde yapılan halk oylaması (referandum) hangi konuda gerçekleşmiştir?",
+    "secenekler": ["Cumhurbaşkanının halk tarafından seçilmesi", "12 Eylül öncesi liderlerin siyasi yasaklarının kaldırılması", "Milletvekili genel seçimlerinin 4 yıla indirilmesi", "İdam cezasının kaldırılması"],
+    "dogruCevap": 1,
+    "aciklama": "1987 referandumu %50.16 oy oranıyla çok kıl payı kabul edilmiş ve Demirel, Ecevit, Erbakan, Türkeş gibi liderlerin siyasi yasakları kalkmıştır."
+  },
+  {
+    "soru": "1989 yılında Bulgaristan'daki komünist Todor Jivkov rejiminin 'Soya Dönüş' adı altında uyguladığı baskı ve asimilasyondan kaçarak Türkiye'ye sığınan soydaşlarımızın sayısı yaklaşık ne kadardır?",
+    "secenekler": ["50 bin", "100 bin", "350 bin", "1 milyon"],
+    "dogruCevap": 2,
+    "aciklama": "1989 yazında Bulgaristan sınır kapılarını açmış ve II. Dünya Savaşı sonrasında Avrupa'daki en büyük zorunlu göç dalgasıyla yaklaşık 350 bin Türk Türkiye'ye göç etmiştir."
+  },
+  {
+    "soru": "Bulgaristan'daki asimilasyon politikaları nedeniyle 1986 yılında Türkiye'ye iltica eden, 'Cep Herkülü' lakaplı efsanevi haltercimiz kimdir?",
+    "secenekler": ["Halil Mutlu", "Taner Sağır", "Nurcan Taylan", "Naim Süleymanoğlu"],
+    "dogruCevap": 3,
+    "aciklama": "Naim Süleymanoğlu, Avustralya'daki Dünya Şampiyonası sonrası Özal'ın özel operasyonuyla Türkiye'ye getirilmiş ve kırılması imkansız rekorlara imza atmıştır."
+  },
+  {
+    "soru": "1989 yılında Turgut Özal'ın Çankaya Köşkü'ne çıkarak Cumhurbaşkanı seçilmesi üzerine Anavatan Partisi Genel Başkanlığına ve Başbakanlığa atanan devlet adamı kimdir?",
+    "secenekler": ["Yıldırım Akbulut", "Mesut Yılmaz", "Kaya Erdem", "Hüsnü Doğan"],
+    "dogruCevap": 0,
+    "aciklama": "Özal'ın cumhurbaşkanı olmasının ardından TBMM Başkanı Yıldırım Akbulut ANAP Genel Başkanı ve Türkiye'nin 47. Hükümet Başbakanı olmuştur."
+  },
+  {
+    "soru": "1990-1991 Körfez Savaşı sırasında Cumhurbaşkanı Turgut Özal'ın ABD liderliğindeki koalisyona aktif destek verme politikasını özetleyen ünlü söylem hangisidir?",
+    "secenekler": ["Yurtta Sulh Cihanda Sulh", "Bir koyup üç alacağız", "Sıfır Sorun Politikası", "Stratejik Derinlik"],
+    "dogruCevap": 1,
+    "aciklama": "Özal, Musul-Kerkük vizyonu ve ABD ile yakınlaşma çerçevesinde Körfez krizinde etkin rol oynamak istemiş ve kamuoyunda 'bir koyup üç alma' stratejisiyle anılmıştır."
+  },
+  {
+    "soru": "PKK terör örgütünün ilk kanlı ve geniş çaplı silahlı eylemlerini gerçekleştirdiği 15 Ağustos 1984 tarihi hangi iki ilçemizle özdeşleşmiştir?",
+    "secenekler": ["Mardin Nusaybin - Şırnak Cizre", "Hakkari Yüksekova - Van Başkale", "Siirt Eruh - Hakkari Şemdinli", "Diyarbakır Lice - Bingöl Genç"],
+    "dogruCevap": 2,
+    "aciklama": "15 Ağustos 1984 gecesi Siirt'in Eruh ve Hakkari'nin Şemdinli ilçelerine eş zamanlı baskınlar düzenlenmiş, karakollar ve kamu binaları hedef alınmıştır."
+  },
+  {
+    "soru": "1987 yılında Doğu ve Güneydoğu Anadolu'da tırmanan terör eylemleriyle mücadele etmek amacıyla kurulan idari yapı hangisidir?",
+    "secenekler": ["Devlet Güvenlik Mahkemeleri", "Köy Koruculuğu Sistemi", "Güneydoğu Anadolu Projesi İdaresi", "Olağanüstü Hal (OHAL) Bölge Valiliği"],
+    "dogruCevap": 3,
+    "aciklama": "285 sayılı KHK ile Temmuz 1987'de kurulan OHAL Bölge Valiliği (ilk bölge valisi Hayri Kozakçıoğlu), geniş güvenlik ve idari yetkilerle donatılmıştır."
+  },
+  {
+    "soru": "18 Haziran 1988 tarihinde Ankara Atatürk Spor Salonu'ndaki ANAP Kongresi'nde Başbakan Turgut Özal'a suikast girişimi düzenleyen saldırgan kimdir?",
+    "secenekler": ["Kartal Demirağ", "Mehmet Ali Ağca", "Haluk Kırcı", "Oral Çelik"],
+    "dogruCevap": 0,
+    "aciklama": "Kartal Demirağ'ın ateşlediği kurşun Özal'ın elini yaralamış; Özal kürsüye dönerek 'Allah'ın verdiği canı O'ndan başka alacak yoktur' tarihi konuşmasını yapmıştır."
+  },
+  {
+    "soru": "1992 yılında İstanbul'da kurulan ve Turgut Özal'ın Karadeniz havzasını bir barış ve serbest ticaret bölgesine dönüştürme vizyonuyla öncülük ettiği bölgesel örgüt hangisidir?",
+    "secenekler": ["D-8 Örgütü", "Karadeniz Ekonomik İşbirliği (KEİ)", "Türk Devletleri Teşkilatı", "İslam İşbirliği Teşkilatı"],
+    "dogruCevap": 1,
+    "aciklama": "25 Haziran 1992'de İstanbul Zirvesi ile kurulan KEİ, Karadeniz'e kıyıdaş ve hinterlandındaki ülkeleri iktisadi iş birliğinde bir araya getirmiştir."
+  },
+  {
+    "soru": "20 Ekim 1991 Genel Seçimleri sonrasında kurulan ve Süleyman Demirel'in Başbakan, Erdal İnönü'nün Başbakan Yardımcısı olduğu hükümet modeli hangisidir?",
+    "secenekler": ["ANAP - DSP Koalisyonu", "REFAHYOL Hükümeti", "DYP - SHP Koalisyonu", "ANASOL-D Hükümeti"],
+    "dogruCevap": 2,
+    "aciklama": "1991 seçimlerinde tek başına iktidar çıkmayınca DYP (Demirel) ile SHP (Erdal İnönü) bir araya gelerek 49. Hükümet'i kurmuşlardır."
+  },
+  {
+    "soru": "Güneydoğu Anadolu Projesi (GAP) kapsamında Fırat Nehri üzerinde inşa edilen ve 1992 yılında Turgut Özal ve Süleyman Demirel tarafından hizmete açılan dev baraj hangisidir?",
+    "secenekler": ["Keban Barajı", "Karakaya Barajı", "Ilısu Barajı", "Atatürk Barajı"],
+    "dogruCevap": 3,
+    "aciklama": "Dünyanın en büyük dolgu barajlarından biri olan Atatürk Barajı, GAP'ın kilit tesisi olarak 1992'de su tutmaya ve elektrik üretmeye başlamıştır."
+  },
+  {
+    "soru": "Türkiye Cumhuriyeti'nin 8. Cumhurbaşkanı Turgut Özal hangi tarihte görevi başındayken vefat etmiştir?",
+    "secenekler": ["17 Nisan 1993", "24 Ocak 1993", "2 Temmuz 1993", "17 Ağustos 1999"],
+    "dogruCevap": 0,
+    "aciklama": "Turgut Özal, Orta Asya gezisinden döndükten kısa bir süre sonra 17 Nisan 1993 tarihinde Çankaya Köşkü'nde geçirdiği kalp krizi sonucu vefat etmiştir."
+  },
+  {
+    "soru": "Turgut Özal'ın mimarı olduğu, 1980'lerden itibaren Türkiye ekonomisini ithal ikameci modelden ihracata dayalı serbest piyasa modeline geçiren tarihi kararlar hangisidir?",
+    "secenekler": ["5 Nisan Kararları", "24 Ocak Kararları", "10 Kasım Talimatnamesi", "28 Şubat Kararları"],
+    "dogruCevap": 1,
+    "aciklama": "24 Ocak 1980 Kararları, Demirel hükümetinde Özal'ın hazırladığı ve 12 Eylül ile ANAP iktidarı döneminde tam olarak uygulanan dönüşüm paketidir."
+  },
+  {
+    "soru": "1991 Haziran ayındaki ANAP Kongresi'nde Yıldırım Akbulut'u mağlup ederek ANAP Genel Başkanı ve Başbakan seçilen siyasetçi kimdir?",
+    "secenekler": ["Kaya Erdem", "Ekrem Pakdemirli", "Mesut Yılmaz", "Güneş Taner"],
+    "dogruCevap": 2,
+    "aciklama": "ANAP içi 'Sarıcılar' ve 'Liberal/Milliyetçi' çekişmesinde Mesut Yılmaz kongreyi kazanarak Türkiye'nin en genç Başbakanlarından biri olmuştur."
+  },
+  {
+    "soru": "1980'li yıllarda Özal hükümetlerinin iktisadi felsefesi gereği KİT'lerin (Kamu İktisadi Teşebbüsleri) özel sektöre devredilmesi sürecine verilen genel ad nedir?",
+    "secenekler": ["Kamulaştırma", "Devletleştirme", "Kamusal Finansman", "Özelleştirme"],
+    "dogruCevap": 3,
+    "aciklama": "1984 yılından itibaren Kamu Ortaklığı İdaresi kanalıyla çimento, yem, demir-çelik ve telekom gibi sektörlerde özelleştirme uygulamaları başlatılmıştır."
+  },
+  {
+    "soru": "1980'li yıllarda yapımına başlanan ve İstanbul-Ankara otoyol bağlantısını sağlayan, Boğaz'a 2. köprüyü de kapsayan dev ulaşım projesinin adı nedir?",
+    "secenekler": ["TEM (Trans European Motorway)", "E-5 Karayolu", "Kuzey Marmara Otoyolu", "D-100 Karayolu"],
+    "dogruCevap": 0,
+    "aciklama": "Otoyol hamlesi kapsamında TEM otoyolu inşa edilmiş ve 1988'de Fatih Sultan Mehmet (2. Boğaz) Köprüsü hizmete açılmıştır."
+  },
+  {
+    "soru": "Turgut Özal'ın 1989 yılında 8. Cumhurbaşkanı seçilmesinin siyasi tarihimizdeki simgesel önemi hangisidir?",
+    "secenekler": ["İlk kez bir cumhurbaşkanının halk oyuyla seçilmesi", "Celal Bayar'dan sonra seçilen ilk sivil Cumhurbaşkanı olması", "Cumhurbaşkanlığı süresini 5 yıla indirmesi", "İlk kez oy birliğiyle seçilen başkan olması"],
+    "dogruCevap": 1,
+    "aciklama": "1960 sonrasındaki askeri kökenli cumhurbaşkanı geleneği (Gürsel, Sunay, Korutürk, Evren), Celal Bayar'dan sonra sivil kökenli Özal'ın seçilmesiyle kırılmıştır."
+  },
+  {
+    "soru": "Mart 1988'de Irak lideri Saddam Hüseyin ordusunun Halepçe'de gerçekleştirdiği kimyasal silah katliamı sonrasında Türkiye yaklaşık kaç bin Iraklı Kürde kapılarını açmıştır?",
+    "secenekler": ["10 bin", "50 bin", "500 bin", "2 milyon"],
+    "dogruCevap": 2,
+    "aciklama": "Halepçe Katliamı ve Irak ordusunun operasyonlarından kaçan yaklaşık 500 bin sivil insan, Türkiye sınırına sığınmış ve kamplara yerleştirilmiştir."
+  },
+  {
+    "soru": "Turgut Özal'ın vefatı sonrası Süleyman Demirel'in 9. Cumhurbaşkanı seçilmesi üzerine DYP Genel Başkanı ve Türkiye'nin ilk kadın Başbakanı seçilen siyasetçi kimdir?",
+    "secenekler": ["Lale Aytaman", "Meral Akşener", "Imren Aykut", "Tansu Çiller"],
+    "dogruCevap": 3,
+    "aciklama": "Haziran 1993'teki DYP Kongresi'ni kazanan Tansu Çiller, Türkiye Cumhuriyeti tarihinin ilk ve tek kadın Başbakanı olmuştur."
+  },
+  {
+    "soru": "Türk ekonomisinde derin bir devalüasyon, yüksek enflasyon ve kriz dalgası üzerine Tansu Çiller Hükümeti tarafından ilan edilen 5 Nisan 1994 Kararları'nın temel amacı nedir?",
+    "secenekler": [
+      "Döviz krizini yatıştırmak, kamu açığını kapatmak ve ekonomik istikrar sağlamak",
+      "AB'ye tam üyelik başvurusu yapmak",
+      "KİT'lerin tamamını kamulaştırmak",
+      "Asgari ücretten vergiyi tamamen kaldırmak"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1994 başında patlak veren döviz krizine müdahale amacıyla 5 Nisan Kararları alınmış; matrahlar artırılmış, zamlar yapılmış ve döviz kuru yükseltilmiştir."
+  },
+  {
+    "soru": "Türkiye ile Avrupa Birliği arasında imzalanan ve 1 Ocak 1996 tarihinde yürürlüğe girerek sanayi mallarında gümrük vergilerini sıfırlayan düzenleme hangisidir?",
+    "secenekler": ["Ankara Antlaşması", "Gümrük Birliği Antlaşması", "Katılım Ortaklığı Belgesi", "Lüksemburg Zirvesi Kararı"],
+    "dogruCevap": 1,
+    "aciklama": "1995 Ortaklık Konseyi kararıyla 1 Ocak 1996'dan itibaren Türkiye AB ile Gümrük Birliği'ne girmiş, sanayi ürünlerinde serbest dolaşım başlamıştır."
+  },
+  {
+    "soru": "Ocak 1996'da Figen Akat adlı Türk kargo gemisinin karaya oturmasıyla başlayan ve Türkiye ile Yunanistan'ı savaşın eşiğine getiren Ege'deki kriz noktası neresidir?",
+    "secenekler": ["Meis Adası", "Midilli Adası", "Kardak Kayalıkları", "Girit Adası"],
+    "dogruCevap": 2,
+    "aciklama": "Kardak Kayalıkları'na Yunan askerlerinin bayrak dikmesi üzerine SAT komandoları kayalıklara sızmış, ABD'nin diplomatik müdahalesiyle kriz tatlıya bağlanmıştır."
+  },
+  {
+    "soru": "24 Aralık 1995 Genel Seçimleri'nde sandalye sayısı açısından en çok milletvekilini çıkararak birinci olan siyasi parti hangisidir?",
+    "secenekler": ["Anavatan Partisi (ANAP)", "Doğru Yol Partisi (DYP)", "Demokratik Sol Parti (DSP)", "Refah Partisi (RP)"],
+    "dogruCevap": 3,
+    "aciklama": "Necmettin Erbakan liderliğindeki Refah Partisi %21.4 oy alarak 158 milletvekili çıkarmış ve seçimi birinci parti olarak tamamlamıştır."
+  },
+  {
+    "soru": "Haziran 1996'da kurulan ve kamuoyunda 'REFAHYOL' olarak bilinen 54. Hükümet hangi iki partinin koalisyonudur?",
+    "secenekler": ["Refah Partisi - Doğru Yol Partisi", "Refah Partisi - Anavatan Partisi", "Doğru Yol Partisi - Milliyetçi Hareket Partisi", "DSP - Refah Partisi"],
+    "dogruCevap": 0,
+    "aciklama": "Necmettin Erbakan'ın Başbakan, Tansu Çiller'in Dışişleri Bakanı ve Başbakan Yardımcısı olduğu RP-DYP koalisyonudur."
+  },
+  {
+    "soru": "15 Haziran 1997 tarihinde İstanbul'da Başbakan Necmettin Erbakan öncülüğünde kurulan ve gelişmekte olan Müslüman ülkeleri kapsayan ekonomik iş birliği örgütü hangisidir?",
+    "secenekler": ["İslam İşbirliği Teşkilatı", "D-8 (Developing 8)", "Arap Ligi", "Ekonomik İşbirliği Örgütü (EİT)"],
+    "dogruCevap": 1,
+    "aciklama": "D-8 (Türkiye, İran, Pakistan, Bangladeş, Malezya, Endonezya, Mısır, Nijerya) Erbakan'ın küresel ölçekteki en büyük küresel projelerinden biridir."
+  },
+  {
+    "soru": "Türk siyasi tarihine 'Postmodern Darbe' olarak geçen ve REFAHYOL Hükümeti'nin istifasına giden süreci başlatan kararların alındığı tarihi Milli Güvenlik Kurulu toplantısı ne zamandır?",
+    "secenekler": ["12 Mart 1997", "27 Nisan 1997", "28 Şubat 1997", "17 Ağustos 1997"],
+    "dogruCevap": 2,
+    "aciklama": "9 saat süren 28 Şubat 1997 MGK toplantısında irtica ile mücadele adı altında 18 maddelik bildiri hükümete sunulmuş ve hükümet üzerindeki baskı artmıştır."
+  },
+  {
+    "soru": "28 Şubat süreci ve sonrasındaki kapatılma davası neticesinde Ocak 1998'de kapatılan Refah Partisi'nin yerine kurulan siyasi parti hangisidir?",
+    "secenekler": ["Saadet Partisi", "Yeniden Refah Partisi", "Büyük Birlik Partisi", "Fazilet Partisi"],
+    "dogruCevap": 3,
+    "aciklama": "Refah Partisi'nin kapatılma ihtimaline karşı Aralık 1997'de Recai Kutan başkanlığında Fazilet Partisi (FP) kurulmuştur."
+  },
+  {
+    "soru": "3 Kasım 1996 tarihinde Balıkesir'in Susurluk ilçesinde meydana gelen trafik kazasının Türk siyasetindeki tarihsel önemi nedir?",
+    "secenekler": [
+      "Devlet-siyaset-polis-mafya ilişkilerini ve örtülü yapıları gün yüzüne çıkarması",
+      "Gümrük Birliği Antlaşması'nın iptaline yol açması",
+      "Kardak Krizini tırmandırması",
+      "Anayasa Mahkemesi'nin kapatılmasına neden olması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Aynı araçta emniyet müdürü, milletvekili ve aranan bir firarinin bulunması 'Susurluk Skandalı'nı doğurmuş ve 'Sürekli Aydınlık İçin Bir Dakika Karanlık' eylemlerine yol açmıştır."
+  },
+  {
+    "soru": "17 Ağustos 1999 sabaha karşı meydana gelen, binlerce vatandaşımızın hayatını kaybettiği ve devasa ekonomik yıkıma yol açan Marmara Depremi'nin merkez üssü neresidir?",
+    "secenekler": ["Adapazarı / Sakarya", "Gölcük / Kocaeli", "Yalova", "Düzce"],
+    "dogruCevap": 1,
+    "aciklama": "7.4 büyüklüğündeki depremin merkez üssü Kocaeli'nin Gölcük ilçesi olup, tüm Marmara bölgesinde ağır yıkıma neden olmuştur."
+  },
+  {
+    "soru": "18 Nisan 1999 Genel Seçimleri'nden birinci parti olarak çıkan ve koalisyon hükümetini kuran siyasi parti ve lideri hangisidir?",
+    "secenekler": ["MHP - Devlet Bahçeli", "ANAP - Mesut Yılmaz", "DSP - Bülent Ecevit", "FP - Recai Kutan"],
+    "dogruCevap": 2,
+    "aciklama": "DSP %22.1 oy oranıyla seçimden birinci çıkmış; Bülent Ecevit MHP ve ANAP ile birlikte 57. Cumhuriyet Hükümeti'ni kurmuştur."
+  },
+  {
+    "soru": "Bölücü terör örgütü elebaşı Abdullah Öcalan, Şubat 1999'da MİT ve özel kuvvetlerin operasyonuyla hangi ülkede yakalanarak Türkiye'ye getirilmiştir?",
+    "secenekler": ["Suriye", "Yunanistan", "İtalya", "Kenya"],
+    "dogruCevap": 3,
+    "aciklama": "Suriye'den çıkarıldıktan sonra Rusya, İtalya ve Yunanistan hattını izleyen Öcalan, Kenya'nın başkenti Nairobi'deki Yunanistan Büyükelçiliği çıkışında yakalanmıştır."
+  },
+  {
+    "soru": "10-11 Aralık 1999 tarihlerinde düzenlenen hangi Avrupa Birliği Zirvesi'nde Türkiye oy birliği ile AB'ye resmen 'Aday Ülke' ilan edilmiştir?",
+    "secenekler": ["Helsinki Zirvesi", "Kopenhag Zirvesi", "Lüksemburg Zirvesi", "Maastricht Zirvesi"],
+    "dogruCevap": 0,
+    "aciklama": "Helsinki Zirvesi, Türkiye-AB ilişkilerinde dönüm noktası olmuş ve Türkiye katılım müzakerelerine aday ülke statüsü kazanmıştır."
+  },
+  {
+    "soru": "Mayıs 2000'de Süleyman Demirel'in görev süresinin dolması üzerine TBMM tarafından Türkiye Cumhuriyeti'nin 10. Cumhurbaşkanı seçilen Anayasa Mahkemesi Başkanı kimdir?",
+    "secenekler": ["Ali Sezal", "Ahmet Necdet Sezer", "Haşim Kılıç", "Yekta Güngör Özden"],
+    "dogruCevap": 1,
+    "aciklama": "Partilerüstü bir uzlaşıyla aday gösterilen Anayasa Mahkemesi Başkanı Ahmet Necdet Sezer, 2000-2007 yılları arasında Cumhurbaşkanlığı yapmıştır."
+  },
+  {
+    "soru": "Şubat 2001'de yapılan MGK toplantısında çıkan tartışma sonucu Cumhuriyet tarihinin en ağır finansal krizlerinden biri tetiklenmiştir. Bu krizin sembol olayı nedir?",
+    "secenekler": ["Erken seçim kararı alınması", "Devletçi ekonomiye dönüş kararı", "Cumhurbaşkanı Sezer'in Başbakan Ecevit'e Anayasa Kitapçığı fırlatması", "Merkez Bankası Başkanının istifası"],
+    "dogruCevap": 2,
+    "aciklama": "Sezer ile Ecevit arasındaki Anayasa kitapçığı krizi, piyasalarda güvensizlik yaratarak gecelik faizlerin %7000'lere fırlamasına ve devalüasyona yol açmıştır."
+  },
+  {
+    "soru": "Şubat 2001 ekonomik krizi sonrasında Dünya Bankası Başkan Yardımcılığı görevinden Ekonomiden Sorumlu Devlet Bakanlığına getirilen ve 'Güçlü Ekonomiye Geçiş Programı'nı uygulayan isim kimdir?",
+    "secenekler": ["Ali Babacan", "Güneş Taner", "Kemal Unakıtan", "Kemal Derviş"],
+    "dogruCevap": 3,
+    "aciklama": "Bülent Ecevit tarafından Türkiye'ye davet edilen Kemal Derviş, bankacılık reformu ve yapısal tedbirleri kapsayan acil eylem planını yürürlüğe koymuştur."
+  },
+  {
+    "soru": "24 Ocak 1993'te Ankara'daki evinin önünde arabasına konulan bombanın patlaması sonucu suikasta kurban giden araştırmacı gazeteci-yazar kimdir?",
+    "secenekler": ["Uğur Mumcu", "Abdi İpekçi", "Çetin Emeç", "Ahmet Taner Kışlalı"],
+    "dogruCevap": 0,
+    "aciklama": "Cumhuriyet gazetesi yazarı Uğur Mumcu'nun katledilmesi, 1993 yılındaki karanlık suikast zincirinin ilk halkalarındandır."
+  },
+  {
+    "soru": "2 Temmuz 1993 tarihinde Sivas'ta Pir Sultan Abdal Şenlikleri sırasında provoke edilen grubun oteli yakması sonucu 33 yazar, ozan ve aydının hayatını kaybettiği olay hangi otelde yaşanmıştır?",
+    "secenekler": ["Büyük Otel", "Madımak Oteli", "Efes Oteli", "Güneş Oteli"],
+    "dogruCevap": 1,
+    "aciklama": "Madımak Oteli'nin yakılması sonucu meydana gelen Sivas Katliamı, Türkiye tarihinin en acı toplumsal trajedilerinden biridir."
+  },
+  {
+    "soru": "1999 yılında Fazilet Partisi'nden milletvekili seçilen ancak TBMM Genel Kurulu'na başörtüsüyle girmesi üzerine yemin etmesi engellenen siyasetçi kimdir?",
+    "secenekler": ["Ayşenur Bahçekapılı", "Nimet Baş", "Merve Kavakçı", "Fatma Şahin"],
+    "dogruCevap": 2,
+    "aciklama": "Merve Kavakçı'nın yemin töreni sırasında yaşanan başörtüsü gerilimi, siyasi kriz yaratmış ve daha sonra vatandaşlıktan çıkarılmasına kadar gitmiştir."
+  },
+  {
+    "soru": "1999-2001 krizleri sonrasında mali piyasaları denetlemek ve için boşaltılan bankaları düzenlemek amacıyla kurulan özerk üst kurul hangisidir?",
+    "secenekler": ["SPK", "EPDK", "TCMB", "BDDK (Bankacılık Düzenleme ve Denetleme Kurumu)"],
+    "dogruCevap": 3,
+    "aciklama": "BDDK, bankacılık sektörünü disipline etmek ve TMSF'ye devredilen batan bankaların süreçlerini yönetmek için kurulmuştur."
+  },
+  {
+    "soru": "2002 yılında kabul edilen ve AB Uyum Yasaları çerçevesinde gerçekleşen yasal reformla idam cezası hangi durum dışında tamamen kaldırılmıştır?",
+    "secenekler": ["Savaş ve yakın savaş tehdidi halleri", "Terör suçları", "Kasten öldürme suçları", "Devlete karşı işlenen suçlar"],
+    "dogruCevap": 0,
+    "aciklama": "Ağustos 2002'deki yasal düzenlemeyle barış zamanında idam kaldırılmış, 2004 anayasa değişikliğiyle ise savaş dahil her koşulda tamamen mevzuattan çıkarılmıştır."
+  },
+  {
+    "soru": "2002 yılında Güney Kore ve Japonya'da düzenlenen FIFA Dünya Kupası'nda Şenol Güneş yönetimindeki Türk Milli Futbol Takımı hangi tarihi başarıyı elde etmiştir?",
+    "secenekler": ["Dünya Şampiyonluğu", "Dünya Üçüncülüğü", "Dünya İkinciliği", "Çeyrek Final"],
+    "dogruCevap": 1,
+    "aciklama": "A Milli Takımımız, 3. 'lük maçında ev sahibi Güney Kore'yi 3-2 mağlup ederek Türk futbol tarihinin en büyük dünya başarısını kazanmıştır."
+  },
+  {
+    "soru": "17 Şubat 1993'te uçağının (helikopterinin) şüpheli bir şekilde düşmesi sonucu hayatını kaybeden dönemin Jandarma Genel Komutanı kimdir?",
+    "secenekler": ["Hulusi Sayın", "Bahtiyar Aydın", "Eşref Bitlis", "Rıdvan Özden"],
+    "dogruCevap": 2,
+    "aciklama": "Bölgesel barış ve terörle mücadelede özgün stratejileriyle bilinen Orgeneral Eşref Bitlis'in ölümü üzerindeki şüpheler günümüzde de tartışılmaktadır."
+  },
+  {
+    "soru": "1999-2002 yılları arasında görev yapan, Bülent Ecevit'in Başbakanlığındaki DSP-MHP-ANAP koalisyon hükümetine verilen genel ad nedir?",
+    "secenekler": ["REFAHYOL Hükümeti", "I. Milliyetçi Cephe", "ANASOL-D Hükümeti", "ANASOL-M (57. Hükümet)"],
+    "dogruCevap": 3,
+    "aciklama": "Ecevit (DSP), Bahçeli (MHP) ve Yılmaz'ın (ANAP) kurduğu 57. Hükümet, kamuoyunda ANASOL-M koalisyonu olarak adlandırılmıştır."
+  },
+  {
+    "soru": "3 Kasım 2002 Seçimleri'nde AK Parti %34.2 oy alarak tek başına iktidar olurken, %10'luk seçim barajını aşarak meclise girebilen DİĞER TEK parti hangisidir?",
+    "secenekler": ["Cumhuriyet Halk Partisi (CHP)", "Doğru Yol Partisi (DYP)", "Milliyetçi Hareket Partisi (MHP)", "Genç Parti"],
+    "dogruCevap": 0,
+    "aciklama": "2002 seçimlerinde barajı sadece AK Parti ve CHP (%19.4) geçebilmiş, ANAP, DYP, DSP, MHP gibi tüm köklü merkez partiler baraj altı kalmıştır."
+  },
+  {
+    "soru": "1 Mart 2003 tarihinde TBMM Genel Kurulu'na gelen ve Amerikan askerlerinin Türk topraklarını kullanarak Irak'a müdahale etmesine izin vermeyi öngören düzenleme nasıl sonuçlanmıştır?",
+    "secenekler": ["Oy birliğiyle kabul edilmiştir", "1 Mart Tezkeresi reddedilmiştir", "Cumhurbaşkanı tarafından veto edilmiştir", "Anayasa Mahkemesince iptal edilmiştir"],
+    "dogruCevap": 1,
+    "aciklama": "1 Mart Tezkeresi salt çoğunluk sağlanamadığı için reddedilmiş, bu durum Türkiye-ABD ilişkilerinde önemli bir dönüm noktası oluşturmuştur."
+  },
+  {
+    "soru": "1 Ocak 2005 tarihinde Türk Lirası'nda gerçekleşen ve paradaki itibar ile işlem kolaylığı sağlamayı amaçlayan tarihi reform nedir?",
+    "secenekler": ["Kuru sabitlemek", "Para birimini Euro'ya endekslemek", "Türk Lirası'ndan 6 Sıfır Atılması", "Kağıt parayı tamamen kaldırmak"],
+    "dogruCevap": 2,
+    "aciklama": "2005'te paradan 6 sıfır atılarak Yeni Türk Lirası (YTL) geçişi sağlanmış, 2009'da ise tekrar 'TL' adına dönülmüştür."
+  },
+  {
+    "soru": "27 Nisan 2007 akşamı Genelkurmay Başkanlığı internet sitesinden yayımlanan ve cumhurbaşkanlığı seçimi sürecine müdahale olarak nitelendirilen bildiriye ne ad verilir?",
+    "secenekler": ["12 Mart Muhtırası", "28 Şubat Bildirisi", "15 Temmuz Deklarasyonu", "27 Nisan E-Muhtırası"],
+    "dogruCevap": 3,
+    "aciklama": "Gece yarısı genelkurmay sitesine konan metin 'E-Muhtıra' olarak adlandırılmış, hükümet ise sert bir yanıt vererek erken seçim kararı almıştır."
+  },
+  {
+    "soru": "21 Ekim 2007 Anayasa Değişikliği Referandumu ile kabul edilen en kritik yönetimsel yenilik hangisidir?",
+    "secenekler": [
+      "Cumhurbaşkanının doğrudan halk tarafından seçilmesi",
+      "Milletvekili sayısının 600'e çıkarılması",
+      "Sıkıyönetimin anayasadan çıkarılması",
+      "Askeri yargının tamamen kapatılması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "2007 referandumu %69 'Evet' oyuyla kabul edilmiş; Cumhurbaşkanının 5 yıllığına halk tarafından seçilmesi kuralı getirilmiştir."
+  },
+  {
+    "soru": "Ağustos 2007'de TBMM tarafından yapılan seçimler sonucunda Türkiye Cumhuriyeti'nin 11. Cumhurbaşkanı seçilen devlet adamı kimdir?",
+    "secenekler": ["Recep Tayyip Erdoğan", "Abdullah Gül", "Bülent Arınç", "Köksal Toptan"],
+    "dogruCevap": 1,
+    "aciklama": "367 krizi ve erken seçimlerin ardından yapılan oylamada Dışişleri Bakanı Abdullah Gül Türkiye'nin 11. Cumhurbaşkanı olmuştur."
+  },
+  {
+    "soru": "12 Eylül 2010 Anayasa Değişikliği Referandumu ile vatandaşların temel hak ihlallerinde Anayasa Mahkemesi'ne başvurabilmesini sağlayan hak hangisidir?",
+    "secenekler": ["Siyasi Sığınma Hakkı", "Kamu Denetçiliği Talebi", "Bireysel Başvuru Hakkı", "Toplu Sözleşme Hakkı"],
+    "dogruCevap": 2,
+    "aciklama": "2010 değişikliğiyle iç hukuk yollarının tüketilmesi şartıyla Anayasa Mahkemesi'ne 'Bireysel Başvuru' mekanizması kazandırılmıştır."
+  },
+  {
+    "soru": "Mayıs-Haziran 2013 tarihlerinde İstanbul Taksim merkezli başlayan, kent merkezindeki ağaçların sökülmesi protestosuyla simgeleşen ve tüm ülkeye yayılan olaylar dizisi hangisidir?",
+    "secenekler": ["Kanlı Pazar", "555K Eylemleri", "6-7 Eylül Olayları", "Gezi Parkı Olayları"],
+    "dogruCevap": 3,
+    "aciklama": "Taksim Gezi Parkı'ndaki düzenlemelere karşı başlayan protestolar kısa sürede kitlesel sosyal ve siyasi eylemlere dönüşmüştür."
+  },
+  {
+    "soru": "10 Ağustos 2014 tarihinde yapılan Cumhurbaşkanlığı Seçimlerinin Türk demokrasi tarihindeki temel farkı nedir?",
+    "secenekler": [
+      "Cumhurbaşkanının ilk kez doğrudan halk oyuyla seçilmesi",
+      "Seçimlerin iki turda tamamlanması",
+      "Yabancı seçmenlerin oy kullanması",
+      "Cumhurbaşkanının parti genel başkanı kalması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "2007 anayasa değişikliği gereği ilk kez halkın sandık başına gittiği cumhurbaşkanlığı seçiminde Recep Tayyip Erdoğan %51.7 oyla seçilmiştir."
+  },
+  {
+    "soru": "15 Temmuz 2016 gecesi Türk Silahlı Kuvvetleri içerisine sızmış unsurlarınca gerçekleştirilmeye çalışılan kanlı darbe girişiminin arkasındaki terör örgütü hangisidir?",
+    "secenekler": ["PKK", "FETÖ (Amerikan/Gülenci Yapılanma)", "DEASH", "DHKP-C"],
+    "dogruCevap": 1,
+    "aciklama": "FETÖ üyesi cuntacıların halkın direnmesi ve güvenlik güçlerinin mücadelesiyle püskürtüldüğü 15 Temmuz günü 'Demokrasi ve Milli Birlik Günü' ilan edilmiştir."
+  },
+  {
+    "soru": "16 Nisan 2017 Anayasa Referandumu ile Türkiye'de kabul edilen ve Başbakanlık makamını kaldırarak icrayı tek elde toplayan yeni yönetim modeli hangisidir?",
+    "secenekler": ["Parlamenter Sistem", "Yarı-Başkanlık Sistemi", "Cumhurbaşkanlığı Hükümet Sistemi", "Meclis Hükümeti Sistemi"],
+    "dogruCevap": 2,
+    "aciklama": "2017 referandumu %51.4 Evet oyuyla kabul edilmiş, 2018 seçimleriyle birlikte Cumhurbaşkanlığı Hükümet Sistemi yürürlüğe girmiştir."
+  },
+  {
+    "soru": "Türkiye'nin Ege ve Doğu Akdeniz'deki deniz yetki alanlarını (Karasuları, Kıta Sahanlığı, Münhasır Ekonomik Bölge) kapsayan milli doktrinin adı nedir?",
+    "secenekler": ["Milli Bakiye", "Mavi Vatan", "Gök Vatan", "Sınır Ötesi Doktrini"],
+    "dogruCevap": 3,
+    "aciklama": "İlk kez Amiral Cem Gürdeniz tarafından ortaya atılan ve Deniz Kuvvetlerince benimsenen 'Mavi Vatan', denizlerdeki egemenlik haklarımızı tanımlar."
+  },
+  {
+    "soru": "Temmuz 2020'de Danıştay kararı ve Cumhurbaşkanı kararnamesiyle 86 yıl sonra yeniden cami olarak ibadete açılan tarihi simge yapı hangisidir?",
+    "secenekler": ["Ayasofya-i Kebir Cami-i Şerifi", "Sultanahmet Camii", "Karye Camii", "Sümela Manastırı"],
+    "dogruCevap": 0,
+    "aciklama": "1934 yılında müze yapılan Ayasofya, 10 Temmuz 2020'de Danıştay'ın müze kararını iptal etmesiyle 24 Temmuz 2020'de Cuma namazıyla ibadete açılmıştır."
+  },
+  {
+    "soru": "Kovid-19 pandemisi sürecinde Erciyes Üniversitesi bünyesinde Prof. Dr. Aykut Özdarendeli ve ekibi tarafından geliştirilen yerli koronavirüs aşımızın adı nedir?",
+    "secenekler": ["BioNTech", "TURKOVAC", "SinoVac", "TURK-AŞI"],
+    "dogruCevap": 1,
+    "aciklama": "Yerli ve milli inaktif aşımız TURKOVAC, klinik Faz-3 çalışmalarının ardından acil kullanım onayı alarak uygulamaya girmiştir."
+  },
+  {
+    "soru": "29 Ekim 2022 tarihinde Bursa Gemlik'teki üretim tesisi açılan ve seri üretimine başlanan Türkiye'nin doğuştan elektrikli ilk yerli otomobil markası hangisidir?",
+    "secenekler": ["Devrim", "Anadol", "TOGG", "BMC"],
+    "dogruCevap": 2,
+    "aciklama": "Türkiye'nin Otomobili Girişim Grubu (TOGG) tarafından geliştirilen T10X modeli 2023 yılında yollara çıkmıştır."
+  },
+  {
+    "soru": "Ağustos 2020'de Fatih Sondaj Gemisi'nin Karadeniz'de gerçekleştirdiği tarihi doğalgaz keşfinin yapıldığı doğalgaz sahasının adı nedir?",
+    "secenekler": ["Tuna-1 / Sakarya Gaz Sahası", "Amasra-1 Sahası", "Doğu Akdeniz Sahası", "Çakıl Gaz Sahası"],
+    "dogruCevap": 3,
+    "aciklama": "Fatih Sondaj Gemisi Karadeniz'deki Tuna-1 kuyusunda Sakarya Gaz Sahası'nı keşfetmiş ve 2023 yılında yerli gaz karaya ulaştırılmıştır."
+  },
+  {
+    "soru": "6 Şubat 2023 tarihinde Kahramanmaraş merkezli meydana gelen ve 'Asrın Felaketi' olarak adlandırılan iki büyük depremin büyüklükleri hangisidir?",
+    "secenekler": ["7.7 ve 7.6", "7.4 ve 7.2", "8.0 ve 7.5", "6.8 ve 6.5"],
+    "dogruCevap": 0,
+    "aciklama": "Pazarcık (7.7) ve Elbistan (7.6) merkezli 9 saat arayla meydana gelen iki dev deprem 11 ilimizde ağır yıkıma yol açmıştır."
+  },
+  {
+    "soru": "Türkiye'nin ilk insansız savaş uçağı (İKA) olarak Baykar Teknoloji tarafından geliştirilen ve Aralık 2022'de ilk uçuşunu yapan hava aracı hangisidir?",
+    "secenekler": ["Bayraktar TB2", "Bayraktar KIZILELMA", "ANKA-3", "Akinci TİHA"],
+    "dogruCevap": 1,
+    "aciklama": "KIZILELMA, insansız jet motorlu yapısıyla Türk savunma sanayiinde yeni bir çağın kapısını aralamıştır."
+  },
+  {
+    "soru": "2022 yılında Rusya-Ukrayna Savaşı sürerken küresel gıda krizini engellemek amacıyla Türkiye ve BM arabuluculuğunda İstanbul'da imzalanan uluslararası anlaşma hangisidir?",
+    "secenekler": ["Montrö Sözleşmesi", "İstanbul Güvenlik Protokolü", "Tahıl Koridoru Anlaşması", "Karadeniz Seyir Sözleşmesi"],
+    "dogruCevap": 2,
+    "aciklama": "22 Temmuz 2022'de imzalanan Karadeniz Tahıl Koridoru Anlaşması ile Ukrayna limanlarındaki milyonlarca ton tahıl dünya pazarlarına ulaştırılmıştır."
+  },
+  {
+    "soru": "2016 yılında TSK'nın terör örgütü DEAŞ ve PKK/YPG'ye karşı Suriye sınırında başlattığı ilk sınır ötesi kara harekatı hangisidir?",
+    "secenekler": ["Zeytin Dalı Harekatı", "Barış Pınarı Harekatı", "Bahar Kalkanı Harekatı", "Fırat Kalkanı Harekatı"],
+    "dogruCevap": 3,
+    "aciklama": "Ağustos 2016'da başlatılan Fırat Kalkanı Harekatı ile Cerablus, El-Bab ve Azez hattı terör unsurlarından temizlenmiştir."
+  },
+  {
+    "soru": "27 Kasım 2019 tarihinde Türkiye'nin Doğu Akdeniz'deki kıta sahanlığını ve yetki alanlarını korumak için Deniz Yetki Alanları Sınırlandırma Mutabakatı imzaladığı ülke hangisidir?",
+    "secenekler": ["Libya (Ulusal Mutabakat Hükümeti)", "Mısır", "Lübnan", "KKTC"],
+    "dogruCevap": 0,
+    "aciklama": "Tripoli merkezli meşru Libya Hükümeti ile imzalanan anlaşma ile Türkiye ile Libya denizden komşu ilan edilmiş ve Yunanistan'ın tezleri kesintiye uğratılmıştır."
+  },
+  {
+    "soru": "Cumhuriyetin 100. Yılı olan 2023 yılında yapılan Cumhurbaşkanlığı Seçimleri kaçıncı turda sonuçlanmıştır?",
+    "secenekler": ["İlk turda", "İkinci turda", "Üçüncü turda", "Seçimler yenilenmiştir"],
+    "dogruCevap": 1,
+    "aciklama": "14 Mayıs'taki ilk turda adaylar %50+1 oya ulaşamayınca, 28 Mayıs 2023'teki ikinci turda Recep Tayyip Erdoğan %52.18 oyla yeniden seçilmiştir."
+  },
+  {
+    "soru": "TUSAŞ tarafından geliştirilen ve 21 Şubat 2024 tarihinde ilk uçuşunu başarıyla gerçekleştiren Türkiye'nin 5. Nesil Milli Muharip Uçağı hangisidir?",
+    "secenekler": ["HÜRJET", "HÜRKUŞ", "KAAN", "GÖKBEY"],
+    "dogruCevap": 2,
+    "aciklama": "Milli Muharip Uçak projesi kapsamında üretilen KAAN, Türkiye'yi 5. nesil uçak üretebilen dünyadaki sayılı ülkeler arasına sokmuştur."
+  },
+  {
+    "soru": "Ocak 2024'te Axiom Mission 3 (Ax-3) görevi kapsamında Uluslararası Uzay İstasyonu'na (ISS) giderek uzaya çıkan ilk Türk astronot kimdir?",
+    "secenekler": ["Tuva Cihangir Atasever", "Umut Yıldız", "Canan Dağdeviren", "Alper Gezeravcı"],
+    "dogruCevap": 3,
+    "aciklama": "Hava Kuvvetleri pilotu Alper Gezeravcı, 14 gün boyunca ISS'te kalarak 13 farklı bilimsel deneyi gerçekleştirmiş ve ilk Türk astronot olmuştur."
+  },
+  {
+    "soru": "2009 yılında TRT bünyesinde Kürtçe yayına başlayan ve daha sonra adı TRT Kurdî olarak değiştirilen kanal ilk kurulduğunda hangi adla yayına girmiştir?",
+    "secenekler": ["TRT 6 (TRT Şeş)", "TRT Avaz", "TRT Türk", "TRT GAP"],
+    "dogruCevap": 0,
+    "aciklama": "1 Ocak 2009'da yayın hayatına başlayan TRT 6, devlet eliyle yapılan ilk kamusal Kürtçe yayın kanalı olmuştur."
+  },
+  {
+    "soru": "1980'lerin ortasında Sovyet lideri Mihail Gorbaçov tarafından SSCB'deki sansürü kaldırmak ve yönetimi şeffaflaştırmak amacıyla başlatılan 'Açıklık' politikasının adı nedir?",
+    "secenekler": ["Perestroika", "Glasnost", "Komsomol", "Detant"],
+    "dogruCevap": 1,
+    "aciklama": "Glasnost 'Açıklık/Şeffaflık', Perestroika ise 'Yeniden Yapılanma' anlamına gelip, SSCB'nin dağılma sürecini hızlandırmıştır."
+  },
+  {
+    "soru": "9 Kasım 1989 gecesi halkın üzerindeki baskıların kalkmasıyla yıkılan ve Soğuk Savaş'ın sona erdiğini simgeleyen ünlü yapı hangisidir?",
+    "secenekler": ["Çin Seddi", "Maginot Hattı", "Berlin Duvarı (Utanç Duvarı)", "Kremlin Duvarı"],
+    "dogruCevap": 2,
+    "aciklama": "1961'de inşa edilen Berlin Duvarı'nın yıkılması, Doğu Bloku'nun çöküşünü ve 1990'da iki Almanya'nın birleşmesini sağlamıştır."
+  },
+  {
+    "soru": "SSCB'nin resmen dağılmasının ardından 21 Aralık 1991 Alma-Ata Deklarasyonu ile eski Sovyet cumhuriyetleri arasında kurulan örgüt hangisidir?",
+    "secenekler": ["Varşova Paktı", "Kuzey Konseyi", "Avrasya Ekonomik Topluluğu", "Bağımsız Devletler Topluluğu (BDT)"],
+    "dogruCevap": 3,
+    "aciklama": "Rusya, Ukrayna ve Belarus öncülüğünde kurulan BDT ile Sovyet sonrası coğrafyadaki geçiş süreci yönetilmeye çalışılmıştır."
+  },
+  {
+    "soru": "1992-1995 Bosna Savaşı'nı sona erdiren ve Bosna-Hersek devletinin mevcut karmaşık yönetim yapısını oluşturan 1995 tarihli antlaşma hangisidir?",
+    "secenekler": ["Dayton Antlaşması", "Paris Antlaşması", "Versay Antlaşması", "Cenevre Protokolü"],
+    "dogruCevap": 0,
+    "aciklama": "ABD'nin Dayton kentinde müzakere edilen antlaşma ile Bosna-Hersek; Bosna-Hersek Federasyonu ve Sırp Cumhuriyeti olarak iki entiteye bölünmüştür."
+  },
+  {
+    "soru": "Temmuz 1995'te General Ratko Mladic komutasındaki Sırp güçlerinin BM'nin 'güvenli bölge' ilan ettiği alanda en az 8 bin Boşnak erkeği katlettiği soykırım nerede yaşanmıştır?",
+    "secenekler": ["Saraybosna", "Srebrenitsa", "Mostar", "Tuzla"],
+    "dogruCevap": 1,
+    "aciklama": "Srebrenitsa Katliamı, II. Dünya Savaşı'ndan sonra Avrupa'da gerçekleşen hukuken kanıtlanmış en büyük soykırım olayıdır."
+  },
+  {
+    "soru": "Ağustos 1990'da Irak lideri Saddam Hüseyin'in hangi komşu ülkeyi işgal ve ilhak etmesi I. Körfez Savaşı'nın patlak vermesine yol açmıştır?",
+    "secenekler": ["İran", "Ürdün", "Kuveyt", "Suudi Arabistan"],
+    "dogruCevap": 2,
+    "aciklama": "Irak'ın zengin petrol rezervlerine sahip Kuveyt'i işgali üzerine ABD öncülüğünde koalisyon kurulmuş ve 'Çöl Fırtınası Harekatı' başlatılmıştır."
+  },
+  {
+    "soru": "11 Eylül 2001 tarihinde ABD'deki Dünya Ticaret Merkezi (İkiz Kuleler) ve Pentagon'a kaçırılan yolcu uçaklarıyla düzenlenen terör saldırılarını üstlenen örgüt hangisidir?",
+    "secenekler": ["Taliban", "IŞİD / DEAŞ", "Boko Haram", "El-Kaide"],
+    "dogruCevap": 3,
+    "aciklama": "Osama bin Laden liderliğindeki El-Kaide'nin gerçekleştirdiği 11 Eylül saldırıları, ABD'nin Afganistan ve Irak işgallerinin gerekçesi olmuştur."
+  },
+  {
+    "soru": "7 Şubat 1992'de imzalanan ve Avrupa Topluluğu'nu 'Avrupa Birliği'ne dönüştürerek Euro para biriminin ve ortak vatandaşlık ilkelerinin temelini atan antlaşma hangisidir?",
+    "secenekler": ["Maastricht Antlaşması", "Roma Antlaşması", "Schengen Anlaşması", "Lizbon Antlaşması"],
+    "dogruCevap": 0,
+    "aciklama": "Hollanda'nın Maastricht kentinde imzalanan antlaşma ile parasal ve siyasi birliğin kuralları belirlenmiştir."
+  },
+  {
+    "soru": "Aralık 2010'da Tunus'ta Muhammed Buazizi adlı gencin kendisini yakmasıyla başlayan ve tüm Ortadoğu ve Kuzey Afrika'daki diktatörlükleri sarsan halk hareketlerine ne ad verilir?",
+    "secenekler": ["Kadife Devrim", "Arap Baharı", "Lale Devrimi", "Yasemin Operasyonu"],
+    "dogruCevap": 1,
+    "aciklama": "Arap Baharı Tunus, Mısır, Libya ve Yemen'de rejim değişikliklerine yol açmış, Suriye'de ise yıkıcı bir iç savaşa dönüşmüştür."
+  },
+  {
+    "soru": "Haziran 2016'da yapılan referandum ile Avrupa Birliği'nden ayrılma kararı alan (Brexit) ilk üye devlet hangisidir?",
+    "secenekler": ["Fransa", "Yunanistan", "Birleşik Krallık (İngiltere)", "İtalya"],
+    "dogruCevap": 2,
+    "aciklama": "İngiltere halkının %52'sinin ayrılık yönünde oy kullanmasıyla başlayan Brexit süreci, 31 Ocak 2020'de resmi ayrılıkla tamamlanmıştır."
+  },
+  {
+    "soru": "24 Şubat 2022 tarihinde Vladimir Putin'in emriyle başlayan ve Soğuk Savaş sonrası Avrupa'daki en büyük güvenlik krizini başlatan askeri çatışma hangisidir?",
+    "secenekler": ["İkinci Çeçen Savaşı", "Gürcistan Savaşı", "Karabağ Savaşı", "Rusya'nın Ukrayna'yı İşgali"],
+    "dogruCevap": 3,
+    "aciklama": "Rusya'nın Donbas ve Ukrayna genelinde başlattığı 'Özel Askeri Harekat', küresel enerji ve gıda krizlerine yol açan geniş çaplı bir savaşa dönüşmüştür."
+  },
+  {
+    "soru": "Çin Devlet Başkanı Şi Cinping tarafından 2013 yılında açıklanan, Asya, Avrupa ve Afrika'yı tarihi İpek Yolu hatları üzerinden dev altyapı projeleriyle bağlamayı hedefleyen küresel projenin adı nedir?",
+    "secenekler": ["Kuşak ve Yol Projesi (Belt and Road)", "Marshall Planı", "Kuzey-Güney Koridoru", "Pasifik İttifakı"],
+    "dogruCevap": 0,
+    "aciklama": "Kuşak ve Yol Projesi (Bir Kuşak Bir Yol), Çin'in küresel ticaretteki hakimiyetini pekiştirmeyi amaçlayan yüzyılın en büyük altyapı hamlesidir."
+  },
+  {
+    "soru": "Dünya Sağlık Örgütü (DSÖ), Çin'in Vuhan kentinde ortaya çıkan Kovid-19 salgınını hangi ay ve yılda küresel 'Pandemi' ilan etmiştir?",
+    "secenekler": ["Aralık 2019", "Mart 2020", "Kasım 2020", "Ocak 2021"],
+    "dogruCevap": 1,
+    "aciklama": "DSÖ Direktörü Tedros Adhanom Ghebreyesus, 11 Mart 2020 tarihinde Kovid-19'un küresel bir pandemi olduğunu ilan etmiştir."
+  },
+  {
+    "soru": "Güney Afrika Cumhuriyeti'nde ırkçı 'Apartheid' rejimine karşı mücadele veren, 27 yıl hapiste kaldıktan sonra 1994'te ülkesinin ilk siyahi Devlet Başkanı seçilen efsanevi lider kimdir?",
+    "secenekler": ["Kofi Annan", "Patrice Lumumba", "Nelson Mandela", "Jomo Kenyatta"],
+    "dogruCevap": 2,
+    "aciklama": "Madiba lakaplı Nelson Mandela, Nobel Barış Ödülü kazanmış ve ırkçılıkla mücadelenin tüm dünyadaki simgesi haline gelmiştir."
+  },
+  {
+    "soru": "26 Nisan 1986 tarihinde Sovyetler Birliği'ne bağlı Ukrayna Sovyet Sosyalist Cumhuriyeti'nde meydana gelen tarihin en ağır nükleer santral felaketi hangisidir?",
+    "secenekler": ["Fukuşima Kazası", "Three Mile Island", "Kştım Kazası", "Çernobil Nükleer Santrali Felaketi"],
+    "dogruCevap": 3,
+    "aciklama": "Çernobil Nükleer Santrali'nin 4 numaralı reaktöründeki patlama, Karadeniz ve Türkiye dahil tüm Avrupa'ya radyoaktif serpinti yayılmasına sebep olmuştur."
+  }
+]
