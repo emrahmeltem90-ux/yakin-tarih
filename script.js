@@ -1,5 +1,5 @@
 // ==========================================
-// YAKIN TARİH - EKONOMİ VE JOKER MANTIĞI
+// YAKIN TARİH - TEST KİTABI FORMATLI MANTIK
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -12,9 +12,8 @@ window.addEventListener('DOMContentLoaded', () => {
     let mevcutSeviyeNo = 1;
 
     // Coin & Joker Durumları
-    let toplamCoin = parseInt(localStorage.getItem('yt_coin')) || 100; // 100 Başlangıç Bonusu
+    let toplamCoin = parseInt(localStorage.getItem('yt_coin')) || 100;
     let ciftSansAktif = false;
-    let ciftSansKullanildi = false;
 
     // Ses Elemanları
     const sesDogru = document.getElementById('ses-dogru');
@@ -35,13 +34,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const jokerCiftBtn = document.getElementById('joker-cift');
     const jokerDogruBtn = document.getElementById('joker-dogru');
 
-    // İlk Yüklemede Ekonomiyi Güncelle
     ekonomiyiGuncelle();
 
     function ekonomiyiGuncelle() {
         localStorage.setItem('yt_coin', toplamCoin);
         
-        // Toplam Yıldızları Hesapla
         let toplamYildiz = 0;
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
@@ -99,7 +96,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // SEVİYE KARTLARI VE YILDIZ MANTIĞI
+    // SEVİYE KARTLARI
     function seviyeKartlariniOlustur() {
         const seviyeListesi = document.getElementById('seviye-listesi');
         seviyeListesi.innerHTML = '';
@@ -113,7 +110,6 @@ window.addEventListener('DOMContentLoaded', () => {
             const yildizKey = `yt_yildiz_kat_${secilenKategoriId}_sev_${i}`;
             const kazanilanYildiz = parseInt(localStorage.getItem(yildizKey)) || 0;
 
-            // Önceki seviyeden en az 1 yıldız alındıysa veya Seviye 1 ise AÇIKTIR
             const oncekiYildizKey = `yt_yildiz_kat_${secilenKategoriId}_sev_${i - 1}`;
             const oncekiYildiz = parseInt(localStorage.getItem(oncekiYildizKey)) || 0;
 
@@ -170,21 +166,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function jokerleriSifirla() {
         ciftSansAktif = false;
-        ciftSansKullanildi = false;
         
         joker5050Btn.disabled = false;
         jokerCiftBtn.disabled = false;
         jokerDogruBtn.disabled = false;
     }
 
-    // SORU GÖSTER
+    // TEST KİTABI SORU VE ŞIK GÖSTERİMİ
     function soruGoster() {
         if (mevcutSoruIndex >= sorular.length) {
             yarismayiBitir();
             return;
         }
         
-        ciftSansAktif = false; // Her soruda resetle
+        ciftSansAktif = false;
         
         const soru = sorular[mevcutSoruIndex];
         
@@ -200,13 +195,16 @@ window.addEventListener('DOMContentLoaded', () => {
             const btn = document.createElement('button');
             btn.className = 'secenek-btn';
             btn.dataset.index = index;
-            btn.textContent = `${String.fromCharCode(65 + index)}) ${secenek}`;
+            btn.innerHTML = `
+                <span class="secenek-harf">${String.fromCharCode(65 + index)}</span>
+                <span class="secenek-metin">${secenek}</span>
+            `;
             btn.addEventListener('click', () => cevapKontrol(index, btn));
             seceneklerDiv.appendChild(btn);
         });
     }
 
-    // JOKER 1: 50/50 (20 COIN)
+    // JOKERLER
     joker5050Btn.addEventListener('click', () => {
         if (toplamCoin < 20) return alert('Yetersiz Coin! En az 20 Coin gerekli.');
 
@@ -224,19 +222,16 @@ window.addEventListener('DOMContentLoaded', () => {
         yanlisIndexler.slice(0, 2).forEach(idx => tumButonlar[idx].classList.add('gizli-secenek'));
     });
 
-    // JOKER 2: 2. ŞANS / ÇİFT CEVAP (30 COIN)
     jokerCiftBtn.addEventListener('click', () => {
         if (toplamCoin < 30) return alert('Yetersiz Coin! En az 30 Coin gerekli.');
 
         toplamCoin -= 30;
         ekonomiyiGuncelle();
         ciftSansAktif = true;
-        ciftSansKullanildi = true;
         jokerCiftBtn.disabled = true;
         alert('2. Şans Jokeri Aktif! İlk yanlışında elenmeyeceksin.');
     });
 
-    // JOKER 3: PAS / DOĞRU CEVAP (50 COIN)
     jokerDogruBtn.addEventListener('click', () => {
         if (toplamCoin < 50) return alert('Yetersiz Coin! En az 50 Coin gerekli.');
 
@@ -258,16 +253,15 @@ window.addEventListener('DOMContentLoaded', () => {
         if (secilenIndex === dogruIndex) {
             secilenBtn.classList.add('dogru');
             skor += 10;
-            toplamCoin += 10; // Doğru cevaba +10 Coin
+            toplamCoin += 10;
             sesDogru.play().catch(() => {});
             ekonomiyiGuncelle();
             
             tumButonlar.forEach(btn => btn.disabled = true);
             sonrakiSoruyaGec(soru);
         } else {
-            // Eğer 2. Şans Jokeri aktifse hemen elenme
             if (ciftSansAktif) {
-                ciftSansAktif = false; // Tek kullanımlık
+                ciftSansAktif = false;
                 secilenBtn.classList.add('yanlis');
                 secilenBtn.disabled = true;
                 sesYanlis.play().catch(() => {});
@@ -294,7 +288,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 2200);
     }
 
-    // BİTİŞ EKRANI & ÖDÜLLER
+    // BİTİŞ EKRANI
     function yarismayiBitir() {
         ekranSoru.classList.remove('aktif');
         ekranSonuc.classList.add('aktif');
@@ -332,7 +326,6 @@ window.addEventListener('DOMContentLoaded', () => {
             mesaj = 'Maalesef yıldız kazanamadın. Tekrar dene!';
         }
 
-        // Yıldız ve Bonus Coin Kaydı
         toplamCoin += bonusCoin;
         const yildizKey = `yt_yildiz_kat_${secilenKategoriId}_sev_${mevcutSeviyeNo}`;
         const eskiYildiz = parseInt(localStorage.getItem(yildizKey)) || 0;
@@ -343,7 +336,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
         ekonomiyiGuncelle();
 
-        // UI Güncelleme
         document.getElementById('kazanilan-yildizlar').textContent = '⭐'.repeat(kazanilanYildiz) || '☆☆☆';
         document.getElementById('unvan-rozet').textContent = unvan;
         document.getElementById('sonuc-skor').textContent = `Skorun: ${skor}`;
