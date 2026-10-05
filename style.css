@@ -208,7 +208,7 @@ body {
 }
 
 /* ==========================================
-   2. ÇARKFELEK EKRANI & STİLLERİ
+   2. ÇARKFELEK EKRANI & DİLİMLER
    ========================================== */
 .wheel-wrapper {
   position: relative;
@@ -273,6 +273,32 @@ body {
   z-index: 10;
 }
 
+/* Çark İçindeki Metinlerin Dairesel Dizilimi */
+.wheel-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90px;
+  height: 30px;
+  margin-top: -15px;
+  margin-left: -45px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+}
+
+.label-1 { transform: rotate(22.5deg) translate(95px) rotate(90deg); }
+.label-2 { transform: rotate(67.5deg) translate(95px) rotate(90deg); }
+.label-3 { transform: rotate(112.5deg) translate(95px) rotate(90deg); }
+.label-4 { transform: rotate(157.5deg) translate(95px) rotate(90deg); }
+.label-5 { transform: rotate(202.5deg) translate(95px) rotate(90deg); }
+.label-6 { transform: rotate(247.5deg) translate(95px) rotate(90deg); }
+.label-7 { transform: rotate(292.5deg) translate(95px) rotate(90deg); }
+.label-8 { transform: rotate(337.5deg) translate(95px) rotate(90deg); }
+
 .gold-btn {
   background: linear-gradient(180deg, var(--gold-light) 0%, var(--gold-dark) 100%);
   color: #140801;
@@ -312,7 +338,7 @@ body {
 }
 
 /* ==========================================
-   3. PROFİL EKRANI KARTLARI
+   3. PROFİL EKRANI
    ========================================== */
 .profile-card {
   background: var(--panel-bg);
