@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css?v=9">
+    <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 
@@ -16,6 +16,12 @@
 
     <!-- BAŞLANGIÇ EKRANI (KATEGORİ SEÇİMİ) -->
     <div id="ekran-baslangic" class="ekran">
+        <!-- GENEL EKONOMİ BARI -->
+        <div class="ekonomi-bar">
+            <span>🪙 <strong id="toplam-coin">0</strong></span>
+            <span>⭐ <strong id="toplam-yildiz">0</strong></span>
+        </div>
+
         <h1>📜 Yakın Tarih</h1>
         <p class="alt-yazi">Kategori Seçin</p>
         <div class="kategori-listesi">
@@ -27,11 +33,14 @@
 
     <!-- SEVİYE SEÇİM EKRANI -->
     <div id="ekran-seviye" class="ekran">
-        <h1 id="seviye-kategori-baslik">🎯 Seviye Seç</h1>
-        <p class="alt-yazi">Geçmek için en az 70 puan kazanmalısın!</p>
-        <div id="seviye-listesi" class="seviye-grid">
-            <!-- JS ile dinamik kilitli/açık seviye butonları yüklenecek -->
+        <div class="ekonomi-bar">
+            <span>🪙 <strong id="seviye-coin">0</strong></span>
+            <span>⭐ <strong id="seviye-yildiz">0</strong></span>
         </div>
+
+        <h1 id="seviye-kategori-baslik">🎯 Seviye Seç</h1>
+        <p class="alt-yazi">Seviyeleri açmak için yıldız topla!</p>
+        <div id="seviye-listesi" class="seviye-grid"></div>
         <button id="seviye-geri-btn" class="ana-btn geri-btn">⬅ Kategorilere Dön</button>
     </div>
 
@@ -39,12 +48,15 @@
     <div id="ekran-soru" class="ekran">
         <div class="ust-bar">
             <span id="soru-sayaci">Soru 1/10</span>
+            <span>🪙 <strong id="soru-coin">0</strong></span>
             <span id="skor-goster">Skor: 0</span>
         </div>
         
         <!-- JOKER ALANI -->
         <div class="joker-bar">
-            <button id="joker-5050" class="joker-btn">🌓 50/50 Joker</button>
+            <button id="joker-5050" class="joker-btn">🌓 50/50 <small>(20🪙)</small></button>
+            <button id="joker-cift" class="joker-btn">🔄 2. Şans <small>(30🪙)</small></button>
+            <button id="joker-dogru" class="joker-btn">💡 Pas <small>(50🪙)</small></button>
         </div>
 
         <div class="soru-kutu">
@@ -59,8 +71,12 @@
     <!-- SONUÇ EKRANI -->
     <div id="ekran-sonuc" class="ekran">
         <h1>🏁 Seviye Tamamlandı!</h1>
+        
+        <div id="kazanilan-yildizlar" class="yildiz-alani">⭐⭐⭐</div>
         <div id="unvan-rozet" class="unvan-rozet">🎖️ Çaylak Tarihçi</div>
+        
         <p id="sonuc-skor">Skorun: 0</p>
+        <p id="kazanilan-coin-metni" class="coin-kazanc">+0 Coin Kazanıldı! 🪙</p>
         <p id="sonuc-mesaj"></p>
         <button id="tekrar-btn" class="ana-btn">Seviye Listesine Dön</button>
     </div>
@@ -72,6 +88,6 @@
     <audio id="ses-cark" src="sesler/dogruu.mp3"></audio>
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
-    <script src="script.js?v=9"></script>
+    <script src="script.js?v=10"></script>
 </body>
 </html>
