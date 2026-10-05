@@ -833,3 +833,56 @@ function baslangicAyarlari() {
 baslangicAyarlari();
 
 });
+
+// ==========================================
+// BUNU BİLİYOR MUYDUNUZ - BİLGİ KARTI
+// ==========================================
+
+let bilgiler = [];
+let sonBilgiIndex = -1;
+
+async function bilgileriYukle() {
+    try {
+        const response = await fetch('bilgiler.json');
+        if (!response.ok) throw new Error('bilgiler.json okunamadı');
+        bilgiler = await response.json();
+        rastgeleBilgiGoster();
+    } catch (err) {
+        bilgiler = [
+            { kategori: "savas", ikon: "🎖️", bilgi: "II. Dünya Savaşı sırasında Coca-Cola şurubu Almanya'ya ithal edilemeyince alternatif olarak Fanta icat edilmiştir." },
+            { kategori: "siyaset", ikon: "🏛️", bilgi: "Atatürk, 1936'da Montrö Sözleşmesi'ni bizzat kaleme almıştır." },
+            { kategori: "bilim", ikon: "🔬", bilgi: "Neil Armstrong'un uzay kıyafeti, Türk işçileri tarafından dikilmiştir." }
+        ];
+        rastgeleBilgiGoster();
+    }
+}
+
+function rastgeleBilgiGoster() {
+    if (bilgiler.length === 0) return;
+    let yeniIndex;
+    do {
+        yeniIndex = Math.floor(Math.random() * bilgiler.length);
+    } while (yeniIndex === sonBilgiIndex && bilgiler.length > 1);
+    sonBilgiIndex = yeniIndex;
+    const bilgi = bilgiler[yeniIndex];
+    const el = document.getElementById('bilgi-metni');
+    if (el) {
+        el.style.opacity = '0';
+        setTimeout(() => {
+            el.textContent = bilgi.ikon + ' ' + bilgi.bilgi;
+            el.style.opacity = '1';
+            el.style.transition = 'opacity 0.3s ease';
+        }, 150);
+    }
+}
+
+const bilgiKart = document.getElementById('bilgi-kart');
+if (bilgiKart) {
+    bilgiKart.addEventListener('click', () => {
+        sesCal(sesTiklama);
+        titret(15);
+        rastgeleBilgiGoster();
+    });
+}
+
+bilgileriYukle();
