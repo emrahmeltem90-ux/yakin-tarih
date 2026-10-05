@@ -13,8 +13,7 @@ const GUNUN_BILGILERI = [
     "Kuzey Kore, 1974 yılında İsveç'ten aldığı 1.000 adet Volvo otomobilin parasını hâlâ ödememiştir.",
     "ABD ordusunun Soğuk Savaş yıllarında yanlışlıkla denizlere düşürdüğü ve hâlâ bulunamayan en az 6 adet kayıp nükleer bombası vardır.",
     "Müttefikler, II. Dünya Savaşı'nda düşmanı kandırmak için şişme tanklardan oluşan 'Hayalet Ordu' adında gizli bir birlik kurmuştur.",
-    "1932 yılında Avustralya ordusu, ekinlere zarar veren 20.000 devekuşuna (Emu) karşı savaş ilan etmiş ve savaşı devekuşları kazanmıştır!",
-    "Soğuk Savaş sırasında ABD, Ay üzerinde bir nükleer bomba patlatarak gücünü göstermeyi planlamıştır (Proje A119)."
+    "1932 yılında Avustralya ordusu, ekinlere zarar veren 20.000 devekuşuna karşı savaş ilan etmiş ve savaşı devekuşları kazanmıştır!"
 ];
 
 const BASARIMLAR = [
@@ -832,46 +831,45 @@ function baslangicAyarlari() {
 
 baslangicAyarlari();
 
-});
-
 // ==========================================
-// BUNU BİLİYOR MUYDUNUZ - BİLGİ KARTI
+// 22. BUNU BİLİYOR MUYDUNUZ - BİLGİ KARTI
 // ==========================================
 
-let bilgiler = [];
 let sonBilgiIndex = -1;
 
-async function bilgileriYukle() {
-    try {
-        const response = await fetch('bilgiler.json');
-        if (!response.ok) throw new Error('bilgiler.json okunamadı');
-        bilgiler = await response.json();
+function bilgileriYukle() {
+    if (typeof BILGILER !== 'undefined' && BILGILER.length > 0) {
         rastgeleBilgiGoster();
-    } catch (err) {
-        bilgiler = [
-            { kategori: "savas", ikon: "🎖️", bilgi: "II. Dünya Savaşı sırasında Coca-Cola şurubu Almanya'ya ithal edilemeyince alternatif olarak Fanta icat edilmiştir." },
-            { kategori: "siyaset", ikon: "🏛️", bilgi: "Atatürk, 1936'da Montrö Sözleşmesi'ni bizzat kaleme almıştır." },
-            { kategori: "bilim", ikon: "🔬", bilgi: "Neil Armstrong'un uzay kıyafeti, Türk işçileri tarafından dikilmiştir." }
+    } else {
+        // Yedek bilgiler (bilgiler.js yüklenemezse)
+        window.BILGILER = [
+            { ikon: "🎖️", bilgi: "II. Dünya Savaşı sırasında Coca-Cola şurubu Almanya'ya ithal edilemeyince alternatif olarak Fanta icat edilmiştir." },
+            { ikon: "🏛️", bilgi: "Atatürk, 1936'da Montrö Sözleşmesi'ni bizzat kaleme almıştır." },
+            { ikon: "🔬", bilgi: "Neil Armstrong'un uzay kıyafeti, Türk işçileri tarafından dikilmiştir." }
         ];
         rastgeleBilgiGoster();
     }
 }
 
 function rastgeleBilgiGoster() {
-    if (bilgiler.length === 0) return;
+    const kaynak = (typeof BILGILER !== 'undefined' && BILGILER.length > 0) ? BILGILER : (window.BILGILER || []);
+    if (kaynak.length === 0) return;
+    
     let yeniIndex;
     do {
-        yeniIndex = Math.floor(Math.random() * bilgiler.length);
-    } while (yeniIndex === sonBilgiIndex && bilgiler.length > 1);
+        yeniIndex = Math.floor(Math.random() * kaynak.length);
+    } while (yeniIndex === sonBilgiIndex && kaynak.length > 1);
+    
     sonBilgiIndex = yeniIndex;
-    const bilgi = bilgiler[yeniIndex];
+    const bilgi = kaynak[yeniIndex];
     const el = document.getElementById('bilgi-metni');
+    
     if (el) {
+        el.style.transition = 'opacity 0.3s ease';
         el.style.opacity = '0';
         setTimeout(() => {
-            el.textContent = bilgi.ikon + ' ' + bilgi.bilgi;
+            el.textContent = (bilgi.ikon || '💡') + ' ' + bilgi.bilgi;
             el.style.opacity = '1';
-            el.style.transition = 'opacity 0.3s ease';
         }, 150);
     }
 }
@@ -886,3 +884,5 @@ if (bilgiKart) {
 }
 
 bilgileriYukle();
+
+});
