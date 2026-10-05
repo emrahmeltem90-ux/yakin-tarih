@@ -52,7 +52,6 @@ body {
     padding-bottom: 12vh;
 }
 
-/* BAŞLA BUTONU (Eskitme Mühür / Damga Stili) */
 .basla-btn {
     position: relative;
     width: 140px;
@@ -91,9 +90,6 @@ body {
 
 .basla-btn:hover {
     transform: scale(1.05);
-    box-shadow: 
-        0 12px 30px rgba(0, 0, 0, 0.95),
-        inset 0 0 10px rgba(40, 20, 5, 0.4);
 }
 
 .basla-btn:active {
@@ -101,7 +97,7 @@ body {
 }
 
 /* ==========================================
-   4. KATEGORİ VE SEVİYE SEÇİM EKRANLARI
+   4. KATEGORİ VE SEVİYE EKRANLARI
    ========================================== */
 h1 {
     font-size: 2rem;
@@ -140,7 +136,7 @@ h1 {
     transform: scale(0.98);
 }
 
-/* SEVİYE 2'Lİ GRID IZGARA YAPISI */
+/* SEVİYE BUTONLARI & KİLİTLİ SEVİYE STİLİ */
 .seviye-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -158,13 +154,21 @@ h1 {
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-    transition: background-color 0.2s, transform 0.1s;
+    transition: all 0.2s;
 }
 
 .seviye-btn:active {
     background: #d2b47d;
     color: #121212;
     transform: scale(0.95);
+}
+
+.seviye-btn.kilitli {
+    background: #111;
+    color: #555;
+    border-color: #333;
+    cursor: not-allowed;
+    opacity: 0.6;
 }
 
 .geri-btn {
@@ -183,16 +187,42 @@ h1 {
 }
 
 /* ==========================================
-   5. SORU EKRANI
+   5. SORU EKRANI & JOKER
    ========================================== */
 .ust-bar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.05rem;
     font-weight: 700;
     color: #d2b47d;
+}
+
+.joker-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.joker-btn {
+    background: #251d12;
+    border: 1px solid #d2b47d;
+    color: #d2b47d;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.joker-btn:disabled {
+    background: #151515;
+    border-color: #333;
+    color: #555;
+    cursor: not-allowed;
 }
 
 .soru-kutu {
@@ -244,6 +274,11 @@ h1 {
     color: #fff;
 }
 
+.secenek-btn.gizli-secenek {
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .aciklama-kutu {
     margin-top: 18px;
     padding: 14px;
@@ -261,11 +296,23 @@ h1 {
 }
 
 /* ==========================================
-   6. SONUÇ EKRANI
+   6. SONUÇ EKRANI & ROZET
    ========================================== */
 #ekran-sonuc h1 {
     color: #d2b47d;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.unvan-rozet {
+    background: linear-gradient(135deg, #d2b47d, #8a6d3b);
+    color: #111;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(210, 180, 125, 0.3);
 }
 
 #sonuc-skor {
