@@ -1,164 +1,260 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yakın Tarih</title>
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css?v=14">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Yakın Tarih - Bilgi Yarışması</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- 1. AÇILIŞ EKRANI (SPLASH) -->
-    <div id="ekran-acilis" class="ekran aktif acilis-ekrani">
-        <button id="basla-btn" class="basla-btn">BAŞLA</button>
-    </div>
+  <div class="app-container">
 
-    <!-- 2. ANA MENÜ EKRANI (SAHA BİLGİNİ DÜZENİ - TARİH TEMASI) -->
-    <div id="ekran-anamenu" class="ekran">
-        <!-- Üst Bilgi Çubuğu -->
-        <div class="top-bar">
-            <div class="stat-pill">
-                <span class="stat-label">OYUNCU</span>
-                <strong id="menu-user">Tarihçi</strong>
+    <!-- ÜST GEZİNTİ BARI (Giriş ekranında gizlenir) -->
+    <header id="top-bar" class="top-bar hidden">
+      <button class="nav-back-btn" onclick="showScreen('screen-landing')">← Ana Menü</button>
+      <div class="coin-badge">
+        <span class="coin-icon">🪙</span>
+        <span id="coin-amount">1945</span>
+      </div>
+    </header>
+
+    <!-- 1. GİRİŞ EKRANI (LANDING) -->
+    <section id="screen-landing" class="screen active">
+      <div class="landing-content">
+        <!-- Üst Başlık Grubu -->
+        <div class="header-group">
+          <h1 class="main-title">YAKIN TARİH</h1>
+          <div class="title-divider"></div>
+          <p class="subtitle">II. Dünya Savaşı'ndan Günümüze</p>
+        </div>
+
+        <!-- Tam Ortadaki Başla Butonu -->
+        <div class="center-button-container">
+          <button class="start-btn" onclick="showScreen('screen-wheel')">
+            <span>BAŞLA</span>
+          </button>
+        </div>
+
+        <!-- Alt Söz Grubu -->
+        <div class="footer-quote-group">
+          <p class="quote">"Geçmişini bilmeyen geleceğine yön veremez."</p>
+          <p class="quote-author">— Mustafa Kemal Atatürk</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ÇARKFELEK EKRANI -->
+    <section id="screen-wheel" class="screen hidden">
+      <div class="screen-content">
+        <h2 class="section-title">Şans Çarkı</h2>
+        <p class="section-subtitle">Günün ödülünü kazanmak için çarkı çevir!</p>
+
+        <div class="wheel-wrapper">
+          <div class="wheel-pointer"></div>
+          <div class="wheel-outer-ring">
+            <div id="wheel" class="wheel">
+              <div class="wheel-label label-1">250 🪙</div>
+              <div class="wheel-label label-2">TEKRAR</div>
+              <div class="wheel-label label-3">10 🪙</div>
+              <div class="wheel-label label-4">25 🪙</div>
+              <div class="wheel-label label-5">50 🪙</div>
+              <div class="wheel-label label-6">5 ⭐</div>
+              <div class="wheel-label label-7">100 🪙</div>
+              <div class="wheel-label label-8">JOKER</div>
             </div>
-            <div class="stat-pill">
-                <span class="stat-icon">⭐</span>
-                <strong id="menu-yildiz">0</strong>
+            <div class="wheel-center-cap"></div>
+          </div>
+        </div>
+
+        <button id="spin-btn" class="gold-btn spin-btn" onclick="spinWheel()">SPIN 🎡</button>
+        <p class="spins-left-text">Ücretsiz Çevirme: <span id="spins-left">1</span> hak</p>
+
+        <div class="quick-nav">
+          <button class="nav-icon-btn" onclick="showScreen('screen-profile')">👤 Profil</button>
+          <button class="nav-icon-btn" onclick="showScreen('screen-achievements')">🏆 Başarımlar</button>
+          <button class="nav-icon-btn" onclick="showScreen('screen-settings')">⚙️ Ayarlar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. OYUNCU PROFİLİ EKRANI -->
+    <section id="screen-profile" class="screen hidden">
+      <div class="screen-content">
+        <h2 class="section-title">Oyuncu Profil</h2>
+
+        <div class="profile-card">
+          <div class="avatar-circle">👤</div>
+          <input type="text" class="player-name-input" value="Oyuncu" id="player-name">
+          <button class="save-btn" onclick="saveProfile()">KAYDET ✓</button>
+          <p class="welcome-msg" id="welcome-msg">Hoş geldin, Oyuncu!</p>
+        </div>
+
+        <!-- Doğruluk Oranı Çemberi -->
+        <div class="accuracy-container">
+          <div class="accuracy-circle">
+            <div class="accuracy-value">86%</div>
+            <div class="accuracy-label">DOĞRULUK</div>
+          </div>
+        </div>
+
+        <!-- İstatistik Izgarası -->
+        <div class="stats-grid">
+          <div class="stat-card blue-tint">
+            <span class="stat-icon">🎯</span>
+            <span class="stat-number">10300</span>
+            <span class="stat-name">TOPLAM PUAN</span>
+          </div>
+          <div class="stat-card green-tint">
+            <span class="stat-icon">✅</span>
+            <span class="stat-number">103</span>
+            <span class="stat-name">DOĞRU CEVAP</span>
+          </div>
+          <div class="stat-card red-tint">
+            <span class="stat-icon">❌</span>
+            <span class="stat-number">17</span>
+            <span class="stat-name">YANLIŞ CEVAP</span>
+          </div>
+          <div class="stat-card gold-tint">
+            <span class="stat-icon">🏆</span>
+            <span class="stat-number">1000</span>
+            <span class="stat-name">EN YÜKSEK SKOR</span>
+          </div>
+          <div class="stat-card purple-tint">
+            <span class="stat-icon">📚</span>
+            <span class="stat-number">11</span>
+            <span class="stat-name">TAMAMLANAN LEVEL</span>
+          </div>
+          <div class="stat-card orange-tint">
+            <span class="stat-icon">⭐</span>
+            <span class="stat-number">2</span>
+            <span class="stat-name">TAM PUAN LEVEL</span>
+          </div>
+        </div>
+
+        <div class="rank-badge-card">
+          <span class="rank-star">⭐</span>
+          <div class="rank-info">
+            <h3>PROFESYONEL</h3>
+            <p>Harika gidiyorsun!</p>
+          </div>
+        </div>
+
+        <button class="share-btn">📩 PROFİLİMİ PAYLAŞ</button>
+      </div>
+    </section>
+
+    <!-- 4. BAŞARIMLAR EKRANI -->
+    <section id="screen-achievements" class="screen hidden">
+      <div class="screen-content">
+        <h2 class="section-title">🏆 Başarımlar</h2>
+        <p class="section-subtitle">Hedefleri tamamla, ödülleri kap!</p>
+
+        <div class="achievements-list">
+          <div class="achievement-card completed">
+            <div class="achievement-icon">🩸</div>
+            <div class="achievement-details">
+              <h4>İlk Kan</h4>
+              <p>İlk doğru cevabını ver</p>
+              <span class="reward-tag">Ödül: 50 🪙</span>
             </div>
-            <div class="stat-pill">
-                <span class="stat-icon">🪙</span>
-                <strong id="menu-coin">0</strong>
+            <div class="check-mark">✓</div>
+          </div>
+
+          <div class="achievement-card completed">
+            <div class="achievement-icon">🥉</div>
+            <div class="achievement-details">
+              <h4>Çaylak</h4>
+              <p>10 doğru cevap yap</p>
+              <span class="reward-tag">Ödül: 100 🪙</span>
             </div>
-        </div>
+            <div class="check-mark">✓</div>
+          </div>
 
-        <!-- Günün Bilgisi / Duyuru Bandı -->
-        <div class="duyuru-bandi">
-            <span class="duyuru-rozet">GÜNÜN BİLGİSİ</span>
-            <p id="gunun-bilgisi-metin">Günün bilgisi yükleniyor...</p>
-        </div>
-
-        <!-- Logo & Arma Alanı -->
-        <div class="logo-alani">
-            <div class="tarih-armasi">📜</div>
-            <h1 class="ana-baslik">YAKIN TARİH</h1>
-            <h2 class="alt-baslik">BİLGİ YARIŞMASI</h2>
-        </div>
-
-        <!-- Menü Butonları -->
-        <div class="ana-menu-listesi">
-            <button id="btn-devam-et" class="menu-btn devamm-btn">DEVAM ET</button>
-            <button id="btn-oyuna-basla" class="menu-btn birincil-btn">OYUNA BAŞLA</button>
-            <button id="btn-gunluk-odul" class="menu-btn ikincil-btn">GÜNLÜK BONUS</button>
-            <button id="btn-gunluk-gorevler" class="menu-btn ikincil-btn">GÜNLÜK GÖREVLER</button>
-            <button id="btn-basarimlar" class="menu-btn ikincil-btn">BAŞARIMLAR</button>
-            <button id="btn-carkifelek" class="menu-btn ikincil-btn">ÇARKİFELEK</button>
-            <button id="btn-davet" class="menu-btn ikincil-btn">ARKADAŞINI DAVET ET (+10 ⭐)</button>
-            <button id="btn-ses-kontrol" class="menu-btn ikincil-btn">SES: AÇIK</button>
-            <button id="btn-nasil-oynanir" class="menu-btn ikincil-btn">NASIL OYNANIR</button>
-        </div>
-    </div>
-
-    <!-- 3. KATEGORİ SEÇİM EKRANI -->
-    <div id="ekran-baslangic" class="ekran">
-        <div class="top-bar">
-            <div class="stat-pill">
-                <span class="stat-icon">⭐</span>
-                <strong id="toplam-yildiz">0</strong>
+          <div class="achievement-card completed">
+            <div class="achievement-icon">🥈</div>
+            <div class="achievement-details">
+              <h4>Usta</h4>
+              <p>50 doğru cevap yap</p>
+              <span class="reward-tag">Ödül: 300 🪙</span>
             </div>
-            <div class="stat-pill">
-                <span class="stat-icon">🪙</span>
-                <strong id="toplam-coin">0</strong>
+            <div class="check-mark">✓</div>
+          </div>
+
+          <div class="achievement-card completed">
+            <div class="achievement-icon">🥇</div>
+            <div class="achievement-details">
+              <h4>Efsane</h4>
+              <p>100 doğru cevap yap</p>
+              <span class="reward-tag">Ödül: 500 🪙 + 5 ⭐</span>
             </div>
-        </div>
+            <div class="check-mark">✓</div>
+          </div>
 
-        <h1 class="sayfa-baslik">Kategori Seç</h1>
-        <p class="alt-yazi">Oynamak istediğin dönemi seç</p>
-        <div class="kategori-listesi">
-            <button class="kategori-btn" data-kategori="1">II. Dünya Savaşı</button>
-            <button class="kategori-btn" data-kategori="2">Soğuk Savaş</button>
-        </div>
-        <button id="baslangic-geri-btn" class="menu-btn ikincil-btn" style="margin-top:20px;">Ana Menüye Dön</button>
-    </div>
-
-    <!-- 4. SEVİYE SEÇİM EKRANI -->
-    <div id="ekran-seviye" class="ekran">
-        <div class="top-bar">
-            <div class="stat-pill">
-                <span class="stat-icon">⭐</span>
-                <strong id="seviye-yildiz">0</strong>
+          <div class="achievement-card">
+            <div class="achievement-icon">💎</div>
+            <div class="achievement-details">
+              <h4>Mükemmeliyetçi</h4>
+              <p>Bir leveli tam puanla bitir</p>
+              <span class="reward-tag">Ödül: 200 🪙</span>
             </div>
-            <div class="stat-pill">
-                <span class="stat-icon">🪙</span>
-                <strong id="seviye-coin">0</strong>
-            </div>
+            <div class="check-mark pending">○</div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <h1 id="seviye-kategori-baslik" class="sayfa-baslik">Seviye Seç</h1>
-        <p class="alt-yazi">Seviyeleri açmak için yıldız topla!</p>
-        <div id="seviye-listesi" class="seviye-grid"></div>
-        <button id="seviye-geri-btn" class="menu-btn ikincil-btn">Kategorilere Dön</button>
-    </div>
+    <!-- 5. AYARLAR EKRANI -->
+    <section id="screen-settings" class="screen hidden">
+      <div class="screen-content">
+        <h2 class="section-title">⚙️️ Ayarlar</h2>
 
-    <!-- 5. SORU EKRANI -->
-    <div id="ekran-soru" class="ekran">
-        <div class="ust-bar-gorsel">
-            <div class="bar-sol" id="soru-sayaci">Soru 1/10</div>
-            <div class="bar-orta-rozet">
-                <span class="yildiz-ikon">🪙</span>
-                <span id="soru-coin">0</span>
-            </div>
-            <div class="bar-sag" id="skor-goster">Skor: 0</div>
+        <div class="settings-list">
+          <div class="setting-item">
+            <span class="setting-label">🎵 Müzik</span>
+            <label class="toggle-switch">
+              <input type="checkbox" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <span class="setting-label">🔊 Ses Efektleri</span>
+            <label class="toggle-switch">
+              <input type="checkbox" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <span class="setting-label">🌓 Tema</span>
+            <button class="setting-action-btn">KOYU</button>
+          </div>
+
+          <div class="setting-item">
+            <span class="setting-label">📳 Titreşim</span>
+            <label class="toggle-switch">
+              <input type="checkbox" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-item">
+            <span class="setting-label">🏅 Liderlik Tablosu</span>
+            <button class="setting-action-btn gold">GÖRÜNTÜLE</button>
+          </div>
+
+          <div class="setting-item danger-zone">
+            <span class="setting-label">Verileri Sıfırla</span>
+            <button class="setting-action-btn red" onclick="resetData()">Sıfırla</button>
+          </div>
         </div>
-        
-        <!-- JOKER BARI -->
-        <div class="joker-bar">
-            <button id="joker-5050" class="joker-btn">
-                <span>50/50</span>
-                <span class="joker-fiyat">(20🪙)</span>
-            </button>
-            <button id="joker-cift" class="joker-btn">
-                <span>2. Şans</span>
-                <span class="joker-fiyat">(30🪙)</span>
-            </button>
-            <button id="joker-dogru" class="joker-btn">
-                <span>Pas</span>
-                <span class="joker-fiyat">(50🪙)</span>
-            </button>
-        </div>
+      </div>
+    </section>
 
-        <!-- SORU KUTUSU -->
-        <div class="soru-kutu">
-            <p id="soru-metni">Soru yükleniyor...</p>
-        </div>
+  </div>
 
-        <!-- SEÇENEKLER -->
-        <div id="secenekler" class="secenekler"></div>
-
-        <!-- AÇIKLAMA KUTUSU -->
-        <div id="aciklama-kutu" class="aciklama-kutu gizli">
-            <p id="aciklama-metni"></p>
-        </div>
-    </div>
-
-    <!-- 6. SONUÇ EKRANI -->
-    <div id="ekran-sonuc" class="ekran">
-        <h1 class="sayfa-baslik">Seviye Tamamlandı!</h1>
-        <div id="kazanilan-yildizlar" class="yildiz-alani">⭐⭐⭐</div>
-        <div id="unvan-rozet" class="unvan-rozet">Çaylak Tarihçi</div>
-        <p id="sonuc-skor">Skorun: 0</p>
-        <p id="kazanilan-coin-metni" class="coin-kazanc">+0 Coin Kazanıldı!</p>
-        <p id="sonuc-mesaj"></p>
-        <button id="tekrar-btn" class="menu-btn birincil-btn">Seviye Listesine Dön</button>
-    </div>
-
-    <!-- SES DOSYALARI -->
-    <audio id="ses-dogru" src="sesler/dogruu.mp3"></audio>
-    <audio id="ses-yanlis" src="sesler/yanliss.mp3"></audio>
-    <audio id="ses-tiklama" src="sesler/tiklamma.mp3"></audio>
-    <audio id="ses-cark" src="sesler/dogruu.mp3"></audio>
-    <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
-
-    <script src="script.js?v=14"></script>
+  <script src="script.js"></script>
 </body>
 </html>
