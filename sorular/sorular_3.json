@@ -1,0 +1,745 @@
+[
+  {
+    "soru": "1945 yılında Nuri Demirağ liderliğinde kurulan ve Türkiye'de çok partili dönemin ilk muhalefet partisi kabul edilen siyasi teşekkül hangisidir?",
+    "secenekler": ["Demokrat Parti", "Milli Kalkınma Partisi", "Millet Partisi", "Serbest Cumhuriyet Fırkası"],
+    "dogruCevap": 1,
+    "aciklama": "Milli Kalkınma Partisi (MKP), 1945 yılında iş insanı Nuri Demirağ tarafından kurulmuş ve II. Dünya Savaşı sonrasında çok partili hayata geçişin ilk partisi olmuştur."
+  },
+  {
+    "soru": "CHP içerisinde 'Çiftçiyi Topraklandırma Kanunu' tasarısına karşı çıkarak verilen ve Demokrat Parti'nin kurulmasına zemin hazırlayan önergeye ne ad verilir?",
+    "secenekler": ["12 Temmuz Beyannamesi", "Dörtlü Takrir", "9 İlkeler", "Misak-ı Milli"],
+    "dogruCevap": 1,
+    "aciklama": "Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından CHP Grubu'na sunulan 'Dörtlü Takrir', parti içi muhalefeti belirginleştirmiş ve DP'nin doğumunu sağlamıştır."
+  },
+  {
+    "soru": "7 Ocak 1946 tarihinde Demokrat Parti'yi kuran dört önemli siyasetçi hangisinde tam olarak verilmiştir?",
+    "secenekler": [
+      "Celal Bayar - Adnan Menderes - Fuat Köprülü - Refik Koraltan",
+      "İsmet İnönü - Celal Bayar - Fevzi Çakmak - Adnan Menderes",
+      "Adnan Menderes - Hasan Polatkan - Fatin Rüştü Zorlu - Celal Bayar",
+      "Celal Bayar - Nihat Erim - Osman Bölükbaşı - Fuat Köprülü"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Demokrat Parti; Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan (Dörtlü Takrir'i sunan isimler) tarafından kurulmuştur."
+  },
+  {
+    "soru": "1946 yılında yapılan ilk çok partili genel seçimlerde uygulanan ve seçim sonuçlarının tartışılmasına neden olan usul hangisidir?",
+    "secenekler": ["Gizli oy - Açık tasnif", "Açık oy - Gizli tasnif", "Nispi temsil sistemi", "Dar bölge sistemi"],
+    "dogruCevap": 1,
+    "aciklama": "1946 seçimleri 'açık oy - gizli tasnif' esasına göre yapılmış, bu durum seçim güvenliği tartışmalarına ve ciddi usulsüzlük iddialarına yol açmıştır."
+  },
+  {
+    "soru": "1948 yılında Demokrat Parti'den ayrılan Mareşal Fevzi Çakmak ve Yusuf Hikmet Bayur gibi isimlerin kurduğu muhalefet partisi hangisidir?",
+    "secenekler": ["Milli Kalkınma Partisi", "Türkiye İşçi Partisi", "Millet Partisi", "Cumhuriyetçi Köylü Millet Partisi"],
+    "dogruCevap": 2,
+    "aciklama": "Demokrat Parti'nin iktidara karşı muvazaalı (müsamahakar) davrandığını düşünen muhafazakar ve milliyetçi kanat, 1948'de Millet Partisi'ni kurmuştur."
+  },
+  {
+    "soru": "Türkiye'de 'Gizli oy - Açık tasnif' ilkesine göre yapılan ve 'Beyaz İhtilal' olarak nitelendirilen ilk demokratik seçim hangi yıl gerçekleşmiştir?",
+    "secenekler": ["1946", "1950", "1954", "1957"],
+    "dogruCevap": 1,
+    "aciklama": "14 Mayıs 1950 seçimleri dürüst ve şeffaf bir ortamda yapılmış, DP %53 civarı oyla tek başına iktidara gelerek CHP'nin 27 yıllık yönetimine son vermiştir."
+  },
+  {
+    "soru": "1947 yılında ABD tarafından yürürlüğe konulan ve komünizm tehdidine karşı Türkiye ile Yunanistan'a askeri-ekonomik yardım öngören belge hangisidir?",
+    "secenekler": ["Marshall Planı", "Monroe Doktrini", "Eisenhower Doktrini", "Truman Doktrini"],
+    "dogruCevap": 3,
+    "aciklama": "Başkan Harry Truman tarafından açıklanan Truman Doktrini, Türkiye'ye askeri teçhizat ve finansman desteği sağlayarak Batı Bloku'na entegrasyonu hızlandırmıştır."
+  },
+  {
+    "soru": "Marshall Planı kapsamında Türkiye'ye aktarılan Amerikan yardımları öncelikli olarak hangi sektörün modernleşmesinde kullanılmıştır?",
+    "secenekler": ["Ağır Sanayi", "Tarım ve Karayolları", "Deniz Taşımacılığı", "Madencilik ve Enerji"],
+    "dogruCevap": 1,
+    "aciklama": "Marshall yardımları ile Türkiye'ye binlerce traktör getirilmiş, tarımsal üretim artırılmış ve kentler arası karayolu ağı hızla geliştirilmiştir."
+  },
+  {
+    "soru": "İktidar ve muhalefet arasındaki gerginliği azaltmak amacıyla Cumhurbaşkanı İsmet İnönü'nün 12 Temmuz 1947'de yayımladığı tarihi bildiriye ne ad verilir?",
+    "secenekler": ["12 Temmuz Beyannamesi", "Lozan Antlaşması", "Takrir-i Sükun", "Çankaya Protokolü"],
+    "dogruCevap": 0,
+    "aciklama": "İsmet İnönü, 12 Temmuz Beyannamesi ile devlet başkanının iktidar ve muhalefete karşı eşit mesafede durması gerektiğini belirterek çok partili sistemi güvenceye almıştır."
+  },
+  {
+    "soru": "Demokrat Parti'nin 1950 genel seçimlerinde kullandığı ve geniş halk kitlelerini arkasına alan ünlü seçim sloganı hangisidir?",
+    "secenekler": [
+      "Söz Milletindir, İrade Milletindir!",
+      "Yeter! Söz Milletindir!",
+      "Aydınlık Yarınlar İçin El Ele!",
+      "Köylü Milletin Efendisidir!"
+    ],
+    "dogruCevap": 1,
+    "aciklama": "Mimar Selçuk Milar tarafından tasarlanan dur işareti yapan el figürlü 'Yeter! Söz Milletindir!' afişi ve sloganı Türk siyasi tarihinin en ikonik simgelerindendir."
+  },
+  {
+    "soru": "14 Mayıs 1950 seçimleri sonrasında Türkiye Cumhuriyeti'nin 3. Cumhurbaşkanı seçilen devlet adamı kimdir?",
+    "secenekler": ["Adnan Menderes", "Celal Bayar", "Fevzi Çakmak", "Refik Koraltan"],
+    "dogruCevap": 1,
+    "aciklama": "1950 seçimlerinden sonra DP lideri Celal Bayar Cumhurbaşkanı seçilmiş, Hükümeti kurma görevini ise Adnan Menderes'e vermiştir."
+  },
+  {
+    "soru": "1945 yılında 'Çiftçiyi Topraklandırma Kanunu'nun meclisteki görüşmeleri sırasında sert muhalefet yaparak dikkatleri üzerine çeken Aydın Milletvekili kimdir?",
+    "secenekler": ["Adnan Menderes", "Fatin Rüştü Zorlu", "Hasan Polatkan", "Samet Ağaoğlu"],
+    "dogruCevap": 0,
+    "aciklama": "Büyük toprak sahibi bir aileden gelen Adnan Menderes, bu kanun tasarısına mecliste gösterdiği etkili muhalefetle siyaset sahnesinde öne çıkmıştır."
+  },
+  {
+    "soru": "CHP'nin 1947 yılındaki 7. Kurultayı'nda laiklik uygulamalarında yumuşama kararı alması ve din eğitimine yönelik adımlar atmasının temel sebebi nedir?",
+    "secenekler": ["DP'nin muhafazakar kesimden gördüğü ilgiyi dengelemek", "SSCB'nin baskılarını azaltmak", "BM ilkelerine uyum sağlamak", "Ordu içindeki huzursuzluğu gidermek"],
+    "dogruCevap": 0,
+    "aciklama": "CHP, çok partili hayata geçişle birlikte DP'nin muhafazakar seçmen üzerindeki etkisini kırmak amacıyla din eğitimi ve ilahiyat fakültelerinin açılması gibi esnemelere gitmiştir."
+  },
+  {
+    "soru": "Aralık 1945'te Sol yayın yaptığı gerekçesiyle üniversite öğrencileri ve provoke edilen gruplarca matbaası tahrip edilen ünlü gazete hangisidir?",
+    "secenekler": ["Cumhuriyet", "Tan Gazetesi", "Ulus", "Akşam"],
+    "dogruCevap": 1,
+    "aciklama": "Sertel ailesi tarafından çıkarılan Tan Gazetesi, 4 Aralık 1945'te 'Tan Olayı' olarak bilinen gösterilerde matbaası basılarak imha edilmiştir."
+  },
+  {
+    "soru": "Türkiye'de çok partili dönemin başlamasıyla birlikte 1950 yılında kapatılma sürecine giren ve kırsal kalkınmayı amaçlayan özgün eğitim modeli hangisidir?",
+    "secenekler": ["Millet Mektepleri", "Köy Enstitüleri", "Halkevleri", "Anadolu Lisesi Model"],
+    "dogruCevap": 1,
+    "aciklama": "1940'ta kurulan Köy Enstitüleri, çok partili dönemin başlamasıyla komünizm propagandası yapıldığı iddiaları ve siyasi baskılar sonucu önce dönüştürülmüş, 1954'te kapatılmıştır."
+  },
+  {
+    "soru": "Demokrat Parti iktidarının ilk büyük icraatlarından biri olan ve 16 Haziran 1950'de kabul edilen yasal düzenleme hangisidir?",
+    "secenekler": [
+      "Arapça Ezan okuma yasağının kaldırılması",
+      "Köy Enstitülerinin kapatılması",
+      "NATO'ya katılım dilekçesi verilmesi",
+      "Varlık Vergisi'nin affedilmesi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1932'den beri Türkçe okunan ezanın yeniden Arapça okunabilmesine imkan sağlayan kanun teklifi, 16 Haziran 1950'de kabul edilmiştir."
+  },
+  {
+    "soru": "Türkiye, NATO'ya kabul edilme sürecini hızlandırmak amacıyla 1950 yılında hangi ülkeye TBMM kararı olmadan Bakanlar Kurulu kararıyla asker göndermiştir?",
+    "secenekler": ["Vietnam", "Kore", "Afganistan", "Kıbrıs"],
+    "dogruCevap": 1,
+    "aciklama": "Menderes Hükümeti, Batı Bloku güvenlik şemsiyesine girmek için Kore Savaşı'na Türk Tugayı'nı göndermiş ve bu karar NATO üyeliğinde belirleyici olmuştur."
+  },
+  {
+    "soru": "Türkiye ve Yunanistan, hangi yıl yapılan protokol ile NATO'ya eş zamanlı ve resmi olarak üye kabul edilmişlerdir?",
+    "secenekler": ["1950", "1952", "1955", "1960"],
+    "dogruCevap": 1,
+    "aciklama": "Türkiye ve Yunanistan, 18 Şubat 1952 tarihinde Kuzey Atlantik Antlaşması'na (NATO) resmen taraf olmuşlardır."
+  },
+  {
+    "soru": "6-7 Eylül 1955 Olayları'nın patlak vermesinde hangi şehirdeki olaya ilişkin yayılan asılsız veya abartılı haberler etkili olmuştur?",
+    "secenekler": ["Selanik'te Atatürk'ün doğduğu evin bombalandığı haberi", "Atina'da Türk Elçiliği'ne saldırıldığı haberi", "Rodos'ta camilerin yıkıldığı haberi", "Lefkoşa'da Türklerin katledildiği haberi"],
+    "dogruCevap": 0,
+    "aciklama": "İstanbul Ekspres gazetesinde yayımlanan 'Atamızın evi bombalandı' haberi üzerine İstanbul'daki azınlıklara yönelik büyük bir yağma ve tahrip hareketi başlamıştır."
+  },
+  {
+    "soru": "1950'lerde Kıbrıs'ı Yunanistan'a bağlama (Enosis) amacını güden Rum terör örgütü EOKA'ya karşı Türklerin korunması için 1958'de kurulan gizli teşkilat hangisidir?",
+    "secenekler": ["Türk Mukavemet Teşkilatı (TMT)", "Volkan Teşkilatı", "Kıbrıs Türk Kuvvetleri Aleyhtarları", "Kıbrıs Müdafaa Cemiyeti"],
+    "dogruCevap": 0,
+    "aciklama": "TMT, Rauf Denktaş, Burhan Nalbantoğlu ve Türkiye'den gönderilen subayların (Özel Harp Dairesi) desteğiyle Rum saldırılarına karşı kurulmuştur."
+  },
+  {
+    "soru": "Demokrat Parti iktidarının 1958 yılında yaşadığı ağır ekonomik kriz sonrasında döviz darlığı nedeniyle gerçekleştirdiği tarihi devalüasyon kararı ne olmuştur?",
+    "secenekler": ["1 ABD Doları 2.80 TL'den 9.00 TL'ye çıkarıldı", "1 ABD Doları 1.00 TL'den 2.80 TL'ye çıkarıldı", "1 ABD Doları 9.00 TL'den 15.00 TL'ye çıkarıldı", "Türk Lirası dövize tamamen sabitlendi"],
+    "dogruCevap": 0,
+    "aciklama": "Ağustos 1958'de IMF ve OEEC reçeteleri doğrultusunda TL ağır bir devalüasyona tabi tutulmuş, Dolar/TL kuru 2.80'den 9.00 liraya yükseltilmiştir."
+  },
+  {
+    "soru": "1953 yılında DP iktidarı tarafından çıkarılan kanunla mal varlığı hazineye devredilen ve binaları kapatılan cumhuriyet kurumu hangisidir?",
+    "secenekler": ["Köy Enstitüleri", "Halkevleri", "Türk Dil Kurumu", "Türk Tarih Kurumu"],
+    "dogruCevap": 1,
+    "aciklama": "1932'de kurulan Halkevleri, CHP'nin bir organı gibi çalıştığı gerekçesiyle 1951-1953 sürecinde kapatılmış ve malları devlete devredilmiştir."
+  },
+  {
+    "soru": "1955 yılında gazetecilerin haber ve iddialarını mahkemede kanıtlama özgürlüğünü savunan ve DP içinde bölünmeye yol açan hukuki kavram hangisidir?",
+    "secenekler": ["Tashih Hakkı", "İspat Hakkı", "Sansür Muafiyeti", "Basın Dokunulmazlığı"],
+    "dogruCevap": 1,
+    "aciklama": "'İspat Hakkı'nı savunan DP'li milletvekilleri partiden ihraç edilmiş veya ayrılmış, bu isimler daha sonra Hürriyet Partisi'ni kurmuştur."
+  },
+  {
+    "soru": "Nisan 1960'ta mecliste kurulan, muhalefet ve basının faaliyetlerini tahkik etme, yayın durdurma ve el koyma yetkilerine sahip olağanüstü organ hangisidir?",
+    "secenekler": ["Tahkikat Komisyonu", "Milli Birlik Komitesi", "Yüksek Adalet Divanı", "Sıkıyönetim Mahkemesi"],
+    "dogruCevap": 0,
+    "aciklama": "Sadece DP'li milletvekillerinden oluşan Tahkikat Komisyonu, yargı yetkilerini üstlenerek siyasi gerilimi doruk noktasına çıkarmış ve 27 Mayıs'a giden süreci hızlandırmıştır."
+  },
+  {
+    "soru": "27 Mayıs 1960 askeri müdahalesi sonrasında ülke yönetimini üstlenen ve başkanlığını TSK Komutanı Cemal Gürsel'in yaptığı yapı hangisidir?",
+    "secenekler": ["Milli Güvenlik Konseyi", "Milli Birlik Komitesi (MBK)", "Yüksek Sevk İdare Kurulu", "Cunta Konseyi"],
+    "dogruCevap": 1,
+    "aciklama": "27 Mayıs'ı gerçekleştiren 38 subayın oluşturduğu Milli Birlik Komitesi (MBK), Anayasa ve Meclis'i lağvederek ülkeyi yönetmiştir."
+  },
+  {
+    "soru": "27 Mayıs 1960 sabahı radyodan darbe bildirisini okuyarak Türk kamuoyuna askeri müdahaleyi duyuran subay kimdir?",
+    "secenekler": ["Cemal Gürsel", "Alparslan Türkeş", "Talat Aydemir", "Madanoğlu Cemal"],
+    "dogruCevap": 1,
+    "aciklama": "Kurmay Albay Alparslan Türkeş, 27 Mayıs sabahı saat 05.15'te radyoda okuduğu bildiriyle adını tüm ülkeye duyurmuştur."
+  },
+  {
+    "soru": "27 Mayıs Darbesi sonrası Demokrat Parti yöneticilerinin yargılandığı Yassıada Mahkemeleri'nin (Yüksek Adalet Divanı) Başkanı kimdir?",
+    "secenekler": ["Salim Başol", "Altay Ömer Egesel", "Tarık Güryay", "Mustafa Radavuş"],
+    "dogruCevap": 0,
+    "aciklama": "Yassıada yargılamalarını yürüten Yüksek Adalet Divanı'nın başkanlığını Yargıtay Daire Başkanı Salim Başol yapmıştır."
+  },
+  {
+    "soru": "Yassıada Mahkemeleri sonucunda idam cezasına çarptırılan ve Eylül 1961'de cezaları infaz edilen üç DP'li devlet adamı hangi seçenekte doğru verilmiştir?",
+    "secenekler": [
+      "Adnan Menderes - Celal Bayar - Samet Ağaoğlu",
+      "Adnan Menderes - Fatin Rüştü Zorlu - Hasan Polatkan",
+      "Celal Bayar - Hasan Polatkan - Refik Koraltan",
+      "Adnan Menderes - Emin Kalafat - Namık Gedik"
+    ],
+    "dogruCevap": 1,
+    "aciklama": "Başbakan Adnan Menderes, Dışişleri Bakanı Fatin Rüştü Zorlu ve Maliye Bakanı Hasan Polatkan İmralı Adası'nda idam edilmişlerdir."
+  },
+  {
+    "soru": "Yassıada'da idam cezası almasına rağmen yaş haddi (77 yaşını bitirmiş olması) ve sağlık sorunları nedeniyle cezası müebbete çevrilen lider kimdir?",
+    "secenekler": ["Celal Bayar", "Refik Koraltan", "Samet Ağaoğlu", "İbrahim Ethem Menderes"],
+    "dogruCevap": 0,
+    "aciklama": "Eski Cumhurbaşkanı Celal Bayar'ın idam cezası, Anayasa gereği yaş haddi nedeniyle MBK tarafından müebbet hapse çevrilmiştir."
+  },
+  {
+    "soru": "1959 yılında Zürih ve Londra Antlaşmaları ile bağımsız Kıbrıs Cumhuriyeti'nin kurulmasını sağlayan Türk ve Yunan Dışişleri Bakanları kimlerdir?",
+    "secenekler": [
+      "Fatin Rüştü Zorlu - Evangelos Averoff",
+      "İsmet İnönü - Eleftherios Venizelos",
+      "İhsan Sabri Çağlayangil - Spyros Kyprianou",
+      "Gündüz Ökçün - Georgios Papandreou"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Fatin Rüştü Zorlu ve Yunan mevkidaşı Averoff'un müzakereleri sonucu Zürih ve Londra antlaşmaları imzalanarak 1960'ta Kıbrıs Cumhuriyeti kurulmuştur."
+  },
+  {
+    "soru": "17 Şubat 1959'da Kıbrıs antlaşmalarını imzalamak için Londra'da bulunan Türk heyetini taşıyan uçağın düşmesi olayından kurtulan lider kimdir?",
+    "secenekler": ["Celal Bayar", "Adnan Menderes", "Fatin Rüştü Zorlu", "Hasan Polatkan"],
+    "dogruCevap": 1,
+    "aciklama": "Gatwick Havalimanı yakınlarında Menderes'i taşıyan THY uçağı düşmüş, Menderes bu kazadan hafif yaralarla sağ kurtulmuştur."
+  },
+  {
+    "soru": "1956 yılında Ankara'da Amerikan eğitimi modeliyle kurulan ve DP döneminin yükseköğretim hamlelerinden biri olan üniversite hangisidir?",
+    "secenekler": ["Boğaziçi Üniversitesi", "Orta Doğu Teknik Üniversitesi (ODTÜ)", "Hacettepe Üniversitesi", "Ege Üniversitesi"],
+    "dogruCevap": 1,
+    "aciklama": "ODTÜ, bölgesel kalkınmaya katkı sağlamak ve teknik eleman yetiştirmek üzere 1956'da DP döneminde kurulmuştur."
+  },
+  {
+    "soru": "5 Mayıs 1960 tarihinde Ankara Kızılay'da DP iktidarını protesto etmek amacıyla gençlerin düzenlediği sivil itaatsizlik eylemine verilen ad nedir?",
+    "secenekler": ["555K", "Kızılay Mitingi", "28 Nisan Gösterileri", "Harbiye Yürüyüşü"],
+    "dogruCevap": 0,
+    "aciklama": "5. ayın 5'inci günü saat 5'te Kızılay'da ifadesinin kısaltması olan '555K', cumhuriyet tarihinin ilk organize sivil itaatsizlik eylemlerindendir."
+  },
+  {
+    "soru": "1954 genel seçimlerinde muhalefet partisi CMP'ye oy verdiği gerekçesiyle DP hükümeti tarafından ili sökülüp ilçe yapılan kent hangisidir?",
+    "secenekler": ["Malatya", "Kırşehir", "Nevşehir", "Tunceli"],
+    "dogruCevap": 1,
+    "aciklama": "Osman Bölükbaşı'nın partisini destekleyen Kırşehir ilçe yapılıp Nevşehir'e bağlanmış, iktidara geldikten sonra bu karar çok tartışılmıştır."
+  },
+  {
+    "soru": "Demokrat Parti'nin siyasi gerilimi artırmak amacıyla 1958 yılında kurduğu ve halkı DP'liler ve CHP'liler şeklinde böldüğü gerekçesiyle eleştirilen yapı hangisidir?",
+    "secenekler": ["Vatan Cephesi", "Milli İrade Kurulu", "Sivil Savunma Teşkilatı", "Halk Birlikleri"],
+    "dogruCevap": 0,
+    "aciklama": "Vatan Cephesi'ne katılanların isimlerinin her gün radyoda saatlerce okunması toplumsal kutuplaşmayı tırmandırmıştır."
+  },
+  {
+    "soru": "Milli Birlik Komitesi (MBK) içinde radikal görüşleri savunan ve seçimlere gidilmesine karşı çıkan 14 subayın yurtdışına sürgüne gönderilmesi olayına ne ad verilir?",
+    "secenekler": ["14'ler Olayı", "Dokuz Subay Olayı", "Cunta Tasfiyesi", "Harbiye Sürgünü"],
+    "dogruCevap": 0,
+    "aciklama": "13 Kasım 1960'ta Alparslan Türkeş'in de aralarında bulunduğu radikal 14 MBK üyesi yurt dışındaki elçiliklere görevli olarak sürülmüştür."
+  },
+  {
+    "soru": "27 Mayıs 1960 Darbesi öncesinde 28 Nisan 1960'ta İstanbul Üniversitesi'nde çıkan olaylarda hayatını kaybeden ve simgeleşen öğrenci kimdir?",
+    "secenekler": ["Turan Emeksiz", "Vedat Demircioğlu", "Taylan Özgür", "Deniz Gezmiş"],
+    "dogruCevap": 0,
+    "aciklama": "Orman Fakültesi öğrencisi Turan Emeksiz'in polis kurşunuyla ölümü, darbe öncesi üniversite gençliği gösterilerini alevlendirmiştir."
+  },
+  {
+    "soru": "Yassıada Mahkemeleri'nin kararları doğrultusunda Adnan Menderes, Fatin Rüştü Zorlu ve Hasan Polatkan'ın idam cezaları nerede infaz edilmiştir?",
+    "secenekler": ["Yassıada", "İmralı Adası", "Haydarpaşa Kışlası", "Mamak Cezaevi"],
+    "dogruCevap": 1,
+    "aciklama": "İdam cezaları Marmara Denizi'ndeki İmralı Adası'nda kurulan darağaçlarında infaz edilmiştir."
+  },
+  {
+    "soru": "1961 Anayasası'nın Türk siyasi hayatına getirdiği en önemli kurumsal yeniliklerden biri hangisidir?",
+    "secenekler": [
+      "Anayasa Mahkemesi'nin kurulması",
+      "Cumhurbaşkanının halk tarafından seçilmesi",
+      "Tek meclisli sisteme geçilmesi",
+      "Sıkıyönetim yetkisinin valilere verilmesi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1961 Anayasası, kanunların anayasaya uygunluğunu denetlemek üzere Anayasa Mahkemesi'ni kurmuş ve güçler ayrılığını pekiştirmiştir."
+  },
+  {
+    "soru": "1961 Anayasası ile Türkiye Büyük Millet Meclisi kaç meclisli bir yapıya dönüştürülmüştür?",
+    "secenekler": [
+      "Tek Meclis (Sadece Millet Meclisi)",
+      "İki Meclis (Millet Meclisi ve Cumhuriyet Senatosu)",
+      "Üç Meclis (Halk, Senato, Temsilciler)",
+      "Meclissiz Başkanlık"
+    ],
+    "dogruCevap": 1,
+    "aciklama": "1961 Anayasası ile Çift Meclisli yapı kabul edilmiş; TBMM, Millet Meclisi ve Cumhuriyet Senatosu'ndan oluşmuştur."
+  },
+  {
+    "soru": "1961 Seçimleri sonrasında kurulan Türkiye Cumhuriyeti'nin ilk koalisyon hükümeti hangi iki parti arasında gerçekleşmiştir?",
+    "secenekler": [
+      "CHP - Adalet Partisi (AP)",
+      "CHP - Yeni Türkiye Partisi (YTP)",
+      "Adalet Partisi - Cumhuriyetçi Köylü Millet Partisi",
+      "CHP - Millet Partisi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "İsmet İnönü başkanlığında kurulan I. Koalisyon Hükümeti (Kasım 1961), CHP ile DP'nin devamı iddiasındaki AP ortaklığında kurulmuştur."
+  },
+  {
+    "soru": "1962 ve 1963 yıllarında darbe yapmak amacıyla iki kez başarısız darbe teşebbüsünde bulunan Harp Okulu Komutanı kimdir?",
+    "secenekler": ["Talat Aydemir", "Madanoğlu Cemal", "Faruk Gürler", "Muhsin Batur"],
+    "dogruCevap": 0,
+    "aciklama": "Kurmay Albay Talat Aydemir, 22 Şubat 1962 ve 21 Mayıs 1963'te iki kez darbeye kalkışmış; ikincisinden sonra yargılanarak idam edilmiştir."
+  },
+  {
+    "soru": "1965 Genel Seçimleri'nde Adalet Partisi'ni (AP) tek başına iktidara taşıyan ve 'Barajlar Kralı' olarak anılan lider kimdir?",
+    "secenekler": ["Süleyman Demirel", "Ragıp Gümüşpala", "Ekrem Alican", "Aydın Menderes"],
+    "dogruCevap": 0,
+    "aciklama": "Devlet Planlama Teşkilatı ve DSİ geçmişi olan Süleyman Demirel, AP'yi 1965'te tek başına iktidara taşımış ve uzun yıllar Türk siyasetine damga vurmuştur."
+  },
+  {
+    "soru": "1965 seçimlerinde uygulanan ve küçük partilerin de oyları oranında mecliste temsil edilmesini sağlayarak TİP'in meclise girmesini kolaylaştıran seçim sistemi hangisidir?",
+    "secenekler": ["Nispi Temsil", "Milli Bakiye Sistemi", "Dar Bölge Sistemi", "İki Aşamalı Seçim"],
+    "dogruCevap": 1,
+    "aciklama": "Milli Bakiye sistemi, artık oyları ulusal düzeyde toplayarak küçük partilere imkan tanımış, Türkiye İşçi Partisi (TİP) bu sayede 15 milletvekili çıkarmıştır."
+  },
+  {
+    "soru": "1965 yılında Türkiye İşçi Partisi (TİP) çatısı altında meclise girerek ilk kez sosyalist düşünceyi TBMM kürsüsünde temsil eden ünlü siyasetçi/akademisyen kimdir?",
+    "secenekler": ["Mehmet Ali Aybar", "Çetin Altan", "Mihri Belli", "Behice Boran"],
+    "dogruCevap": 0,
+    "aciklama": "TİP Genel Başkanı Mehmet Ali Aybar (ve Çetin Altan, Behice Boran gibi isimler), 1965 meclisinde etkili muhalefet yürütmüşlerdir."
+  },
+  {
+    "soru": "ABD Başkanı Lyndon Johnson'ın 1964 yılında Başbakan İsmet İnönü'ye gönderdiği ve Türkiye'de büyük bir dış politika kırılması yaratan mektubun konusu nedir?",
+    "secenekler": [
+      "Türkiye'nin Kıbrıs'a olası askeri müdahalesini ve Amerikan silahlarının kullanımını engellemek",
+      "Afyon ekimini derhal durdurmasını talep etmek",
+      "İncirlik Üssü'nü kapatma tehdidinde bulunmak",
+      "Sovyetler Birliği ile yapılan ticaret antlaşmasını iptal ettirmek"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Johnson Mektubu, ABD silahlarının Kıbrıs'ta kullanılamayacağını söyleyerek Türkiye'yi dış politikada alternatif aramaya yöneltmiştir."
+  },
+  {
+    "soru": "İsmet İnönü'nün Johnson Mektubu'na karşılık vererek Türk dış politika tarihine geçen ünlü tarihi cevabı hangisidir?",
+    "secenekler": [
+      "Yeni bir dünya kurulur, Türkiye de orada yerini alır.",
+      "Sizi ben bile kurtaramam!",
+      "Hadi oradan sen de!",
+      "Batı ittifakı bizim tek seçeneğimiz değildir."
+    ],
+    "dogruCevap": 0,
+    "aciklama": "İnönü, ABD'nin tek taraflı tutumuna karşı 'Yeni bir dünya kurulur, Türkiye de orada yerini alır' diyerek bağımsız duruşunu vurgulamıştır."
+  },
+  {
+    "soru": "1968 yılında ABD'nin Altıncı Filo'suna ait denizcilerin İstanbul Dolmabahçe'de protestocu gençler tarafından denize dökülmesi olayında öne çıkan gençlik lideri kimdir?",
+    "secenekler": ["Deniz Gezmiş", "Mahir Çayan", "İbrahim Kaypakkaya", "Uğur Mumcu"],
+    "dogruCevap": 0,
+    "aciklama": "Deniz Gezmiş ve arkadaşları, 1968'de 6. Filo protestolarını örgütleyerek anti-emperyalist gençlik hareketlerinin simgesi haline gelmişlerdir."
+  },
+  {
+    "soru": "16 Şubat 1969'da 6. Filo'yu protesto eden sol görüşlü gençlere karşı düzenlenen saldırılar sonucunda iki kişinin öldüğü kanlı olaya ne ad verilir?",
+    "secenekler": ["Kanlı Pazar", "Kanlı 1 Mayıs", "Kızılay Olayları", "Maraş Olayları"],
+    "dogruCevap": 0,
+    "aciklama": "Taksim Meydanı'nda meydana gelen bu olay Türk siyasi tarihine 'Kanlı Pazar' olarak geçmiş ve toplumsal kutuplaşmayı artırmıştır."
+  },
+  {
+    "soru": "12 Mart 1971 Askeri Muhtırası hangi iletişim aracı üzerinden ve kimler tarafından verilmiştir?",
+    "secenekler": [
+      "Radyodan okunan bildiri ile Genelkurmay Başkanı Memduh Tağmaç ve Kuvvet Komutanları tarafından",
+      "Televizyondan canlı yayınla Cumhurbaşkanı Cevdet Sunay tarafından",
+      "Gazete ilanları ile Milli Güvenlik Kurulu tarafından",
+      "Meclis kürsüsünden Milli Savunma Bakanı tarafından"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Genelkurmay Başkanı Memduh Tağmaç ve 3 kuvvet komutanının imzası olan muhtıra, 12 Mart saat 13.00'te TRT radyolarından okunmuştur."
+  },
+  {
+    "soru": "12 Mart 1971 Muhtırası sonrasında görevinden istifa etmek zorunda kalan Başbakan kimdir?",
+    "secenekler": ["Süleyman Demirel", "Bülent Ecevit", "İsmet İnönü", "Nihat Erim"],
+    "dogruCevap": 0,
+    "aciklama": "Muhtırada hükümetin ana hedef alınması üzerine Başbakan Süleyman Demirel aynı gün istifasını vermiştir."
+  },
+  {
+    "soru": "1961 Anayasası için yapılan halkoylamasında anayasa yüzde kaç oranında 'EVET' oyuyla kabul edilmiştir?",
+    "secenekler": ["%61.7", "%80.5", "%51.2", "%91.3"],
+    "dogruCevap": 0,
+    "aciklama": "9 Temmuz 1961'de yapılan referandumda halkın %61.7'si kabul oyu vermiş, DP tabanının ret oyları %38.3 olmuştur."
+  },
+  {
+    "soru": "1967 yılında kurulan ve Türkiye'de sol/sosyalist sendikal hareketin ana merkezi haline gelen konfederasyon hangisidir?",
+    "secenekler": ["DİSK (Devrimci İşçi Sendikaları Konfederasyonu)", "TÜRK-İŞ", "HAK-İŞ", "CENK-İŞ"],
+    "dogruCevap": 0,
+    "aciklama": "DİSK, Kemal Türkler ve arkadaşları tarafından 1967'de Türk-İş'ten ayrılan sendikalarca kurulmuştur."
+  },
+  {
+    "soru": "15-16 Haziran 1970 tarihlerinde İstanbul ve çevresinde işçilerin Sendikalar Kanunu tasarısını protesto etmek için gerçekleştirdiği büyük kitlesel eylemlere ne ad verilir?",
+    "secenekler": ["15-16 Haziran İşçi Direnişi", "Büyük Zonguldak Yürüyüşü", "Tütün Mitingleri", "Çapa Yürüyüşü"],
+    "dogruCevap": 0,
+    "aciklama": "DİSK'in kapatılmasını kolaylaştıracak yasaya karşı onlarca fabrikadan tensip edilen binlerce işçi Kocaeli-İstanbul hattında yürümüştür."
+  },
+  {
+    "soru": "1969 yılında CKMP'nin Adana Kongresi'nde adını değiştirmesiyle kurulan ve simge olarak 'Üç Hilal'i kabul eden parti hangisidir?",
+    "secenekler": ["Milliyetçi Hareket Partisi (MHP)", "Adalet Partisi (AP)", "Milli Nizam Partisi (MNP)", "Büyük Birlik Partisi"],
+    "dogruCevap": 0,
+    "aciklama": "Alparslan Türkeş liderliğindeki CKMP, 1969'da MHP adını almış ve Dokuz Işık doktrinini benimsemiştir."
+  },
+  {
+    "soru": "1969 yılında Konya'dan bağımsız milletvekili seçilerek meclise giren ve 'Milli Görüş' hareketinin kurucu lideri olan siyasetçi kimdir?",
+    "secenekler": ["Necmettin Erbakan", "Korkut Özal", "Oğuzhan Asiltürk", "Recai Kutan"],
+    "dogruCevap": 0,
+    "aciklama": "TOBB başkanlığı engellendikten sonra siyasete atılan Prof. Dr. Necmettin Erbakan, 1969'da Konya'dan bağımsız milletvekili seçilmiştir."
+  },
+  {
+    "soru": "1969 yılında Ankara'yı ziyaret eden ABD Büyükelçisi Robert Komer'in makam arabasının ODTÜ bahçesinde yakılması olayına karışan öğrenci liderlerinden biri kimdir?",
+    "secenekler": ["Sinan Cemgil", "Mahir Çayan", "Ibrahim Kaypakkaya", "Harun Karadeniz"],
+    "dogruCevap": 0,
+    "aciklama": "ODTÜ öğrencileri Sinan Cemgil, Hüseyin İnan ve arkadaşları Komer'in arabasını yakarak anti-emperyalist eylemlerine bir yenisini eklemiştir."
+  },
+  {
+    "soru": "1960'larda CHP içerisinde Bülent Ecevit ve arkadaşları tarafından geliştirilen ve partinin yeni ideolojik çizgisini tanımlayan kavram hangisidir?",
+    "secenekler": ["Ortanın Solu", "Demokratik Sol", "Sosyal Demokrasi", "Üçüncü Yol"],
+    "dogruCevap": 0,
+    "aciklama": "İsmet İnönü'nün oluru ve Bülent Ecevit'in teorisyenliği ile CHP 1965'ten itibaren 'Ortanın Solu' çizgisini benimsemiştir."
+  },
+  {
+    "soru": "12 Mart 1971 Muhtırası sonrasında CHP'den ayrılan Nihat Erim başkanlığında kurulan hükümet modeline ne ad verilmiştir?",
+    "secenekler": [
+      "Partilerüstü / Teknisyenler Hükümeti",
+      "Milli Birlik Hükümeti",
+      "Güneş Motel Hükümeti",
+      "Milliyetçi Cephe Hükümeti"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Nihat Erim, tarafsız bir hükümet kurmak üzere CHP'den istifa etmiş, bürokratlar ve uzmanlardan oluşan 'Partilerüstü Reform Hükümeti'ni kurmuştur."
+  },
+  {
+    "soru": "12 Mart döneminde 1961 Anayasası'nda yapılan değişikliklerin ana amacı hangisidir?",
+    "secenekler": [
+      "Yürütmeyi güçlendirmek ve temel hak ve özgürlükleri sınırlandırmak",
+      "Cumhurbaşkanının yetkilerini elinden almak",
+      "Anayasa Mahkemesi'ni kapatmak",
+      "Öğrenci derneklerine özerklik vermek"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1971-1973 anayasa değişiklikleriyle özgürlüklerin suistimal edildiği gerekçesiyle yürütme organı güçlendirilmiş, haklar kısıtlanmış ve DGM'ler kurulmuştur."
+  },
+  {
+    "soru": "Türkiye Halk Kurtuluş Ordusu (THKO) kurucularından olan ve 6 Mayıs 1972'de Ankara Ulucanlar Cezaevi'nde idam edilen üç gençlik lideri kimlerdir?",
+    "secenekler": [
+      "Deniz Gezmiş - Yusuf Aslan - Hüseyin İnan",
+      "Mahir Çayan - Ulaş Bardakçı - Hüseyin Cevahir",
+      "İbrahim Kaypakkaya - Sinan Cemgil - Kadir Manga",
+      "Cihan Alptekin - Ömer Ayna - Nihat Erim"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Deniz Gezmiş, Yusuf Aslan ve Hüseyin İnan 6 Mayıs 1972 sabaha karşı Ulucanlar'da idam edilmişlerdir."
+  },
+  {
+    "soru": "Mayıs 1972'deki CHP Kurultayı'nda parti içi muhalefeti lideri İsmet İnönü'ye karşı kazanarak CHP'nin yeni Genel Başkanı seçilen siyasetçi kimdir?",
+    "secenekler": ["Bülent Ecevit", "Kemal Satır", "Kasım Gülek", "Turhan Feyzioğlu"],
+    "dogruCevap": 0,
+    "aciklama": "Bülent Ecevit, 12 Mart Muhtırası'na yaklaşım konusunda İnönü ile ayrışmış ve 1972 Kurultayı'nı kazanarak 33 yıllık İnönü dönemini bitirmiştir."
+  },
+  {
+    "soru": "1973 Genel Seçimleri'nde halk arasında 'Karaoğlan' lakabıyla anılan Bülent Ecevit liderliğindeki CHP seçimi birinci tamamlamıştır. Bu lakap ilk nerede takılmıştır?",
+    "secenekler": [
+      "Kars gezisinde yaşlı bir kadın tarafından",
+      "Zonguldak maden işçileri tarafından",
+      "TRT radyosundaki seçim konuşmasında",
+      "Güneş Motel görüşmelerinde"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1973 seçim kampanyasında Kars'ta bir yaşlı kadının Ecevit'e 'Bizim Karaoğlan geldi' demesiyle bu sembolik lakap halk diline yerleşmiştir."
+  },
+  {
+    "soru": "1974 başında kurulan ve Kıbrıs Barış Harekâtı'nı gerçekleştiren koalisyon hükümeti hangi iki parti tarafından oluşturulmuştur?",
+    "secenekler": [
+      "CHP - Milli Selamet Partisi (MSP)",
+      "CHP - Adalet Partisi (AP)",
+      "Adalet Partisi - Milliyetçi Hareket Partisi",
+      "CHP - Demokratik Parti"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Siyasi spektrumun iki farklı ucundaki CHP (Ecevit) ve MSP (Erbakan), 1974 başında koalisyon kurarak tarihi kararlara imza atmıştır."
+  },
+  {
+    "soru": "20 Temmuz 1974 Kıbrıs Barış Harekâtı sırasında Cenevre Görüşmeleri sürerken Türk ordusuna ikinci harekat emrini veren ünlü parola cümlesi hangisidir?",
+    "secenekler": [
+      "Ayşe Tatile Çıksın",
+      "Güneş Batmadan Lefkoşa'ya",
+      "Akdeniz Torosların Çocuğudur",
+      "Zafer Cenevre'de Değil Sahadadır"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Dışişleri Bakanı Turan Güneş'in kızı Ayşe Güneş'e ithafen kodlanan 'Ayşe Tatile Çıksın' parolasıyla 2. Barış Harekâtı başlatılmıştır."
+  },
+  {
+    "soru": "Kıbrıs Barış Harekâtı sonrasında ABD Kongresi'nin Türkiye'ye karşı 1975-1978 yılları arasında uyguladığı yaptırım kararı hangisidir?",
+    "secenekler": [
+      "Silah Ambargosu",
+      "Petrol İthalat Yasağı",
+      "BM'den Çıkarma Kararı",
+      "Ekonomik Blokaj"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "ABD, Amerikan silahlarının müdahalede kullanıldığı gerekçesiyle Türkiye'ye 3 yıl boyunca askeri ambargo uygulamış; Türkiye de buna İncirlik dahil ABD üslerini kapatarak yanıt vermiştir."
+  },
+  {
+    "soru": "1973 OPEC Petrol Krizi'nin Türkiye ekonomisi üzerindeki olumsuz etkileri 1970'lerin ortasında kendisini nasıl göstermiştir?",
+    "secenekler": [
+      "Döviz krizleri, tüp, benzin, yağ kuyrukları ve karaborsa",
+      "Sanayide tam istihdam ve cari fazla",
+      "Bütçe açığının sıfırlanması",
+      "Yabancı sermaye patlaması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Petrol fiyatlarının 4 katına çıkması ve döviz bulunamaması nedeniyle Türkiye 1970'lerin ikinci yarısında ağır kıtlıklar ve kuyruklar yaşamıştır."
+  },
+  {
+    "soru": "1975-1977 yıllarında AP, MSP, MHP ve CGP gibi sağ partilerin CHP'ye karşı birleşerek kurdukları hükümet modellerine verilen genel ad nedir?",
+    "secenekler": [
+      "Milliyetçi Cephe (MC) Hükümetleri",
+      "Sağ İttifak Kabineleri",
+      "Restorasyon Hükümetleri",
+      "Anayasal Dayanışma Hükümeti"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Süleyman Demirel başbakanlığında kurulan I. ve II. Milliyetçi Cephe hükümetleri, sağ oyları bloklaştırarak CHP'yi iktidardan uzak tutmayı hedeflemiştir."
+  },
+  {
+    "soru": "1 Mayıs 1977 tarihinde Taksim Meydanı'nda düzenlenen mitingde meçhul kişilerin açtığı ateş ve çıkan panik sonucu 34 kişinin öldüğü vahim olaya ne ad verilir?",
+    "secenekler": [
+      "Kanlı 1 Mayıs",
+      "Taksim Olayları",
+      "DİSK Mitingi Baskını",
+      "Sıkıyönetim Mitingi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "1 Mayıs 1977'de Taksim Meydanı'nda toplanan yüzbinlerin üzerine Intercontinental Oteli ve Sular İdaresi'nden ateş açılmasıyla büyük bir felaket yaşanmıştır."
+  },
+  {
+    "soru": "1977 yılı sonunda CHP'nin Adalet Partisi'nden istifa eden 11 milletvekiline bakanlık vaat ederek AP hükümetini düşürdüğü pazarlığa verilen ad nedir?",
+    "secenekler": [
+      "Güneş Motel Olayı",
+      "Ankara Palas Görüşmesi",
+      "Çankaya Zirvesi",
+      "Florya Mutabakatı"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Bülent Ecevit'in Florya'daki Güneş Motel'de AP'li bağımsızlarla görüşüp hükümet kurması Türk siyasi tarihine 'Güneş Motel Olayı' olarak geçmiştir."
+  },
+  {
+    "soru": "Aralık 1978'de Kahramanmaraş'ta çıkan ideolojik ve mezhepsel çatışmalarda 100'den fazla vatandaşın katledilmesi üzerine hükümet hangi kararı almak zorunda kalmıştır?",
+    "secenekler": [
+      "13 ilde Sıkıyönetim İlan Edilmesi",
+      "Erken Seçim Kararı Alınması",
+      "Anayasa Değişikliği Yapılması",
+      "Tüm Siyasi Partilerin Kapatılması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Maraş Katliamı sonrasında Ecevit Hükümeti, aralarında İstanbul ve Ankara'nın da bulunduğu 13 ilde sıkıyönetim ilan etmiştir."
+  },
+  {
+    "soru": "1980 yılı ortalarında Aleviler ve Sünniler arasında kışkırtılan, haftalarca süren ve onlarca kişinin ölümüyle sonuçlanan toplumsal kargaşa hangi ilimizde yaşanmıştır?",
+    "secenekler": ["Çorum", "Yozgat", "Amasya", "Sivas"],
+    "dogruCevap": 0,
+    "aciklama": "Mayıs-Temmuz 1980'de Çorum'da meydana gelen olaylar, 12 Eylül Darbesi'ne giden yolda iç savaş algısını güçlendiren son büyük kışkırtmalardandır."
+  },
+  {
+    "soru": "1 Şubat 1979 tarihinde Milliyet gazetesi Genel Yayın Yönetmeni iken suikast sonucu öldürülen gazeteci-yazar kimdir?",
+    "secenekler": ["Abdi İpekçi", "Uğur Mumcu", "Çetin Emeç", "Ahmet Taner Kışlalı"],
+    "dogruCevap": 0,
+    "aciklama": "Abdi İpekçi, İstanbul Maçka'da aracının içinde Mehmet Ali Ağca tarafından uğradığı silahlı saldırıda hayatını kaybetmiştir."
+  },
+  {
+    "soru": "24 Ocak 1980 tarihinde Başbakanlık Müsteşarı Turgut Özal tarafından açıklanan ekonomik kararların temel amacı nedir?",
+    "secenekler": [
+      "İthal ikameci modelden ihracata dayalı serbest piyasa ekonomisine geçmek",
+      "Devletçilik ilkesini anayasaya sert kurallarla yerleştirmek",
+      "Yabancı sermaye girişini tamamen yasaklamak",
+      "Tüm özel bankaları kamulaştırmak"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "24 Ocak Kararları, Türkiye ekonomisinde köklü bir zihniyet dönüşümü sağlayarak dışa açık piyasa ekonomisinin temellerini atmıştır."
+  },
+  {
+    "soru": "12 Eylül 1980 Darbesi öncesinde TBMM'nin aylarca çözemediği ve devlet organlarını kilitleyen temel siyasi kriz hangisidir?",
+    "secenekler": [
+      "Cumhurbaşkanlığı Seçimi (Fahri Korutürk'ün görev süresi bittiği halde 100'den fazla turda yeni başkan seçilememesi)",
+      "Bütçe Kanunu'nun reddedilmesi",
+      "NATO'dan çıkış tasarısı",
+      "Anayasa Mahkemesi Üyelerinin atanamaması"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Nisan 1980'de görevi biten Korutürk'ün yerine TBMM aylarca ve yüzlerce tur boyunca Cumhurbaşkanı seçememiş, bu durum darbe gerekçesi yapılmıştır."
+  },
+  {
+    "soru": "12 Eylül 1980 Askeri Darbesi'ni gerçekleştiren ve yönetime el koyan 5 kişilik askeri organın adı nedir?",
+    "secenekler": [
+      "Milli Güvenlik Konseyi (MGK)",
+      "Milli Birlik Komitesi",
+      "Yüksek Askeri Şura",
+      "Cunta Konseyi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Genelkurmay Başkanı Kenan Evren ve Kuvvet Komutanlarından oluşan Milli Güvenlik Konseyi ülkeyi yönetmiştir."
+  },
+  {
+    "soru": "12 Eylül 1980 darbesini gerçekleştiren TSK'nın emir-komuta zinciri içinde hazırladığı askeri müdahale planının kod adı nedir?",
+    "secenekler": ["Bayrak Harekâtı", "Balyoz Planı", "Kılıç Operasyonu", "Şafak Harekâtı"],
+    "dogruCevap": 0,
+    "aciklama": "Genelkurmay tarafından önceden hazırlanan 'Bayrak Harekâtı' kod adlı plan, 12 Eylül sabaha karşı saat 04.00'te uygulamaya konulmuştur."
+  },
+  {
+    "soru": "12 Eylül 1980 Darbesi sonrasında Bülent Ecevit ve Süleyman Demirel gözaltına alınarak geçici olarak nerede gözetim altında tutulmuşlardır?",
+    "secenekler": [
+      "Çanakkale Hamzakoy",
+      "İzmir Uzunada",
+      "Mamak Cezaevi",
+      "Eskişehir Askeri Kışlası"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Ecevit ve Demirel eşleriyle birlikte Çanakkale Gelibolu'daki Hamzakoy askeri tesislerine götürülmüşlerdir."
+  },
+  {
+    "soru": "1970'li yıllarda Avrupa ve Ortadoğu'da Türk diplomatlara ve elçiliklere karşı kanlı suikastlar düzenleyen Ermeni terör örgütü hangisidir?",
+    "secenekler": [
+      "ASALA (Ermenistan'ın Kurtuluşu İçin Ermeni Gizli Ordusu)",
+      "EOKA",
+      "JCAG",
+      "TMT"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "ASALA, 1970'li ve 80'li yıllarda onlarca Türk diplomat ve yakınını şehit eden uluslararası bir terör örgütüdür."
+  },
+  {
+    "soru": "1974 yılında çıkarılan Genel Af Kanunu'nun Anayasa Mahkemesi tarafından genişletilmesi sonucu siyasi suçluların serbest kalması hangi krizin yaşanmasına yol açmıştır?",
+    "secenekler": [
+      "CHP-MSP Koalisyonu'nun bozulması",
+      "Kıbrıs Harekâtı'nın ertelenmesi",
+      "AP'nin kapatılması",
+      "12 Mart Muhtırası'nın verilmesi"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Erbakan ve MSP grubunun af yasasında bazı sol mahkûmların kapsam dışı kalması ısrarı ve Anayasa Mahkemesi'nin bunu iptali koalisyonda çatlağa yol açmıştır."
+  },
+  {
+    "soru": "Mayıs 1979'da gazete ilanları vererek 'Devlet anlayışına ve ekonomik gerçeklere uymayan politikalara devam edilemez' diyerek Ecevit Hükümeti'ni istifaya çağıran sivil kuruluş hangisidir?",
+    "secenekler": [
+      "TÜSİAD (Türkiye Sanayici ve İş İnsanları Derneği)",
+      "TOBB",
+      "MÜSİAD",
+      "DİSK"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "TÜSİAD'ın gazete ilanları vererek hükümeti açıkça hedef alması, Türk siyasi tarihinde sermayenin hükümet üzerindeki ilk doğrudan kitlesel basıncı olmuştur."
+  },
+  {
+    "soru": "12 Mart döneminin 'Partilerüstü' Başbakanı olan ve Temmuz 1980'de İstanbul'da DEV-SOL militanları tarafından suikast sonucu öldürülen devlet adamı kimdir?",
+    "secenekler": ["Nihat Erim", "Gün Sazak", "İsmail Erez", "Hamdoğan Haber"],
+    "dogruCevap": 0,
+    "aciklama": "Eski Başbakan Nihat Erim, 19 Temmuz 1980'de Kartal Dragos'ta uğradığı silahlı saldırıda hayatını kaybetmiştir."
+  },
+  {
+    "soru": "12 Eylül 1980 Darbe Bildirisi'nde Genelkurmay Başkanı Kenan Evren müdahalenin temel amacını nasıl açıklamıştır?",
+    "secenekler": [
+      "Devletin varlığını korumak, iç savaşı ve kardeş kavgasını önlemek",
+      "Türkiye'yi NATO'dan çıkarmak",
+      "24 Ocak Kararlarını iptal etmek",
+      "Yeni bir monarşi kurmak"
+    ],
+    "dogruCevap": 0,
+    "aciklama": "Evren, bildiride müdahalenin gerekçesini; ülkedeki anarşi, terör ve meclisin çalışamaz hale gelmesiyle açıklamıştır."
+  },
+  {
+    "soru": "1950-1960 yılları arasında kesintisiz Başbakanlık yapan, Türkiye'nin ilk sivil başbakanı ve DP'nin unutulmaz lideri kimdir?",
+    "secenekler": ["Adnan Menderes", "Celal Bayar", "Süleyman Demirel", "Refik Koraltan"],
+    "dogruCevap": 0,
+    "aciklama": "Adnan Menderes, 1950-1960 yılları arasında 5 ayrı hükümet kurarak Türkiye'yi yönetmiş trajik bir liderdir."
+  },
+  {
+    "soru": "Atatürk'ün son Başbakanı, Milli Mücadele'nin 'Galip Hoca'sı ve Türkiye'nin 3. Cumhurbaşkanı kimdir?",
+    "secenekler": ["Celal Bayar", "İsmet İnönü", "Fevzi Çakmak", "Kazım Karabekir"],
+    "dogruCevap": 0,
+    "aciklama": "Celal Bayar, İş Bankası kuruculuğu, İstiklal Savaşı kahramanlığı ve cumhurbaşkanlığı ile cumhuriyet tarihinin en uzun ömürlü liderlerindendir."
+  },
+  {
+    "soru": "Türkiye Cumhuriyeti'nin 2. Cumhurbaşkanı olan, Çok Partili Hayata geçişi sağlayan ve CHP'nin 'Milli Şef' ünvanlı lideri kimdir?",
+    "secenekler": ["İsmet İnönü", "Celal Bayar", "Fevzi Çakmak", "Refik Saydam"],
+    "dogruCevap": 0,
+    "aciklama": "İsmet İnönü, II. Dünya Savaşı'nda Türkiye'yi savaşa sokmamış ve 1946-1950 sürecinde demokrasiye geçişin mimarı olmuştur."
+  },
+  {
+    "soru": "Adalet Partisi kurucusu olmamasına rağmen partinin başına geçerek 'Gördesli Çoban Sülü', 'Baba' ve 'Barajlar Kralı' lakaplarıyla anılan devlet adamı kimdir?",
+    "secenekler": ["Süleyman Demirel", "Turgut Özal", "Bülent Ecevit", "Necmettin Erbakan"],
+    "dogruCevap": 0,
+    "aciklama": "Süleyman Demirel, 1960 sonrasından 2000'li yıllara kadar 7 kez Başbakanlık ve Cumhurbaşkanlığı görevlerinde bulunmuştur."
+  },
+  {
+    "soru": "Gazetecilik geçmişi olan, Çalışma Bakanlığı döneminde İş Kanunu ve Grev/Toplu Sözleşme haklarını çıkaran, 'Halkçı Ecevit' sloganıyla özdeşleşen lider kimdir?",
+    "secenekler": ["Bülent Ecevit", "Erdal İnönü", "Murat Karayalçın", "Hikmet Çetin"],
+    "dogruCevap": 0,
+    "aciklama": "Bülent Ecevit, şairliği, nezaketi, dürüstlük simgesi yapısı ve Kıbrıs Fatihi ünvanıyla Türk siyasi hayatına damga vurmuştur."
+  },
+  {
+    "soru": "1970'te Milli Nizam Partisi'ni, 1972'de Milli Selamet Partisi'ni kurarak 'Ağır Sanayi Hamlesi'ni savunan siyasetçi kimdir?",
+    "secenekler": ["Necmettin Erbakan", "Alparslan Türkeş", "Korkut Özal", "Ahmet Tekdal"],
+    "dogruCevap": 0,
+    "aciklama": "Prof. Dr. Necmettin Erbakan, Türkiye'de 'Milli Görüş' geleneğinin kurucusu ve fikir babasıdır."
+  },
+  {
+    "soru": "27 Mayıs kabinesinde Hükümet Sözcüsü iken sonrasında MHP'nin kurucusu ve MHP tabanında 'Başbuğ' ilan edilen asker ve siyasetçi kimdir?",
+    "secenekler": ["Alparslan Türkeş", "Nihal Atsız", "Sadi Somuncuoğlu", "Agah Oktay Güner"],
+    "dogruCevap": 0,
+    "aciklama": "Alparslan Türkeş, Türk milliyetçiliği hareketini kurumsallaştıran ve MHP'yi kuran liderdir."
+  },
+  {
+    "soru": "1970'lerde DPT Müsteşarı iken 24 Ocak Kararları'nı hazırlayan ve 1983 sonrası Türkiye'nin 8. Cumhurbaşkanı olacak isim kimdir?",
+    "secenekler": ["Turgut Özal", "Kaya Erdem", "Adnan Kahveci", "Ekrem Pakdemirli"],
+    "dogruCevap": 0,
+    "aciklama": "Turgut Özal, 1970'lerde bürokrat olarak başladığı kariyerinde Türkiye'yi serbest piyasa ekonomisiyle tanıştıran en önemli figür olmuştur."
+  },
+  {
+    "soru": "Kurtuluş Savaşı'nın tek Mareşali (Atatürk hariç) olup 1948'de Millet Partisi'nin kurulmasında rol oynayan komutan kimdir?",
+    "secenekler": ["Fevzi Çakmak", "Kazım Karabekir", "Ali Fuat Cebesoy", "Rauf Orbay"],
+    "dogruCevap": 0,
+    "aciklama": "Mareşal Fevzi Çakmak, uzun yıllar Genelkurmay Başkanlığı yaptıktan sonra siyasete girmiş ve Millet Partisi'nin kuruluşuna öncülük etmiştir."
+  },
+  {
+    "soru": "1950'li ve 60'lı yıllarda nevi şahsına münhasır coşkulu miting söylevleri, hazırcevaplığı ve renkli muhalefet üslubuyla tanınan CMP lideri kimdir?",
+    "secenekler": ["Osman Bölükbaşı", "Turhan Feyzioğlu", "Nihat Erim", "Fahrettin Kerim Gökay"],
+    "dogruCevap": 0,
+    "aciklama": "'Anadolu Fırtınası' olarak anılan Osman Bölükbaşı, saatlerce süren akıcı ve esprili miting konuşmalarıyla meşhurdur."
+  },
+  {
+    "soru": "1960'larda Türkiye İşçi Partisi (TİP) Genel Başkanı olarak 'Güler Yüzlü Sosyalizm' anlayışını öne süren hukukçu akademisyen kimdir?",
+    "secenekler": ["Mehmet Ali Aybar", "Sadun Aren", "Behice Boran", "Doğu Perinçek"],
+    "dogruCevap": 0,
+    "aciklama": "Mehmet Ali Aybar, Sovyetlerin Çekoslovakya'yı işgaline karşı çıkarak bağımsız ve milli bir sosyalizm çizgisini savunmuştur."
+  },
+  {
+    "soru": "1967'de CHP'nin 'Ortanın Solu' politikasını fazla radikal bularak ayrılan ve Cumhuriyetçi Güven Partisi'ni (CGP) kuran hukukçu siyasetçi kimdir?",
+    "secenekler": ["Turhan Feyzioğlu", "Kemal Satır", "Coşkun Kırca", "Emin Paksüt"],
+    "dogruCevap": 0,
+    "aciklama": "Prof. Dr. Turhan Feyzioğlu, CHP merkez sağ/sağ kanadını temsil ederek CGP'yi kurmuş ve MC hükümetlerinde yer almıştır."
+  },
+  {
+    "soru": "1970'lerde Adalet Partisi çatısı altındaki muhafazakar kesimin kopmasıyla kurulan ve Ferruh Bozbeyli liderliğindeki parti hangisidir?",
+    "secenekler": ["Demokratik Parti", "Milli Selamet Partisi", "Adalet Partisi Reform Grubu", "Güven Partisi"],
+    "dogruCevap": 0,
+    "aciklama": "Demirel'e tepki gösteren DP kökenli sağ milletvekilleri 1970'te Ferruh Bozbeyli başkanlığında Demokratik Parti'yi kurmuşlardır."
+  },
+  {
+    "soru": "12 Eylül 1980 askeri müdahalesi yapıldığında Kara Kuvvetleri Komutanı iken MGK üyesi olan ve sonrasında Genelkurmay Başkanlığı yapacak komutan kimdir?",
+    "secenekler": ["Nurettin Ersin", "Tahsin Şahinkaya", "Nejat Tümer", "Sedat Celasun"],
+    "dogruCevap": 0,
+    "aciklama": "Orgeneral Nurettin Ersin, 12 Eylül darbesini yapan 5 kişilik Milli Güvenlik Konseyi'nin Kara Kuvvetleri Komutanı üyesidir."
+  },
+  {
+    "soru": "1980 öncesindeki kutuplaşma döneminde 'Bana sağcılar cinayet işliyor dedirtemezsiniz' sözüyle eleştirilen devlet adamı kimdir?",
+    "secenekler": ["Süleyman Demirel", "Bülent Ecevit", "Alparslan Türkeş", "Necmettin Erbakan"],
+    "dogruCevap": 0,
+    "aciklama": "Süleyman Demirel, 1970'lerde tırmanan sokak şiddeti karşısında sağ cenahı koruyan bu beyanı nedeniyle muhalefetçe sert şekilde eleştirilmiştir."
+  }
+]
