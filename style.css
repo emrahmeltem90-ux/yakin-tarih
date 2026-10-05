@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #0d0d0d;
+    background-color: #0b0a09;
     color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     width: 100%;
     max-width: 480px;
     min-height: 100vh;
-    padding: 24px 20px;
+    padding: 20px 18px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,8 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background: rgba(210, 180, 125, 0.1);
-    border: 1px solid rgba(210, 180, 125, 0.3);
+    background: rgba(210, 180, 125, 0.08);
+    border: 1px solid rgba(210, 180, 125, 0.25);
     padding: 8px 16px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -104,7 +104,7 @@ body {
 .basla-btn:active { transform: scale(0.95); }
 
 /* ==========================================
-   4. SEVİYE KARTLARI VE YILDIZLAR
+   4. KATEGORİ VE SEVİYE EKRANLARI
    ========================================== */
 h1 {
     font-size: 2rem;
@@ -126,7 +126,7 @@ h1 {
 }
 
 .kategori-btn, .ana-btn {
-    background: #1a1a1a;
+    background: #181410;
     color: #ffffff;
     border: 2px solid #d2b47d;
     padding: 16px 20px;
@@ -152,10 +152,10 @@ h1 {
 }
 
 .seviye-kart {
-    background: #181818;
+    background: #181410;
     color: #d2b47d;
     border: 1.5px solid #d2b47d;
-    padding: 12px 8px;
+    padding: 14px 8px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -176,16 +176,16 @@ h1 {
 }
 
 .seviye-kart.kilitli {
-    background: #111;
+    background: #100d0a;
     color: #555;
-    border-color: #333;
+    border-color: #332418;
     cursor: not-allowed;
     opacity: 0.6;
 }
 
 .geri-btn {
-    background: #111;
-    border-color: #555;
+    background: #110e0b;
+    border-color: #443322;
     color: #ccc;
     font-size: 0.95rem;
     padding: 12px;
@@ -193,14 +193,19 @@ h1 {
 }
 
 /* ==========================================
-   5. SORU EKRANI & JOKER BARI
+   5. TEST KİTABI STİLİNDE SORU EKRANI
    ========================================== */
 .ust-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    margin-bottom: 10px;
-    font-size: 1rem;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background: rgba(210, 180, 125, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(210, 180, 125, 0.15);
+    font-size: 0.95rem;
     font-weight: 700;
     color: #d2b47d;
 }
@@ -208,55 +213,73 @@ h1 {
 .joker-bar {
     display: flex;
     justify-content: space-between;
-    gap: 6px;
+    gap: 8px;
     width: 100%;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .joker-btn {
     flex: 1;
-    background: #251d12;
-    border: 1px solid #d2b47d;
-    color: #d2b47d;
+    background: linear-gradient(180deg, #271f16 0%, #1a140e 100%);
+    border: 1.5px solid #735933;
+    color: #e5cd9e;
     padding: 8px 4px;
     border-radius: 10px;
     font-size: 0.8rem;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: all 0.2s ease;
 }
 
 .joker-btn small {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     color: #ffd700;
     margin-top: 2px;
 }
 
+.joker-btn:active {
+    transform: scale(0.96);
+}
+
 .joker-btn:disabled {
-    background: #151515;
-    border-color: #333;
-    color: #555;
+    background: #120e0b;
+    border-color: #2a2018;
+    color: #4a3e35;
+    box-shadow: none;
     cursor: not-allowed;
 }
 
-.joker-btn:disabled small { color: #555; }
+.joker-btn:disabled small { color: #4a3e35; }
 
+/* TEST KİTABI SORU KUTUSU */
 .soru-kutu {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(210, 180, 125, 0.25);
-    border-radius: 14px;
-    padding: 22px;
+    position: relative;
+    background: linear-gradient(145deg, #1f1913 0%, #15100c 100%);
+    border: 1.5px solid #5a452d;
+    border-left: 6px solid #d2b47d; /* Test soru numaralandırma şeridi */
+    border-radius: 12px;
+    padding: 22px 18px;
     width: 100%;
-    margin-bottom: 20px;
-    min-height: 110px;
+    margin-bottom: 18px;
+    min-height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
-#soru-metni { font-size: 1.15rem; line-height: 1.45; }
+#soru-metni {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: #f2e8d8;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
 
+/* TEST KİTABI ŞIKLARI (A, B, C, D Yuvarlak Rozetli) */
 .secenekler {
     display: flex;
     flex-direction: column;
@@ -265,31 +288,88 @@ h1 {
 }
 
 .secenek-btn {
-    background: #181818;
-    border: 1px solid #333;
-    color: #eee;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #19140f;
+    border: 1.5px solid #3d2f22;
+    color: #e8ded0;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 0.98rem;
     text-align: left;
     cursor: pointer;
-    transition: background-color 0.2s, border-color 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.2s, border-color 0.2s, transform 0.1s;
 }
 
-.secenek-btn.dogru { background-color: #1b5e20 !important; border-color: #4caf50 !important; color: #fff; }
-.secenek-btn.yanlis { background-color: #b71c1c !important; border-color: #f44336 !important; color: #fff; }
-.secenek-btn.gizli-secenek { visibility: hidden; pointer-events: none; }
+.secenek-harf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #2b2018;
+    border: 1.5px solid #d2b47d;
+    color: #d2b47d;
+    font-weight: 800;
+    font-size: 0.92rem;
+    flex-shrink: 0;
+}
 
+.secenek-metin {
+    line-height: 1.35;
+    font-weight: 500;
+}
+
+/* Şık Durum Renkleri */
+.secenek-btn:hover:not(:disabled) {
+    border-color: #d2b47d;
+    background: #241c15;
+}
+
+.secenek-btn.dogru {
+    background-color: #123d16 !important;
+    border-color: #4caf50 !important;
+    color: #fff !important;
+}
+
+.secenek-btn.dogru .secenek-harf {
+    background-color: #4caf50;
+    border-color: #81c784;
+    color: #000;
+}
+
+.secenek-btn.yanlis {
+    background-color: #4a1212 !important;
+    border-color: #f44336 !important;
+    color: #fff !important;
+}
+
+.secenek-btn.yanlis .secenek-harf {
+    background-color: #f44336;
+    border-color: #e57373;
+    color: #fff;
+}
+
+.secenek-btn.gizli-secenek {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* AÇIKLAMA DİPNOTU */
 .aciklama-kutu {
-    margin-top: 18px;
-    padding: 14px;
+    margin-top: 16px;
+    padding: 14px 16px;
     background: rgba(210, 180, 125, 0.08);
-    border-left: 4px solid #d2b47d;
-    border-radius: 6px;
+    border: 1px dashed #d2b47d;
+    border-radius: 10px;
     text-align: left;
     width: 100%;
-    font-size: 0.92rem;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: #e5cd9e;
 }
 
 .gizli { display: none !important; }
@@ -298,9 +378,9 @@ h1 {
    6. SONUÇ EKRANI & ROZETLER
    ========================================== */
 .yildiz-alani {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin-bottom: 10px;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
 }
 
 .unvan-rozet {
