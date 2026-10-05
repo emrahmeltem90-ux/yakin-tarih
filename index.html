@@ -1,23 +1,131 @@
-<!-- ANA MENÜ EKRANI İÇİNE EKLENECEK -->
-<div id="ekran-anamenu" class="ekran">
-    <div class="ekonomi-bar">
-        <span>🪙 <strong id="menu-coin">0</strong></span>
-        <span>⭐ <strong id="menu-yildiz">0</strong></span>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakın Tarih</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css?v=13">
+</head>
+<body>
+
+    <!-- 1. AÇILIŞ EKRANI (SPLASH) -->
+    <div id="ekran-acilis" class="ekran aktif acilis-ekrani">
+        <button id="basla-btn" class="basla-btn">BAŞLA</button>
     </div>
 
-    <h1 class="ana-baslik">📜 YAKIN TARİH</h1>
-    <p class="alt-yazi">Bilgi Yarışması</p>
+    <!-- 2. ANA MENÜ EKRANI -->
+    <div id="ekran-anamenu" class="ekran">
+        <div class="ekonomi-bar">
+            <span>🪙 <strong id="menu-coin">0</strong></span>
+            <span>⭐ <strong id="menu-yildiz">0</strong></span>
+        </div>
 
-    <!-- GÜNÜN BİLGİSİ KARTI -->
-    <div id="gunun-bilgisi-kart" class="gunun-bilgisi-kart">
-        <div class="kart-rozet">💡 GÜNÜN BİLGİSİ</div>
-        <p id="gunun-bilgisi-metin">Yükleniyor...</p>
+        <h1 class="ana-baslik">📜 YAKIN TARİH</h1>
+        <p class="alt-yazi">Bilgi Yarışması</p>
+
+        <!-- GÜNÜN İLGİNÇ BİLGİSİ KARTI -->
+        <div id="gunun-bilgisi-kart" class="gunun-bilgisi-kart">
+            <div class="kart-rozet">💡 GÜNÜN BİLGİSİ</div>
+            <p id="gunun-bilgisi-metin">Günün bilgisi yükleniyor...</p>
+        </div>
+
+        <div class="ana-menu-listesi">
+            <button id="btn-oyuna-basla" class="menu-btn birincil-btn">🎮 Oyuna Başla</button>
+            <button id="btn-gunluk-odul" class="menu-btn">🎁 Günlük Bonus (+50 🪙)</button>
+            <button id="btn-nasil-oynanir" class="menu-btn">❓ Nasıl Oynanır?</button>
+            <button id="btn-ses-kontrol" class="menu-btn">🔊 Ses: Açık</button>
+        </div>
     </div>
 
-    <div class="ana-menu-listesi">
-        <button id="btn-oyuna-basla" class="menu-btn birincil-btn">🎮 Oyuna Başla</button>
-        <button id="btn-gunluk-odul" class="menu-btn">🎁 Günlük Bonus (+50 🪙)</button>
-        <button id="btn-nasil-oynanir" class="menu-btn">❓ Nasıl Oynanır?</button>
-        <button id="btn-ses-kontrol" class="menu-btn">🔊 Ses: Açık</button>
+    <!-- 3. KATEGORİ SEÇİM EKRANI -->
+    <div id="ekran-baslangic" class="ekran">
+        <div class="ekonomi-bar">
+            <span>🪙 <strong id="toplam-coin">0</strong></span>
+            <span>⭐ <strong id="toplam-yildiz">0</strong></span>
+        </div>
+
+        <h1>🎯 Kategori Seç</h1>
+        <p class="alt-yazi">Oynamak istediğin tarihi dönemi seç</p>
+        <div class="kategori-listesi">
+            <button class="kategori-btn" data-kategori="1">II. Dünya Savaşı</button>
+            <button class="kategori-btn" data-kategori="2">Soğuk Savaş</button>
+        </div>
+        <button id="baslangic-geri-btn" class="ana-btn geri-btn" style="margin-top:20px;">⬅ Ana Menüye Dön</button>
     </div>
-</div>
+
+    <!-- 4. SEVİYE SEÇİM EKRANI -->
+    <div id="ekran-seviye" class="ekran">
+        <div class="ekonomi-bar">
+            <span>🪙 <strong id="seviye-coin">0</strong></span>
+            <span>⭐ <strong id="seviye-yildiz">0</strong></span>
+        </div>
+
+        <h1 id="seviye-kategori-baslik">🎯 Seviye Seç</h1>
+        <p class="alt-yazi">Seviyeleri açmak için yıldız topla!</p>
+        <div id="seviye-listesi" class="seviye-grid"></div>
+        <button id="seviye-geri-btn" class="ana-btn geri-btn">⬅ Kategorilere Dön</button>
+    </div>
+
+    <!-- 5. SORU EKRANI -->
+    <div id="ekran-soru" class="ekran">
+        <div class="ust-bar-gorsel">
+            <div class="bar-sol" id="soru-sayaci">Soru 1/10</div>
+            <div class="bar-orta-rozet">
+                <span class="yildiz-ikon">⭐</span>
+                <span id="soru-coin">0</span>
+            </div>
+            <div class="bar-sag" id="skor-goster">Skor: 0</div>
+        </div>
+        
+        <!-- JOKER BARI -->
+        <div class="joker-bar">
+            <button id="joker-5050" class="joker-btn">
+                <span>🌙 50/50</span>
+                <span class="joker-fiyat">(20🪙)</span>
+            </button>
+            <button id="joker-cift" class="joker-btn">
+                <span>🔄 2. Şans</span>
+                <span class="joker-fiyat">(30🪙)</span>
+            </button>
+            <button id="joker-dogru" class="joker-btn">
+                <span>💡 Pas</span>
+                <span class="joker-fiyat">(50🪙)</span>
+            </button>
+        </div>
+
+        <!-- SORU KUTUSU -->
+        <div class="soru-kutu">
+            <p id="soru-metni">Soru yükleniyor...</p>
+        </div>
+
+        <!-- SEÇENEKLER -->
+        <div id="secenekler" class="secenekler"></div>
+
+        <!-- AÇIKLAMA KUTUSU -->
+        <div id="aciklama-kutu" class="aciklama-kutu gizli">
+            <p id="aciklama-metni"></p>
+        </div>
+    </div>
+
+    <!-- 6. SONUÇ EKRANI -->
+    <div id="ekran-sonuc" class="ekran">
+        <h1>🏁 Seviye Tamamlandı!</h1>
+        <div id="kazanilan-yildizlar" class="yildiz-alani">⭐⭐⭐</div>
+        <div id="unvan-rozet" class="unvan-rozet">🎖️ Çaylak Tarihçi</div>
+        <p id="sonuc-skor">Skorun: 0</p>
+        <p id="kazanilan-coin-metni" class="coin-kazanc">+0 Coin Kazanıldı! 🪙</p>
+        <p id="sonuc-mesaj"></p>
+        <button id="tekrar-btn" class="ana-btn">Seviye Listesine Dön</button>
+    </div>
+
+    <!-- SES DOSYALARI -->
+    <audio id="ses-dogru" src="sesler/dogruu.mp3"></audio>
+    <audio id="ses-yanlis" src="sesler/yanliss.mp3"></audio>
+    <audio id="ses-tiklama" src="sesler/tiklamma.mp3"></audio>
+    <audio id="ses-cark" src="sesler/dogruu.mp3"></audio>
+    <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
+
+    <script src="script.js?v=13"></script>
+</body>
+</html>
