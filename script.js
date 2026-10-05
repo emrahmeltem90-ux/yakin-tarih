@@ -1,14 +1,16 @@
 // ==========================================
-// UYGULAMA MANTIĞI (Kategori -> Seviye -> 10'ar Soru)
+// UYGULAMA MANTIĞI (Kilitli Seviyeler + Joker + Rozet)
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    let tumKategoriSorulari = []; // Seçilen dosyadaki 100 sorunun tamamı
-    let sorular = [];             // O seviyeye ait 10 soru
+    let tumKategoriSorulari = [];
+    let sorular = [];
     let mevcutSoruIndex = 0;
     let skor = 0;
     let secilenKategoriId = null;
+    let mevcutSeviyeNo = 1;
+    let jokerKullanildi = false;
 
     // Ses Elemanları
     const sesDogru = document.getElementById('ses-dogru');
@@ -23,6 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const ekranSeviye = document.getElementById('ekran-seviye');
     const ekranSoru = document.getElementById('ekran-soru');
     const ekranSonuc = document.getElementById('ekran-sonuc');
+    const jokerBtn = document.getElementById('joker-5050');
 
     // 1. AÇILIŞ EKRANI - BAŞLA
     document.getElementById('basla-btn').addEventListener('click', () => {
@@ -37,14 +40,13 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 600);
     });
 
-    // 2. KATEGORİ SEÇİMİ -> SEVİYE EKRANINA GEÇİŞ
+    // 2. KATEGORİ SEÇİMİ
     document.querySelectorAll('.kategori-btn').forEach(btn => {
         btn.addEventListener('click', async (e) => {
             sesTiklama.play().catch(() => {});
             secilenKategoriId = e.target.dataset.kategori;
             const kategoriAdi = e.target.textContent;
 
-            // İlgili JSON dosyasından tüm soruları yükle
             const yuklendi = await kategoriSorulariniYukle(secilenKategoriId);
             
             if (yuklendi) {
@@ -57,7 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // JSON Dosyasını Çekme
+    // JSON Dosyasını Yükleme
     async function kategoriSorulariniYukle(kategoriId) {
         try {
             const response = await fetch(`sorular/sorular_${kategoriId}.json`);
@@ -66,49 +68,63 @@ window.addEventListener('DOMContentLoaded', () => {
             return true;
         } catch (err) {
             console.error(err);
-            alert('Sorular yüklenirken bir hata oluştu!');
+            alert('Sorular yüklenirken hata oluştu! JSON dosya yolunu kontrol edin.');
             return false;
         }
     }
 
-    // Dynamic 10 Seviye Butonu Oluşturma
+    // 3. SEVİYE BUTONLARINI OLUŞTURMA & KİLİT MANTIĞI (LocalStorage)
     function seviyeButonlariniOlustur() {
         const seviyeListesi = document.getElementById('seviye-listesi');
         seviyeListesi.innerHTML = '';
 
-        // Toplam soru sayısına göre kaç seviye çıkacağını hesaplar (100 soru -> 10 seviye)
+        // Kayıtlı ilerlemeyi oku (Varsayılan olarak Seviye 1 açıktır)
+        const acikSeviyeKey = `yakintarih_kat_${secilenKategoriId}_seviye`;
+        const enYuksekAcikSeviye = parseInt(localStorage.getItem(acikSeviyeKey)) || 1;
+
         const toplamSeviye = Math.ceil(tumKategoriSorulari.length / 10);
 
         for (let i = 1; i <= toplamSeviye; i++) {
             const btn = document.createElement('button');
             btn.className = 'seviye-btn';
-            btn.textContent = `Seviye ${i}`;
-            btn.addEventListener('click', () => seviyeBaslat(i));
+
+            if (i <= enYuksekAcikSeviye) {
+                btn.textContent = `Seviye ${i}`;
+                btn.addEventListener('click', () => seviyeBaslat(i));
+            } else {
+                btn.textContent = `🔒 Seviye ${i}`;
+                btn.classList.add('kilitli');
+                btn.addEventListener('click', () => {
+                    alert(`Bu seviyeyi açmak için öncelikle Seviye ${i - 1}'i en az 70 puanla tamamlamalısın!`);
+                });
+            }
+
             seviyeListesi.appendChild(btn);
         }
     }
 
-    // Seviye Seçiminden Kategorilere Geri Dönüş
     document.getElementById('seviye-geri-btn').addEventListener('click', () => {
         sesTiklama.play().catch(() => {});
         ekranSeviye.classList.remove('aktif');
         ekranBaslangic.classList.add('aktif');
     });
 
-    // 3. SEVİYE BAŞLATMA (İlgili 10 Soruyu Dilimleme)
+    // 4. SEVİYE BAŞLATMA
     function seviyeBaslat(seviyeNo) {
         sesTiklama.play().catch(() => {});
+        mevcutSeviyeNo = seviyeNo;
 
-        // Örn: Seviye 1 -> 0-10 arası sorular | Seviye 2 -> 10-20 arası sorular
         const baslangicIndex = (seviyeNo - 1) * 10;
         const bitisIndex = seviyeNo * 10;
         
-        // Seçilen 10 soruyu al ve kendi içinde karıştır
         const seviyeSorulari = tumKategoriSorulari.slice(baslangicIndex, bitisIndex);
         sorular = [...seviyeSorulari].sort(() => Math.random() - 0.5);
 
         mevcutSoruIndex = 0;
         skor = 0;
+        jokerKullanildi = false;
+        jokerBtn.disabled = false;
+        jokerBtn.textContent = '🌓 50/50 Joker';
 
         ekranSeviye.classList.remove('aktif');
         ekranSoru.classList.add('aktif');
@@ -116,7 +132,7 @@ window.addEventListener('DOMContentLoaded', () => {
         soruGoster();
     }
 
-    // Soru Gösterme
+    // 5. SORU GÖSTERME
     function soruGoster() {
         if (mevcutSoruIndex >= sorular.length) {
             yarismayiBitir();
@@ -138,13 +154,41 @@ window.addEventListener('DOMContentLoaded', () => {
         soru.secenekler.forEach((secenek, index) => {
             const btn = document.createElement('button');
             btn.className = 'secenek-btn';
+            btn.dataset.index = index;
             btn.textContent = `${String.fromCharCode(65 + index)}) ${secenek}`;
             btn.addEventListener('click', () => cevapKontrol(index, btn));
             seceneklerDiv.appendChild(btn);
         });
     }
 
-    // Cevap Kontrolü
+    // 6. 50/50 JOKER MANTIĞI
+    jokerBtn.addEventListener('click', () => {
+        if (jokerKullanildi) return;
+
+        sesTiklama.play().catch(() => {});
+        jokerKullanildi = true;
+        jokerBtn.disabled = true;
+        jokerBtn.textContent = '❌ Joker Kullanıldı';
+
+        const soru = sorular[mevcutSoruIndex];
+        const dogruIndex = soru.dogruCevap;
+        const tumButonlar = Array.from(document.querySelectorAll('.secenek-btn'));
+
+        // Yanlış olan butonların indexlerini bul
+        const yanlisIndexler = tumButonlar
+            .map((_, idx) => idx)
+            .filter(idx => idx !== dogruIndex);
+
+        // Yanlış indexleri karıştırıp ilk 2 tanesini gizle
+        yanlisIndexler.sort(() => Math.random() - 0.5);
+        const elenecekler = yanlisIndexler.slice(0, 2);
+
+        elenecekler.forEach(idx => {
+            tumButonlar[idx].classList.add('gizli-secenek');
+        });
+    });
+
+    // 7. CEVAP KONTROLÜ
     function cevapKontrol(secilenIndex, secilenBtn) {
         const soru = sorular[mevcutSoruIndex];
         const dogruIndex = soru.dogruCevap;
@@ -177,7 +221,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 2500);
     }
 
-    // Yarışmayı Bitirme
+    // 8. YARIŞMAYI BİTİRME & KİLİT AÇMA & UNVAN HESAPLAMA
     function yarismayiBitir() {
         ekranSoru.classList.remove('aktif');
         ekranSonuc.classList.add('aktif');
@@ -186,22 +230,45 @@ window.addEventListener('DOMContentLoaded', () => {
         sesCark.play().catch(() => {});
         
         document.getElementById('sonuc-skor').textContent = `Skorun: ${skor}`;
-        
-        let mesaj = '';
+
         const maxSkor = sorular.length * 10;
         const yuzde = (skor / maxSkor) * 100;
         
-        if (yuzde >= 90) mesaj = 'Muhteşem! Bu seviyeyi ustalıkla tamamladın! 🏆';
-        else if (yuzde >= 70) mesaj = 'Çok iyi! Tarih bilgin oldukça sağlam. 👏';
-        else if (yuzde >= 50) mesaj = 'Fena değil, biraz daha çalışabilirsin. 📖';
-        else mesaj = 'Tarih tekerrürden ibarettir, tekrar dene! 💪';
+        // Başarı Kriteri: %70 ve üzeri alan sonraki seviyeyi açar
+        if (yuzde >= 70) {
+            const acikSeviyeKey = `yakintarih_kat_${secilenKategoriId}_seviye`;
+            const mevcutMaksimum = parseInt(localStorage.getItem(acikSeviyeKey)) || 1;
+            
+            if (mevcutSeviyeNo >= mevcutMaksimum) {
+                localStorage.setItem(acikSeviyeKey, mevcutSeviyeNo + 1);
+            }
+        }
+
+        // Unvan & Rozet Tanımlama
+        const unvanRozet = document.getElementById('unvan-rozet');
+        let mesaj = '';
+
+        if (yuzde >= 90) {
+            unvanRozet.textContent = '🏆 Tarih Üstadı';
+            mesaj = 'Harika! Bir sonraki seviye seni bekliyor!';
+        } else if (yuzde >= 70) {
+            unvanRozet.textContent = '🎖️ Savaş Stratejisti';
+            mesaj = 'Tebrikler! Seviyeyi başarıyla geçtin.';
+        } else if (yuzde >= 50) {
+            unvanRozet.textContent = '📜 Tarih Çaylağı';
+            mesaj = 'Seviyeyi geçmek için en az 70 puan almalısın!';
+        } else {
+            unvanRozet.textContent = '📖 Acemi Öğrenci';
+            mesaj = 'Biraz daha çalışıp tekrar denemelisin!';
+        }
         
         document.getElementById('sonuc-mesaj').textContent = mesaj;
     }
 
-    // Sonuç Ekranı - Seviye Listesine Dönüş
+    // 9. RE-PLAY / SEVİYE EKRANINA DÖNÜŞ
     document.getElementById('tekrar-btn').addEventListener('click', () => {
         sesTiklama.play().catch(() => {});
+        seviyeButonlariniOlustur(); // Güncel kilit durumlarıyla butonları yeniden basar
         ekranSonuc.classList.remove('aktif');
         ekranSeviye.classList.add('aktif');
         muzikArkaplan.play().catch(() => {});
