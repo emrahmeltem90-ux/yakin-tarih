@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css?v=8">
+    <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
@@ -28,9 +28,9 @@
     <!-- SEVİYE SEÇİM EKRANI -->
     <div id="ekran-seviye" class="ekran">
         <h1 id="seviye-kategori-baslik">🎯 Seviye Seç</h1>
-        <p class="alt-yazi">Her seviye 10 sorudan oluşur</p>
+        <p class="alt-yazi">Geçmek için en az 70 puan kazanmalısın!</p>
         <div id="seviye-listesi" class="seviye-grid">
-            <!-- JS ile dinamik olarak 1-10 arası seviye butonları basılacak -->
+            <!-- JS ile dinamik kilitli/açık seviye butonları yüklenecek -->
         </div>
         <button id="seviye-geri-btn" class="ana-btn geri-btn">⬅ Kategorilere Dön</button>
     </div>
@@ -41,6 +41,12 @@
             <span id="soru-sayaci">Soru 1/10</span>
             <span id="skor-goster">Skor: 0</span>
         </div>
+        
+        <!-- JOKER ALANI -->
+        <div class="joker-bar">
+            <button id="joker-5050" class="joker-btn">🌓 50/50 Joker</button>
+        </div>
+
         <div class="soru-kutu">
             <p id="soru-metni">Soru yükleniyor...</p>
         </div>
@@ -53,6 +59,7 @@
     <!-- SONUÇ EKRANI -->
     <div id="ekran-sonuc" class="ekran">
         <h1>🏁 Seviye Tamamlandı!</h1>
+        <div id="unvan-rozet" class="unvan-rozet">🎖️ Çaylak Tarihçi</div>
         <p id="sonuc-skor">Skorun: 0</p>
         <p id="sonuc-mesaj"></p>
         <button id="tekrar-btn" class="ana-btn">Seviye Listesine Dön</button>
@@ -65,6 +72,6 @@
     <audio id="ses-cark" src="sesler/dogruu.mp3"></audio>
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
-    <script src="script.js?v=8"></script>
+    <script src="script.js?v=9"></script>
 </body>
 </html>
