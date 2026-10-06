@@ -205,7 +205,7 @@
   },
   {
     "soru": "A Milli Kadın Voleybol Takımımız (Filenin Sultanları), CEV Avrupa Şampiyonluğu kupasını ilk kez hangi yılda müzesine götürmüştür?",
-    "secenekler": [ "2019", "2021", "2023", "2024"],
+    "secenekler": ["2019", "2021", "2023", "2024"],
     "dogruCevap": 2,
     "aciklama": "Filenin Sultanları, 2023 CEV Avrupa Şampiyonası finalinde Sırbistan'ı 3-2 yenerek ilk kez Avrupa Şampiyonu olmuştur."
   },
@@ -294,562 +294,309 @@
     "aciklama": "Bayraktar KIZILELMA, Türkiye'nin ilk insansız otonom savaş uçağı projesidir."
   },
   {
-    "soru": "Dünya Genelinde COVID-19 küresel pandemisinin başladığı şehir hangisidir?",
+    "soru": "Dünya genelinde COVID-19 küresel pandemisinin başladığı şehir hangisidir?",
     "secenekler": ["Wuhan", "Pekin", "Şanghay", "Guangzhou"],
     "dogruCevap": 0,
     "aciklama": "COVID-19 vakaları ilk olarak Aralık 2019'da Çin'in Hubei eyaletine bağlı Wuhan şehrinde tespit edilmiştir."
   },
   {
-    [
-  {
     "soru": "6 Şubat 2023 tarihinde Kahramanmaraş merkezli meydana gelen ve 11 ili doğrudan etkileyen asrın felaketinde kaç büyüklüğünde iki ana deprem gerçekleşmiştir?",
-    "secenekler": [
-      "7.7 ve 7.6",
-      "7.2 ve 7.0",
-      "6.8 ve 6.5",
-      "8.0 ve 7.8"
-    ],
+    "secenekler": ["7.7 ve 7.6", "7.2 ve 7.0", "6.8 ve 6.5", "8.0 ve 7.8"],
     "dogruCevap": 0,
     "aciklama": "6 Şubat 2023'te Pazarcık merkezli 7.7 ve Elbistan merkezli 7.6 büyüklüğünde iki yıkıcı deprem meydana gelmiştir."
   },
   {
     "soru": "Nisan 2023'te SpaceX Falcon 9 roketiyle uzaya fırlatılan, Türkiye'nin metre altı yüksek çözünürlüğe sahip ilk yerli ve milli gözlem uydusu hangisidir?",
-    "secenekler": [
-      "İMECE",
-      "RASAT",
-      "GÖKTÜRK-2",
-      "BİLSAT"
-    ],
+    "secenekler": ["İMECE", "RASAT", "GÖKTÜRK-2", "BİLSAT"],
     "dogruCevap": 0,
     "aciklama": "İMECE uydusu, TÜBİTAK UZAY tarafından tasarlanıp üretilen ilk yüksek çözünürlüklü yerli gözlem uydumuzdur."
   },
   {
     "soru": "Türkiye'nin ilk yerli gözlem uydusu olma unvanına sahip olan ve 2011 yılında uzaya fırlatılan uydu hangisidir?",
-    "secenekler": [
-      "RASAT",
-      "BİLSAT",
-      "GÖKTÜRK-1",
-      "İMECE"
-    ],
+    "secenekler": ["RASAT", "BİLSAT", "GÖKTÜRK-1", "İMECE"],
     "dogruCevap": 0,
     "aciklama": "RASAT, TÜBİTAK UZAY tarafından Türkiye'de tasarlanıp imal edilen ilk yerli mikro gözlem uydusudur."
   },
   {
     "soru": "2004 yılında Birleşmiş Milletler öncülüğünde Kıbrıs Sorunu'nu çözmek amacıyla hazırlanan ve adada referanduma sunulan plan hangisidir?",
-    "secenekler": [
-      "Annan Planı",
-      "Boutros-Ghali Planı",
-      "Cenevre Protokolü",
-      "Ahtisaari Planı"
-    ],
+    "secenekler": ["Annan Planı", "Boutros-Ghali Planı", "Cenevre Protokolü", "Ahtisaari Planı"],
     "dogruCevap": 0,
     "aciklama": "BM Genel Sekreteri Kofi Annan tarafından hazırlanan plan, 2004 yılında Kıbrıs'ın her iki tarafında referanduma sunulmuştur."
   },
   {
     "soru": "Ankara'nın Polatlı ilçesinde yer alan ve 2023 yılında UNESCO Dünya Miras Listesi'ne Türkiye'den 20. varlık olarak kaydedilen antik kent hangisidir?",
-    "secenekler": [
-      "Gordion",
-      "Sardes",
-      "Milet",
-      "Priene"
-    ],
+    "secenekler": ["Gordion", "Sardes", "Milet", "Priene"],
     "dogruCevap": 0,
     "aciklama": "Frigya'nın tarihi başkenti Gordion Antik Kent, Eylül 2023'te UNESCO Dünya Miras Listesi'ne alınmıştır."
   },
   {
     "soru": "Anadolu'daki ahşap tavanlı ve ahşap destekli ortaçağ camilerini (Beyşehir Eşrefoğlu, Sivrihisar Ulu Camii vb.) kapsayan seri miras hangi yılda UNESCO Dünya Miras Listesi'ne dahil edilmiştir?",
-    "secenekler": [
-      "2023",
-      "2020",
-      "2018",
-      "2015"
-    ],
+    "secenekler": ["2023", "2020", "2018", "2015"],
     "dogruCevap": 0,
     "aciklama": "Türkiye'nin Ahşap Hipostil Camileri, 2023 yılında UNESCO Dünya Miras Listesi'ne 21. kültür varlığı olarak girmiştir."
   },
   {
     "soru": "2002 FIFA Dünya Kupası'nda Şenol Güneş yönetimindeki Türkiye A Milli Futbol Takımı tarihi bir başarı göstererek dünya kaçıncısı olmuştur?",
-    "secenekler": [
-      "Dünya 3.'sü",
-      "Dünya 2.'si",
-      "Dünya 4.'sü",
-      "Dünya Şampiyonu"
-    ],
+    "secenekler": ["Dünya 3.'sü", "Dünya 2.'si", "Dünya 4.'sü", "Dünya Şampiyonu"],
     "dogruCevap": 0,
     "aciklama": "Milli Takımımız, 2002 Güney Kore-Japonya Dünya Kupası'nda Güney Kore'yi 3-2 yenerek Dünya 3.'sü olmuştur."
   },
   {
     "soru": "Fatih Terim yönetimindeki A Milli Futbol Takımımız, Avrupa Futbol Şampiyonası (EURO 2008) tarihinde hangi aşamaya kadar yükselerek tarihi bir başarı elde etmiştir?",
-    "secenekler": [
-      "Yarı Final",
-      "Final",
-      "Çeyrek Final",
-      "Son 16 Turu"
-    ],
+    "secenekler": ["Yarı Final", "Final", "Çeyrek Final", "Son 16 Turu"],
     "dogruCevap": 0,
     "aciklama": "Türkiye, EURO 2008'de Almanya ile yarı final oynayarak Avrupa üçüncülüğü derecesini elde etmiştir."
   },
   {
     "soru": "2022 yılında İstanbul'da düzenlenen Ampute Futbol Dünya Kupası finalinde Angola'yı 4-1 mağlup ederek dünya şampiyonu olan milli takımımız hangisidir?",
-    "secenekler": [
-      "Ampute Milli Futbol Takımı",
-      "İşitme Engelliler Milli Takımı",
-      "Tekerlekli Sandalye Basketbol Takımı",
-      "Görme Engelliler Milli Takımı"
-    ],
+    "secenekler": ["Ampute Milli Futbol Takımı", "İşitme Engelliler Milli Takımı", "Tekerlekli Sandalye Basketbol Takımı", "Görme Engelliler Milli Takımı"],
     "dogruCevap": 0,
     "aciklama": "Ampute Futbol Milli Takımımız, 2022 Dünya Kupası finalinde Angola'yı yenerek ilk kez Dünya Şampiyonu olmuştur."
   },
   {
     "soru": "Türkiye, Rusya, Ukrayna ve Birleşmiş Milletler arasında Temmuz 2022'de İstanbul'da imzalanan ve küresel gıda krizini önleyen diplomatik gelişme hangisidir?",
-    "secenekler": [
-      "Tahıl Koridoru Anlaşması",
-      "Karadeniz Güvenlik Paktı",
-      "İstanbul Gıda Sözleşmesi",
-      "Boğazlar Lojistik Protokolü"
-    ],
+    "secenekler": ["Tahıl Koridoru Anlaşması", "Karadeniz Güvenlik Paktı", "İstanbul Gıda Sözleşmesi", "Boğazlar Lojistik Protokolü"],
     "dogruCevap": 0,
     "aciklama": "Karadeniz Tahıl Girişimi Anlaşması, İstanbul'da imzalanarak Ukrayna tahılının dünya pazarlarına güvenle ulaşmasını sağlamıştır."
   },
   {
     "soru": "2022 yılında başlayan Rusya-Ukrayna Savaşı sonrasında tarafsızlık politikasını esneterek Nisan 2023'te NATO'nun 31. üyesi olan İskandinav ülkesi hangisidir?",
-    "secenekler": [
-      "Finlandiya",
-      "İsveç",
-      "Norveç",
-      "Danimarka"
-    ],
+    "secenekler": ["Finlandiya", "İsveç", "Norveç", "Danimarka"],
     "dogruCevap": 0,
     "aciklama": "Finlandiya, Nisan 2023'te onay süreçlerinin tamamlanmasıyla NATO'nun 31. resmi üyesi olmuştur."
   },
   {
     "soru": "Mart 2024'te onay süreçlerinin tamamlanmasıyla resmen NATO'nun 32. üyesi olan İskandinav ülkesi hangisidir?",
-    "secenekler": [
-      "İsveç",
-      "Finlandiya",
-      "Avusturya",
-      "İsviçre"
-    ],
+    "secenekler": ["İsveç", "Finlandiya", "Avusturya", "İsviçre"],
     "dogruCevap": 0,
     "aciklama": "İsveç, Mart 2024 tarihinde NATO üyelik katılım belgesini ABD'ye teslim ederek ittifakın 32. üyesi olmuştur."
   },
   {
     "soru": "2012 Londra Olimpiyat Oyunları'nda erkekler 68 kg tekvando kategorisinde altın madalya kazanarak olimpiyat şampiyonu olan milli sporcumuz kimdir?",
-    "secenekler": [
-      "Servet Tazegül",
-      "Bahri Tanrıkulu",
-      "Rıza Kayaalp",
-      "Taha Akgül"
-    ],
+    "secenekler": ["Servet Tazegül", "Bahri Tanrıkulu", "Rıza Kayaalp", "Taha Akgül"],
     "dogruCevap": 0,
     "aciklama": "Servet Tazegül, 2012 Londra Olimpiyatları'nda tekvandoda altın madalya kazanarak büyük bir başarıya imza atmıştır."
   },
   {
     "soru": "2016 Rio Olimpiyat Oyunları'nda serbest stil güreş 125 kg kategorisinde altın madalya kazanarak Türkiye'nin tek altın madalyasını getiren milli güreşçimiz kimdir?",
-    "secenekler": [
-      "Taha Akgül",
-      "Rıza Kayaalp",
-      "Yasemin Adar",
-      "Metehan Başar"
-    ],
+    "secenekler": ["Taha Akgül", "Rıza Kayaalp", "Yasemin Adar", "Metehan Başar"],
     "dogruCevap": 0,
     "aciklama": "Taha Akgül, 2016 Rio Olimpiyatları'nda erkekler 125 kg serbest stilde altın madalya kazanmıştır."
   },
   {
     "soru": "Konya'da yer alan ve Neolitik döneme ait yaşam tarzıyla insanlık tarihine ışık tutan Çatalhöyük, hangi yılda UNESCO Dünya Miras Listesi'ne alınmıştır?",
-    "secenekler": [
-      "2012",
-      "2010",
-      "2015",
-      "2018"
-    ],
+    "secenekler": ["2012", "2010", "2015", "2018"],
     "dogruCevap": 0,
     "aciklama": "Çatalhöyük Neolitik Kenti, 2012 yılında UNESCO Dünya Miras Listesi'ne dahil edilmiştir."
   },
   {
     "soru": "Kars il sınırları içerisinde yer alan ve '1001 Kilise Şehri' olarak da bilinen tarihi Ani Arkeolojik Alanı, hangi yılda UNESCO Dünya Miras Listesi'ne girmiştir?",
-    "secenekler": [
-      "2016",
-      "2013",
-      "2018",
-      "2020"
-    ],
+    "secenekler": ["2016", "2013", "2018", "2020"],
     "dogruCevap": 0,
     "aciklama": "Kars'taki Ani Arkeolojik Alanı, 2016 yılında UNESCO Dünya Miras Listesi'ne kaydedilmiştir."
   },
   {
     "soru": "Nisan 2023'te ilk taze nükleer yakıtın tesise teslim edilmesiyle resmen 'nükleer tesis' statüsü kazanan Türkiye'nin ilk nükleer santrali hangisidir?",
-    "secenekler": [
-      "Akkuyu Nükleer Güç Santrali",
-      "Sinop Nükleer Güç Santrali",
-      "Trakya Nükleer Santrali",
-      "Bandırma Nükleer Santrali"
-    ],
+    "secenekler": ["Akkuyu Nükleer Güç Santrali", "Sinop Nükleer Güç Santrali", "Trakya Nükleer Santrali", "Bandırma Nükleer Santrali"],
     "dogruCevap": 0,
     "aciklama": "Mersin'deki Akkuyu NGS, 27 Nisan 2023'te ilk nükleer yakıtın gelmesiyle resmi tesis statüsü almıştır."
   },
   {
     "soru": "2020 yılında Azerbaycan'ın Ermenistan işgalindeki topraklarını kurtarmak amacıyla başlattığı ve 44 gün süren tarihi askeri harekat hangisidir?",
-    "secenekler": [
-      "2. Karabağ Savaşı (Vatan Muharebesi)",
-      "1. Karabağ Savaşı",
-      "Hocalı Operasyonu",
-      "Zengezur Harekatı"
-    ],
+    "secenekler": ["2. Karabağ Savaşı (Vatan Muharebesi)", "1. Karabağ Savaşı", "Hocalı Operasyonu", "Zengezur Harekatı"],
     "dogruCevap": 0,
-    "aciklama": "Azerbaycan Ordu'sunun 27 Eylül 2020'de başlattığı 44 günlük Vatan Muharebesi zaferle sonuçlanmıştır."
+    "aciklama": "Azerbaycan Ordusu'nun 27 Eylül 2020'de başlattığı 44 günlük Vatan Muharebesi zaferle sonuçlanmıştır."
   },
   {
     "soru": "15 Haziran 2021 tarihinde Türkiye ile Azerbaycan arasında müttefiklik ilişkilerini en üst düzeye çıkaran tarihi deklarasyon hangisidir?",
-    "secenekler": [
-      "Şuşa Beyannamesi",
-      "Bakü Anlaşması",
-      "Gence Bildirisi",
-      "Nahçıvan Protokolü"
-    ],
+    "secenekler": ["Şuşa Beyannamesi", "Bakü Anlaşması", "Gence Bildirisi", "Nahçıvan Protokolü"],
     "dogruCevap": 0,
     "aciklama": "Şuşa Beyannamesi, iki ülke arasındaki savunma ve siyasi iş birliğini müttefiklik seviyesine taşımıştır."
   },
   {
     "soru": "Azerbaycan doğalgazını Türkiye üzerinden Avrupa'ya taşıyan Güney Gaz Koridoru'nun ana hattı olan TANAP projesi hangi yılda açılmıştır?",
-    "secenekler": [
-      "2018",
-      "2015",
-      "2020",
-      "2022"
-    ],
+    "secenekler": ["2018", "2015", "2020", "2022"],
     "dogruCevap": 0,
     "aciklama": "Trans Anadolu Doğalgaz Boru Hattı (TANAP), Haziran 2018 tarihinde resmen hizmete girmiştir."
   },
   {
     "soru": "Nisan 2019'da Fransa'nın başkenti Paris'te meydana gelen yangında ahşap çatısı ve kulesi çöken tarihi gotik katedral hangisidir?",
-    "secenekler": [
-      "Notre Dame Katedrali",
-      "Sagrada Familia",
-      "Duomo di Milano",
-      "Westminster Abbey"
-    ],
+    "secenekler": ["Notre Dame Katedrali", "Sagrada Familia", "Duomo di Milano", "Westminster Abbey"],
     "dogruCevap": 0,
     "aciklama": "Paris'teki 850 yıllık tarihi Notre Dame Katedrali, 15 Nisan 2019'da çıkan yangında ağır hasar görmüştür."
   },
   {
     "soru": "70 yıl boyunca Birleşik Krallık tahtında kaldıktan sonra Eylül 2022'de hayatını kaybeden İngiltere Hükümdarı kimdir?",
-    "secenekler": [
-      "Kraliçe II. Elizabeth",
-      "Kraliçe Victoria",
-      "Prenses Diana",
-      "Kraliçe Mary"
-    ],
+    "secenekler": ["Kraliçe II. Elizabeth", "Kraliçe Victoria", "Prenses Diana", "Kraliçe Mary"],
     "dogruCevap": 0,
     "aciklama": "İngiltere'nin en uzun süre tahtta kalan hükümdarı Kraliçe II. Elizabeth, 8 Eylül 2022'de vefat etmiştir."
   },
   {
     "soru": "Haziran 2024'te Virgin Galactic'in suborbital (yörünge altı) araştırma uçuşunu gerçekleştirerek Türkiye'nin ikinci astronotu olan bilim insanımız kimdir?",
-    "secenekler": [
-      "Tuva Cihangir Atasever",
-      "Alper Gezeravcı",
-      "Umut Yıldız",
-      "Caner Bakıcı"
-    ],
+    "secenekler": ["Tuva Cihangir Atasever", "Alper Gezeravcı", "Umut Yıldız", "Caner Bakıcı"],
     "dogruCevap": 0,
     "aciklama": "Tuva Cihangir Atasever, 8 Haziran 2024'te gerçekleşen yörünge altı bilim misyonuyla uzaya çıkan ikinci Türk olmuştur."
   },
   {
     "soru": "TUSAŞ tarafından geliştirilen ve Türkiye'nin insansız jet uçak sınıfındaki uçan kanat tasarımlı stealth İHA projesi hangisidir?",
-    "secenekler": [
-      "ANKA-3",
-      "Aksungur",
-      "Bayraktar TB3",
-      "KIZILELMA"
-    ],
+    "secenekler": ["ANKA-3", "Aksungur", "Bayraktar TB3", "KIZILELMA"],
     "dogruCevap": 0,
     "aciklama": "ANKA-3, TUSAŞ tarafından geliştirilen ve Aralık 2023'te ilk uçuşunu yapan stealth insansız savaş uçağıdır."
   },
   {
     "soru": "2011 yılında Japonya'da meydana gelen 9.0 büyüklüğündeki deprem ve tsunaminin ardından radyoaktif sızıntı yaşanan nükleer santral hangisidir?",
-    "secenekler": [
-      "Fukuşima Daiichi",
-      "Çernobil",
-      "Zaporijya",
-      "Three Mile Island"
-    ],
+    "secenekler": ["Fukuşima Daiichi", "Çernobil", "Zaporijya", "Three Mile Island"],
     "dogruCevap": 0,
     "aciklama": "11 Mart 2011 deprem ve tsunamisi sonrası Fukuşima Daiichi Nükleer Santrali'nde büyük felaket yaşanmıştır."
   },
   {
     "soru": "Diyarbakır Kalesi ve Hevsel Bahçeleri Kültürel Peyzajı hangi yılda UNESCO Dünya Miras Listesi'ne dahil edilmiştir?",
-    "secenekler": [
-      "2015",
-      "2012",
-      "2018",
-      "2020"
-    ],
+    "secenekler": ["2015", "2012", "2018", "2020"],
     "dogruCevap": 0,
     "aciklama": "Diyarbakır Kalesi ve Hevsel Bahçeleri, 2015 yılında UNESCO Dünya Mirası ilan edilmiştir."
   },
   {
     "soru": "Bursa ve Cumalıkızık: Osmanlı İmparatorluğunun Doğuşu Alanı hangi yılda UNESCO Dünya Miras Listesi'ne girmiştir?",
-    "secenekler": [
-      "2014",
-      "2011",
-      "2016",
-      "2019"
-    ],
+    "secenekler": ["2014", "2011", "2016", "2019"],
     "dogruCevap": 0,
     "aciklama": "Bursa ve Cumalıkızık yerleşimi 2014 yılında UNESCO Dünya Miras Listesi'ne eklenmiştir."
   },
   {
     "soru": "İzmir'in Bergama ilçesinde bulunan Bergama Çok Katmanlı Kültürel Peyzaj Alanı UNESCO Dünya Miras Listesi'ne hangi yılda eklenmiştir?",
-    "secenekler": [
-      "2014",
-      "2012",
-      "2016",
-      "2018"
-    ],
+    "secenekler": ["2014", "2012", "2016", "2018"],
     "dogruCevap": 0,
     "aciklama": "Bergama, 2014 yılında UNESCO Dünya Miras Listesi'ne kaydedilmiştir."
   },
   {
     "soru": "Danıştay kararıyla müze statüsü kaldırılarak Temmuz 2020'de yeniden ibadete açılan tarihi anıtsal yapı hangisidir?",
-    "secenekler": [
-      "Ayasofya-i Kebir Cami-i Şerifi",
-      "Sultanahmet Camii",
-      "Süleymaniye Camii",
-      "Kariye Camii"
-    ],
+    "secenekler": ["Ayasofya-i Kebir Cami-i Şerifi", "Sultanahmet Camii", "Süleymaniye Camii", "Kariye Camii"],
     "dogruCevap": 0,
     "aciklama": "Ayasofya, 24 Temmuz 2020 Cuma günü kılınan cuma namazıyla 86 yıl sonra yeniden ibadete açılmıştır."
   },
   {
     "soru": "2008 Pekin Olimpiyat Oyunları'nda atletizm alanında iki gümüş madalya kazanarak olimpiyat kürsüsüne çıkan milli atletimiz kimdir?",
-    "secenekler": [
-      "Elvan Abeylegesse",
-      "Süreyya Ayhan",
-      "Nevin Yanıt",
-      "Aslı Çakır Alptekin"
-    ],
+    "secenekler": ["Elvan Abeylegesse", "Süreyya Ayhan", "Nevin Yanıt", "Aslı Çakır Alptekin"],
     "dogruCevap": 0,
     "aciklama": "Elvan Abeylegesse, 2008 Pekin Olimpiyatları'nda 5000m ve 10000m branşlarında gümüş madalya kazanmıştır."
   },
   {
     "soru": "Türkiye'nin ilk Yüksek Hızlı Tren (YHT) hattı olan Ankara-Eskişehir hattı hangi yılda yolcu taşımacılığına başlamıştır?",
-    "secenekler": [
-      "2009",
-      "2007",
-      "2011",
-      "2014"
-    ],
+    "secenekler": ["2009", "2007", "2011", "2014"],
     "dogruCevap": 0,
     "aciklama": "Ankara-Eskişehir YHT hattı 13 Mart 2009 tarihinde hizmete girerek Türkiye'de YHT çağını başlatmıştır."
   },
   {
     "soru": "Ankara ile İstanbul arasındaki kesintisiz Yüksek Hızlı Tren (YHT) hattı hangi yılda resmi olarak hizmete açılmıştır?",
-    "secenekler": [
-      "2014",
-      "2011",
-      "2016",
-      "2018"
-    ],
+    "secenekler": ["2014", "2011", "2016", "2018"],
     "dogruCevap": 0,
     "aciklama": "Ankara-İstanbul YHT hattı 25 Temmuz 2014 tarihinde Cumhurbaşkanı düzeyindeki törenle açılmıştır."
   },
   {
     "soru": "2016 yılında İstanbul Boğazı üzerinde açılan ve genişliğiyle dünyanın en geniş asma köprüleri arasında yer alan 3. boğaz köprüsü hangisidir?",
-    "secenekler": [
-      "Yavuz Sultan Selim Köprüsü",
-      "Osmangazi Köprüsü",
-      "15 Temmuz Şehitler Köprüsü",
-      "Fatih Sultan Mehmet Köprüsü"
-    ],
+    "secenekler": ["Yavuz Sultan Selim Köprüsü", "Osmangazi Köprüsü", "15 Temmuz Şehitler Köprüsü", "Fatih Sultan Mehmet Köprüsü"],
     "dogruCevap": 0,
     "aciklama": "Yavuz Sultan Selim Köprüsü, 26 Ağustos 2016 tarihinde hizmete sunulmuştur."
   },
   {
     "soru": "İstanbul Boğazı'nın altından karayolu araçlarının geçişine imkan sağlayan ve 2016'da açılan çift katlı tüp geçit projesi hangisidir?",
-    "secenekler": [
-      "Avrasya Tüneli",
-      "Marmaray",
-      "Büyük İstanbul Tüneli",
-      "Cankurtaran Tüneli"
-    ],
+    "secenekler": ["Avrasya Tüneli", "Marmaray", "Büyük İstanbul Tüneli", "Cankurtaran Tüneli"],
     "dogruCevap": 0,
     "aciklama": "Avrasya Tüneli (İstanbul Boğazı Karayolu Tüp Geçişi), Aralık 2016'da faaliyete başlamıştır."
   },
   {
     "soru": "2017 referandumu sonrası kabul edilen Cumhurbaşkanlığı Hükümet Sistemi'nin ilk Kabinesi hangi yılda göreve başlamıştır?",
-    "secenekler": [
-      "2018",
-      "2017",
-      "2019",
-      "2020"
-    ],
+    "secenekler": ["2018", "2017", "2019", "2020"],
     "dogruCevap": 0,
     "aciklama": "2018 genel seçimlerinin ardından yeni hükümet sistemi Temmuz 2018'de resmen yürürlüğe girmiştir."
   },
   {
     "soru": "2019 yılında Türkiye ile Libya Ulusal Mutabakat Hükümeti arasında imzalanan Akdeniz'deki tarihi anlaşmanın adı nedir?",
-    "secenekler": [
-      "Deniz Yetki Alanlarının Sınırlandırılması Mutabakatı",
-      "Doğu Akdeniz Barış Paktı",
-      "Trablus Güvenlik Anlaşması",
-      "Ege ve Akdeniz Protokolü"
-    ],
+    "secenekler": ["Deniz Yetki Alanlarının Sınırlandırılması Mutabakatı", "Doğu Akdeniz Barış Paktı", "Trablus Güvenlik Anlaşması", "Ege ve Akdeniz Protokolü"],
     "dogruCevap": 0,
     "aciklama": "27 Kasım 2019'da imzalanan antlaşma Türkiye'nin Doğu Akdeniz'deki Mavi Vatan haklarını tescillemiştir."
   },
   {
     "soru": "2021 yılında Glasgow'da düzenlenen ve küresel iklim krizine karşı taahhütlerin güncellendiği Birleşmiş Milletler Zirvesi hangisidir?",
-    "secenekler": [
-      "COP26",
-      "COP21",
-      "COP27",
-      "COP28"
-    ],
+    "secenekler": ["COP26", "COP21", "COP27", "COP28"],
     "dogruCevap": 0,
     "aciklama": "BM İklim Değişikliği Çerçeve Sözleşmesi 26. Taraflar Konferansı (COP26), 2021'de İskoçya'da toplanmıştır."
   },
   {
     "soru": "Kasım-Aralık 2023 tarihlerinde Dubai'de düzenlenen ve fosil yakıtlardan uzaklaşma çağrısının ilk kez metne girdiği BM İklim Zirvesi hangisidir?",
-    "secenekler": [
-      "COP28",
-      "COP26",
-      "COP27",
-      "COP29"
-    ],
+    "secenekler": ["COP28", "COP26", "COP27", "COP29"],
     "dogruCevap": 0,
     "aciklama": "Birleşik Arap Emirlikleri'nde düzenlenen COP28 Zirvesi tarihi iklim kararlarına ev sahipliği yapmıştır."
   },
   {
     "soru": "Türkiye'nin ilk yerli üretim jet motorlu hafif taarruz ve eğitim uçağı olan HÜRJET, ilk uçuşunu hangi yılda yapmıştır?",
-    "secenekler": [
-      "2023",
-      "2021",
-      "2022",
-      "2024"
-    ],
+    "secenekler": ["2023", "2021", "2022", "2024"],
     "dogruCevap": 0,
     "aciklama": "TUSAŞ üretimi HÜRJET, ilk gökyüzü buluşmasını Nisan 2023 tarihinde başarıyla gerçekleştirmiştir."
   },
   {
     "soru": "TUSAŞ tarafından geliştirilen ve Türkiye'nin ilk yerli ve milli genel maksat helikopteri olan projenin adı nedir?",
-    "secenekler": [
-      "T625 GÖKBEY",
-      "ATAK-2",
-      "T129 ATAK",
-      "HÜRKUŞ"
-    ],
+    "secenekler": ["T625 GÖKBEY", "ATAK-2", "T129 ATAK", "HÜRKUŞ"],
     "dogruCevap": 0,
     "aciklama": "GÖKBEY helikopteri, özgün tasarım ve yerli imkanlarla üretilen genel maksat helikopterimizdir."
   },
   {
     "soru": "Türk Silahlı Kuvvetleri envanterine giren ilk yerli taarruz ve taktik keşif helikopteri projesi hangisidir?",
-    "secenekler": [
-      "T129 ATAK",
-      "GÖKBEY",
-      "Cougar",
-      "Sikorsky"
-    ],
+    "secenekler": ["T129 ATAK", "GÖKBEY", "Cougar", "Sikorsky"],
     "dogruCevap": 0,
     "aciklama": "T129 ATAK Helikopteri, TSK ve Emniyet teşkilatı bünyesinde aktif olarak kullanılmaktadır."
   },
   {
     "soru": "2022 yılında lansmanı yapılan ve Cumhuriyetin ikinci yüzyılına dair kalkınma, teknoloji ve vizyon hedeflerini simgeleyen konseptin adı nedir?",
-    "secenekler": [
-      "Türkiye Yüzyılı",
-      "2023 Vizyonu",
-      "Milli Hamle Dönemi",
-      "Büyük Türkiye İdeali"
-    ],
+    "secenekler": ["Türkiye Yüzyılı", "2023 Vizyonu", "Milli Hamle Dönemi", "Büyük Türkiye İdeali"],
     "dogruCevap": 0,
     "aciklama": "Türkiye Yüzyılı vizyon belgesi, Ekim 2022 tarihinde kamuoyuna açıklanmıştır."
   },
   {
     "soru": "2013 yılında Çin tarafından açıklanan ve Asya, Avrupa ile Afrika'yı altyapı ağlarıyla bağlamayı amaçlayan küresel girişim hangisidir?",
-    "secenekler": [
-      "Kuşak ve Yol Girişimi",
-      "Küresel İpek Yolu",
-      "Doğu-Batı Koridoru",
-      "Kalkınma Yolu Projesi"
-    ],
+    "secenekler": ["Kuşak ve Yol Girişimi", "Küresel İpek Yolu", "Doğu-Batı Koridoru", "Kalkınma Yolu Projesi"],
     "dogruCevap": 0,
     "aciklama": "Kuşak ve Yol Girişimi (Belt and Road Initiative), tarihi İpek Yolu'nu modern yatırımlarla ihya etmeyi amaçlar."
   },
   {
     "soru": "Irak'taki Basra Körfezi'nden başlayıp Türkiye sınırına uzanarak Avrupa'ya kesintisiz ticaret koridoru sunmayı hedefleyen ulaşım projesi hangisidir?",
-    "secenekler": [
-      "Kalkınma Yolu Projesi",
-      "Zengezur Koridoru",
-      "Süveyş Alternatifi",
-      "Hicaz Hattı"
-    ],
+    "secenekler": ["Kalkınma Yolu Projesi", "Zengezur Koridoru", "Süveyş Alternatifi", "Hicaz Hattı"],
     "dogruCevap": 0,
     "aciklama": "Kalkınma Yolu Projesi, Irak ve Türkiye iş birliğiyle Basra Körfezi'ni Avrupa'ya bağlamayı hedefler."
   },
   {
     "soru": "Azerbaycan ile Nahçıvan Özerk Cumhuriyeti'ni bağlayarak Türkiye ile Türk dünyası arasında doğrudan kara bağlantısı kurması öngörülen hat hangisidir?",
-    "secenekler": [
-      "Zengezur Koridoru",
-      "Laçın Koridoru",
-      "Aras Koridoru",
-      "Gence Koridoru"
-    ],
+    "secenekler": ["Zengezur Koridoru", "Laçın Koridoru", "Aras Koridoru", "Gence Koridoru"],
     "dogruCevap": 0,
     "aciklama": "Zengezur Koridoru, Karabağ Zaferi sonrası imzalanan bildiride yer alan stratejik ulaşım yoludur."
   },
   {
     "soru": "2024 Avrupa Futbol Şampiyonası (EURO 2024) hangi ülkede düzenlenmiştir?",
-    "secenekler": [
-      "Almanya",
-      "Fransa",
-      "İngiltere",
-      "İtalya"
-    ],
+    "secenekler": ["Almanya", "Fransa", "İngiltere", "İtalya"],
     "dogruCevap": 0,
     "aciklama": "EURO 2024, Haziran-Temmuz 2024 tarihlerinde Almanya'nın ev sahipliğinde gerçekleştirilmiştir."
   },
   {
     "soru": "2024 Paris Olimpiyat Oyunları'nda Türkiye toplam kaç adet madalya (3 gümüş, 5 bronz) kazanmıştır?",
-    "secenekler": [
-      "8",
-      "13",
-      "10",
-      "6"
-    ],
+    "secenekler": ["8", "13", "10", "6"],
     "dogruCevap": 0,
     "aciklama": "Türkiye, 2024 Paris Olimpiyatları'nı 3 gümüş ve 5 bronz olmak üzere toplam 8 madalya ile tamamlamıştır."
   },
   {
     "soru": "Karadeniz'de keşfedilen yerli doğalgazın karaya çıkartılarak ulusal şebekeye bağlandığı Filyos Doğalgaz İşleme Tesisi hangi ilimizdedir?",
-    "secenekler": [
-      "Zonguldak",
-      "Bartın",
-      "Kastamonu",
-      "Sinop"
-    ],
+    "secenekler": ["Zonguldak", "Bartın", "Kastamonu", "Sinop"],
     "dogruCevap": 0,
     "aciklama": "Zonguldak Filyos'taki tesisler, Sakarya Gaz Sahası'ndan çıkan gazın işlenip karaya sevk edildiği ana merkezdir."
   },
   {
     "soru": "Türkiye Cumhuriyeti'nin 100. kuruluş yıl dönümü hangi tarihte tüm yurtta ve dış temsilciliklerde tarihi coşkuyla kutlanmıştır?",
-    "secenekler": [
-      "29 Ekim 2023",
-      "29 Ekim 2022",
-      "15 Temmuz 2023",
-      "23 Nisan 2023"
-    ],
+    "secenekler": ["29 Ekim 2023", "29 Ekim 2022", "15 Temmuz 2023", "23 Nisan 2023"],
     "dogruCevap": 0,
     "aciklama": "Cumhuriyetimizin 100. yılı 29 Ekim 2023 tarihinde kutlanmıştır."
   },
   {
     "soru": "Ocak 2024'te uzaya gönderilen TÜRKSAT 6A uydusunun fırlatılması hangi uzay taşımacılığı şirketi ve roketi ile gerçekleştirilmiştir?",
-    "secenekler": [
-      "SpaceX - Falcon 9",
-      "Arianespace - Ariane 5",
-      "Roscosmos - Soyuz",
-      "Blue Origin - New Glenn"
-    ],
+    "secenekler": ["SpaceX - Falcon 9", "Arianespace - Ariane 5", "Roscosmos - Soyuz", "Blue Origin - New Glenn"],
     "dogruCevap": 0,
     "aciklama": "Türkiye'nin ilk yerli haberleşme uydusu TÜRKSAT 6A, SpaceX şirketine ait Falcon 9 roketiyle uzaya fırlatılmıştır."
   }
 ]
-
