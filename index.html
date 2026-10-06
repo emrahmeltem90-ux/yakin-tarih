@@ -6,7 +6,7 @@
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=400">
+    <link rel="stylesheet" href="style.css?v=500">
 </head>
 <body>
 
@@ -65,8 +65,17 @@
                     <span class="btn-ok">▶</span>
                 </button>
 
-                <button id="btn-gizli-sandik" class="menu-btn btn-sandik">
+                <button id="btn-profil" class="menu-btn btn-profil">
                     <span class="btn-numara">03</span>
+                    <div class="btn-icerik">
+                        <span class="btn-baslik">PROFİLİM</span>
+                        <span class="btn-aciklama">İstatistikler ve başarımlar</span>
+                    </div>
+                    <span class="btn-ok">▸</span>
+                </button>
+
+                <button id="btn-gizli-sandik" class="menu-btn btn-sandik">
+                    <span class="btn-numara">04</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">GİZLİ SANDIK</span>
                         <span class="btn-aciklama">Günlük sürpriz ödül</span>
@@ -75,7 +84,7 @@
                 </button>
 
                 <button id="btn-gunluk-odul" class="menu-btn btn-odul">
-                    <span class="btn-numara">04</span>
+                    <span class="btn-numara">05</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">GÜNLÜK ÖDÜL</span>
                         <span class="btn-aciklama">Her gün +50 Coin</span>
@@ -84,7 +93,7 @@
                 </button>
 
                 <button id="btn-gunluk-gorevler" class="menu-btn btn-gorev">
-                    <span class="btn-numara">05</span>
+                    <span class="btn-numara">06</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">GÜNLÜK GÖREVLER</span>
                         <span class="btn-aciklama">Bugünün hedefleri</span>
@@ -93,7 +102,7 @@
                 </button>
 
                 <button id="btn-basarimlar" class="menu-btn btn-basarim">
-                    <span class="btn-numara">06</span>
+                    <span class="btn-numara">07</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">BAŞARIMLAR</span>
                         <span class="btn-aciklama">50+ hedef, ödüller kap</span>
@@ -102,7 +111,7 @@
                 </button>
 
                 <button id="btn-liderlik" class="menu-btn btn-liderlik">
-                    <span class="btn-numara">07</span>
+                    <span class="btn-numara">08</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">LİDERLİK TABLOSU</span>
                         <span class="btn-aciklama">Rekorları gör</span>
@@ -111,7 +120,7 @@
                 </button>
 
                 <button id="btn-carkifelek" class="menu-btn btn-cark">
-                    <span class="btn-numara">08</span>
+                    <span class="btn-numara">09</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">ÇARKIFELEK</span>
                         <span class="btn-aciklama">Günlük şansını dene</span>
@@ -120,7 +129,7 @@
                 </button>
 
                 <button id="btn-davet" class="menu-btn btn-davet">
-                    <span class="btn-numara">09</span>
+                    <span class="btn-numara">10</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">DAVET ET</span>
                         <span class="btn-aciklama">+10 yıldız kazan</span>
@@ -129,7 +138,7 @@
                 </button>
 
                 <button id="btn-ayarlar" class="menu-btn btn-ayar">
-                    <span class="btn-numara">10</span>
+                    <span class="btn-numara">11</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">AYARLAR</span>
                         <span class="btn-aciklama">Ses, müzik, titreşim</span>
@@ -138,7 +147,7 @@
                 </button>
 
                 <button id="btn-nasil-oynanir" class="menu-btn btn-nasil">
-                    <span class="btn-numara">11</span>
+                    <span class="btn-numara">12</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">NASIL OYNANIR</span>
                         <span class="btn-aciklama">Kurallar ve ipuçları</span>
@@ -188,7 +197,6 @@
                 <div class="bar-sag" id="skor-goster">Skor: 0</div>
             </div>
 
-            <!-- SERİ VE KOMBO GÖSTERGESİ -->
             <div class="streak-bar" id="streak-bar">
                 <div class="streak-sol">
                     <span class="streak-ikon">🔥</span>
@@ -236,25 +244,39 @@
             <button id="tekrar-btn" class="ana-btn">Seviye Listesine Dön</button>
         </div>
 
-        <!-- 7. PROFİL EKRANI -->
+        <!-- 7. PROFİL EKRANI (YENİ TASARIM) -->
         <div id="ekran-profil" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
                 <div class="ekonomi-bar-mini">🪙 <span id="profil-coin">0</span></div>
             </div>
-            <h1>Oyuncu Profili</h1>
-            <div class="profil-kart">
-                <div class="avatar-circle">👤</div>
+
+            <!-- KİMLİK KARTI -->
+            <div class="profil-kimlik">
+                <div class="avatar-secim" id="avatar-secim">
+                    <button class="avatar-btn" data-avatar="🎖️">🎖️</button>
+                    <button class="avatar-btn" data-avatar="🏛️">🏛️</button>
+                    <button class="avatar-btn" data-avatar="⚔️">⚔️</button>
+                    <button class="avatar-btn" data-avatar="👑">👑</button>
+                    <button class="avatar-btn" data-avatar="🔬">🔬</button>
+                    <button class="avatar-btn" data-avatar="📜">📜</button>
+                </div>
                 <input type="text" id="player-name" class="player-name-input" value="Oyuncu" maxlength="20">
                 <button class="kaydet-btn" id="kaydet-btn">KAYDET</button>
-                <p class="hosgeldin-metni" id="hosgeldin-metni">Hoş geldin, Oyuncu!</p>
-            </div>
-            <div class="dogruluk-alani">
-                <div class="dogruluk-circle">
-                    <span class="dogruluk-value" id="dogruluk-value">0%</span>
-                    <span class="dogruluk-label">DOĞRULUK</span>
+
+                <div class="profil-unvan-satir">
+                    <span class="profil-unvan" id="profil-unvan">🎖️ Çaylak</span>
+                    <span class="profil-seviye" id="profil-seviye">Sv. 1</span>
                 </div>
+
+                <div class="xp-bar-profil">
+                    <div class="xp-dolgu-profil" id="profil-xp-bar" style="width:0%"></div>
+                </div>
+                <p class="profil-xp-yazi" id="profil-xp-yazi">0 / 100 XP</p>
             </div>
+
+            <!-- GENEL İSTATİSTİKLER -->
+            <h2 class="profil-baslik">GENEL İSTATİSTİKLER</h2>
             <div class="istatistik-grid">
                 <div class="stat-card stat-mavi">
                     <span class="stat-ikon">🎯</span>
@@ -287,7 +309,59 @@
                     <span class="stat-isim">EN UZUN SERİ</span>
                 </div>
             </div>
-            <button class="paylas-btn" id="paylas-btn">PROFİLİMİ PAYLAŞ</button>
+
+            <!-- DOĞRULUK ÇEMBERİ -->
+            <div class="dogruluk-alani">
+                <div class="dogruluk-circle">
+                    <span class="dogruluk-value" id="dogruluk-value">0%</span>
+                    <span class="dogruluk-label">DOĞRULUK</span>
+                </div>
+            </div>
+
+            <!-- KATEGORİ BAZLI İSTATİSTİKLER -->
+            <h2 class="profil-baslik">KATEGORİLER</h2>
+            <div class="kategori-istatistik-listesi" id="kategori-istatistik-listesi"></div>
+
+            <!-- REKORLAR -->
+            <h2 class="profil-baslik">REKORLARIM</h2>
+            <div class="rekor-listesi">
+                <div class="rekor-satir">
+                    <span class="rekor-ikon">🥇</span>
+                    <span class="rekor-isim">En Yüksek Skor</span>
+                    <span class="rekor-deger" id="rekor-skor">0</span>
+                </div>
+                <div class="rekor-satir">
+                    <span class="rekor-ikon">🔥</span>
+                    <span class="rekor-isim">En Uzun Seri</span>
+                    <span class="rekor-deger" id="rekor-streak">0</span>
+                </div>
+                <div class="rekor-satir">
+                    <span class="rekor-ikon">⚡</span>
+                    <span class="rekor-isim">En Hızlı Cevap</span>
+                    <span class="rekor-deger" id="rekor-hiz">-</span>
+                </div>
+                <div class="rekor-satir">
+                    <span class="rekor-ikon">💰</span>
+                    <span class="rekor-isim">Toplam Coin</span>
+                    <span class="rekor-deger" id="rekor-coin">0</span>
+                </div>
+                <div class="rekor-satir">
+                    <span class="rekor-ikon">⭐</span>
+                    <span class="rekor-isim">Toplam Yıldız</span>
+                    <span class="rekor-deger" id="rekor-yildiz">0</span>
+                </div>
+            </div>
+
+            <!-- BAŞARIM VİTRİNİ -->
+            <h2 class="profil-baslik">SON BAŞARIMLARIM</h2>
+            <div class="vitrin" id="vitrin"></div>
+
+            <!-- HAFTALIK GRAFİK -->
+            <h2 class="profil-baslik">SON 7 GÜN</h2>
+            <div class="grafik-kutu" id="grafik-kutu"></div>
+
+            <!-- PAYLAŞ BUTONU -->
+            <button class="paylas-btn" id="paylas-btn">📤 PROFİLİMİ PAYLAŞ</button>
         </div>
 
         <!-- 8. BAŞARIMLAR EKRANI -->
@@ -416,6 +490,6 @@
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
     <script src="bilgiler.js"></script>
-    <script src="script.js?v=400"></script>
+    <script src="script.js?v=500"></script>
 </body>
 </html>
