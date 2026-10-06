@@ -6,7 +6,7 @@
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=500">
+    <link rel="stylesheet" href="style.css?v=510">
 </head>
 <body>
 
@@ -170,6 +170,7 @@
                 <button class="kategori-btn" data-kategori="2">Soğuk Savaş</button>
                 <button class="kategori-btn" data-kategori="3">Türkiye'de Darbeler</button>
                 <button class="kategori-btn" data-kategori="4">1980 Sonrası</button>
+                <button class="kategori-btn" data-kategori="5">21. Yüzyıl</button>
             </div>
             <button id="baslangic-geri-btn" class="ana-btn geri-btn">← Ana Menüye Dön</button>
         </div>
@@ -244,14 +245,13 @@
             <button id="tekrar-btn" class="ana-btn">Seviye Listesine Dön</button>
         </div>
 
-        <!-- 7. PROFİL EKRANI (YENİ TASARIM) -->
+        <!-- 7. PROFİL EKRANI -->
         <div id="ekran-profil" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
                 <div class="ekonomi-bar-mini">🪙 <span id="profil-coin">0</span></div>
             </div>
 
-            <!-- KİMLİK KARTI -->
             <div class="profil-kimlik">
                 <div class="avatar-secim" id="avatar-secim">
                     <button class="avatar-btn" data-avatar="🎖️">🎖️</button>
@@ -275,7 +275,6 @@
                 <p class="profil-xp-yazi" id="profil-xp-yazi">0 / 100 XP</p>
             </div>
 
-            <!-- GENEL İSTATİSTİKLER -->
             <h2 class="profil-baslik">GENEL İSTATİSTİKLER</h2>
             <div class="istatistik-grid">
                 <div class="stat-card stat-mavi">
@@ -310,7 +309,6 @@
                 </div>
             </div>
 
-            <!-- DOĞRULUK ÇEMBERİ -->
             <div class="dogruluk-alani">
                 <div class="dogruluk-circle">
                     <span class="dogruluk-value" id="dogruluk-value">0%</span>
@@ -318,11 +316,9 @@
                 </div>
             </div>
 
-            <!-- KATEGORİ BAZLI İSTATİSTİKLER -->
             <h2 class="profil-baslik">KATEGORİLER</h2>
             <div class="kategori-istatistik-listesi" id="kategori-istatistik-listesi"></div>
 
-            <!-- REKORLAR -->
             <h2 class="profil-baslik">REKORLARIM</h2>
             <div class="rekor-listesi">
                 <div class="rekor-satir">
@@ -352,15 +348,12 @@
                 </div>
             </div>
 
-            <!-- BAŞARIM VİTRİNİ -->
             <h2 class="profil-baslik">SON BAŞARIMLARIM</h2>
             <div class="vitrin" id="vitrin"></div>
 
-            <!-- HAFTALIK GRAFİK -->
             <h2 class="profil-baslik">SON 7 GÜN</h2>
             <div class="grafik-kutu" id="grafik-kutu"></div>
 
-            <!-- PAYLAŞ BUTONU -->
             <button class="paylas-btn" id="paylas-btn">📤 PROFİLİMİ PAYLAŞ</button>
         </div>
 
@@ -490,6 +483,6 @@
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
     <script src="bilgiler.js"></script>
-    <script src="script.js?v=500"></script>
+    <script src="script.js?v=510"></script>
 </body>
 </html>
