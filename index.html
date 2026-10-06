@@ -6,7 +6,7 @@
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=510">
+    <link rel="stylesheet" href="style.css?v=600">
 </head>
 <body>
 
@@ -19,6 +19,16 @@
 
         <!-- 2. ANA MENÜ -->
         <div id="ekran-anamenu" class="ekran">
+            
+            <!-- ÜST KISIM: PROFİL + EKONOMİ -->
+            <div class="ust-satir">
+                <button id="profil-simge" class="profil-simge">
+                    <span class="profil-avatar" id="profil-avatar-ust">🎖️</span>
+                    <span class="profil-mini-isim" id="profil-mini-isim">Oyuncu</span>
+                    <span class="profil-mini-seviye" id="profil-mini-seviye">Sv. 1</span>
+                </button>
+            </div>
+
             <div class="ekonomi-bar">
                 <span>🪙 <strong id="menu-coin">0</strong></span>
                 <span>⭐ <strong id="menu-yildiz">0</strong></span>
@@ -39,7 +49,6 @@
             <p class="alt-yazi">Bilgi Yarışması</p>
             <p class="tarih-araligi">1939 — 2024</p>
 
-            <!-- BUNU BİLİYOR MUYDUNUZ KARTI -->
             <div id="bilgi-kart" class="bilgi-kart">
                 <div class="bilgi-rozet">BUNU BİLİYOR MUYDUNUZ?</div>
                 <p id="bilgi-metni" class="bilgi-metni">Yükleniyor...</p>
@@ -65,13 +74,13 @@
                     <span class="btn-ok">▶</span>
                 </button>
 
-                <button id="btn-profil" class="menu-btn btn-profil">
+                <button id="btn-yildiz-market" class="menu-btn btn-market">
                     <span class="btn-numara">03</span>
                     <div class="btn-icerik">
-                        <span class="btn-baslik">PROFİLİM</span>
-                        <span class="btn-aciklama">İstatistikler ve başarımlar</span>
+                        <span class="btn-baslik">YILDIZ MARKET</span>
+                        <span class="btn-aciklama">Yıldızlarını harca</span>
                     </div>
-                    <span class="btn-ok">▸</span>
+                    <span class="btn-ok">⭐</span>
                 </button>
 
                 <button id="btn-gizli-sandik" class="menu-btn btn-sandik">
@@ -141,7 +150,7 @@
                     <span class="btn-numara">11</span>
                     <div class="btn-icerik">
                         <span class="btn-baslik">AYARLAR</span>
-                        <span class="btn-aciklama">Ses, müzik, titreşim</span>
+                        <span class="btn-aciklama">Ses, süre, titreşim</span>
                     </div>
                     <span class="btn-ok">▸</span>
                 </button>
@@ -190,12 +199,19 @@
         <!-- 5. SORU EKRANI -->
         <div id="ekran-soru" class="ekran">
             <div class="ust-bar-gorsel">
+                <button id="pause-btn" class="pause-btn">⏸️</button>
                 <div class="bar-sol" id="soru-sayaci">Soru 1/10</div>
                 <div class="bar-orta-rozet">
                     <span class="yildiz-ikon">⭐</span>
                     <span id="soru-coin">0</span>
                 </div>
                 <div class="bar-sag" id="skor-goster">Skor: 0</div>
+            </div>
+
+            <!-- SÜRE BARI -->
+            <div class="sure-bar-wrapper" id="sure-bar-wrapper">
+                <div class="sure-bar-dolgu" id="sure-bar-dolgu"></div>
+                <span class="sure-sayi" id="sure-sayi">30</span>
             </div>
 
             <div class="streak-bar" id="streak-bar">
@@ -230,6 +246,30 @@
 
             <div id="aciklama-kutu" class="aciklama-kutu gizli">
                 <p id="aciklama-metni"></p>
+            </div>
+        </div>
+
+        <!-- 5b. PAUSE EKRANI -->
+        <div id="ekran-pause" class="ekran pause-ekrani">
+            <div class="pause-kutu">
+                <div class="pause-ikon">⏸️</div>
+                <h2 class="pause-baslik">OYUN DURAKLATILDI</h2>
+                <p class="pause-alt">Devam etmek için bir seçenek seç</p>
+
+                <div class="pause-butonlar">
+                    <button id="pause-devam" class="pause-btn-item pause-btn-devam">
+                        ▶️ DEVAM ET
+                    </button>
+                    <button id="pause-yeniden" class="pause-btn-item pause-btn-yeniden">
+                        🔄 YENİDEN BAŞLA
+                    </button>
+                    <button id="pause-ses" class="pause-btn-item pause-btn-ses">
+                        🔊 SES: AÇIK
+                    </button>
+                    <button id="pause-ana-menu" class="pause-btn-item pause-btn-cikis">
+                        🏠 ANA MENÜYE DÖN
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -357,7 +397,59 @@
             <button class="paylas-btn" id="paylas-btn">📤 PROFİLİMİ PAYLAŞ</button>
         </div>
 
-        <!-- 8. BAŞARIMLAR EKRANI -->
+        <!-- 8. YILDIZ MARKET EKRANI -->
+        <div id="ekran-market" class="ekran">
+            <div class="ust-bar-basit">
+                <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
+                <div class="ekonomi-bar-mini">⭐ <span id="market-yildiz">0</span></div>
+            </div>
+            <h1>Yıldız Market</h1>
+            <p class="alt-yazi">Yıldızlarını harcayarak ödül kazan!</p>
+
+            <div class="market-listesi" id="market-listesi">
+                <div class="market-kart" data-market-id="joker1">
+                    <div class="market-ikon">🌙</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">1 Joker (Rastgele)</div>
+                        <div class="market-aciklama">Bir joker hakkı kazan</div>
+                        <div class="market-fiyat">10 ⭐</div>
+                    </div>
+                    <button class="market-btn" data-id="joker1">SATIN AL</button>
+                </div>
+
+                <div class="market-kart" data-market-id="coin500">
+                    <div class="market-ikon">💰</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">500 Coin</div>
+                        <div class="market-aciklama">Hesabına 500 coin eklenir</div>
+                        <div class="market-fiyat">25 ⭐</div>
+                    </div>
+                    <button class="market-btn" data-id="coin500">SATIN AL</button>
+                </div>
+
+                <div class="market-kart" data-market-id="joker3">
+                    <div class="market-ikon">🌙🌙🌙</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">3 Joker Paketi</div>
+                        <div class="market-aciklama">3 joker hakkı kazan</div>
+                        <div class="market-fiyat">50 ⭐</div>
+                    </div>
+                    <button class="market-btn" data-id="joker3">SATIN AL</button>
+                </div>
+
+                <div class="market-kart" data-market-id="avatar_ozel">
+                    <div class="market-ikon">👑</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">Özel Avatar</div>
+                        <div class="market-aciklama">👑 Taç avatarını aç</div>
+                        <div class="market-fiyat">100 ⭐</div>
+                    </div>
+                    <button class="market-btn" data-id="avatar_ozel">SATIN AL</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9. BAŞARIMLAR EKRANI -->
         <div id="ekran-basarimlar" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -368,7 +460,7 @@
             <div class="basarim-listesi" id="basarim-listesi"></div>
         </div>
 
-        <!-- 9. LİDERLİK TABLOSU EKRANI -->
+        <!-- 10. LİDERLİK TABLOSU -->
         <div id="ekran-liderlik" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -379,7 +471,7 @@
             <div class="liderlik-listesi" id="liderlik-listesi"></div>
         </div>
 
-        <!-- 10. GİZLİ SANDIK EKRANI -->
+        <!-- 11. GİZLİ SANDIK -->
         <div id="ekran-sandik" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -398,7 +490,7 @@
             <p class="sandik-text">Bugünkü sandık hakkı: <span id="sandik-hak">1</span></p>
         </div>
 
-        <!-- 11. ÇARKIFELEK EKRANI -->
+        <!-- 12. ÇARKIFELEK -->
         <div id="ekran-carkifelek" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -426,7 +518,7 @@
             <p class="spin-text">Ücretsiz Çevirme: <span id="spins-left">1</span> hak</p>
         </div>
 
-        <!-- 12. AYARLAR EKRANI -->
+        <!-- 13. AYARLAR -->
         <div id="ekran-ayarlar" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -455,6 +547,20 @@
                         <span class="slider"></span>
                     </label>
                 </div>
+
+                <!-- SÜRE AYARI -->
+                <div class="ayar-item ayar-sure">
+                    <span class="ayar-label">⏱️ Soru Süresi</span>
+                    <div class="sure-secim" id="sure-secim">
+                        <button class="sure-btn" data-sure="0">Kapalı</button>
+                        <button class="sure-btn" data-sure="60">60s</button>
+                        <button class="sure-btn" data-sure="45">45s</button>
+                        <button class="sure-btn aktif" data-sure="30">30s</button>
+                        <button class="sure-btn" data-sure="20">20s</button>
+                        <button class="sure-btn" data-sure="15">15s</button>
+                    </div>
+                </div>
+
                 <div class="ayar-item">
                     <span class="ayar-label">🗑️ Verileri Sıfırla</span>
                     <button class="kirmizi-btn" id="sifirla-btn">Sıfırla</button>
@@ -462,7 +568,7 @@
             </div>
         </div>
 
-        <!-- 13. GÜNLÜK GÖREVLER EKRANI -->
+        <!-- 14. GÜNLÜK GÖREVLER -->
         <div id="ekran-gorevler" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -483,6 +589,6 @@
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
     <script src="bilgiler.js"></script>
-    <script src="script.js?v=510"></script>
+    <script src="script.js?v=600"></script>
 </body>
 </html>
