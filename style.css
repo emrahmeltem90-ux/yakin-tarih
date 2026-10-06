@@ -1,5 +1,5 @@
 /* ==========================================
-   YAKIN TARİH - TEST (KIRMIZI MENÜ BUTONU)
+   YAKIN TARİH - TAM STİL DOSYASI (ARŞİV TEMASI)
    ========================================== */
 
 * {
@@ -234,7 +234,7 @@ body {
 }
 
 /* ==========================================
-   MENÜ BUTONLARI - TEST: KIRMIZI
+   MENÜ BUTONLARI - ARŞİV DEFTERİ STİLİ
    ========================================== */
 
 .ana-menu-listesi {
@@ -252,7 +252,7 @@ body {
     padding: 14px 16px;
     border-radius: 6px;
     cursor: pointer;
-    background: #ff0000;
+    background: linear-gradient(145deg, #1e130a 0%, #0d0805 100%);
     border: 1px solid var(--altin-koyu);
     border-top-color: rgba(212, 175, 55, 0.4);
     border-bottom-color: rgba(0, 0, 0, 0.6);
@@ -356,6 +356,25 @@ body {
 .btn-basla {
     border-color: var(--altin);
     border-top-color: var(--altin-acik);
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.6),
+        0 0 20px rgba(212, 175, 55, 0.15),
+        inset 0 1px 0 rgba(245, 215, 127, 0.2);
+    background: linear-gradient(145deg, #2a1a0a 0%, #100905 100%);
+}
+
+.btn-basla::before {
+    border-color: rgba(212, 175, 55, 0.45);
+}
+
+.btn-basla .btn-baslik {
+    color: var(--altin-acik);
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+.btn-basla .btn-ok {
+    color: var(--altin-acik);
+    opacity: 0.9;
 }
 
 .btn-devam.hidden {
@@ -1187,4 +1206,4 @@ input:checked + .slider:before { transform: translateX(24px); background-color: 
 @keyframes ikonZipla {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-8px); }
-}
+   }
