@@ -1,5 +1,5 @@
 // ==========================================
-// YAKIN TARİH - TAM OYUN MANTIĞI (V6)
+// YAKIN TARİH - TAM OYUN MANTIĞI (V7 - OYUNCU DENEYİMİ)
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -117,12 +117,23 @@ const KATEGORI_ISIMLERI = {
     '5': '21. Yüzyıl'
 };
 
-// MARKET ÜRÜNLERİ
+const KATEGORI_YILDIZ_KILITLERI = {
+    '1': 0,
+    '2': 5,
+    '3': 15,
+    '4': 30,
+    '5': 50
+};
+
 const MARKET_URUNLERI = {
-    'joker1': { baslik: '1 Joker (Rastgele)', fiyat: 10, tip: 'joker', miktar: 1 },
-    'coin500': { baslik: '500 Coin', fiyat: 25, tip: 'coin', miktar: 500 },
-    'joker3': { baslik: '3 Joker Paketi', fiyat: 50, tip: 'joker', miktar: 3 },
-    'avatar_ozel': { baslik: 'Özel Avatar (👑)', fiyat: 100, tip: 'avatar_ozel', miktar: 1 }
+    'joker1': { baslik: '1 Joker', fiyat: 10, para: 'yildiz', tip: 'joker', miktar: 1 },
+    'coin500': { baslik: '500 Coin', fiyat: 25, para: 'yildiz', tip: 'coin', miktar: 500 },
+    'joker3': { baslik: '3 Joker Paketi', fiyat: 50, para: 'yildiz', tip: 'joker', miktar: 3 },
+    'avatar_ozel': { baslik: 'Özel Avatar', fiyat: 100, para: 'yildiz', tip: 'avatar_ozel', miktar: 1 },
+    'coin_to_yildiz_1': { baslik: '1 Yıldız', fiyat: 500, para: 'coin', tip: 'yildiz', miktar: 1 },
+    'coin_to_yildiz_3': { baslik: '3 Yıldız', fiyat: 1400, para: 'coin', tip: 'yildiz', miktar: 3 },
+    'extra_cark': { baslik: 'Ekstra Çark Hakkı', fiyat: 300, para: 'coin', tip: 'spin', miktar: 1 },
+    'can_paketi': { baslik: 'Can Paketi (3 Can)', fiyat: 250, para: 'coin', tip: 'can_paketi', miktar: 3 }
 };
 
 // ==========================================
@@ -155,7 +166,11 @@ let toplamYanlisSayisi = parseInt(localStorage.getItem('yt_toplam_yanlis')) || 0
 let toplamHizliDogru = parseInt(localStorage.getItem('yt_hizli_dogru')) || 0;
 let toplamSandik = parseInt(localStorage.getItem('yt_sandik')) || 0;
 
-// ZAMANLAYICI DEĞİŞKENLERİ
+// CAN SİSTEMİ
+let mevcutCan = 3;
+let seriKorumaKullanildi = false;
+
+// ZAMANLAYICI
 let sureInterval = null;
 let kalanSure = 0;
 let oyunDuraklatildi = false;
@@ -190,7 +205,7 @@ let gunlukGiris = parseInt(localStorage.getItem('yt_gunluk_giris')) || 0;
 const sonGiris = localStorage.getItem('yt_son_giris');
 const dun = new Date(Date.now() - 86400000).toDateString();
 if (sonGiris === bugun) {
-    // bugün zaten
+    // bugün
 } else if (sonGiris === dun) {
     gunlukGiris++;
     localStorage.setItem('yt_gunluk_giris', gunlukGiris);
@@ -224,6 +239,7 @@ const ekranBaslangic = document.getElementById('ekran-baslangic');
 const ekranSeviye = document.getElementById('ekran-seviye');
 const ekranSoru = document.getElementById('ekran-soru');
 const ekranPause = document.getElementById('ekran-pause');
+const ekranCanBitti = document.getElementById('ekran-canbitti');
 const ekranSonuc = document.getElementById('ekran-sonuc');
 const ekranProfil = document.getElementById('ekran-profil');
 const ekranMarket = document.getElementById('ekran-market');
@@ -264,7 +280,29 @@ function titret(sure = 30) {
 }
 
 // ==========================================
-// 5. XP VE SEVİYE
+// 5. KONFETİ
+// ==========================================
+
+function konfetiPatlat() {
+    const katman = document.getElementById('konfeti-katman');
+    if (!katman) return;
+    const renkler = ['#d4af37', '#f5d77f', '#ffd700', '#8b2626', '#3a7d44', '#5a3a7a', '#2a4a7a'];
+    for (let i = 0; i < 60; i++) {
+        const parca = document.createElement('div');
+        parca.className = 'konfeti-parca';
+        parca.style.left = Math.random() * 100 + '%';
+        parca.style.background = renkler[Math.floor(Math.random() * renkler.length)];
+        parca.style.animationDuration = (2 + Math.random() * 2) + 's';
+        parca.style.animationDelay = Math.random() * 0.5 + 's';
+        parca.style.transform = `rotate(${Math.random() * 360}deg)`;
+        if (Math.random() > 0.5) parca.style.borderRadius = '50%';
+        katman.appendChild(parca);
+        setTimeout(() => parca.remove(), 5000);
+    }
+}
+
+// ==========================================
+// 6. XP VE SEVİYE
 // ==========================================
 
 function xpToSeviye(xp) {
@@ -319,6 +357,7 @@ function seviyeAtlamaGoster(yeniSeviye) {
     setTimeout(() => overlay.classList.add('aktif'), 10);
     sesCal(sesCark);
     titret(200);
+    konfetiPatlat();
     const kapat = () => {
         overlay.classList.remove('aktif');
         setTimeout(() => overlay.remove(), 500);
@@ -328,7 +367,7 @@ function seviyeAtlamaGoster(yeniSeviye) {
 }
 
 // ==========================================
-// 6. UYARI SİSTEMİ
+// 7. UYARI SİSTEMİ
 // ==========================================
 
 function ozelUyari(baslik, mesaj, ikon = '📜') {
@@ -374,7 +413,7 @@ function ozelOdul(baslik, mesaj, ikon = '🎉') {
 }
 
 // ==========================================
-// 7. EKONOMİ
+// 8. EKONOMİ
 // ==========================================
 
 function toplamYildizHesapla() {
@@ -388,19 +427,37 @@ function toplamYildizHesapla() {
     return toplam;
 }
 
+function yildizHarca(miktar) {
+    let kalan = miktar;
+    for (let i = 0; i < localStorage.length && kalan > 0; i++) {
+        const key = localStorage.key(i);
+        if (key.startsWith('yt_yildiz_kat_')) {
+            let val = parseInt(localStorage.getItem(key)) || 0;
+            while (val > 0 && kalan > 0) {
+                val--;
+                kalan--;
+            }
+            localStorage.setItem(key, val);
+        }
+    }
+}
+
+function yildizEkle(miktar) {
+    const key = 'yt_bonus_yildiz';
+    const mevcut = parseInt(localStorage.getItem(key)) || 0;
+    localStorage.setItem(key, mevcut + miktar);
+}
+
 function ekonomiyiGuncelle() {
     localStorage.setItem('yt_coin', toplamCoin);
     const yildiz = toplamYildizHesapla();
     ['menu-coin', 'toplam-coin', 'seviye-coin', 'soru-coin', 'profil-coin',
      'basarim-coin', 'cark-coin', 'ayar-coin', 'gorev-coin', 'sandik-coin',
-     'market-yildiz'].forEach(id => {
+     'market-coin'].forEach(id => {
         const el = document.getElementById(id);
-        if (el) {
-            if (id === 'market-yildiz') el.textContent = yildiz;
-            else el.textContent = toplamCoin;
-        }
+        if (el) el.textContent = toplamCoin;
     });
-    ['menu-yildiz', 'toplam-yildiz', 'seviye-yildiz'].forEach(id => {
+    ['menu-yildiz', 'toplam-yildiz', 'seviye-yildiz', 'market-yildiz'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.textContent = yildiz;
     });
@@ -414,7 +471,6 @@ function ekonomiyiGuncelle() {
     if (menuUnvan) menuUnvan.textContent = unvanAl(seviyeBilgi.seviye);
     if (menuXPBar) menuXPBar.style.width = seviyeBilgi.yuzde + '%';
 
-    // Profil simgesi (üstte)
     const isim = localStorage.getItem('yt_oyuncu') || 'Oyuncu';
     const avatar = localStorage.getItem('yt_avatar') || '🎖️';
     const miniIsim = document.getElementById('profil-mini-isim');
@@ -431,7 +487,37 @@ function ekonomiyiGuncelle() {
 }
 
 // ==========================================
-// 8. SÜRE SİSTEMİ
+// 9. CAN SİSTEMİ
+// ==========================================
+
+function canlariGuncelle() {
+    const gosterge = document.getElementById('can-gosterge');
+    if (!gosterge) return;
+    const ikonlar = gosterge.querySelectorAll('.can-ikon');
+    ikonlar.forEach((ikon, i) => {
+        if (i < mevcutCan) ikon.classList.remove('kayip');
+        else ikon.classList.add('kayip');
+    });
+}
+
+function canAzalt() {
+    mevcutCan--;
+    canlariGuncelle();
+    if (mevcutCan <= 0) {
+        setTimeout(() => canBittiGoster(), 800);
+    }
+}
+
+function canBittiGoster() {
+    sureDurdur();
+    document.getElementById('canbitti-skor').textContent = skor;
+    ekranGoster(ekranCanBitti);
+    sesCal(sesYanlis);
+    titret(300);
+}
+
+// ==========================================
+// 10. SÜRE SİSTEMİ
 // ==========================================
 
 function sureBaslat() {
@@ -489,8 +575,9 @@ function sureBitti() {
     document.getElementById('kombo-gosterge').classList.remove('aktif');
     toplamYanlisSayisi++;
     localStorage.setItem('yt_toplam_yanlis', toplamYanlisSayisi);
-
-    ozelUyari('Süre Doldu!', 'Süre içinde cevap veremedin.\nDoğru cevap gösteriliyor.', '⏰');
+    ozelUyari('Süre Doldu!', 'Süre içinde cevap veremedin.', '⏰');
+    canAzalt();
+    if (mevcutCan <= 0) return;
     setTimeout(() => {
         mevcutSoruIndex++;
         soruGoster();
@@ -498,7 +585,7 @@ function sureBitti() {
 }
 
 // ==========================================
-// 9. AÇILIŞ VE ANA MENÜ
+// 11. AÇILIŞ VE ANA MENÜ
 // ==========================================
 
 document.getElementById('basla-btn').addEventListener('click', () => {
@@ -518,6 +605,7 @@ document.getElementById('basla-btn').addEventListener('click', () => {
 
 document.getElementById('btn-oyuna-basla').addEventListener('click', () => {
     sesCal(sesTiklama); titret();
+    kategoriKilitleriniGuncelle();
     ekranGoster(ekranBaslangic);
 });
 
@@ -573,7 +661,7 @@ document.getElementById('btn-gunluk-odul').addEventListener('click', () => {
         gorevDurum.odul = (gorevDurum.odul || 0) + 1;
         localStorage.setItem('yt_gorevler', JSON.stringify(gorevDurum));
         ekonomiyiGuncelle();
-        ozelOdul('Tebrikler!', '+50 Coin hesabına eklendi! 🪙', '🎁');
+        ozelOdul('Tebrikler!', '+50 Coin! 🪙', '🎁');
     }
 });
 
@@ -609,13 +697,13 @@ document.getElementById('btn-davet').addEventListener('click', () => {
             .then(() => {
                 toplamCoin += 50;
                 ekonomiyiGuncelle();
-                ozelOdul('Teşekkürler!', 'Paylaştığın için +50 Coin! 🪙', '🎁');
+                ozelOdul('Teşekkürler!', '+50 Coin! 🪙', '🎁');
             }).catch(() => {});
     } else {
         navigator.clipboard.writeText(davetMesaji).then(() => {
             toplamCoin += 50;
             ekonomiyiGuncelle();
-            ozelOdul('Link Kopyalandı!', 'Arkadaşınla paylaş, +50 Coin senin! 🪙', '📤');
+            ozelOdul('Link Kopyalandı!', '+50 Coin senin! 🪙', '📤');
         }).catch(() => {
             ozelUyari('Davet Linki', davetMesaji, '🔗');
         });
@@ -633,29 +721,49 @@ document.getElementById('btn-nasil-oynanir').addEventListener('click', () => {
     ozelUyari(
         'Nasıl Oynanır?',
         '1. Kategori ve Seviye seçerek başla.\n' +
-        '2. Her seviyede 10 soru bulunur.\n' +
-        '3. Doğru cevap 10 puan + 10 coin + XP.\n' +
-        '4. Üst üste doğru = SERİ.\n' +
-        '5. Hızlı cevap = KOMBO.\n' +
-        '6. XP topla, seviye atla, unvan kazan!\n' +
-        '7. Yıldızlarını markette harca!\n' +
-        '8. Süreyi Ayarlardan değiştir.',
+        '2. 3 canın var. Yanlış cevap = 1 can gider.\n' +
+        '3. Canlar biterse oyun biter.\n' +
+        '4. Doğru cevap 10 puan + 10 coin + XP.\n' +
+        '5. Üst üste doğru = SERİ (bonus coin).\n' +
+        '6. Hızlı cevap = KOMBO (bonus coin).\n' +
+        '7. Seri bozulacakken 150 coin ile KORU.\n' +
+        '8. Coin ve yıldızını markette harca!\n' +
+        '9. Kategoriler yıldızla açılır.',
         '📖'
     );
 });
 
 // ==========================================
-// 10. KATEGORİ VE SEVİYE
+// 12. KATEGORİ KİLİTLERİ
 // ==========================================
+
+function kategoriKilitleriniGuncelle() {
+    const mevcutYildiz = toplamYildizHesapla();
+    document.querySelectorAll('.kategori-btn').forEach(btn => {
+        const katId = btn.dataset.kategori;
+        const gerekli = parseInt(btn.dataset.yildiz) || 0;
+        if (gerekli > mevcutYildiz) {
+            btn.classList.add('kilitli');
+        } else {
+            btn.classList.remove('kilitli');
+        }
+    });
+}
 
 document.querySelectorAll('.kategori-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
         sesCal(sesTiklama); titret();
-        secilenKategoriId = e.target.dataset.kategori;
-        const kategoriAdi = e.target.textContent;
+        const katId = btn.dataset.kategori;
+        const gerekli = parseInt(btn.dataset.yildiz) || 0;
+        const mevcutYildiz = toplamYildizHesapla();
+        if (gerekli > mevcutYildiz) {
+            return ozelUyari('Kategori Kilitli', `Bu kategoriyi açmak için ${gerekli} ⭐ gerekiyor.\nŞu an: ${mevcutYildiz} ⭐`, '🔒');
+        }
+        secilenKategoriId = katId;
+        const kategoriAdi = btn.textContent.replace(/\d+⭐/g, '').trim();
         const ok = await kategoriSorulariniYukle(secilenKategoriId);
         if (ok) {
-            document.getElementById('seviye-kategori-baslik').textContent = `${kategoriAdi}`;
+            document.getElementById('seviye-kategori-baslik').textContent = kategoriAdi;
             seviyeKartlariniOlustur();
             ekranGoster(ekranSeviye);
         }
@@ -669,7 +777,7 @@ async function kategoriSorulariniYukle(kategoriId) {
         tumKategoriSorulari = await response.json();
         return true;
     } catch (err) {
-        ozelUyari('Hata', 'Sorular yüklenirken hata oluştu!\nİnternet bağlantını kontrol et.', '⚠️');
+        ozelUyari('Hata', 'Sorular yüklenirken hata oluştu!', '⚠️');
         return false;
     }
 }
@@ -687,7 +795,6 @@ function seviyeKartlariniOlustur() {
         const oncekiKey = `yt_yildiz_kat_${secilenKategoriId}_sev_${i - 1}`;
         const onceki = parseInt(localStorage.getItem(oncekiKey)) || 0;
 
-        // 11. seviye için özel yıldız kilidi
         const gerekliYildiz = (i === 11) ? 15 : 0;
         const mevcutYildiz = toplamYildizHesapla();
         const yildizKilitli = gerekliYildiz > 0 && mevcutYildiz < gerekliYildiz;
@@ -708,7 +815,7 @@ function seviyeKartlariniOlustur() {
                 kart.innerHTML = `<span class="baslik">🔒 Seviye ${i}</span><span class="yildizlar" style="font-size:0.7rem;">Önceki seviyeyi geç</span>`;
                 kart.addEventListener('click', () => {
                     sesCal(sesTiklama);
-                    ozelUyari('Seviye Kilitli', `Seviye ${i}'yi açmak için\nSeviye ${i - 1}'den en az 1 yıldız kazan!`, '🔒');
+                    ozelUyari('Seviye Kilitli', `Seviye ${i - 1}'i geçmelisin!`, '🔒');
                 });
             }
         }
@@ -729,6 +836,8 @@ function seviyeBaslat(seviyeNo) {
     kombo = 0;
     jokerKullanildi = false;
     oyunDuraklatildi = false;
+    mevcutCan = 3;
+    seriKorumaKullanildi = false;
 
     document.getElementById('joker-5050').disabled = false;
     document.getElementById('joker-cift').disabled = false;
@@ -737,13 +846,15 @@ function seviyeBaslat(seviyeNo) {
     document.getElementById('kombo-gosterge').textContent = 'KOMBO x0';
     document.getElementById('streak-bar').classList.remove('aktif');
     document.getElementById('kombo-gosterge').classList.remove('aktif');
+    document.getElementById('seri-koruma-bar').style.display = 'none';
+    canlariGuncelle();
 
     ekranGoster(ekranSoru);
     soruGoster();
 }
 
 // ==========================================
-// 11. SORU VE CEVAP
+// 13. SORU VE CEVAP
 // ==========================================
 
 function soruGoster() {
@@ -759,6 +870,7 @@ function soruGoster() {
     document.getElementById('soru-coin').textContent = toplamCoin;
     document.getElementById('soru-metni').textContent = soru.soru;
     document.getElementById('aciklama-kutu').classList.add('gizli');
+    document.getElementById('seri-koruma-bar').style.display = 'none';
     const seceneklerDiv = document.getElementById('secenekler');
     seceneklerDiv.innerHTML = '';
     soru.secenekler.forEach((secenek, index) => {
@@ -825,6 +937,7 @@ function cevapKontrol(secilenIndex, secilenBtn) {
         }
         sesCal(sesDogru);
         titret(50);
+        if (mevcutStreak >= 5 || kombo >= 3) konfetiPatlat();
         ekonomiyiGuncelle();
         document.getElementById('streak-sayi').textContent = mevcutStreak;
         if (mevcutStreak >= 3) document.getElementById('streak-bar').classList.add('aktif');
@@ -834,8 +947,8 @@ function cevapKontrol(secilenIndex, secilenBtn) {
         }
         if (streakBonus > 0 || komboBonus > 0) {
             let bonusMesaj = [];
-            if (streakBonus > 0) bonusMesaj.push(`🔥 ${mevcutStreak} SERİ: +${streakBonus} coin`);
-            if (komboBonus > 0) bonusMesaj.push(`⚡ HIZLI: +${komboBonus} coin`);
+            if (streakBonus > 0) bonusMesaj.push(`🔥 ${mevcutStreak} SERİ: +${streakBonus}`);
+            if (komboBonus > 0) bonusMesaj.push(`⚡ HIZLI: +${komboBonus}`);
             const bonusDiv = document.createElement('div');
             bonusDiv.style.cssText = 'position:fixed;top:100px;left:50%;transform:translateX(-50%);background:rgba(255,215,0,0.95);color:#000;padding:10px 20px;border-radius:20px;font-weight:bold;z-index:9999;box-shadow:0 4px 20px rgba(255,215,0,0.6);font-size:0.9rem;text-align:center;';
             bonusDiv.innerHTML = bonusMesaj.join('<br>');
@@ -855,22 +968,68 @@ function cevapKontrol(secilenIndex, secilenBtn) {
             secilenBtn.disabled = true;
             sesCal(sesYanlis);
             titret(100);
-            ozelUyari('Yanlış Cevap', 'Ama 2. Şans hakkın var.\nBir daha dene!', '🔄');
-        } else {
+            ozelUyari('Yanlış Cevap', '2. Şans hakkın var. Bir daha dene!', '🔄');
+            return;
+        }
+        // SERİ KORUMA ŞANSI
+        if (mevcutStreak >= 3 && !seriKorumaKullanildi && toplamCoin >= 150) {
+            document.getElementById('seri-koruma-bar').style.display = 'block';
             secilenBtn.classList.add('yanlis');
-            if (tumButonlar[dogruIndex]) tumButonlar[dogruIndex].classList.add('dogru');
+            tumButonlar.forEach(btn => btn.disabled = true);
             sesCal(sesYanlis);
             titret(100);
-            mevcutStreak = 0;
-            kombo = 0;
-            document.getElementById('streak-sayi').textContent = '0';
-            document.getElementById('streak-bar').classList.remove('aktif');
-            document.getElementById('kombo-gosterge').classList.remove('aktif');
-            toplamYanlisSayisi++;
-            localStorage.setItem('yt_toplam_yanlis', toplamYanlisSayisi);
-            tumButonlar.forEach(btn => btn.disabled = true);
-            sonrakiSoru(soru);
+            // Bekle, kullanıcı karar versin
+            const seriBtn = document.getElementById('seri-koru-btn');
+            const yeniBtn = seriBtn.cloneNode(true);
+            seriBtn.parentNode.replaceChild(yeniBtn, seriBtn);
+            yeniBtn.addEventListener('click', () => {
+                toplamCoin -= 150;
+                seriKorumaKullanildi = true;
+                ekonomiyiGuncelle();
+                document.getElementById('seri-koruma-bar').style.display = 'none';
+                ozelOdul('Seri Korundu!', '🔥 Serin devam ediyor!', '🛡️');
+                // Aynı soruyu tekrar göster
+                soruCevaplandi = false;
+                tumButonlar.forEach(btn => {
+                    btn.disabled = false;
+                    btn.classList.remove('yanlis', 'dogru');
+                });
+                mevcutStreak = 3;
+                sureBaslat();
+            });
+            setTimeout(() => {
+                if (!seriKorumaKullanildi && document.getElementById('seri-koruma-bar').style.display !== 'none') {
+                    document.getElementById('seri-koruma-bar').style.display = 'none';
+                    seriKorumaKullanildi = true;
+                    mevcutStreak = 0;
+                    kombo = 0;
+                    document.getElementById('streak-sayi').textContent = '0';
+                    document.getElementById('streak-bar').classList.remove('aktif');
+                    document.getElementById('kombo-gosterge').classList.remove('aktif');
+                    if (tumButonlar[dogruIndex]) tumButonlar[dogruIndex].classList.add('dogru');
+                    toplamYanlisSayisi++;
+                    localStorage.setItem('yt_toplam_yanlis', toplamYanlisSayisi);
+                    canAzalt();
+                    if (mevcutCan > 0) setTimeout(() => { mevcutSoruIndex++; soruGoster(); }, 2200);
+                }
+            }, 6000);
+            return;
         }
+        // NORMAL YANLIŞ
+        secilenBtn.classList.add('yanlis');
+        if (tumButonlar[dogruIndex]) tumButonlar[dogruIndex].classList.add('dogru');
+        sesCal(sesYanlis);
+        titret(100);
+        mevcutStreak = 0;
+        kombo = 0;
+        document.getElementById('streak-sayi').textContent = '0';
+        document.getElementById('streak-bar').classList.remove('aktif');
+        document.getElementById('kombo-gosterge').classList.remove('aktif');
+        toplamYanlisSayisi++;
+        localStorage.setItem('yt_toplam_yanlis', toplamYanlisSayisi);
+        tumButonlar.forEach(btn => btn.disabled = true);
+        canAzalt();
+        if (mevcutCan > 0) sonrakiSoru(soru);
     }
 }
 
@@ -886,7 +1045,7 @@ function sonrakiSoru(soru) {
 }
 
 // ==========================================
-// 12. PAUSE SİSTEMİ
+// 14. PAUSE
 // ==========================================
 
 document.getElementById('pause-btn').addEventListener('click', () => {
@@ -912,6 +1071,18 @@ document.getElementById('pause-yeniden').addEventListener('click', () => {
     seviyeBaslat(mevcutSeviyeNo);
 });
 
+document.getElementById('pause-can-al').addEventListener('click', () => {
+    if (toplamCoin < 100) return ozelUyari('Yetersiz Coin', 'Can almak için 100 coin gerekli!', '🪙');
+    if (mevcutCan >= 3) return ozelUyari('Canlar Dolu', 'Zaten 3 canın var!', '❤️');
+    toplamCoin -= 100;
+    mevcutCan++;
+    ekonomiyiGuncelle();
+    canlariGuncelle();
+    sesCal(sesTiklama);
+    titret();
+    ozelOdul('Can Kazandın!', `❤️ ${mevcutCan} canın var!`, '❤️');
+});
+
 document.getElementById('pause-ana-menu').addEventListener('click', () => {
     sesCal(sesTiklama);
     titret();
@@ -933,7 +1104,6 @@ function pauseSesButonGuncelle() {
     if (btn) btn.textContent = sesAcik ? '🔊 SES: AÇIK' : '🔇 SES: KAPALI';
 }
 
-// Otomatik pause (uygulamadan çıkınca)
 document.addEventListener('visibilitychange', () => {
     if (document.hidden && ekranSoru.classList.contains('aktif')) {
         oyunDuraklatildi = true;
@@ -943,12 +1113,47 @@ document.addEventListener('visibilitychange', () => {
 });
 
 // ==========================================
-// 13. JOKERLER
+// 15. CAN BİTTİ EKRANI
+// ==========================================
+
+document.getElementById('canbitti-can-al').addEventListener('click', () => {
+    if (toplamCoin < 100) {
+        ozelUyari('Yetersiz Coin', 'Devam etmek için 100 coin gerekli.', '🪙');
+        return;
+    }
+    toplamCoin -= 100;
+    mevcutCan = 1;
+    ekonomiyiGuncelle();
+    canlariGuncelle();
+    sesCal(sesTiklama);
+    titret();
+    ekranGoster(ekranSoru);
+    soruCevaplandi = false;
+    const tumButonlar = document.querySelectorAll('.secenek-btn');
+    tumButonlar.forEach(btn => { btn.disabled = false; btn.classList.remove('yanlis', 'dogru', 'gizli-secenek'); });
+    sureBaslat();
+});
+
+document.getElementById('canbitti-tekrar').addEventListener('click', () => {
+    sesCal(sesTiklama);
+    titret();
+    seviyeBaslat(mevcutSeviyeNo);
+});
+
+document.getElementById('canbitti-ana-menu').addEventListener('click', () => {
+    sesCal(sesTiklama);
+    titret();
+    sureDurdur();
+    ekranGoster(ekranAnaMenu);
+});
+
+// ==========================================
+// 16. JOKERLER
 // ==========================================
 
 document.getElementById('joker-5050').addEventListener('click', () => {
-    if (toplamCoin < 20) return ozelUyari('Yetersiz Coin', 'Bu joker için 20 Coin gerekli!', '🪙');
-    toplamCoin -= 20;
+    if (toplamCoin < 30) return ozelUyari('Yetersiz Coin', 'Bu joker için 30 Coin gerekli!', '🪙');
+    toplamCoin -= 30;
     jokerKullanildi = true;
     ekonomiyiGuncelle();
     document.getElementById('joker-5050').disabled = true;
@@ -961,8 +1166,8 @@ document.getElementById('joker-5050').addEventListener('click', () => {
 });
 
 document.getElementById('joker-cift').addEventListener('click', () => {
-    if (toplamCoin < 30) return ozelUyari('Yetersiz Coin', 'Bu joker için 30 Coin gerekli!', '🪙');
-    toplamCoin -= 30;
+    if (toplamCoin < 50) return ozelUyari('Yetersiz Coin', 'Bu joker için 50 Coin gerekli!', '🪙');
+    toplamCoin -= 50;
     jokerKullanildi = true;
     ekonomiyiGuncelle();
     ciftSansAktif = true;
@@ -971,8 +1176,8 @@ document.getElementById('joker-cift').addEventListener('click', () => {
 });
 
 document.getElementById('joker-dogru').addEventListener('click', () => {
-    if (toplamCoin < 50) return ozelUyari('Yetersiz Coin', 'Bu joker için 50 Coin gerekli!', '🪙');
-    toplamCoin -= 50;
+    if (toplamCoin < 80) return ozelUyari('Yetersiz Coin', 'Bu joker için 80 Coin gerekli!', '🪙');
+    toplamCoin -= 80;
     jokerKullanildi = true;
     ekonomiyiGuncelle();
     document.getElementById('joker-dogru').disabled = true;
@@ -982,7 +1187,7 @@ document.getElementById('joker-dogru').addEventListener('click', () => {
 });
 
 // ==========================================
-// 14. SEVİYE BİTİŞİ
+// 17. SEVİYE BİTİŞİ
 // ==========================================
 
 function seviyeyiBitir() {
@@ -1037,12 +1242,31 @@ function seviyeyiBitir() {
     document.getElementById('kazanilan-coin-metni').textContent = `+${bonus} Bonus Coin! 🪙`;
     document.getElementById('kazanilan-xp-metni').textContent = `+${xpBonus} XP!`;
     document.getElementById('sonuc-mesaj').textContent = mesaj;
+
+    if (yildiz >= 2) konfetiPatlat();
     basarimlariKontrolEt();
 }
 
 // ==========================================
-// 15. YILDIZ MARKET
+// 18. MARKET
 // ==========================================
+
+document.querySelectorAll('.market-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+        sesCal(sesTiklama);
+        titret(15);
+        document.querySelectorAll('.market-tab').forEach(t => t.classList.remove('aktif'));
+        tab.classList.add('aktif');
+        const hedef = tab.dataset.tab;
+        if (hedef === 'yildiz') {
+            document.getElementById('market-yildiz-listesi').classList.remove('gizli');
+            document.getElementById('market-coin-listesi').classList.add('gizli');
+        } else {
+            document.getElementById('market-yildiz-listesi').classList.add('gizli');
+            document.getElementById('market-coin-listesi').classList.remove('gizli');
+        }
+    });
+});
 
 function marketGuncelle() {
     const yildiz = toplamYildizHesapla();
@@ -1050,15 +1274,16 @@ function marketGuncelle() {
         const id = btn.dataset.id;
         const urun = MARKET_URUNLERI[id];
         if (!urun) return;
-        if (yildiz < urun.fiyat) {
-            btn.disabled = true;
-            btn.textContent = 'YETERSİZ ⭐';
-        } else if (id === 'avatar_ozel' && localStorage.getItem('yt_avatar_ozel') === '1') {
+        const bakiye = urun.para === 'yildiz' ? yildiz : toplamCoin;
+        if (id === 'avatar_ozel' && localStorage.getItem('yt_avatar_ozel') === '1') {
             btn.disabled = true;
             btn.textContent = 'SAHİPSİN ✓';
+        } else if (bakiye < urun.fiyat) {
+            btn.disabled = true;
+            btn.textContent = 'YETERSİZ';
         } else {
             btn.disabled = false;
-            btn.textContent = 'SATIN AL';
+            btn.textContent = 'AL';
         }
     });
 }
@@ -1070,36 +1295,34 @@ document.querySelectorAll('.market-btn').forEach(btn => {
         const id = btn.dataset.id;
         const urun = MARKET_URUNLERI[id];
         if (!urun) return;
-        const yildiz = toplamYildizHesapla();
-        if (yildiz < urun.fiyat) return ozelUyari('Yetersiz Yıldız', `Bu ürün için ${urun.fiyat} ⭐ gerekiyor.`, '⭐');
-
-        // Yıldız harca
-        const harcanacak = urun.fiyat;
-        let kalan = harcanacak;
-        for (let i = 0; i < localStorage.length && kalan > 0; i++) {
-            const key = localStorage.key(i);
-            if (key.startsWith('yt_yildiz_kat_')) {
-                let val = parseInt(localStorage.getItem(key)) || 0;
-                while (val > 0 && kalan > 0) {
-                    val--;
-                    kalan--;
-                }
-                localStorage.setItem(key, val);
-            }
+        if (urun.para === 'yildiz') {
+            const yildiz = toplamYildizHesapla();
+            if (yildiz < urun.fiyat) return ozelUyari('Yetersiz Yıldız', `${urun.fiyat} ⭐ gerekiyor.`, '⭐');
+            yildizHarca(urun.fiyat);
+        } else {
+            if (toplamCoin < urun.fiyat) return ozelUyari('Yetersiz Coin', `${urun.fiyat} 🪙 gerekiyor.`, '🪙');
+            toplamCoin -= urun.fiyat;
         }
-
-        // Ödülü ver
         if (urun.tip === 'coin') {
             toplamCoin += urun.miktar;
-            ekonomiyiGuncelle();
-            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} 🪙 hesabına eklendi.`, '💰');
+            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} 🪙`, '💰');
         } else if (urun.tip === 'joker') {
             const mevcut = parseInt(localStorage.getItem('yt_joker')) || 0;
             localStorage.setItem('yt_joker', mevcut + urun.miktar);
-            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} 🌙 joker hakkı kazandın.`, '🌙');
+            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} 🌙 joker`, '🌙');
+        } else if (urun.tip === 'yildiz') {
+            yildizEkle(urun.miktar);
+            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} ⭐`, '⭐');
+        } else if (urun.tip === 'spin') {
+            carkHakki += urun.miktar;
+            localStorage.setItem('yt_cark_hakki', carkHakki);
+            ozelOdul('Satın Alma Başarılı!', `+${urun.miktar} çark hakkı`, '🎡');
+        } else if (urun.tip === 'can_paketi') {
+            mevcutCan = Math.min(3, mevcutCan + urun.miktar);
+            ozelOdul('Can Paketi Alındı!', `❤️ ${mevcutCan} canın var!`, '❤️');
         } else if (urun.tip === 'avatar_ozel') {
             localStorage.setItem('yt_avatar_ozel', '1');
-            ozelOdul('Özel Avatar Açıldı!', '👑 Taç avatarını profil sayfasından seçebilirsin!', '👑');
+            ozelOdul('Özel Avatar Açıldı!', '👑 Profil sayfasından seç!', '👑');
         }
         marketGuncelle();
         ekonomiyiGuncelle();
@@ -1107,7 +1330,7 @@ document.querySelectorAll('.market-btn').forEach(btn => {
 });
 
 // ==========================================
-// 16. AYARLAR
+// 19. AYARLAR
 // ==========================================
 
 function ayarSuresiniGuncelle() {
@@ -1150,11 +1373,11 @@ document.getElementById('sifirla-btn').addEventListener('click', () => {
 });
 
 // ==========================================
-// 17. GİZLİ SANDIK
+// 20. GİZLİ SANDIK
 // ==========================================
 
 document.getElementById('sandik-btn').addEventListener('click', () => {
-    if (sandikHakki <= 0) return ozelUyari('Hakkın Bitti', 'Bugünkü sandık hakkın bitti.\nYarın tekrar gel!', '⏰');
+    if (sandikHakki <= 0) return ozelUyari('Hakkın Bitti', 'Bugünkü sandık hakkın bitti.', '⏰');
     sandikHakki--;
     localStorage.setItem('yt_sandik_hakki', sandikHakki);
     document.getElementById('sandik-hak').textContent = sandikHakki;
@@ -1175,21 +1398,21 @@ document.getElementById('sandik-btn').addEventListener('click', () => {
             const mevcut = parseInt(localStorage.getItem('yt_joker')) || 0;
             localStorage.setItem('yt_joker', mevcut + odul.miktar);
         } else if (odul.tip === 'yildiz') {
-            const mevcut = parseInt(localStorage.getItem('yt_bonus_yildiz')) || 0;
-            localStorage.setItem('yt_bonus_yildiz', mevcut + odul.miktar);
+            yildizEkle(odul.miktar);
         }
         toplamSandik++;
         localStorage.setItem('yt_sandik', toplamSandik);
         ekonomiyiGuncelle();
         kutu.querySelector('.sandik-emoji').textContent = odul.ikon;
         kutu.classList.remove('acildi');
-        ozelOdul('Sandıktan Çıkan!', `${odul.ikon} ${odul.isim}\nTebrikler!`, '🎁');
+        ozelOdul('Sandıktan Çıkan!', `${odul.ikon} ${odul.isim}`, '🎁');
         document.getElementById('sandik-btn').textContent = 'YARIN TEKRAR GEL';
+        if (odul.nadir) konfetiPatlat();
     }, 800);
 });
 
 // ==========================================
-// 18. ÇARKIFELEK
+// 21. ÇARKIFELEK
 // ==========================================
 
 let carkDonuyor = false;
@@ -1219,11 +1442,8 @@ document.getElementById('spin-btn').addEventListener('click', () => {
         const odul = CARK_DILIMLERI[index];
         if (odul.tip === 'coin') toplamCoin += odul.miktar;
         else if (odul.tip === 'spin') carkHakki += odul.miktar;
-        else if (odul.tip === 'yildiz') {
-            const key = 'yt_bonus_yildiz';
-            const mevcut = parseInt(localStorage.getItem(key)) || 0;
-            localStorage.setItem(key, mevcut + odul.miktar);
-        } else if (odul.tip === 'joker') {
+        else if (odul.tip === 'yildiz') yildizEkle(odul.miktar);
+        else if (odul.tip === 'joker') {
             const mevcut = parseInt(localStorage.getItem('yt_joker')) || 0;
             localStorage.setItem('yt_joker', mevcut + odul.miktar);
         }
@@ -1234,12 +1454,25 @@ document.getElementById('spin-btn').addEventListener('click', () => {
         sesCal(sesCark);
         titret(100);
         ozelOdul('Tebrikler!', `Kazandığın ödül:\n${odul.isim}`, '🎡');
+        if (odul.tip === 'yildiz') konfetiPatlat();
         basarimlariKontrolEt();
     }, 4200);
 });
 
+document.getElementById('extra-spin-btn').addEventListener('click', () => {
+    if (toplamCoin < 300) return ozelUyari('Yetersiz Coin', 'Ekstra çark hakkı için 300 coin gerekli!', '🪙');
+    toplamCoin -= 300;
+    carkHakki++;
+    localStorage.setItem('yt_cark_hakki', carkHakki);
+    document.getElementById('spins-left').textContent = carkHakki;
+    ekonomiyiGuncelle();
+    sesCal(sesTiklama);
+    titret();
+    ozelOdul('Ekstra Çark Hakkı!', '+1 çevirme hakkı kazandın!', '🎡');
+});
+
 // ==========================================
-// 19. BAŞARIMLAR
+// 22. BAŞARIMLAR
 // ==========================================
 
 function basarimlariOlustur() {
@@ -1305,13 +1538,14 @@ function basarimlariKontrolEt() {
             ekonomiyiGuncelle();
             setTimeout(() => {
                 ozelOdul('Başarım Kazandın!', `${b.ikon} ${b.baslik}\n+${b.odul} Coin!`, '🏆');
+                if (b.nadir) konfetiPatlat();
             }, 800);
         }
     });
 }
 
 // ==========================================
-// 20. LİDERLİK
+// 23. LİDERLİK
 // ==========================================
 
 function liderlikOlustur() {
@@ -1344,7 +1578,7 @@ function liderlikOlustur() {
 }
 
 // ==========================================
-// 21. GÜNLÜK GÖREVLER
+// 24. GÜNLÜK GÖREVLER
 // ==========================================
 
 function gorevleriOlustur() {
@@ -1382,7 +1616,7 @@ function gorevleriOlustur() {
 }
 
 // ==========================================
-// 22. PROFİL
+// 25. PROFİL
 // ==========================================
 
 function profiliGuncelle() {
@@ -1524,6 +1758,9 @@ document.querySelectorAll('.avatar-btn').forEach(btn => {
         sesCal(sesTiklama);
         titret(15);
         const avatar = btn.dataset.avatar;
+        if (avatar === '👑' && localStorage.getItem('yt_avatar_ozel') !== '1') {
+            return ozelUyari('Kilitli Avatar', '👑 avatarını marketten 100⭐ ile açabilirsin!', '🔒');
+        }
         localStorage.setItem('yt_avatar', avatar);
         document.querySelectorAll('.avatar-btn').forEach(b => b.classList.remove('secili'));
         btn.classList.add('secili');
@@ -1545,7 +1782,7 @@ document.getElementById('paylas-btn').addEventListener('click', () => {
 });
 
 // ==========================================
-// 23. GEZİNTİ
+// 26. GEZİNTİ
 // ==========================================
 
 document.querySelectorAll('.nav-geri-btn').forEach(btn => {
@@ -1573,7 +1810,7 @@ document.getElementById('tekrar-btn').addEventListener('click', () => {
 });
 
 // ==========================================
-// 24. BAŞLANGIÇ
+// 27. BAŞLANGIÇ
 // ==========================================
 
 function baslangicAyarlari() {
@@ -1594,7 +1831,7 @@ function baslangicAyarlari() {
 baslangicAyarlari();
 
 // ==========================================
-// 25. BİLGİ KARTI
+// 28. BİLGİ KARTI
 // ==========================================
 
 let sonBilgiIndex = -1;
