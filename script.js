@@ -1,5 +1,5 @@
 // ==========================================
-// YAKIN TARİH - TAM OYUN MANTIĞI (V4)
+// YAKIN TARİH - TAM OYUN MANTIĞI (V5)
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -17,58 +17,40 @@ const GUNUN_BILGILERI = [
 ];
 
 const BASARIMLAR = [
-    // DOĞRU CEVAP
     { id: 'ilk_kan', ikon: '🩸', baslik: 'İlk Kan', aciklama: 'İlk doğru cevabını ver', odul: 50, tip: 'dogru', hedef: 1 },
     { id: 'caylak', ikon: '🥉', baslik: 'Çaylak', aciklama: '10 doğru cevap yap', odul: 100, tip: 'dogru', hedef: 10 },
     { id: 'usta', ikon: '🥈', baslik: 'Usta', aciklama: '50 doğru cevap yap', odul: 300, tip: 'dogru', hedef: 50 },
     { id: 'efsane', ikon: '🥇', baslik: 'Efsane', aciklama: '100 doğru cevap yap', odul: 500, tip: 'dogru', hedef: 100 },
     { id: 'tarihci', ikon: '📜', baslik: 'Tarihçi', aciklama: '250 doğru cevap yap', odul: 1000, tip: 'dogru', hedef: 250 },
     { id: 'profesor', ikon: '🎓', baslik: 'Profesör', aciklama: '500 doğru cevap yap', odul: 2500, tip: 'dogru', hedef: 500 },
-    
-    // SEVİYE
     { id: 'ilk_adim', ikon: '👣', baslik: 'İlk Adım', aciklama: 'İlk seviyeyi bitir', odul: 50, tip: 'seviye', hedef: 1 },
     { id: 'koleksiyoner', ikon: '📚', baslik: 'Koleksiyoner', aciklama: '5 seviye tamamla', odul: 250, tip: 'seviye', hedef: 5 },
     { id: 'avci', ikon: '🎯', baslik: 'Avcı', aciklama: '10 seviye tamamla', odul: 500, tip: 'seviye', hedef: 10 },
     { id: 'fatih', ikon: '⚔️', baslik: 'Fatih', aciklama: '25 seviye tamamla', odul: 1500, tip: 'seviye', hedef: 25 },
     { id: 'imparator', ikon: '👑', baslik: 'İmparator', aciklama: '40 seviye tamamla', odul: 3000, tip: 'seviye', hedef: 40 },
-    
-    // MÜKEMMEL
     { id: 'mukemmel', ikon: '💎', baslik: 'Mükemmeliyetçi', aciklama: 'Bir seviyeyi 3 yıldızla bitir', odul: 200, tip: 'mukemmel', hedef: 1 },
     { id: 'mukemmel_5', ikon: '💠', baslik: 'Kusursuz', aciklama: '5 seviyeyi 3 yıldızla bitir', odul: 750, tip: 'mukemmel', hedef: 5 },
     { id: 'mukemmel_15', ikon: '🔷', baslik: 'Mükemmel Usta', aciklama: '15 seviyeyi 3 yıldızla bitir', odul: 2000, tip: 'mukemmel', hedef: 15 },
-    
-    // COIN
     { id: 'zengin', ikon: '💰', baslik: 'Zengin', aciklama: '1000 coin topla', odul: 500, tip: 'coin', hedef: 1000 },
     { id: 'hazine', ikon: '💎', baslik: 'Hazine Avcısı', aciklama: '5000 coin topla', odul: 1500, tip: 'coin', hedef: 5000 },
     { id: 'kral', ikon: '🏦', baslik: 'Coin Kralı', aciklama: '10000 coin topla', odul: 3000, tip: 'coin', hedef: 10000 },
-    
-    // ÇARK
     { id: 'carkci', ikon: '🎡', baslik: 'Çarkçı', aciklama: '10 kez çarkı çevir', odul: 150, tip: 'cark', hedef: 10 },
     { id: 'cark_usta', ikon: '🎰', baslik: 'Çark Ustası', aciklama: '50 kez çarkı çevir', odul: 500, tip: 'cark', hedef: 50 },
-    
-    // STREAK
     { id: 'alev', ikon: '🔥', baslik: 'Alev', aciklama: '5 seri yap', odul: 100, tip: 'streak', hedef: 5 },
     { id: 'yangin', ikon: '🔥🔥', baslik: 'Yangın', aciklama: '10 seri yap', odul: 250, tip: 'streak', hedef: 10 },
     { id: 'volkan', ikon: '🌋', baslik: 'Volkan', aciklama: '20 seri yap', odul: 750, tip: 'streak', hedef: 20 },
     { id: 'keskin', ikon: '🎯', baslik: 'Keskin Nişancı', aciklama: '50 seri yap', odul: 2000, tip: 'streak', hedef: 50, nadir: true },
-    
-    // OYUNCU SEVİYE
     { id: 'seviye_5', ikon: '⚡', baslik: 'Yükseliş', aciklama: 'Oyuncu seviyesi 5 ol', odul: 250, tip: 'oyuncuseviye', hedef: 5 },
     { id: 'seviye_10', ikon: '⚡⚡', baslik: 'Şimşek', aciklama: 'Oyuncu seviyesi 10 ol', odul: 750, tip: 'oyuncuseviye', hedef: 10 },
     { id: 'seviye_25', ikon: '🌟', baslik: 'Yıldız', aciklama: 'Oyuncu seviyesi 25 ol', odul: 2000, tip: 'oyuncuseviye', hedef: 25 },
     { id: 'seviye_50', ikon: '✨', baslik: 'Süpernova', aciklama: 'Oyuncu seviyesi 50 ol', odul: 5000, tip: 'oyuncuseviye', hedef: 50, nadir: true },
-    
-    // SANDIK
     { id: 'sandik_5', ikon: '🎁', baslik: 'Sandık Avcısı', aciklama: '5 sandık aç', odul: 300, tip: 'sandik', hedef: 5 },
     { id: 'sandik_30', ikon: '🎁🎁', baslik: 'Sandık Kralı', aciklama: '30 sandık aç', odul: 1500, tip: 'sandik', hedef: 30 },
-    
-    // KATEGORİ
     { id: 'ww2_usta', ikon: '🎖️', baslik: 'II. Dünya Savaşı Ustası', aciklama: 'II. Dünya Savaşı kategorisinde 10 seviye bitir', odul: 500, tip: 'kat1', hedef: 10 },
     { id: 'soguk_usta', ikon: '❄️', baslik: 'Soğuk Savaş Ustası', aciklama: 'Soğuk Savaş kategorisinde 10 seviye bitir', odul: 500, tip: 'kat2', hedef: 10 },
     { id: 'darbe_usta', ikon: '⚔️', baslik: 'Darbe Ustası', aciklama: 'Türkiye\'de Darbeler kategorisinde 10 seviye bitir', odul: 500, tip: 'kat3', hedef: 10 },
     { id: 'modern_usta', ikon: '🏙️', baslik: 'Modern Tarih Ustası', aciklama: '1980 Sonrası kategorisinde 10 seviye bitir', odul: 500, tip: 'kat4', hedef: 10 },
-    
-    // ÖZEL
+    { id: 'yuzyil_usta', ikon: '🚀', baslik: '21. Yüzyıl Ustası', aciklama: '21. Yüzyıl kategorisinde 10 seviye bitir', odul: 500, tip: 'kat5', hedef: 10 },
     { id: 'gece_kusu', ikon: '🦉', baslik: 'Gece Kuşu', aciklama: 'Gece 00:00-05:00 arası oyna', odul: 200, tip: 'gece', hedef: 1, nadir: true },
     { id: 'sabah_kusu', ikon: '🐦', baslik: 'Sabah Kuşu', aciklama: 'Sabah 05:00-08:00 arası oyna', odul: 200, tip: 'sabah', hedef: 1, nadir: true },
     { id: 'joker_kullanmaz', ikon: '🚫', baslik: 'Jokersiz', aciklama: 'Joker kullanmadan seviye bitir', odul: 300, tip: 'jokersiz', hedef: 1 },
@@ -127,11 +109,13 @@ const UNVANLAR = [
     { minSeviye: 100, unvan: 'Ölümsüz' }
 ];
 
+// GÜNCEL KATEGORİ İSİMLERİ (5 KATEGORİ)
 const KATEGORI_ISIMLERI = {
     '1': 'II. Dünya Savaşı',
     '2': 'Soğuk Savaş',
     '3': 'Türkiye\'de Darbeler',
-    '4': '1980 Sonrası'
+    '4': '1980 Sonrası',
+    '5': '21. Yüzyıl'
 };
 
 // ==========================================
@@ -202,7 +186,6 @@ if (sonGiris === bugun) {
     localStorage.setItem('yt_son_giris', bugun);
 }
 
-// Haftalık grafik verisi
 let haftalikVeri = JSON.parse(localStorage.getItem('yt_haftalik') || '[]');
 if (haftalikVeri.length === 0 || haftalikVeri[0].tarih !== bugun) {
     if (haftalikVeri.length >= 7) haftalikVeri.shift();
@@ -434,14 +417,12 @@ function ekonomiyiGuncelle() {
 // ==========================================
 
 function profiliGuncelle() {
-    // Kimlik
     const isim = localStorage.getItem('yt_oyuncu') || 'Oyuncu';
     const playerNameInput = document.getElementById('player-name');
     if (playerNameInput && document.activeElement !== playerNameInput) {
         playerNameInput.value = isim;
     }
     
-    // Avatar
     const seciliAvatar = localStorage.getItem('yt_avatar') || '🎖️';
     document.querySelectorAll('.avatar-btn').forEach(btn => {
         if (btn.dataset.avatar === seciliAvatar) {
@@ -451,7 +432,6 @@ function profiliGuncelle() {
         }
     });
     
-    // Unvan + Seviye
     const seviyeBilgi = seviyeIlerleme(oyuncuXP);
     const profilUnvan = document.getElementById('profil-unvan');
     const profilSeviye = document.getElementById('profil-seviye');
@@ -463,7 +443,6 @@ function profiliGuncelle() {
     if (profilXPBar) profilXPBar.style.width = seviyeBilgi.yuzde + '%';
     if (profilXPYazi) profilXPYazi.textContent = `${seviyeBilgi.ilerleme} / ${seviyeBilgi.gereken} XP`;
     
-    // İstatistikler
     const total = toplamDogruSayisi + toplamYanlisSayisi;
     const dogruluk = total > 0 ? Math.round((toplamDogruSayisi / total) * 100) : 0;
     
@@ -482,20 +461,15 @@ function profiliGuncelle() {
     }
     if (el('stat-levels')) el('stat-levels').textContent = tamamlanan;
     
-    // Kategori istatistikleri
     kategoriIstatistikleriniGuncelle();
     
-    // Rekorlar
     if (el('rekor-skor')) el('rekor-skor').textContent = parseInt(localStorage.getItem('yt_highscore')) || 0;
     if (el('rekor-streak')) el('rekor-streak').textContent = enUzunStreak;
     if (el('rekor-hiz')) el('rekor-hiz').textContent = enHizliCevap < 999 ? enHizliCevap.toFixed(1) + ' sn' : '-';
     if (el('rekor-coin')) el('rekor-coin').textContent = toplamCoin;
     if (el('rekor-yildiz')) el('rekor-yildiz').textContent = toplamYildizHesapla();
     
-    // Vitrin
     vitriniGuncelle();
-    
-    // Grafik
     grafigiGuncelle();
 }
 
@@ -518,7 +492,7 @@ function kategoriIstatistikleriniGuncelle() {
             }
         }
         
-        const toplamSeviye = 10; // 100 soru / 10 = 10 seviye
+        const toplamSeviye = 10;
         const yuzde = (seviyeSayisi / toplamSeviye) * 100;
         
         const kart = document.createElement('div');
@@ -545,7 +519,6 @@ function vitriniGuncelle() {
     if (!vitrin) return;
     vitrin.innerHTML = '';
     
-    // Son kazanılan 6 başarım
     const kazanilanlar = [];
     BASARIMLAR.forEach(b => {
         if (localStorage.getItem(`yt_basarim_${b.id}`) === '1') {
@@ -558,7 +531,6 @@ function vitriniGuncelle() {
         return;
     }
     
-    // Son 6 tanesini göster
     kazanilanlar.slice(-6).forEach(b => {
         const kart = document.createElement('div');
         kart.className = 'vitrin-kart';
@@ -858,7 +830,6 @@ function cevapKontrol(secilenIndex, secilenBtn) {
         secilenBtn.classList.add('dogru');
         skor += 10;
         
-        // Hız rekoru
         if (gecenSure < enHizliCevap) {
             enHizliCevap = gecenSure;
             localStorage.setItem('yt_en_hizli', enHizliCevap.toFixed(2));
@@ -902,7 +873,6 @@ function cevapKontrol(secilenIndex, secilenBtn) {
         gorevDurum.streak = Math.max(gorevDurum.streak || 0, mevcutStreak);
         localStorage.setItem('yt_gorevler', JSON.stringify(gorevDurum));
         
-        // Haftalık skor güncelle
         const sonKayit = haftalikVeri[haftalikVeri.length - 1];
         if (sonKayit && sonKayit.tarih === bugun) {
             sonKayit.skor += 10;
@@ -1367,7 +1337,8 @@ function gorevleriOlustur() {
 document.getElementById('kaydet-btn').addEventListener('click', () => {
     const isim = document.getElementById('player-name').value.trim() || 'Oyuncu';
     localStorage.setItem('yt_oyuncu', isim);
-    document.getElementById('hosgeldin-metni') && (document.getElementById('hosgeldin-metni').textContent = `Hoş geldin, ${isim}!`);
+    const hosgeldin = document.getElementById('hosgeldin-metni');
+    if (hosgeldin) hosgeldin.textContent = `Hoş geldin, ${isim}!`;
     sesCal(sesTiklama);
     titret();
     ozelOdul('Kaydedildi!', 'Profil ismin başarıyla güncellendi.', '✅');
