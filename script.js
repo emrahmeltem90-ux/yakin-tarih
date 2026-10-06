@@ -1,5 +1,5 @@
 // ==========================================
-// YAKIN TARİH - TAM OYUN MANTIĞI (V7 - OYUNCU DENEYİMİ)
+// YAKIN TARİH - TAM OYUN MANTIĞI (V8 - PAUSE FIX)
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -117,14 +117,6 @@ const KATEGORI_ISIMLERI = {
     '5': '21. Yüzyıl'
 };
 
-const KATEGORI_YILDIZ_KILITLERI = {
-    '1': 0,
-    '2': 5,
-    '3': 15,
-    '4': 30,
-    '5': 50
-};
-
 const MARKET_URUNLERI = {
     'joker1': { baslik: '1 Joker', fiyat: 10, para: 'yildiz', tip: 'joker', miktar: 1 },
     'coin500': { baslik: '500 Coin', fiyat: 25, para: 'yildiz', tip: 'coin', miktar: 500 },
@@ -166,17 +158,14 @@ let toplamYanlisSayisi = parseInt(localStorage.getItem('yt_toplam_yanlis')) || 0
 let toplamHizliDogru = parseInt(localStorage.getItem('yt_hizli_dogru')) || 0;
 let toplamSandik = parseInt(localStorage.getItem('yt_sandik')) || 0;
 
-// CAN SİSTEMİ
 let mevcutCan = 3;
 let seriKorumaKullanildi = false;
 
-// ZAMANLAYICI
 let sureInterval = null;
 let kalanSure = 0;
 let oyunDuraklatildi = false;
 let soruCevaplandi = false;
 
-// Başarımlar
 const bugun = new Date().toDateString();
 let gorevDurum = JSON.parse(localStorage.getItem('yt_gorevler') || '{}');
 if (gorevDurum.tarih !== bugun) {
@@ -740,7 +729,6 @@ document.getElementById('btn-nasil-oynanir').addEventListener('click', () => {
 function kategoriKilitleriniGuncelle() {
     const mevcutYildiz = toplamYildizHesapla();
     document.querySelectorAll('.kategori-btn').forEach(btn => {
-        const katId = btn.dataset.kategori;
         const gerekli = parseInt(btn.dataset.yildiz) || 0;
         if (gerekli > mevcutYildiz) {
             btn.classList.add('kilitli');
@@ -847,6 +835,7 @@ function seviyeBaslat(seviyeNo) {
     document.getElementById('streak-bar').classList.remove('aktif');
     document.getElementById('kombo-gosterge').classList.remove('aktif');
     document.getElementById('seri-koruma-bar').style.display = 'none';
+    ekranSoru.classList.remove('pause-aktif');
     canlariGuncelle();
 
     ekranGoster(ekranSoru);
@@ -971,14 +960,12 @@ function cevapKontrol(secilenIndex, secilenBtn) {
             ozelUyari('Yanlış Cevap', '2. Şans hakkın var. Bir daha dene!', '🔄');
             return;
         }
-        // SERİ KORUMA ŞANSI
         if (mevcutStreak >= 3 && !seriKorumaKullanildi && toplamCoin >= 150) {
             document.getElementById('seri-koruma-bar').style.display = 'block';
             secilenBtn.classList.add('yanlis');
             tumButonlar.forEach(btn => btn.disabled = true);
             sesCal(sesYanlis);
             titret(100);
-            // Bekle, kullanıcı karar versin
             const seriBtn = document.getElementById('seri-koru-btn');
             const yeniBtn = seriBtn.cloneNode(true);
             seriBtn.parentNode.replaceChild(yeniBtn, seriBtn);
@@ -988,7 +975,6 @@ function cevapKontrol(secilenIndex, secilenBtn) {
                 ekonomiyiGuncelle();
                 document.getElementById('seri-koruma-bar').style.display = 'none';
                 ozelOdul('Seri Korundu!', '🔥 Serin devam ediyor!', '🛡️');
-                // Aynı soruyu tekrar göster
                 soruCevaplandi = false;
                 tumButonlar.forEach(btn => {
                     btn.disabled = false;
@@ -1015,7 +1001,6 @@ function cevapKontrol(secilenIndex, secilenBtn) {
             }, 6000);
             return;
         }
-        // NORMAL YANLIŞ
         secilenBtn.classList.add('yanlis');
         if (tumButonlar[dogruIndex]) tumButonlar[dogruIndex].classList.add('dogru');
         sesCal(sesYanlis);
@@ -1053,6 +1038,7 @@ document.getElementById('pause-btn').addEventListener('click', () => {
     titret();
     oyunDuraklatildi = true;
     pauseSesButonGuncelle();
+    ekranSoru.classList.add('pause-aktif');
     ekranPause.classList.add('aktif');
 });
 
@@ -1061,6 +1047,7 @@ document.getElementById('pause-devam').addEventListener('click', () => {
     titret();
     oyunDuraklatildi = false;
     ekranPause.classList.remove('aktif');
+    ekranSoru.classList.remove('pause-aktif');
 });
 
 document.getElementById('pause-yeniden').addEventListener('click', () => {
@@ -1068,6 +1055,7 @@ document.getElementById('pause-yeniden').addEventListener('click', () => {
     titret();
     oyunDuraklatildi = false;
     ekranPause.classList.remove('aktif');
+    ekranSoru.classList.remove('pause-aktif');
     seviyeBaslat(mevcutSeviyeNo);
 });
 
@@ -1089,6 +1077,7 @@ document.getElementById('pause-ana-menu').addEventListener('click', () => {
     oyunDuraklatildi = false;
     sureDurdur();
     ekranPause.classList.remove('aktif');
+    ekranSoru.classList.remove('pause-aktif');
     ekranGoster(ekranAnaMenu);
 });
 
@@ -1108,6 +1097,7 @@ document.addEventListener('visibilitychange', () => {
     if (document.hidden && ekranSoru.classList.contains('aktif')) {
         oyunDuraklatildi = true;
         pauseSesButonGuncelle();
+        ekranSoru.classList.add('pause-aktif');
         ekranPause.classList.add('aktif');
     }
 });
