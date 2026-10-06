@@ -6,7 +6,7 @@
     <title>Yakın Tarih</title>
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=600">
+    <link rel="stylesheet" href="style.css?v=700">
 </head>
 <body>
 
@@ -20,7 +20,6 @@
         <!-- 2. ANA MENÜ -->
         <div id="ekran-anamenu" class="ekran">
             
-            <!-- ÜST KISIM: PROFİL + EKONOMİ -->
             <div class="ust-satir">
                 <button id="profil-simge" class="profil-simge">
                     <span class="profil-avatar" id="profil-avatar-ust">🎖️</span>
@@ -77,8 +76,8 @@
                 <button id="btn-yildiz-market" class="menu-btn btn-market">
                     <span class="btn-numara">03</span>
                     <div class="btn-icerik">
-                        <span class="btn-baslik">YILDIZ MARKET</span>
-                        <span class="btn-aciklama">Yıldızlarını harca</span>
+                        <span class="btn-baslik">MARKET</span>
+                        <span class="btn-aciklama">Coin ve yıldızını harca</span>
                     </div>
                     <span class="btn-ok">⭐</span>
                 </button>
@@ -175,11 +174,11 @@
             <h1>Kategori Seç</h1>
             <p class="alt-yazi">Oynamak istediğin tarihi dönemi seç</p>
             <div class="kategori-listesi">
-                <button class="kategori-btn" data-kategori="1">II. Dünya Savaşı</button>
-                <button class="kategori-btn" data-kategori="2">Soğuk Savaş</button>
-                <button class="kategori-btn" data-kategori="3">Türkiye'de Darbeler</button>
-                <button class="kategori-btn" data-kategori="4">1980 Sonrası</button>
-                <button class="kategori-btn" data-kategori="5">21. Yüzyıl</button>
+                <button class="kategori-btn" data-kategori="1" data-yildiz="0">II. Dünya Savaşı</button>
+                <button class="kategori-btn" data-kategori="2" data-yildiz="5">Soğuk Savaş <span class="kategori-kilit">5⭐</span></button>
+                <button class="kategori-btn" data-kategori="3" data-yildiz="15">Türkiye'de Darbeler <span class="kategori-kilit">15⭐</span></button>
+                <button class="kategori-btn" data-kategori="4" data-yildiz="30">1980 Sonrası <span class="kategori-kilit">30⭐</span></button>
+                <button class="kategori-btn" data-kategori="5" data-yildiz="50">21. Yüzyıl <span class="kategori-kilit">50⭐</span></button>
             </div>
             <button id="baslangic-geri-btn" class="ana-btn geri-btn">← Ana Menüye Dön</button>
         </div>
@@ -200,6 +199,11 @@
         <div id="ekran-soru" class="ekran">
             <div class="ust-bar-gorsel">
                 <button id="pause-btn" class="pause-btn">⏸️</button>
+                <div class="can-gosterge" id="can-gosterge">
+                    <span class="can-ikon">❤️</span>
+                    <span class="can-ikon">❤️</span>
+                    <span class="can-ikon">❤️</span>
+                </div>
                 <div class="bar-sol" id="soru-sayaci">Soru 1/10</div>
                 <div class="bar-orta-rozet">
                     <span class="yildiz-ikon">⭐</span>
@@ -208,7 +212,6 @@
                 <div class="bar-sag" id="skor-goster">Skor: 0</div>
             </div>
 
-            <!-- SÜRE BARI -->
             <div class="sure-bar-wrapper" id="sure-bar-wrapper">
                 <div class="sure-bar-dolgu" id="sure-bar-dolgu"></div>
                 <span class="sure-sayi" id="sure-sayi">30</span>
@@ -226,15 +229,22 @@
             <div class="joker-bar">
                 <button id="joker-5050" class="joker-btn">
                     <span>50/50</span>
-                    <span class="joker-fiyat">(20🪙)</span>
+                    <span class="joker-fiyat">(30🪙)</span>
                 </button>
                 <button id="joker-cift" class="joker-btn">
                     <span>2. ŞANS</span>
-                    <span class="joker-fiyat">(30🪙)</span>
+                    <span class="joker-fiyat">(50🪙)</span>
                 </button>
                 <button id="joker-dogru" class="joker-btn">
                     <span>PAS</span>
-                    <span class="joker-fiyat">(50🪙)</span>
+                    <span class="joker-fiyat">(80🪙)</span>
+                </button>
+            </div>
+
+            <!-- SERİ KORUMA BUTONU -->
+            <div class="seri-koruma-bar" id="seri-koruma-bar" style="display:none;">
+                <button id="seri-koru-btn" class="seri-koru-btn">
+                    🛡️ Seriyi Koru (150🪙)
                 </button>
             </div>
 
@@ -257,18 +267,27 @@
                 <p class="pause-alt">Devam etmek için bir seçenek seç</p>
 
                 <div class="pause-butonlar">
-                    <button id="pause-devam" class="pause-btn-item pause-btn-devam">
-                        ▶️ DEVAM ET
-                    </button>
-                    <button id="pause-yeniden" class="pause-btn-item pause-btn-yeniden">
-                        🔄 YENİDEN BAŞLA
-                    </button>
-                    <button id="pause-ses" class="pause-btn-item pause-btn-ses">
-                        🔊 SES: AÇIK
-                    </button>
-                    <button id="pause-ana-menu" class="pause-btn-item pause-btn-cikis">
-                        🏠 ANA MENÜYE DÖN
-                    </button>
+                    <button id="pause-devam" class="pause-btn-item pause-btn-devam">▶️ DEVAM ET</button>
+                    <button id="pause-yeniden" class="pause-btn-item pause-btn-yeniden">🔄 YENİDEN BAŞLA</button>
+                    <button id="pause-can-al" class="pause-btn-item pause-btn-can">❤️ CAN AL (100🪙)</button>
+                    <button id="pause-ses" class="pause-btn-item pause-btn-ses">🔊 SES: AÇIK</button>
+                    <button id="pause-ana-menu" class="pause-btn-item pause-btn-cikis">🏠 ANA MENÜYE DÖN</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5c. OYUN BİTTİ (CANLAR BİTTİ) -->
+        <div id="ekran-canbitti" class="ekran">
+            <div class="canbitti-kutu">
+                <div class="canbitti-ikon">💔</div>
+                <h2 class="canbitti-baslik">CANLARIN BİTTİ!</h2>
+                <p class="canbitti-alt">Oyun sona erdi. Ama merak etme, tekrar deneyebilirsin.</p>
+                <p class="canbitti-skor">Bu oyunda kazandığın puan: <strong id="canbitti-skor">0</strong></p>
+
+                <div class="canbitti-butonlar">
+                    <button id="canbitti-can-al" class="canbitti-btn canbitti-can">❤️ 100 COIN İLE DEVAM ET</button>
+                    <button id="canbitti-tekrar" class="canbitti-btn canbitti-tekrar">🔄 BAŞTAN BAŞLA</button>
+                    <button id="canbitti-ana-menu" class="canbitti-btn canbitti-cikis">🏠 ANA MENÜ</button>
                 </div>
             </div>
         </div>
@@ -397,54 +416,106 @@
             <button class="paylas-btn" id="paylas-btn">📤 PROFİLİMİ PAYLAŞ</button>
         </div>
 
-        <!-- 8. YILDIZ MARKET EKRANI -->
+        <!-- 8. MARKET EKRANI (Coin + Yıldız) -->
         <div id="ekran-market" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
-                <div class="ekonomi-bar-mini">⭐ <span id="market-yildiz">0</span></div>
+                <div class="market-para">
+                    <span class="ekonomi-bar-mini">⭐ <span id="market-yildiz">0</span></span>
+                    <span class="ekonomi-bar-mini">🪙 <span id="market-coin">0</span></span>
+                </div>
             </div>
-            <h1>Yıldız Market</h1>
-            <p class="alt-yazi">Yıldızlarını harcayarak ödül kazan!</p>
+            <h1>Market</h1>
+            <p class="alt-yazi">Coin ve yıldızını harca!</p>
 
-            <div class="market-listesi" id="market-listesi">
-                <div class="market-kart" data-market-id="joker1">
+            <div class="market-tabs">
+                <button class="market-tab aktif" data-tab="yildiz">⭐ Yıldız</button>
+                <button class="market-tab" data-tab="coin">🪙 Coin</button>
+            </div>
+
+            <!-- YILDIZ ÜRÜNLERİ -->
+            <div class="market-listesi" id="market-yildiz-listesi">
+                <div class="market-kart">
                     <div class="market-ikon">🌙</div>
                     <div class="market-bilgi">
                         <div class="market-baslik">1 Joker (Rastgele)</div>
                         <div class="market-aciklama">Bir joker hakkı kazan</div>
                         <div class="market-fiyat">10 ⭐</div>
                     </div>
-                    <button class="market-btn" data-id="joker1">SATIN AL</button>
+                    <button class="market-btn" data-id="joker1">AL</button>
                 </div>
 
-                <div class="market-kart" data-market-id="coin500">
+                <div class="market-kart">
                     <div class="market-ikon">💰</div>
                     <div class="market-bilgi">
                         <div class="market-baslik">500 Coin</div>
-                        <div class="market-aciklama">Hesabına 500 coin eklenir</div>
+                        <div class="market-aciklama">Hesabına 500 coin</div>
                         <div class="market-fiyat">25 ⭐</div>
                     </div>
-                    <button class="market-btn" data-id="coin500">SATIN AL</button>
+                    <button class="market-btn" data-id="coin500">AL</button>
                 </div>
 
-                <div class="market-kart" data-market-id="joker3">
+                <div class="market-kart">
                     <div class="market-ikon">🌙🌙🌙</div>
                     <div class="market-bilgi">
                         <div class="market-baslik">3 Joker Paketi</div>
-                        <div class="market-aciklama">3 joker hakkı kazan</div>
+                        <div class="market-aciklama">3 joker hakkı</div>
                         <div class="market-fiyat">50 ⭐</div>
                     </div>
-                    <button class="market-btn" data-id="joker3">SATIN AL</button>
+                    <button class="market-btn" data-id="joker3">AL</button>
                 </div>
 
-                <div class="market-kart" data-market-id="avatar_ozel">
+                <div class="market-kart">
                     <div class="market-ikon">👑</div>
                     <div class="market-bilgi">
                         <div class="market-baslik">Özel Avatar</div>
                         <div class="market-aciklama">👑 Taç avatarını aç</div>
                         <div class="market-fiyat">100 ⭐</div>
                     </div>
-                    <button class="market-btn" data-id="avatar_ozel">SATIN AL</button>
+                    <button class="market-btn" data-id="avatar_ozel">AL</button>
+                </div>
+            </div>
+
+            <!-- COIN ÜRÜNLERİ -->
+            <div class="market-listesi gizli" id="market-coin-listesi">
+                <div class="market-kart">
+                    <div class="market-ikon">⭐</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">1 Yıldız</div>
+                        <div class="market-aciklama">Coin'ini yıldıza çevir</div>
+                        <div class="market-fiyat">500 🪙</div>
+                    </div>
+                    <button class="market-btn" data-id="coin_to_yildiz_1">AL</button>
+                </div>
+
+                <div class="market-kart">
+                    <div class="market-ikon">⭐⭐⭐</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">3 Yıldız</div>
+                        <div class="market-aciklama">Toplu yıldız al</div>
+                        <div class="market-fiyat">1400 🪙</div>
+                    </div>
+                    <button class="market-btn" data-id="coin_to_yildiz_3">AL</button>
+                </div>
+
+                <div class="market-kart">
+                    <div class="market-ikon">🔄</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">Ekstra Çark Hakkı</div>
+                        <div class="market-aciklama">+1 çarkıfelek hakkı</div>
+                        <div class="market-fiyat">300 🪙</div>
+                    </div>
+                    <button class="market-btn" data-id="extra_cark">AL</button>
+                </div>
+
+                <div class="market-kart">
+                    <div class="market-ikon">❤️</div>
+                    <div class="market-bilgi">
+                        <div class="market-baslik">Can Paketi (3 Can)</div>
+                        <div class="market-aciklama">3 can hakkı</div>
+                        <div class="market-fiyat">250 🪙</div>
+                    </div>
+                    <button class="market-btn" data-id="can_paketi">AL</button>
                 </div>
             </div>
         </div>
@@ -460,7 +531,7 @@
             <div class="basarim-listesi" id="basarim-listesi"></div>
         </div>
 
-        <!-- 10. LİDERLİK TABLOSU -->
+        <!-- 10. LİDERLİK -->
         <div id="ekran-liderlik" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -516,6 +587,7 @@
             </div>
             <button class="altin-btn" id="spin-btn">SPIN</button>
             <p class="spin-text">Ücretsiz Çevirme: <span id="spins-left">1</span> hak</p>
+            <button class="extra-spin-btn" id="extra-spin-btn">+1 ÇEVİRME (300🪙)</button>
         </div>
 
         <!-- 13. AYARLAR -->
@@ -548,7 +620,6 @@
                     </label>
                 </div>
 
-                <!-- SÜRE AYARI -->
                 <div class="ayar-item ayar-sure">
                     <span class="ayar-label">⏱️ Soru Süresi</span>
                     <div class="sure-secim" id="sure-secim">
@@ -575,9 +646,12 @@
                 <div class="ekonomi-bar-mini">🪙 <span id="gorev-coin">0</span></div>
             </div>
             <h1>Günlük Görevler</h1>
-            <p class="alt-yazi">Bugünün görevlerini tamamla, ödülleri kap!</p>
+            <p class="alt-yazi">Bugünün görevlerini tamamla!</p>
             <div class="gorev-listesi" id="gorev-listesi"></div>
         </div>
+
+        <!-- KONFETİ KATMANI -->
+        <div id="konfeti-katman" class="konfeti-katman"></div>
 
     </div>
 
@@ -589,6 +663,6 @@
     <audio id="muzik-arkaplan" src="sesler/muzikk.mp3" loop></audio>
 
     <script src="bilgiler.js"></script>
-    <script src="script.js?v=600"></script>
+    <script src="script.js?v=700"></script>
 </body>
 </html>
