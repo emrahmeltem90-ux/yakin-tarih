@@ -5,6 +5,38 @@
 window.addEventListener('DOMContentLoaded', () => {
 
 // ==========================================
+// YAPAY ZEKA (API) AYARLARI
+// ==========================================
+
+function apiAnahtariniAl() {
+    return localStorage.getItem('yt_api_key') || '';
+}
+
+// API Anahtarını Kaydetme Butonu
+document.addEventListener('DOMContentLoaded', () => {
+    const apiKaydetBtn = document.getElementById('api-kaydet-btn');
+    if (apiKaydetBtn) {
+        apiKaydetBtn.addEventListener('click', () => {
+            const input = document.getElementById('api-key-input');
+            if (input && input.value.trim()) {
+                localStorage.setItem('yt_api_key', input.value.trim());
+                if (typeof sesCal === 'function') sesCal(sesTiklama);
+                if (typeof titret === 'function') titret();
+                if (typeof ozelOdul === 'function') ozelOdul('Kaydedildi!', 'API anahtarın güvenle kaydedildi.', '🔑');
+            } else {
+                if (typeof ozelUyari === 'function') ozelUyari('Hata', 'Lütfen bir API anahtarı gir.', '⚠️');
+            }
+        });
+    }
+
+    // API anahtarını input'a yükle
+    const apiInput = document.getElementById('api-key-input');
+    if (apiInput && apiAnahtariniAl()) {
+        apiInput.value = apiAnahtariniAl();
+    }
+});
+    
+// ==========================================
 // 1. SABİT VERİLER
 // ==========================================
 
