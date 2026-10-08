@@ -1,41 +1,34 @@
 // ==========================================
-// YAKIN TARİH - TAM OYUN MANTIĞI (V8 - PAUSE FIX)
+// YAKIN TARİH - TAM OYUN MANTIĞI (V9 - AI ENTEGRASYON)
 // ==========================================
 
 window.addEventListener('DOMContentLoaded', () => {
 
 // ==========================================
-// YAPAY ZEKA (API) AYARLARI
+// 0. YAPAY ZEKA (GEMINI API) AYARLARI
 // ==========================================
 
+// API Anahtarını localStorage'dan al
 function apiAnahtariniAl() {
     return localStorage.getItem('yt_api_key') || '';
 }
 
 // API Anahtarını Kaydetme Butonu
-document.addEventListener('DOMContentLoaded', () => {
-    const apiKaydetBtn = document.getElementById('api-kaydet-btn');
-    if (apiKaydetBtn) {
-        apiKaydetBtn.addEventListener('click', () => {
-            const input = document.getElementById('api-key-input');
-            if (input && input.value.trim()) {
-                localStorage.setItem('yt_api_key', input.value.trim());
-                if (typeof sesCal === 'function') sesCal(sesTiklama);
-                if (typeof titret === 'function') titret();
-                if (typeof ozelOdul === 'function') ozelOdul('Kaydedildi!', 'API anahtarın güvenle kaydedildi.', '🔑');
-            } else {
-                if (typeof ozelUyari === 'function') ozelUyari('Hata', 'Lütfen bir API anahtarı gir.', '⚠️');
-            }
-        });
-    }
+const apiKaydetBtn = document.getElementById('api-kaydet-btn');
+if (apiKaydetBtn) {
+    apiKaydetBtn.addEventListener('click', () => {
+        const input = document.getElementById('api-key-input');
+        if (input && input.value.trim()) {
+            localStorage.setItem('yt_api_key', input.value.trim());
+            sesCal(sesTiklama);
+            titret();
+            ozelOdul('Kaydedildi!', 'API anahtarın güvenle kaydedildi.', '🔑');
+        } else {
+            ozelUyari('Hata', 'Lütfen bir API anahtarı gir.', '⚠️');
+        }
+    });
+}
 
-    // API anahtarını input'a yükle
-    const apiInput = document.getElementById('api-key-input');
-    if (apiInput && apiAnahtariniAl()) {
-        apiInput.value = apiAnahtariniAl();
-    }
-});
-    
 // ==========================================
 // 1. SABİT VERİLER
 // ==========================================
@@ -734,6 +727,11 @@ document.getElementById('btn-davet').addEventListener('click', () => {
 document.getElementById('btn-ayarlar').addEventListener('click', () => {
     sesCal(sesTiklama); titret();
     ayarSuresiniGuncelle();
+    // API anahtarını input'a yükle
+    const apiInput = document.getElementById('api-key-input');
+    if (apiInput) {
+        apiInput.value = apiAnahtariniAl();
+    }
     ekranGoster(ekranAyarlar);
 });
 
@@ -790,17 +788,74 @@ document.querySelectorAll('.kategori-btn').forEach(btn => {
     });
 });
 
+// ==========================================
+// YAPAY ZEKA DESTEKLİ SORU YÜKLEME
+// ==========================================
+
 async function kategoriSorulariniYukle(kategoriId) {
+    // 1. Önce statik JSON dosyasını dene
     try {
         const response = await fetch(`sorular/sorular_${kategoriId}.json`);
-        if (!response.ok) throw new Error('Dosya okunamadı');
-        tumKategoriSorulari = await response.json();
-        return true;
+        if (response.ok) {
+            tumKategoriSorulari = await response.json();
+            console.log(`✅ ${tumKategoriSorulari.length} statik soru yüklendi (Kategori ${kategoriId})`);
+            return true;
+        }
     } catch (err) {
-        ozelUyari('Hata', 'Sorular yüklenirken hata oluştu!', '⚠️');
+        console.log('Statik soru dosyası bulunamadı, yapay zeka devreye giriyor...');
+    }
+
+    // 2. Statik dosya yoksa veya hata verirse yapay zekayı kullan
+    const apiKey = apiAnahtariniAl();
+    if (!apiKey) {
+        ozelUyari('API Anahtarı Gerekli', 'Yapay zeka ile soru üretmek için API anahtarı gerekli.\nLütfen Ayarlar menüsünden anahtarını gir.', '🔑');
+        return false;
+    }
+
+    const kategoriAdi = KATEGORI_ISIMLERI[kategoriId] || 'Genel Tarih';
+    
+    try {
+        const prompt = `${kategoriAdi} kategorisi için 10 adet zorluk seviyesi orta olan, 1939-2024 yılları arasını kapsayan tarih sorusu üret. Yanıtı SADECE JSON formatında ver.`;
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{ parts: [{ text: prompt }] }],
+                systemInstruction: {
+                    parts: [{ text: "Sen 'Yakın Tarih' adlı mobil bilgi yarışması oyununun yapay zeka motorusun. Görevin, oyuncunun seçtiği kategoriye uygun, 4 seçenekli çoktan seçmeli tarih soruları üretmek. Yanıtı SADECE şu JSON formatında ver: [{\"soru\": \"...\", \"secenekler\": [\"A) ...\", \"B) ...\", \"C) ...\", \"D) ...\"], \"dogruCevap\": 0, \"aciklama\": \"...\"}, {...}]. Başka hiçbir açıklama yazma." }]
+                }
+            })
+        });
+
+        const data = await response.json();
+        
+        if (!data.candidates || !data.candidates[0]) {
+            throw new Error('API yanıt vermedi');
+        }
+
+        let metin = data.candidates[0].content.parts[0].text;
+        metin = metin.replace(/```json/g, "").replace(/```/g, "").trim();
+        
+        tumKategoriSorulari = JSON.parse(metin);
+        
+        if (!Array.isArray(tumKategoriSorulari) || tumKategoriSorulari.length === 0) {
+            throw new Error("Geçersiz veri formatı");
+        }
+        
+        console.log(`🤖 Yapay zeka ${tumKategoriSorulari.length} soru üretti (Kategori ${kategoriId})`);
+        return true;
+        
+    } catch (err) {
+        console.error("AI Hatası:", err);
+        ozelUyari('Yapay Zeka Hatası', 'Sorular yüklenemedi. İnternetini kontrol et veya statik soruların olduğundan emin ol.', '⚠️');
         return false;
     }
 }
+
+// ==========================================
+// SEVİYE OLUŞTURMA
+// ==========================================
 
 function seviyeKartlariniOlustur() {
     const liste = document.getElementById('seviye-listesi');
