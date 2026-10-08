@@ -241,7 +241,6 @@
                 </button>
             </div>
 
-            <!-- SERİ KORUMA BUTONU -->
             <div class="seri-koruma-bar" id="seri-koruma-bar" style="display:none;">
                 <button id="seri-koru-btn" class="seri-koru-btn">
                     🛡️ Seriyi Koru (150🪙)
@@ -416,7 +415,7 @@
             <button class="paylas-btn" id="paylas-btn">📤 PROFİLİMİ PAYLAŞ</button>
         </div>
 
-        <!-- 8. MARKET EKRANI (Coin + Yıldız) -->
+        <!-- 8. MARKET EKRANI -->
         <div id="ekran-market" class="ekran">
             <div class="ust-bar-basit">
                 <button class="nav-geri-btn" data-hedef="ekran-anamenu">← Ana Menü</button>
@@ -433,7 +432,6 @@
                 <button class="market-tab" data-tab="coin">🪙 Coin</button>
             </div>
 
-            <!-- YILDIZ ÜRÜNLERİ -->
             <div class="market-listesi" id="market-yildiz-listesi">
                 <div class="market-kart">
                     <div class="market-ikon">🌙</div>
@@ -476,7 +474,6 @@
                 </div>
             </div>
 
-            <!-- COIN ÜRÜNLERİ -->
             <div class="market-listesi gizli" id="market-coin-listesi">
                 <div class="market-kart">
                     <div class="market-ikon">⭐</div>
@@ -598,6 +595,13 @@
             </div>
             <h1>Ayarlar</h1>
             <div class="ayar-listesi">
+                <!-- API ANAHTARI GİRİŞİ -->
+                <div class="ayar-item" style="flex-direction:column; align-items:flex-start; gap:8px;">
+                    <span class="ayar-label">🔑 Yapay Zeka (API Anahtarı)</span>
+                    <input type="password" id="api-key-input" class="player-name-input" placeholder="API anahtarını buraya yapıştır" style="width:100%; font-size:0.8rem; padding:10px;">
+                    <button class="kaydet-btn" id="api-kaydet-btn" style="width:100%;">API ANAHTARINI KAYDET</button>
+                </div>
+
                 <div class="ayar-item">
                     <span class="ayar-label">🎵 Müzik</span>
                     <label class="toggle-switch">
@@ -655,7 +659,6 @@
 
     </div>
 
-    <!-- SES DOSYALARI -->
     <audio id="ses-dogru" src="sesler/dogruu.mp3"></audio>
     <audio id="ses-yanlis" src="sesler/yanliss.mp3"></audio>
     <audio id="ses-tiklama" src="sesler/tiklamma.mp3"></audio>
@@ -665,4 +668,4 @@
     <script src="bilgiler.js"></script>
     <script src="script.js?v=700"></script>
 </body>
-</html>
+    </html>
